@@ -1,0 +1,187 @@
+[
+  {
+    "lesson_no": 12,
+    "title": "Le nom : le genre. La numération de 11 à 19.",
+    "start_pdf_page": 2,
+    "start_printed_page": 42,
+    "end_pdf_page": 3,
+    "end_printed_page": 45,
+    "completeness": "complete",
+    "topics": [
+      "genre",
+      "féminin",
+      "nombres 11-19",
+      "saisons",
+      "année"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 13,
+    "title": "Quelques catégories de substantifs.",
+    "start_pdf_page": 4,
+    "start_printed_page": 46,
+    "end_pdf_page": 5,
+    "end_printed_page": 49,
+    "completeness": "complete",
+    "topics": [
+      "substantifs",
+      "noms d’artisan",
+      "noms de lieu",
+      "noms d’action",
+      "pain",
+      "agriculture"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 14,
+    "title": "Quelques catégories d’adjectifs. Emploi de l’adjectif.",
+    "start_pdf_page": 6,
+    "start_printed_page": 50,
+    "end_pdf_page": 8,
+    "end_printed_page": 54,
+    "completeness": "complete",
+    "topics": [
+      "adjectifs",
+      "épithète",
+      "attribut",
+      "couleurs",
+      "rue",
+      "boutiques"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 15,
+    "title": "L’heure. Le nom : le nombre (duel, pluriel externe).",
+    "start_pdf_page": 8,
+    "start_printed_page": 54,
+    "end_pdf_page": 10,
+    "end_printed_page": 59,
+    "completeness": "complete",
+    "topics": [
+      "heure",
+      "duel",
+      "pluriel externe",
+      "collectif",
+      "politesse"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 16,
+    "title": "Le nombre (fin) : pluriel interne, collectif.",
+    "start_pdf_page": 11,
+    "start_printed_page": 60,
+    "end_pdf_page": 13,
+    "end_printed_page": 65,
+    "completeness": "complete",
+    "topics": [
+      "pluriel interne",
+      "collectif",
+      "commerce",
+      "richesse"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 17,
+    "title": "Récapitulation. La numération de 20 à 99.",
+    "start_pdf_page": 14,
+    "start_printed_page": 66,
+    "end_pdf_page": 15,
+    "end_printed_page": 69,
+    "completeness": "complete",
+    "topics": [
+      "médecin",
+      "santé",
+      "impératif de politesse",
+      "nombres 20-99"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 18,
+    "title": "Comparatif et superlatif. La numération de 100 à l’infini. Les adjectifs numéraux ordinaux.",
+    "start_pdf_page": 16,
+    "start_printed_page": 70,
+    "end_pdf_page": 18,
+    "end_printed_page": 74,
+    "completeness": "complete",
+    "topics": [
+      "comparatif",
+      "superlatif",
+      "nombres 100+",
+      "ordinaux",
+      "famille",
+      "études"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 19,
+    "title": "Le pronom relatif. La proposition relative.",
+    "start_pdf_page": 18,
+    "start_printed_page": 74,
+    "end_pdf_page": 20,
+    "end_printed_page": 79,
+    "completeness": "complete",
+    "topics": [
+      "relatif",
+      "relative",
+      "travail",
+      "émigration",
+      "métiers"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 20,
+    "title": "Les indéfinis.",
+    "start_pdf_page": 21,
+    "start_printed_page": 80,
+    "end_pdf_page": 23,
+    "end_printed_page": 84,
+    "completeness": "complete",
+    "topics": [
+      "indéfinis",
+      "diminutif",
+      "Alger",
+      "ville"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 21,
+    "title": "L’exclamation. La négation (fin).",
+    "start_pdf_page": 23,
+    "start_printed_page": 85,
+    "end_pdf_page": 25,
+    "end_printed_page": 88,
+    "completeness": "complete",
+    "topics": [
+      "exclamation",
+      "vocatif",
+      "négation",
+      "agriculture",
+      "moisson"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 22,
+    "title": "La construction. Les particules (mots et expressions invariables).",
+    "start_pdf_page": 25,
+    "start_printed_page": 89,
+    "end_pdf_page": 25,
+    "end_printed_page": 89,
+    "completeness": "partial",
+    "topics": [
+      "construction",
+      "maison",
+      "particules"
+    ],
+    "status": "needs_review"
+  }
+]

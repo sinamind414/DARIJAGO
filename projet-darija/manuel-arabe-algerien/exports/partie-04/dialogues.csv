@@ -1,0 +1,7 @@
+dialogue_uid,numeral,title_fr,pdf_page_ar,printed_page_ar,pdf_page_fr,printed_page_fr,completeness,status
+tapiero-p04-dialoguei,I,La famille et le logement,20,177,21,178,complete,needs_review
+tapiero-p04-dialogueii,II,Mère de famille malade,21,179,22,180,complete,needs_review
+tapiero-p04-dialogueiii,III,La famille et l’école,22,181,23,182,complete,needs_review
+tapiero-p04-dialogueiv,IV,La préformation,23,183,24,184,complete,needs_review
+tapiero-p04-dialoguev,V,L’alphabétisation,24,185,25,186,complete,needs_review
+tapiero-p04-dialoguevi,VI,La sécurité sociale,25,187,,,partial,needs_review

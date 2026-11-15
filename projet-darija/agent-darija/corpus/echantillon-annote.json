@@ -1,0 +1,279 @@
+{
+  "version": "1.0.0",
+  "description": "Échantillon annoté à partir de transcriptions publiques ASR. Formes normalisées pour pédagogie. Validation native requise.",
+  "sources": [
+    {
+      "video_id": "dJN9ZhMZK7o",
+      "url": "https://www.youtube.com/watch?v=dJN9ZhMZK7o",
+      "title": "15 expressions en algérien (et comment les nier !)",
+      "type": "public_asr_transcript"
+    },
+    {
+      "video_id": "326ptjErYq8",
+      "url": "https://www.youtube.com/watch?v=326ptjErYq8",
+      "title": "10 expressions algériennes : le secret pour mieux communiquer",
+      "type": "public_asr_transcript"
+    }
+  ],
+  "entries": [
+    {
+      "id": "existence_kayen",
+      "lat": "kayen",
+      "ar": "كاين",
+      "fr": "il y a",
+      "tokens": [
+        {"surface": "kayen", "role": "existential", "fr": "il y a"}
+      ],
+      "negative": {"lat": "makanch", "ar": "ما كانش", "fr": "il n’y a pas"},
+      "feminine": {"lat": "kayena", "ar": "كاينة", "fr": "il y a, féminin"},
+      "plural": {"lat": "kayenin", "ar": "كاينين", "fr": "il y a, pluriel"},
+      "pattern": "kayen / kayena / kayenin ; négation makanch",
+      "validated": false
+    },
+    {
+      "id": "etat_rani_labas",
+      "lat": "rani labas",
+      "ar": "راني لاباس",
+      "fr": "je vais bien",
+      "tokens": [
+        {"surface": "rani", "role": "state_1sg", "fr": "je suis"},
+        {"surface": "labas", "role": "state_adverb", "fr": "bien"}
+      ],
+      "negative": {"lat": "ma ranich labas", "ar": "ما رانيش لاباس", "fr": "je ne vais pas bien"},
+      "pattern": "ma + rani + ch + état",
+      "validated": false
+    },
+    {
+      "id": "avoir_temps",
+      "lat": "3andi el waqt",
+      "ar": "عندي الوقت",
+      "fr": "j’ai le temps",
+      "tokens": [
+        {"surface": "3andi", "role": "have_1sg", "fr": "j’ai"},
+        {"surface": "el", "role": "article", "fr": "le"},
+        {"surface": "waqt", "role": "noun", "fr": "temps"}
+      ],
+      "negative": {"lat": "ma 3andich el waqt", "ar": "ما عنديش الوقت", "fr": "je n’ai pas le temps"},
+      "pattern": "ma + 3andi + ch",
+      "validated": false
+    },
+    {
+      "id": "avoir_raison",
+      "lat": "3andek el haqq",
+      "ar": "عندك الحق",
+      "fr": "tu as raison",
+      "tokens": [
+        {"surface": "3andek", "role": "have_2sg", "fr": "tu as"},
+        {"surface": "el", "role": "article", "fr": "le"},
+        {"surface": "haqq", "role": "noun", "fr": "raison / droit"}
+      ],
+      "negative": {"lat": "ma 3andekch el haqq", "ar": "ما عندكش الحق", "fr": "tu n’as pas raison"},
+      "plural_address": {"lat": "3andekum el haqq", "ar": "عندكم الحق", "fr": "vous avez raison"},
+      "pattern": "ma + 3andek + ch",
+      "validated": false
+    },
+    {
+      "id": "adjectif_machi_melih",
+      "lat": "hada melih",
+      "ar": "هذا مليح",
+      "fr": "c’est bien / bon",
+      "tokens": [
+        {"surface": "hada", "role": "demonstrative_m", "fr": "ce / ceci"},
+        {"surface": "melih", "role": "adjective", "fr": "bien / bon"}
+      ],
+      "negative": {"lat": "hada machi melih", "ar": "هذا ماشي مليح", "fr": "ce n’est pas bien"},
+      "feminine": {"lat": "hadi meliha", "ar": "هذي مليحة", "fr": "c’est bien / bon, féminin"},
+      "pattern": "machi + adjectif",
+      "validated": false
+    },
+    {
+      "id": "adjectif_machi_sahel",
+      "lat": "hada sahel",
+      "ar": "هذا ساهل",
+      "fr": "c’est facile",
+      "tokens": [
+        {"surface": "hada", "role": "demonstrative_m", "fr": "ce"},
+        {"surface": "sahel", "role": "adjective", "fr": "facile"}
+      ],
+      "negative": {"lat": "hada machi sahel", "ar": "هذا ماشي ساهل", "fr": "ce n’est pas facile"},
+      "feminine": {"lat": "hadi sahla", "ar": "هذي ساهلة", "fr": "c’est facile, féminin"},
+      "pattern": "machi + adjectif ; féminin -a",
+      "validated": false
+    },
+    {
+      "id": "vrai_faux",
+      "lat": "hadi s7i7a",
+      "ar": "هذي صحيحة",
+      "fr": "c’est vrai, féminin",
+      "tokens": [
+        {"surface": "hadi", "role": "demonstrative_f", "fr": "ce / cette"},
+        {"surface": "s7i7a", "role": "adjective_f", "fr": "vraie"}
+      ],
+      "negative": {"lat": "hadi machi s7i7a", "ar": "هذي ماشي صحيحة", "fr": "ce n’est pas vrai"},
+      "masculine": {"lat": "hada s7i7", "ar": "هذا صحيح", "fr": "c’est vrai, masculin"},
+      "pattern": "accord genre + machi",
+      "validated": false
+    },
+    {
+      "id": "pret_wajed",
+      "lat": "rani wajed",
+      "ar": "راني واجد",
+      "fr": "je suis prêt",
+      "tokens": [
+        {"surface": "rani", "role": "state_1sg", "fr": "je suis"},
+        {"surface": "wajed", "role": "adjective_m", "fr": "prêt"}
+      ],
+      "negative": {"lat": "ma ranich wajed", "ar": "ما رانيش واجد", "fr": "je ne suis pas prêt"},
+      "feminine": {"lat": "rani wajda", "ar": "راني واجدة", "fr": "je suis prête"},
+      "pattern": "ma + rani + ch ; féminin -a",
+      "validated": false
+    },
+    {
+      "id": "chance_zhar",
+      "lat": "3andi zhar",
+      "ar": "عندي الزهر",
+      "fr": "j’ai de la chance",
+      "tokens": [
+        {"surface": "3andi", "role": "have_1sg", "fr": "j’ai"},
+        {"surface": "zhar", "role": "noun", "fr": "chance"}
+      ],
+      "negative": {"lat": "ma 3andich zhar", "ar": "ما عنديش الزهر", "fr": "je n’ai pas de chance"},
+      "pattern": "ma + 3andi + ch",
+      "validated": false
+    },
+    {
+      "id": "place_blasa",
+      "lat": "kayen blasa",
+      "ar": "كاين بلاصة",
+      "fr": "il y a une place",
+      "tokens": [
+        {"surface": "kayen", "role": "existential", "fr": "il y a"},
+        {"surface": "blasa", "role": "noun_f", "fr": "place"}
+      ],
+      "negative": {"lat": "makanch blasa", "ar": "ما كانش بلاصة", "fr": "il n’y a pas de place"},
+      "plural": {"lat": "kayenin blayes", "ar": "كاينين بلايص", "fr": "il y a des places"},
+      "pattern": "kayen + nom ; pluriel lexical",
+      "validated": false
+    },
+    {
+      "id": "content_ferhan",
+      "lat": "rani ferhan",
+      "ar": "راني فرحان",
+      "fr": "je suis content",
+      "tokens": [
+        {"surface": "rani", "role": "state_1sg", "fr": "je suis"},
+        {"surface": "ferhan", "role": "adjective_m", "fr": "content"}
+      ],
+      "negative": {"lat": "ma ranich ferhan", "ar": "ما رانيش فرحان", "fr": "je ne suis pas content"},
+      "feminine": {"lat": "rani ferhana", "ar": "راني فرحانة", "fr": "je suis contente"},
+      "pattern": "ma + rani + ch ; féminin -a",
+      "validated": false
+    },
+    {
+      "id": "possible_momken",
+      "lat": "hada momken",
+      "ar": "هذا ممكن",
+      "fr": "c’est possible",
+      "tokens": [
+        {"surface": "hada", "role": "demonstrative_m", "fr": "ce"},
+        {"surface": "momken", "role": "adjective", "fr": "possible"}
+      ],
+      "negative": {"lat": "hada machi momken", "ar": "هذا ماشي ممكن", "fr": "ce n’est pas possible"},
+      "feminine": {"lat": "hadi momkena", "ar": "هذي ممكنة", "fr": "c’est possible, féminin"},
+      "pattern": "machi + adjectif",
+      "validated": false
+    },
+    {
+      "id": "confiance_tiqa",
+      "lat": "3andi fik tiqa",
+      "ar": "عندي فيك الثقة",
+      "fr": "j’ai confiance en toi",
+      "tokens": [
+        {"surface": "3andi", "role": "have_1sg", "fr": "j’ai"},
+        {"surface": "fik", "role": "prep_2sg", "fr": "en toi"},
+        {"surface": "tiqa", "role": "noun", "fr": "confiance"}
+      ],
+      "negative": {"lat": "ma 3andich tiqa fik", "ar": "ما عنديش الثقة فيك", "fr": "je n’ai pas confiance en toi"},
+      "pattern": "ma + 3andi + ch",
+      "validated": false
+    },
+    {
+      "id": "solution_7all",
+      "lat": "kayen l7all",
+      "ar": "كاين الحل",
+      "fr": "il y a une solution",
+      "tokens": [
+        {"surface": "kayen", "role": "existential", "fr": "il y a"},
+        {"surface": "l7all", "role": "noun", "fr": "la solution"}
+      ],
+      "negative": {"lat": "makanch 7all", "ar": "ما كانش حل", "fr": "il n’y a pas de solution"},
+      "plural": {"lat": "kayenin 7lul", "ar": "كاينين حلول", "fr": "il y a des solutions"},
+      "pattern": "kayen + nom ; pluriel lexical",
+      "validated": false
+    },
+    {
+      "id": "social_ma3lich",
+      "lat": "ma3lich",
+      "ar": "ما عليش",
+      "fr": "ce n’est pas grave",
+      "tokens": [
+        {"surface": "ma3lich", "role": "social_expression", "fr": "ce n’est pas grave"}
+      ],
+      "gender": "invariable",
+      "usage": "rassurer, dédramatiser",
+      "validated": false
+    },
+    {
+      "id": "social_3la_slamtek",
+      "lat": "3la slamtek",
+      "ar": "على سلامتك",
+      "fr": "bienvenue / bon rétablissement",
+      "tokens": [
+        {"surface": "3la", "role": "preposition", "fr": "sur / pour"},
+        {"surface": "slamtek", "role": "noun_possessed_2sg", "fr": "ta sécurité / ton salut"}
+      ],
+      "gender": "invariable dans cet usage",
+      "usage": "retour de voyage, rétablissement",
+      "validated": false
+    },
+    {
+      "id": "emotion_ya_7asra",
+      "lat": "ya 7asra",
+      "ar": "يا حسرة",
+      "fr": "nostalgie / regret",
+      "tokens": [
+        {"surface": "ya", "role": "vocative_particle", "fr": "ô"},
+        {"surface": "7asra", "role": "noun_emotion", "fr": "regret / nostalgie"}
+      ],
+      "gender": "invariable",
+      "usage": "exprimer un regret ou une nostalgie",
+      "validated": false
+    },
+    {
+      "id": "perplexe_7ayr",
+      "lat": "rani 7ayr",
+      "ar": "راني حاير",
+      "fr": "je suis perplexe",
+      "tokens": [
+        {"surface": "rani", "role": "state_1sg", "fr": "je suis"},
+        {"surface": "7ayr", "role": "adjective_m", "fr": "perplexe"}
+      ],
+      "feminine": {"lat": "rani 7ayra", "ar": "راني حايرة", "fr": "je suis perplexe, féminin"},
+      "pattern": "féminin -a",
+      "validated": false
+    },
+    {
+      "id": "merci_y3tik_sa7a",
+      "lat": "y3tik sa7a",
+      "ar": "يعطيك الصحة",
+      "fr": "merci / bravo",
+      "tokens": [
+        {"surface": "y3tik", "role": "verb_3sg_to_2sg", "fr": "qu’il te donne"},
+        {"surface": "sa7a", "role": "noun", "fr": "santé / force"}
+      ],
+      "gender": "généralement invariable dans cet usage",
+      "usage": "remercier, encourager",
+      "validated": false
+    }
+  ]
+}

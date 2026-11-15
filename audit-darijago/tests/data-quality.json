@@ -1,0 +1,296 @@
+{
+  "total": 2297,
+  "byLetter": {
+    "A": 184,
+    "B": 63,
+    "C": 144,
+    "D": 142,
+    "E": 253,
+    "F": 99,
+    "G": 67,
+    "H": 26,
+    "I": 81,
+    "J": 19,
+    "K": 3,
+    "L": 32,
+    "M": 92,
+    "N": 37,
+    "O": 46,
+    "P": 225,
+    "Q": 16,
+    "R": 327,
+    "S": 200,
+    "T": 134,
+    "U": 10,
+    "V": 90,
+    "Y": 3,
+    "Z": 4
+  },
+  "patternCounts": {
+    "defective": 170,
+    "regular": 667,
+    "doubled": 105,
+    "derived": 1049,
+    "hollow": 130
+  },
+  "missingSourcePage": [
+    {
+      "id": "bs-a-abientot",
+      "head": "À bientôt / Au revoir",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-acausede",
+      "head": "À cause de",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-adroite-gauche",
+      "head": "À droite / À gauche",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-alinstant",
+      "head": "À l’instant, maintenant",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-alenvers",
+      "head": "À l’envers",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-amerveille",
+      "head": "À merveille, parfait",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-amoitie",
+      "head": "À moitié",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-acredit-comptant",
+      "head": "À crédit / Au comptant",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-apropos",
+      "head": "À propos, au fait",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-ainsi",
+      "head": "Ainsi, de cette manière",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-allons",
+      "head": "Allons ! Courage !",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-motamot",
+      "head": "Mot à mot",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-quel-age",
+      "head": "Quel âge as-tu ?",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-abondant",
+      "head": "Abondant, beaucoup",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-affaire",
+      "head": "Affaire, chose",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-age",
+      "head": "Âge, durée de vie",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-agneau",
+      "head": "Agneau",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-aiguille",
+      "head": "Aiguille",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-ail",
+      "head": "Ail",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-algerie",
+      "head": "Algérie / Algérien",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-ami",
+      "head": "Ami, compagnon",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-amour-propre",
+      "head": "Amour-propre, honneur, fierté",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-an",
+      "head": "An, année",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-ancien",
+      "head": "Ancien, vieux (chose)",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-ane",
+      "head": "Âne",
+      "volume": 1
+    },
+    {
+      "id": "bs-a-animal",
+      "head": "Animal, bête",
+      "volume": 1
+    },
+    {
+      "id": "bs-g-ach",
+      "head": "Que ? Quoi ? Qu’est-ce que ? (contraction)",
+      "volume": 1
+    },
+    {
+      "id": "bs-g-alach",
+      "head": "À quoi ? Pourquoi ?",
+      "volume": 1
+    },
+    {
+      "id": "bs-g-bach",
+      "head": "Afin que, pour, avec quoi",
+      "volume": 1
+    },
+    {
+      "id": "bs-g-kifach",
+      "head": "Comment ?",
+      "volume": 1
+    },
+    {
+      "id": "bs-g-qeddach",
+      "head": "Combien ?",
+      "volume": 1
+    },
+    {
+      "id": "bs-g-ouaqtach",
+      "head": "Quand ? À quel moment ?",
+      "volume": 1
+    },
+    {
+      "id": "bs-g-achkoun",
+      "head": "Qui ? Qui est-ce qui ?",
+      "volume": 1
+    }
+  ],
+  "outOfVolume": [
+    {
+      "id": "bs-v-e-etre",
+      "head": "Être (auxiliaire d’état rani & verbe kan / nkoun)",
+      "volume": 3,
+      "page": "pp. 202–203",
+      "declared": "pp. 113–202"
+    }
+  ],
+  "outOfVolumeCount": 1,
+  "multiPageSource": [
+    {
+      "id": "bs-v-a-adieu-dire",
+      "page": "pp. 9–10"
+    },
+    {
+      "id": "bs-v-e-eloigner",
+      "page": "pp. 171–172"
+    },
+    {
+      "id": "bs-v-e-etre",
+      "page": "pp. 202–203"
+    },
+    {
+      "id": "bs-v-e-excuser",
+      "page": "pp. 207–208"
+    },
+    {
+      "id": "bs-v-f-faire",
+      "page": "pp. 215–216"
+    },
+    {
+      "id": "bs-v-f-fermer",
+      "page": "pp. 222–223"
+    },
+    {
+      "id": "bs-v-g-garder",
+      "page": "pp. 254–255"
+    },
+    {
+      "id": "bs-v-g-guerir",
+      "page": "pp. 274–275"
+    },
+    {
+      "id": "bs-v-h-hair",
+      "page": "pp. 278–279"
+    },
+    {
+      "id": "bs-v-h-heberger",
+      "page": "pp. 281, 288"
+    },
+    {
+      "id": "bs-v-i-ignorer",
+      "page": "pp. 291–292"
+    },
+    {
+      "id": "bs-v-i-informer-se",
+      "page": "pp. 308–309"
+    },
+    {
+      "id": "bs-v-i-interesser",
+      "page": "pp. 319–320"
+    },
+    {
+      "id": "bs-v-j-jeter-se",
+      "page": "pp. 330–331"
+    },
+    {
+      "id": "bs-v-l-lever-se",
+      "page": "pp. 348–349"
+    },
+    {
+      "id": "bs-v-m-marcher",
+      "page": "pp. 369–370"
+    },
+    {
+      "id": "bs-v-m-marquer-ponctuer",
+      "page": "pp. 371–372"
+    },
+    {
+      "id": "bs-v-n-naitre",
+      "page": "pp. 403–404"
+    },
+    {
+      "id": "bs-v-o-obliger",
+      "page": "pp. 418–419"
+    },
+    {
+      "id": "bs-v-p-payer",
+      "page": "pp. 452–453"
+    }
+  ],
+  "multiPageCount": 34
+}

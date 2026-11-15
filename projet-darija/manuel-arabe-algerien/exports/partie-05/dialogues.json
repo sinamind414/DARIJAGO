@@ -1,0 +1,101 @@
+[
+  {
+    "dialogue_uid": "tapiero-p05-dialoguevii",
+    "numeral": "VII",
+    "title_fr": "L’hôpital",
+    "pdf_page_ar": 1,
+    "printed_page_ar": 189,
+    "pdf_page_fr": 2,
+    "printed_page_fr": 190,
+    "completeness": "complete",
+    "status": "needs_review"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialogueviii",
+    "numeral": "VIII",
+    "title_fr": "Au supermarché",
+    "pdf_page_ar": 2,
+    "printed_page_ar": 191,
+    "pdf_page_fr": 3,
+    "printed_page_fr": 192,
+    "completeness": "complete",
+    "status": "needs_review"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialogueix",
+    "numeral": "IX",
+    "title_fr": "Le travail en usine",
+    "pdf_page_ar": 3,
+    "printed_page_ar": 193,
+    "pdf_page_fr": 4,
+    "printed_page_fr": 194,
+    "completeness": "complete",
+    "status": "needs_review"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialoguex",
+    "numeral": "X",
+    "title_fr": "Le chômage et la vie chère",
+    "pdf_page_ar": 4,
+    "printed_page_ar": 195,
+    "pdf_page_fr": 5,
+    "printed_page_fr": 196,
+    "completeness": "complete",
+    "status": "needs_review"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialoguexi",
+    "numeral": "XI",
+    "title_fr": "Le retour",
+    "pdf_page_ar": 5,
+    "printed_page_ar": 197,
+    "pdf_page_fr": 6,
+    "printed_page_fr": 198,
+    "completeness": "complete",
+    "status": "needs_review"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialoguexii",
+    "numeral": "XII",
+    "title_fr": "Les papiers officiels",
+    "pdf_page_ar": 7,
+    "printed_page_ar": 200,
+    "pdf_page_fr": 8,
+    "printed_page_fr": 202,
+    "completeness": "complete",
+    "status": "needs_review"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialoguexiii",
+    "numeral": "XIII",
+    "title_fr": "L’automobile",
+    "pdf_page_ar": 8,
+    "printed_page_ar": 203,
+    "pdf_page_fr": 9,
+    "printed_page_fr": 205,
+    "completeness": "complete",
+    "status": "needs_review"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialoguexiv",
+    "numeral": "XIV",
+    "title_fr": "Les loisirs",
+    "pdf_page_ar": 10,
+    "printed_page_ar": 206,
+    "pdf_page_fr": 11,
+    "printed_page_fr": 208,
+    "completeness": "complete",
+    "status": "needs_review"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialoguexv",
+    "numeral": "XV",
+    "title_fr": "Les vacances",
+    "pdf_page_ar": 11,
+    "printed_page_ar": 209,
+    "pdf_page_fr": 12,
+    "printed_page_fr": 211,
+    "completeness": "complete",
+    "status": "needs_review"
+  }
+]

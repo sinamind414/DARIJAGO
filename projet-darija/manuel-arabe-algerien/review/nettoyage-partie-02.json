@@ -1,0 +1,93 @@
+{
+  "scope": "partie-02",
+  "removed": [
+    {
+      "path": "raw/partie-02-1.pdf",
+      "bytes": 5084523,
+      "reason": "copie vérifiée sur Drive",
+      "drive_file_id": "1bXpSfvxhQX8-OXYslycORo8lLceTvwc_"
+    },
+    {
+      "path": "raw/partie-02-2.pdf",
+      "bytes": 6273197,
+      "reason": "copie vérifiée sur Drive",
+      "drive_file_id": "1GrY8TrEhk3m9V6NTvoVnDJDf--1CbUP_"
+    },
+    {
+      "path": "raw/partie-02-3.pdf",
+      "bytes": 3134296,
+      "reason": "copie vérifiée sur Drive",
+      "drive_file_id": "15vMAIawoEdgZ9xR_ms5XZ9yLDf_OMgcb"
+    },
+    {
+      "path": "ocr/partie-02-colonnes/page-001-L-psm6.txt",
+      "bytes": 1114,
+      "reason": "OCR intermédiaire régénérable"
+    },
+    {
+      "path": "ocr/partie-02-colonnes/page-004-R-psm6.txt",
+      "bytes": 1191,
+      "reason": "OCR intermédiaire régénérable"
+    },
+    {
+      "path": "ocr/partie-02-colonnes/page-006-R-psm6.txt",
+      "bytes": 1396,
+      "reason": "OCR intermédiaire régénérable"
+    },
+    {
+      "path": "ocr/partie-02-colonnes/page-009-R-psm6.txt",
+      "bytes": 1897,
+      "reason": "OCR intermédiaire régénérable"
+    },
+    {
+      "path": "ocr/partie-02-colonnes/page-014-R-psm6.txt",
+      "bytes": 676,
+      "reason": "OCR intermédiaire régénérable"
+    },
+    {
+      "path": "ocr/partie-02-colonnes/page-016-R-psm6.txt",
+      "bytes": 1397,
+      "reason": "OCR intermédiaire régénérable"
+    },
+    {
+      "path": "ocr/partie-02-colonnes/page-019-R-psm6.txt",
+      "bytes": 1859,
+      "reason": "OCR intermédiaire régénérable"
+    },
+    {
+      "path": "ocr/partie-02-colonnes/page-022-L-psm6.txt",
+      "bytes": 1605,
+      "reason": "OCR intermédiaire régénérable"
+    },
+    {
+      "path": "ocr/partie-02-colonnes/page-024-R-psm6.txt",
+      "bytes": 2054,
+      "reason": "OCR intermédiaire régénérable"
+    },
+    {
+      "path": "ocr/partie-02-colonnes/_lecture-filtree.txt",
+      "bytes": 81175,
+      "reason": "OCR intermédiaire régénérable"
+    },
+    {
+      "path": "/home/user/projet-darija/manuel-arabe-algerien/scripts/__pycache__",
+      "bytes": 168281,
+      "reason": "cache Python"
+    }
+  ],
+  "kept": [
+    "raw/partie-01.pdf (source canonique locale, également sur Drive)",
+    "ocr/partie-02-colonnes/ : 50 .txt + 3 métadonnées de segment",
+    "db/manuel.sqlite + backups/manuel-apres-partie-02.sqlite",
+    "exports/partie-01/ et exports/partie-02/",
+    "scripts/",
+    "review/",
+    "manifest.json",
+    "README.md"
+  ],
+  "errors": [],
+  "removed_count": 14,
+  "removed_bytes": 14754661,
+  "integrity_check": "ok",
+  "foreign_key_check": []
+}

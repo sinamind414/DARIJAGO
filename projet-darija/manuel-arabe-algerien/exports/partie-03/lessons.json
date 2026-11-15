@@ -1,0 +1,142 @@
+[
+  {
+    "lesson_no": 23,
+    "title": "Le verbe : l’expression de temps et les temps composés.",
+    "start_pdf_page": 2,
+    "start_printed_page": 93,
+    "end_pdf_page": 4,
+    "end_printed_page": 97,
+    "completeness": "complete",
+    "topics": [
+      "temps",
+      "accompli",
+      "inaccompli",
+      "impératif",
+      "temps composés",
+      "émigration",
+      "France"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 24,
+    "title": "Les verbes à conjugaison particulière. Le verbe concave.",
+    "start_pdf_page": 5,
+    "start_printed_page": 98,
+    "end_pdf_page": 7,
+    "end_printed_page": 102,
+    "completeness": "complete",
+    "topics": [
+      "verbe concave",
+      "commerce",
+      "vente",
+      "achat",
+      "cordonnier"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 25,
+    "title": "Le verbe défectueux et le verbe sourd.",
+    "start_pdf_page": 7,
+    "start_printed_page": 103,
+    "end_pdf_page": 10,
+    "end_printed_page": 107,
+    "completeness": "complete",
+    "topics": [
+      "verbe défectueux",
+      "verbe sourd",
+      "nomades",
+      "bédouins",
+      "campagne",
+      "moutons"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 26,
+    "title": "Les verbes dérivés : formes actives.",
+    "start_pdf_page": 11,
+    "start_printed_page": 108,
+    "end_pdf_page": 13,
+    "end_printed_page": 112,
+    "completeness": "complete",
+    "topics": [
+      "verbes dérivés",
+      "formes actives",
+      "IIe forme",
+      "IIIe forme",
+      "médecin",
+      "hôpital",
+      "identité"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 27,
+    "title": "Les verbes dérivés : formes réfléchies et passives.",
+    "start_pdf_page": 13,
+    "start_printed_page": 113,
+    "end_pdf_page": 16,
+    "end_printed_page": 118,
+    "completeness": "complete",
+    "topics": [
+      "formes réfléchies",
+      "formes passives",
+      "Ve-VIe-VIIIe-Xe formes",
+      "VIIe-IXe formes",
+      "football"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 28,
+    "title": "Manières de traduire l’infinitif.",
+    "start_pdf_page": 16,
+    "start_printed_page": 119,
+    "end_pdf_page": 17,
+    "end_printed_page": 121,
+    "completeness": "complete",
+    "topics": [
+      "infinitif",
+      "nom d’action",
+      "bain maure",
+      "hammâm"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 29,
+    "title": "Le passif. Traduction de « on ».",
+    "start_pdf_page": 18,
+    "start_printed_page": 122,
+    "end_pdf_page": 19,
+    "end_printed_page": 125,
+    "completeness": "complete",
+    "topics": [
+      "passif",
+      "on indéfini",
+      "voyage",
+      "train",
+      "accident"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 30,
+    "title": "Récapitulation.",
+    "start_pdf_page": 20,
+    "start_printed_page": 126,
+    "end_pdf_page": 21,
+    "end_printed_page": 128,
+    "completeness": "complete",
+    "topics": [
+      "récapitulation",
+      "fêtes",
+      "aïd el-fitr",
+      "aïd el-adha",
+      "pèlerinage"
+    ],
+    "status": "needs_review"
+  }
+]

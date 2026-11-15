@@ -1,0 +1,807 @@
+{
+  "curriculum": {
+    "modules": 7,
+    "phrases": 42,
+    "perModule": [
+      {
+        "id": "salutations",
+        "title": "Salutations & Politesse",
+        "phrases": 6
+      },
+      {
+        "id": "presentation",
+        "title": "Se Présenter & Famille",
+        "phrases": 6
+      },
+      {
+        "id": "cafe",
+        "title": "Au Café & Restaurant",
+        "phrases": 6
+      },
+      {
+        "id": "marche",
+        "title": "Marché, Prix & Orientation",
+        "phrases": 6
+      },
+      {
+        "id": "quotidien",
+        "title": "Expressions du Quotidien",
+        "phrases": 6
+      },
+      {
+        "id": "verbes",
+        "title": "Verbes & Phrases Utiles",
+        "phrases": 6
+      },
+      {
+        "id": "bensedira-base",
+        "title": "Ben Sedira · Verbes & Repères (Vol. 1)",
+        "phrases": 6
+      }
+    ],
+    "dialogues": 4,
+    "arabiziSounds": 6,
+    "duplicatePhraseIds": [],
+    "duplicatePhraseLatin": [],
+    "missingRegionalNote": 0,
+    "missingBreakdown": 0
+  },
+  "dictionary": {
+    "entries": 2297,
+    "verbs": 2121,
+    "other": 176,
+    "categories": {
+      "verb": 2121,
+      "noun": 73,
+      "expression": 27,
+      "grammar": 34,
+      "adjective": 13,
+      "time-number": 29
+    },
+    "volumes": {
+      "1": {
+        "declared": "pp. I–LVI, 1–22",
+        "entries": 115,
+        "verbs": 82,
+        "missingSourcePage": 33
+      },
+      "2": {
+        "declared": "pp. 23–112",
+        "entries": 232,
+        "verbs": 227,
+        "missingSourcePage": 0
+      },
+      "3": {
+        "declared": "pp. 113–202",
+        "entries": 397,
+        "verbs": 387,
+        "missingSourcePage": 0
+      },
+      "4": {
+        "declared": "pp. 203–292",
+        "entries": 237,
+        "verbs": 223,
+        "missingSourcePage": 0
+      },
+      "5": {
+        "declared": "pp. 293–382",
+        "entries": 182,
+        "verbs": 170,
+        "missingSourcePage": 0
+      },
+      "6": {
+        "declared": "pp. 383–472",
+        "entries": 211,
+        "verbs": 186,
+        "missingSourcePage": 0
+      },
+      "7": {
+        "declared": "pp. 473–562",
+        "entries": 320,
+        "verbs": 293,
+        "missingSourcePage": 0
+      },
+      "8": {
+        "declared": "pp. 563–652",
+        "entries": 303,
+        "verbs": 289,
+        "missingSourcePage": 0
+      },
+      "9": {
+        "declared": "pp. 653–742",
+        "entries": 269,
+        "verbs": 250,
+        "missingSourcePage": 0
+      },
+      "10": {
+        "declared": "pp. 743–790",
+        "entries": 31,
+        "verbs": 14,
+        "missingSourcePage": 0
+      }
+    },
+    "missingSourcePage": 33,
+    "sourcePageMin": 2,
+    "sourcePageMax": 743744,
+    "duplicateIds": [],
+    "duplicateHeadwordLatin": [],
+    "verbsMissingConjugation": 0,
+    "entriesWithoutExample": 1867,
+    "entriesWithUsageNote": 39,
+    "suspicious": [],
+    "moroccanMarkers": [],
+    "moroccanMarkerCount": 0
+  },
+  "grammar": {
+    "sections": 5,
+    "sourcePages": [
+      "Préface & pp. IX–XVI",
+      "pp. XVII–XXVII",
+      "pp. V–VIII & XXVIII–XLI",
+      "pp. XLII–XLVIII",
+      "pp. XLIX–LVI"
+    ]
+  },
+  "stories": {
+    "count": 3,
+    "ids": [
+      "story-couscous",
+      "story-atay",
+      "story-souk"
+    ]
+  },
+  "conjugationSamples": [
+    {
+      "id": "bs-v-a-abaisser",
+      "head": "Abaisser, faire descendre",
+      "sourcePage": "p. 2",
+      "latin": "nouat’t’i / ouat’t’it / ouat’t’a",
+      "arabic": "نوطّي / وطّيت / وطّى",
+      "latinTable": [
+        {
+          "personKey": "1s",
+          "pronoun": "ana (je)",
+          "present": "nouat’t’i",
+          "past": "ouat’t’it",
+          "negativePresent": "ma nouat’t’ich"
+        },
+        {
+          "personKey": "2ms",
+          "pronoun": "enta (tu m.)",
+          "present": "touat’t’i",
+          "past": "ouat’t’it",
+          "negativePresent": "ma touat’t’ich"
+        },
+        {
+          "personKey": "2fs",
+          "pronoun": "enti (tu f.)",
+          "present": "touat’t’i",
+          "past": "ouat’t’iti",
+          "negativePresent": "ma touat’t’ich"
+        },
+        {
+          "personKey": "3ms",
+          "pronoun": "hououa (il)",
+          "present": "iouat’t’i",
+          "past": "ouat’t’a",
+          "negativePresent": "ma iouat’t’ich"
+        },
+        {
+          "personKey": "3fs",
+          "pronoun": "hiya (elle)",
+          "present": "touat’t’i",
+          "past": "ouat’t’at",
+          "negativePresent": "ma touat’t’ich"
+        },
+        {
+          "personKey": "1p",
+          "pronoun": "ah’na (nous)",
+          "present": "nouat’t’iou",
+          "past": "ouat’t’ina",
+          "negativePresent": "ma nouat’t’iouch"
+        },
+        {
+          "personKey": "2p",
+          "pronoun": "entouma (vous)",
+          "present": "touat’t’iou",
+          "past": "ouat’t’itou",
+          "negativePresent": "ma touat’t’iouch"
+        },
+        {
+          "personKey": "3p",
+          "pronoun": "houma (ils/elles)",
+          "present": "iouat’t’iou",
+          "past": "ouat’t’aou",
+          "negativePresent": "ma iouat’t’iouch"
+        }
+      ],
+      "arabicRows": {
+        "1s": {
+          "personKey": "1s",
+          "presentArabic": "نوطّي",
+          "pastArabic": "وطّيت",
+          "negativePresentArabic": "ما نوطّيش",
+          "futureArabic": "غادي نوطّي"
+        },
+        "2ms": {
+          "personKey": "2ms",
+          "presentArabic": "توطّي",
+          "pastArabic": "وطّيت",
+          "negativePresentArabic": "ما توطّيش",
+          "futureArabic": "غادي توطّي"
+        },
+        "2fs": {
+          "personKey": "2fs",
+          "presentArabic": "توطّي",
+          "pastArabic": "وطّيتي",
+          "negativePresentArabic": "ما توطّيش",
+          "futureArabic": "غادي توطّي"
+        },
+        "3ms": {
+          "personKey": "3ms",
+          "presentArabic": "يوطّي",
+          "pastArabic": "وطّى",
+          "negativePresentArabic": "ما يوطّيش",
+          "futureArabic": "غادي يوطّي"
+        },
+        "3fs": {
+          "personKey": "3fs",
+          "presentArabic": "توطّي",
+          "pastArabic": "وطّات",
+          "negativePresentArabic": "ما توطّيش",
+          "futureArabic": "غادي توطّي"
+        },
+        "1p": {
+          "personKey": "1p",
+          "presentArabic": "نوطّو",
+          "pastArabic": "وطّينا",
+          "negativePresentArabic": "ما نوطّوش",
+          "futureArabic": "غادي نوطّو"
+        },
+        "2p": {
+          "personKey": "2p",
+          "presentArabic": "توطّو",
+          "pastArabic": "وطّيتو",
+          "negativePresentArabic": "ما توطّوش",
+          "futureArabic": "غادي توطّو"
+        },
+        "3p": {
+          "personKey": "3p",
+          "presentArabic": "يوطّو",
+          "pastArabic": "وطّاو",
+          "negativePresentArabic": "ما يوطّوش",
+          "futureArabic": "غادي يوطّو"
+        }
+      },
+      "imperative": "وطّي",
+      "root": {
+        "display": "و-ط-ا",
+        "compact": "وطا"
+      }
+    },
+    {
+      "id": "bs-v-a-abandonner",
+      "head": "Abandonner, laisser",
+      "sourcePage": "p. 2",
+      "latin": "netrak / trakt / trak",
+      "arabic": "نترك / تركت / ترك",
+      "latinTable": [
+        {
+          "personKey": "1s",
+          "pronoun": "ana (je)",
+          "present": "netrak",
+          "past": "trakt",
+          "negativePresent": "ma netrakch"
+        },
+        {
+          "personKey": "2ms",
+          "pronoun": "enta (tu m.)",
+          "present": "tetrak",
+          "past": "trakt",
+          "negativePresent": "ma tetrakch"
+        },
+        {
+          "personKey": "2fs",
+          "pronoun": "enti (tu f.)",
+          "present": "tetraki",
+          "past": "trakti",
+          "negativePresent": "ma tetrakich"
+        },
+        {
+          "personKey": "3ms",
+          "pronoun": "hououa (il)",
+          "present": "itrak",
+          "past": "trak",
+          "negativePresent": "ma itrakch"
+        },
+        {
+          "personKey": "3fs",
+          "pronoun": "hiya (elle)",
+          "present": "tetrak",
+          "past": "trakèt",
+          "negativePresent": "ma tetrakch"
+        },
+        {
+          "personKey": "1p",
+          "pronoun": "ah’na (nous)",
+          "present": "netrakou",
+          "past": "trakna",
+          "negativePresent": "ma netrakouch"
+        },
+        {
+          "personKey": "2p",
+          "pronoun": "entouma (vous)",
+          "present": "tetrakou",
+          "past": "traktou",
+          "negativePresent": "ma tetrakouch"
+        },
+        {
+          "personKey": "3p",
+          "pronoun": "houma (ils/elles)",
+          "present": "itrakou",
+          "past": "trakou",
+          "negativePresent": "ma itrakouch"
+        }
+      ],
+      "arabicRows": {
+        "1s": {
+          "personKey": "1s",
+          "presentArabic": "نترك",
+          "pastArabic": "تركت",
+          "negativePresentArabic": "ما نتركش",
+          "futureArabic": "غادي نترك"
+        },
+        "2ms": {
+          "personKey": "2ms",
+          "presentArabic": "تترك",
+          "pastArabic": "تركت",
+          "negativePresentArabic": "ما تتركش",
+          "futureArabic": "غادي تترك"
+        },
+        "2fs": {
+          "personKey": "2fs",
+          "presentArabic": "تتركي",
+          "pastArabic": "تركتي",
+          "negativePresentArabic": "ما تتركيش",
+          "futureArabic": "غادي تتركي"
+        },
+        "3ms": {
+          "personKey": "3ms",
+          "presentArabic": "يترك",
+          "pastArabic": "ترك",
+          "negativePresentArabic": "ما يتركش",
+          "futureArabic": "غادي يترك"
+        },
+        "3fs": {
+          "personKey": "3fs",
+          "presentArabic": "تترك",
+          "pastArabic": "تركت",
+          "negativePresentArabic": "ما تتركش",
+          "futureArabic": "غادي تترك"
+        },
+        "1p": {
+          "personKey": "1p",
+          "presentArabic": "نتركو",
+          "pastArabic": "تركنا",
+          "negativePresentArabic": "ما نتركوش",
+          "futureArabic": "غادي نتركو"
+        },
+        "2p": {
+          "personKey": "2p",
+          "presentArabic": "تتركو",
+          "pastArabic": "تركتو",
+          "negativePresentArabic": "ما تتركوش",
+          "futureArabic": "غادي تتركو"
+        },
+        "3p": {
+          "personKey": "3p",
+          "presentArabic": "يتركو",
+          "pastArabic": "تركو",
+          "negativePresentArabic": "ما يتركوش",
+          "futureArabic": "غادي يتركو"
+        }
+      },
+      "imperative": "ترك",
+      "root": {
+        "display": "ت-ر-ك",
+        "compact": "ترك"
+      }
+    },
+    {
+      "id": "bs-v-e-etre",
+      "head": "Être (auxiliaire d’état rani & verbe kan / nkoun)",
+      "sourcePage": "pp. 202–203",
+      "latin": "rani (nkoun) / kount / kan",
+      "arabic": "راني (نكون) / كُنت / كان",
+      "latinTable": [
+        {
+          "personKey": "1s",
+          "pronoun": "ana (je)",
+          "present": "rani (nkoun)",
+          "past": "kount",
+          "negativePresent": "ma ranich"
+        },
+        {
+          "personKey": "2ms",
+          "pronoun": "enta (tu m.)",
+          "present": "rak (tkoun)",
+          "past": "kount",
+          "negativePresent": "ma rakch"
+        },
+        {
+          "personKey": "2fs",
+          "pronoun": "enti (tu f.)",
+          "present": "raki (tkouni)",
+          "past": "kounti",
+          "negativePresent": "ma rakich"
+        },
+        {
+          "personKey": "3ms",
+          "pronoun": "hououa (il)",
+          "present": "rah / raho (ikoun)",
+          "past": "kan",
+          "negativePresent": "ma rahch"
+        },
+        {
+          "personKey": "3fs",
+          "pronoun": "hiya (elle)",
+          "present": "rahi / raha (tkoun)",
+          "past": "kanèt",
+          "negativePresent": "ma rahich"
+        },
+        {
+          "personKey": "1p",
+          "pronoun": "ah’na (nous)",
+          "present": "rana (nkounou)",
+          "past": "kounna",
+          "negativePresent": "ma ranach"
+        },
+        {
+          "personKey": "2p",
+          "pronoun": "entouma (vous)",
+          "present": "rakoum (tkounou)",
+          "past": "kountou",
+          "negativePresent": "ma rakoumch"
+        },
+        {
+          "personKey": "3p",
+          "pronoun": "houma (ils/elles)",
+          "present": "rahoum (ikounou)",
+          "past": "kanou",
+          "negativePresent": "ma rahoumch"
+        }
+      ],
+      "arabicRows": {
+        "1s": {
+          "personKey": "1s",
+          "presentArabic": "راني",
+          "pastArabic": "كنت",
+          "negativePresentArabic": "ما رانيش",
+          "futureArabic": "نكون"
+        },
+        "2ms": {
+          "personKey": "2ms",
+          "presentArabic": "راك",
+          "pastArabic": "كنت",
+          "negativePresentArabic": "ما راكش",
+          "futureArabic": "تكون"
+        },
+        "2fs": {
+          "personKey": "2fs",
+          "presentArabic": "راكي",
+          "pastArabic": "كنتي",
+          "negativePresentArabic": "ما راكيش",
+          "futureArabic": "تكوني"
+        },
+        "3ms": {
+          "personKey": "3ms",
+          "presentArabic": "راهو",
+          "pastArabic": "كان",
+          "negativePresentArabic": "ما راهش",
+          "futureArabic": "يكون"
+        },
+        "3fs": {
+          "personKey": "3fs",
+          "presentArabic": "راها",
+          "pastArabic": "كانت",
+          "negativePresentArabic": "ما راهيش",
+          "futureArabic": "تكون"
+        },
+        "1p": {
+          "personKey": "1p",
+          "presentArabic": "رانا",
+          "pastArabic": "كنا",
+          "negativePresentArabic": "ما راناش",
+          "futureArabic": "نكونو"
+        },
+        "2p": {
+          "personKey": "2p",
+          "presentArabic": "راكم",
+          "pastArabic": "كنتو",
+          "negativePresentArabic": "ما راكمش",
+          "futureArabic": "تكونو"
+        },
+        "3p": {
+          "personKey": "3p",
+          "presentArabic": "راهم",
+          "pastArabic": "كانو",
+          "negativePresentArabic": "ما راهمش",
+          "futureArabic": "يكونو"
+        }
+      },
+      "imperative": "كون",
+      "root": {
+        "display": "ك-ا-ن",
+        "compact": "كان"
+      }
+    },
+    {
+      "id": "bs-v-a-avoir",
+      "head": "Avoir (posséder)",
+      "sourcePage": "p. 44",
+      "latin": "ândi / kan ândi / ikoun ândi",
+      "arabic": "عندي / كان عندي / يكون عندي",
+      "latinTable": [
+        {
+          "personKey": "1s",
+          "pronoun": "ana (je)",
+          "present": "ândi",
+          "past": "kan ândi",
+          "negativePresent": "ma ândich"
+        },
+        {
+          "personKey": "2ms",
+          "pronoun": "enta (tu m.)",
+          "present": "ândek",
+          "past": "kan ândek",
+          "negativePresent": "ma ândekch"
+        },
+        {
+          "personKey": "2fs",
+          "pronoun": "enti (tu f.)",
+          "present": "ândek",
+          "past": "kan ândek",
+          "negativePresent": "ma ândekch"
+        },
+        {
+          "personKey": "3ms",
+          "pronoun": "hououa (il)",
+          "present": "ândhou",
+          "past": "kan ândhou",
+          "negativePresent": "ma ândhouch"
+        },
+        {
+          "personKey": "3fs",
+          "pronoun": "hiya (elle)",
+          "present": "ândha",
+          "past": "kan ândha",
+          "negativePresent": "ma ândhach"
+        },
+        {
+          "personKey": "1p",
+          "pronoun": "ah’na (nous)",
+          "present": "ândna",
+          "past": "kan ândna",
+          "negativePresent": "ma ândnach"
+        },
+        {
+          "personKey": "2p",
+          "pronoun": "entouma (vous)",
+          "present": "ândkoum",
+          "past": "kan ândkoum",
+          "negativePresent": "ma ândkoumch"
+        },
+        {
+          "personKey": "3p",
+          "pronoun": "houma (ils/elles)",
+          "present": "ândhoum",
+          "past": "kan ândhoum",
+          "negativePresent": "ma ândhoumch"
+        }
+      ],
+      "arabicRows": {
+        "1s": {
+          "personKey": "1s",
+          "presentArabic": "عندي",
+          "pastArabic": "كان عندي",
+          "negativePresentArabic": "ما عنديش",
+          "futureArabic": "يكون عندي"
+        },
+        "2ms": {
+          "personKey": "2ms",
+          "presentArabic": "عندك",
+          "pastArabic": "كان عندك",
+          "negativePresentArabic": "ما عندكش",
+          "futureArabic": "يكون عندك"
+        },
+        "2fs": {
+          "personKey": "2fs",
+          "presentArabic": "عندك",
+          "pastArabic": "كان عندك",
+          "negativePresentArabic": "ما عندكش",
+          "futureArabic": "يكون عندك"
+        },
+        "3ms": {
+          "personKey": "3ms",
+          "presentArabic": "عندو",
+          "pastArabic": "كان عندو",
+          "negativePresentArabic": "ما عندوش",
+          "futureArabic": "يكون عندو"
+        },
+        "3fs": {
+          "personKey": "3fs",
+          "presentArabic": "عندها",
+          "pastArabic": "كان عندها",
+          "negativePresentArabic": "ما عندهاش",
+          "futureArabic": "يكون عندها"
+        },
+        "1p": {
+          "personKey": "1p",
+          "presentArabic": "عندنا",
+          "pastArabic": "كان عندنا",
+          "negativePresentArabic": "ما عندناش",
+          "futureArabic": "يكون عندنا"
+        },
+        "2p": {
+          "personKey": "2p",
+          "presentArabic": "عندكم",
+          "pastArabic": "كان عندكم",
+          "negativePresentArabic": "ما عندكمش",
+          "futureArabic": "يكون عندكم"
+        },
+        "3p": {
+          "personKey": "3p",
+          "presentArabic": "عندهم",
+          "pastArabic": "كان عندهم",
+          "negativePresentArabic": "ما عندهمش",
+          "futureArabic": "يكون عندهم"
+        }
+      },
+      "imperative": "يكون عندك",
+      "root": {
+        "display": "ي-ك-و-ن",
+        "compact": "يكون"
+      }
+    },
+    {
+      "id": "bs-v-f-faire",
+      "head": "Faire",
+      "sourcePage": "pp. 215–216",
+      "latin": "nâmel / âmelt / âmel",
+      "arabic": "نعمل / عملت / عمل",
+      "latinTable": [
+        {
+          "personKey": "1s",
+          "pronoun": "ana (je)",
+          "present": "nâmel",
+          "past": "âmelt",
+          "negativePresent": "ma nâmelch"
+        },
+        {
+          "personKey": "2ms",
+          "pronoun": "enta (tu m.)",
+          "present": "tâmel",
+          "past": "âmelt",
+          "negativePresent": "ma tâmelch"
+        },
+        {
+          "personKey": "2fs",
+          "pronoun": "enti (tu f.)",
+          "present": "tâmeli",
+          "past": "âmelti",
+          "negativePresent": "ma tâmelich"
+        },
+        {
+          "personKey": "3ms",
+          "pronoun": "hououa (il)",
+          "present": "iâmel",
+          "past": "âmel",
+          "negativePresent": "ma iâmelch"
+        },
+        {
+          "personKey": "3fs",
+          "pronoun": "hiya (elle)",
+          "present": "tâmel",
+          "past": "âmelèt",
+          "negativePresent": "ma tâmelch"
+        },
+        {
+          "personKey": "1p",
+          "pronoun": "ah’na (nous)",
+          "present": "nâmelou",
+          "past": "âmelna",
+          "negativePresent": "ma nâmelouch"
+        },
+        {
+          "personKey": "2p",
+          "pronoun": "entouma (vous)",
+          "present": "tâmelou",
+          "past": "âmeltou",
+          "negativePresent": "ma tâmelouch"
+        },
+        {
+          "personKey": "3p",
+          "pronoun": "houma (ils/elles)",
+          "present": "iâmelou",
+          "past": "âmelou",
+          "negativePresent": "ma iâmelouch"
+        }
+      ],
+      "arabicRows": {
+        "1s": {
+          "personKey": "1s",
+          "presentArabic": "نعمل",
+          "pastArabic": "عملت",
+          "negativePresentArabic": "ما نعملش",
+          "futureArabic": "غادي نعمل"
+        },
+        "2ms": {
+          "personKey": "2ms",
+          "presentArabic": "تعمل",
+          "pastArabic": "عملت",
+          "negativePresentArabic": "ما تعملش",
+          "futureArabic": "غادي تعمل"
+        },
+        "2fs": {
+          "personKey": "2fs",
+          "presentArabic": "تعملي",
+          "pastArabic": "عملتي",
+          "negativePresentArabic": "ما تعمليش",
+          "futureArabic": "غادي تعملي"
+        },
+        "3ms": {
+          "personKey": "3ms",
+          "presentArabic": "يعمل",
+          "pastArabic": "عمل",
+          "negativePresentArabic": "ما يعملش",
+          "futureArabic": "غادي يعمل"
+        },
+        "3fs": {
+          "personKey": "3fs",
+          "presentArabic": "تعمل",
+          "pastArabic": "عملت",
+          "negativePresentArabic": "ما تعملش",
+          "futureArabic": "غادي تعمل"
+        },
+        "1p": {
+          "personKey": "1p",
+          "presentArabic": "نعملو",
+          "pastArabic": "عملنا",
+          "negativePresentArabic": "ما نعملوش",
+          "futureArabic": "غادي نعملو"
+        },
+        "2p": {
+          "personKey": "2p",
+          "presentArabic": "تعملو",
+          "pastArabic": "عملتو",
+          "negativePresentArabic": "ما تعملوش",
+          "futureArabic": "غادي تعملو"
+        },
+        "3p": {
+          "personKey": "3p",
+          "presentArabic": "يعملو",
+          "pastArabic": "عملو",
+          "negativePresentArabic": "ما يعملوش",
+          "futureArabic": "غادي يعملو"
+        }
+      },
+      "imperative": "عمل",
+      "root": {
+        "display": "ع-م-ل",
+        "compact": "عمل"
+      }
+    },
+    {
+      "id": "bs-v-k-kteb",
+      "missing": true
+    },
+    {
+      "id": "bs-v-c-chra",
+      "missing": true
+    },
+    {
+      "id": "bs-v-d-dar",
+      "missing": true
+    }
+  ]
+}

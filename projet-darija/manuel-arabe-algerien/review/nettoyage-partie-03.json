@@ -1,0 +1,14 @@
+{
+ "removed": [
+  [
+   "raw/partie-03.pdf",
+   12202072
+  ],
+  [
+   "ocr/partie-03-colonnes/_lecture-filtree.txt",
+   86286
+  ]
+ ],
+ "total_bytes": 12288358,
+ "pdf_md5_verified": "1782058a1a1bcb949fb8b8023474a052"
+}

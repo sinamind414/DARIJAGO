@@ -1,0 +1,76 @@
+{
+  "errors": [],
+  "axeLearnDetails": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "nodes": [
+        {
+          "target": [
+            ".border-red-200 > .opacity-80.font-mono.tabular-nums"
+          ],
+          "html": "<span class=\"font-mono text-[11px] opacity-80 tabular-nums\">Aujourd’hui</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #c76056, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".border-amber-200 > span:nth-child(1)"
+          ],
+          "html": "<span>Difficile</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.38 (foreground color: #a86b22, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".border-amber-200 > .opacity-80.font-mono.tabular-nums"
+          ],
+          "html": "<span class=\"font-mono text-[11px] opacity-80 tabular-nums\">+1 j</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.11 (foreground color: #b9894e, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".border-\\[\\#C7D2B0\\] > .opacity-80.font-mono.tabular-nums"
+          ],
+          "html": "<span class=\"font-mono text-[11px] opacity-80 tabular-nums\">+1 j</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #71815a, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".dark\\:text-amber-400"
+          ],
+          "html": "<span class=\"text-xs font-bold uppercase tracking-wider text-[#C68335] dark:text-amber-400\">2. Votre voix</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #c68335, background color: #f8f5ef, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".bg-\\[\\#C68335\\] > span"
+          ],
+          "html": "<span>S’enregistrer</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.13 (foreground color: #ffffff, background color: #c68335, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "id": "image-redundant-alt",
+      "impact": "minor",
+      "help": "Alternative text of images should not be repeated as text",
+      "nodes": [
+        {
+          "target": [
+            ".sm\\:w-9"
+          ],
+          "html": "<img alt=\"Speak Algeria\" class=\"w-8 h-8 sm:w-9 sm:h-9 rounded-lg object-cover border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F2EB] shrink-0\" src=\"/assets/",
+          "summary": "Fix all of the following:\n  Element contains <img> element with alt text that duplicates existing text"
+        }
+      ]
+    }
+  ],
+  "lang": {
+    "lang": "en",
+    "title": "Speak Algeria — Learn Algerian Darija",
+    "stored": "en"
+  },
+  "dialogueText": "\nYasmine · Accueil chez des amis algériens\n\nEn taxi & Orientation\n\nTarek · Centre-ville de Constantine\n\nObjectif du dialogue\n\nSaluer, commander un café ou un thé à la menthe et demander l’addition.\n\nAu café à Alger\n\nInterlocuteur : Amine (Serveur chaleureux)\n\nMasquer la traduction\nRecommencer\nAmine\nÉcouter\n\nSalam khouya, mar7ba bik! Wach tcharab el youm?\n\nالسلام خويا، مرحبا بيك! واش تشرب اليوم؟\n\nBonjour mon frère, bienvenue ! Qu’est-ce que tu bois aujourd’hui ?\n\nConseil : Réponds en saluant Amine ou en commandant avec « Bghit... » ou « A3tini... ».\n\nVous\nÉcouter\n\nSalam, labes?\n\nVotre réplique\n\nAmine\nÉcouter\n\nYa3tik essa7a! Rak tahder el darija mli7 bezzaf!\n\nيعطيك الصحة! راك تهدر الدارجة مليح بزاف!\n\nBravo ! Tu parles déjà très bien la darija !\n\nConseil : Continue la conversation en posant une question avec « Wach… » ou « Ch7al… ».\n\nRéponses rapides suggérées (clique pour parler) :\n\nSba7 el khir! Bghit kas atay b na3na3.\n\nBonjour ! Je voudrais un verre de thé à la menthe.\n\nCh7al el 7sab khouya? Ya3tik essa7a.\n\nC’est combien l’addition mon frère ? Merci bien.\n\nVotre réponse en darija\nEnvoyer\nSpeak Algeria\n·\nApprendre à parler la darija algérienne\nApprendre\nParcours\nQuiz\nProgrès\nProfil",
+  "oralNotice": "Accès au microphone refusé ou indisponible. Vérifiez les autorisations du navigateur.Simulateur de comparaison (si micro indisponible)Comparer",
+  "oralFallbackVisible": true
+}

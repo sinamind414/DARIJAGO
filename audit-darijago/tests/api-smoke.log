@@ -1,0 +1,75 @@
+--- health ---
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 32
+ETag: W/"20-0IzRhPHp0mr94UGlSQwXqYu8X4I"
+Date: Sun, 15 Nov 2026 15:12:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"ok":true,"aiConfigured":false}
+--- tts empty ---
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 47
+ETag: W/"2f-M2Mx5bBCdS91gGE7WZ6W+HOyBZY"
+Date: Sun, 15 Nov 2026 15:12:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"error":"Texte requis pour la lecture audio."}
+--- tts no key ---
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 120
+ETag: W/"78-B4mMkuODZyF6EO2qd8NTsDbL7Vw"
+Date: Sun, 15 Nov 2026 15:12:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"voiceName":"Kore","fallbackRecommended":true,"reason":"Service vocal Gemini non configuré, lecture locale activée."}
+--- tts clip no key ---
+HTTP/1.1 204 No Content
+X-Powered-By: Express
+X-Darija-Fallback: browser-speech
+Date: Sun, 15 Nov 2026 15:12:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+--- dialogue no key ---
+HTTP/1.1 503 Service Unavailable
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 72
+ETag: W/"48-JS9rZgao9W25k65Lqr1JPYy+RYs"
+Date: Sun, 15 Nov 2026 15:12:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"error":"Conversational assistant offline.","fallbackRecommended":true}
+--- pronunciation empty ---
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 55
+ETag: W/"37-vjDkcbi29rShA7Ij/bHJv6P5VEU"
+Date: Sun, 15 Nov 2026 15:12:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"error":"Audio recording and target phrase required."}
+--- root headers ---
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: Origin
+Content-Type: text/html
+Cache-Control: no-cache
+Etag: W/"729-/BVjK3MdxV7sQ4AOwRRK6De++Xg"
+Date: Sun, 15 Nov 2026 15:12:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+

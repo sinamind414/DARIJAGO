@@ -1,0 +1,154 @@
+{
+  "project": "dictionnaire-livre",
+  "db": "db/dictionnaire.sqlite",
+  "parts": [
+    {
+      "id": "partie-01",
+      "pdf": "raw/partie-01.pdf",
+      "filename": "partie-01.pdf",
+      "sha256": "9544d084a8750f238fb1910a733af7c6517e02320a3e4d70e550eac47b32b043",
+      "pages": 90,
+      "entries": 232,
+      "active_algerian_entries": 232,
+      "tunisian_supplement_entries": 0,
+      "status": "ocr_raw",
+      "parser_versions": [
+        "legacy-1"
+      ]
+    },
+    {
+      "id": "partie-02",
+      "pdf": "raw/partie-02.pdf",
+      "filename": "partie-02.pdf",
+      "sha256": "d456f4a501622eacdf078c65a5e54971dbaca008276c08203c380cf0986aceee",
+      "pages": 90,
+      "entries": 985,
+      "active_algerian_entries": 983,
+      "tunisian_supplement_entries": 0,
+      "status": "ocr_raw",
+      "parser_versions": [
+        "legacy-1"
+      ]
+    },
+    {
+      "id": "partie-03",
+      "pdf": "raw/partie-03.pdf",
+      "filename": "partie-03.pdf",
+      "sha256": "9d2751cdecb1689abb3557a08e257bd0dff56c45855505b5879806ef29570f02",
+      "pages": 90,
+      "entries": 1201,
+      "active_algerian_entries": 1195,
+      "tunisian_supplement_entries": 0,
+      "status": "ocr_raw",
+      "parser_versions": [
+        "lexical-2-draft"
+      ]
+    },
+    {
+      "id": "partie-04",
+      "pdf": "raw/partie-04.pdf",
+      "filename": "partie-04.pdf",
+      "sha256": "127874fc9633ef63c75ead00c75884daec06d57a8aa96f5f29835782203db5ce",
+      "pages": 90,
+      "entries": 1076,
+      "active_algerian_entries": 1052,
+      "tunisian_supplement_entries": 0,
+      "status": "ocr_raw",
+      "parser_versions": [
+        "lexical-2-draft"
+      ]
+    },
+    {
+      "id": "partie-05",
+      "pdf": "raw/partie-05.pdf",
+      "filename": "partie-05.pdf",
+      "sha256": "31080bace64b191eeaafc0d8e8e9e73329949273e4d59259a87af935b434d310",
+      "pages": 90,
+      "entries": 1106,
+      "active_algerian_entries": 1093,
+      "tunisian_supplement_entries": 0,
+      "status": "ocr_raw",
+      "parser_versions": [
+        "lexical-2-draft"
+      ]
+    },
+    {
+      "id": "partie-06",
+      "pdf": "raw/partie-06.pdf",
+      "filename": "partie-06.pdf",
+      "sha256": "793dae6a30dcaa779fb8540cc8fa072dc6a931a4258e17c61a51657103c56938",
+      "pages": 90,
+      "entries": 1072,
+      "active_algerian_entries": 1002,
+      "tunisian_supplement_entries": 0,
+      "status": "ocr_raw",
+      "parser_versions": [
+        "lexical-2.1-draft"
+      ]
+    },
+    {
+      "id": "partie-07",
+      "pdf": "raw/partie-07.pdf",
+      "filename": "partie-07.pdf",
+      "sha256": "bff9c7ec95fbf1bdd6aa1b0421333e584037277b1e588f45593cf73e400a43a1",
+      "pages": 90,
+      "entries": 1100,
+      "active_algerian_entries": 1035,
+      "tunisian_supplement_entries": 0,
+      "status": "ocr_raw",
+      "parser_versions": [
+        "lexical-2.1-draft"
+      ]
+    },
+    {
+      "id": "partie-08",
+      "pdf": "raw/partie-08.pdf",
+      "filename": "partie-08.pdf",
+      "sha256": "5a2a5f8fe6f56b89ede78206cffdcc33aa336ed38493f131c33787c01e87f524",
+      "pages": 90,
+      "entries": 1140,
+      "active_algerian_entries": 1041,
+      "tunisian_supplement_entries": 0,
+      "status": "ocr_raw",
+      "parser_versions": [
+        "lexical-2.1-draft"
+      ]
+    },
+    {
+      "id": "partie-09",
+      "pdf": "raw/partie-09.pdf",
+      "filename": "partie-09.pdf",
+      "sha256": "c111d8c629a6246febc4e8d49c266f9f3393969e71f6adbf59bd2f08ec2345de",
+      "pages": 90,
+      "entries": 1201,
+      "active_algerian_entries": 1086,
+      "tunisian_supplement_entries": 0,
+      "status": "ocr_raw",
+      "parser_versions": [
+        "lexical-2.1-draft"
+      ]
+    },
+    {
+      "id": "partie-10",
+      "pdf": "raw/partie-10.pdf",
+      "filename": "partie-10.pdf",
+      "sha256": "eb5609bc3e0d2b4aa72a13ba95e7663789e86c0f678cc6b86f963976500efa1e",
+      "pages": 54,
+      "entries": 509,
+      "active_algerian_entries": 100,
+      "tunisian_supplement_entries": 400,
+      "status": "ocr_raw",
+      "parser_versions": [
+        "lexical-2.1-draft",
+        "manual-curation-10"
+      ]
+    }
+  ],
+  "total_entries": 9622,
+  "total_active_algerian_entries": 8819,
+  "total_tunisian_supplement_entries": 400,
+  "total_active_tunisian_supplement_entries": 400,
+  "next": null,
+  "book_complete": true,
+  "quality_note": "Toutes les entrées restent needs_review/unverified tant que validation native et correction OCR ne sont pas faites. Le supplément tunisien est séparé du corpus algérien."
+}

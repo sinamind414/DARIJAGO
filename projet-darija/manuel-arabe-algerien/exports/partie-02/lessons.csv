@@ -1,0 +1,12 @@
+lesson_no,title,start_pdf_page,start_printed_page,end_pdf_page,end_printed_page,completeness,topics,status
+12,Le nom : le genre. La numération de 11 à 19.,2,42,3,45,complete,"['genre', 'féminin', 'nombres 11-19', 'saisons', 'année']",needs_review
+13,Quelques catégories de substantifs.,4,46,5,49,complete,"['substantifs', 'noms d’artisan', 'noms de lieu', 'noms d’action', 'pain', 'agriculture']",needs_review
+14,Quelques catégories d’adjectifs. Emploi de l’adjectif.,6,50,8,54,complete,"['adjectifs', 'épithète', 'attribut', 'couleurs', 'rue', 'boutiques']",needs_review
+15,"L’heure. Le nom : le nombre (duel, pluriel externe).",8,54,10,59,complete,"['heure', 'duel', 'pluriel externe', 'collectif', 'politesse']",needs_review
+16,"Le nombre (fin) : pluriel interne, collectif.",11,60,13,65,complete,"['pluriel interne', 'collectif', 'commerce', 'richesse']",needs_review
+17,Récapitulation. La numération de 20 à 99.,14,66,15,69,complete,"['médecin', 'santé', 'impératif de politesse', 'nombres 20-99']",needs_review
+18,Comparatif et superlatif. La numération de 100 à l’infini. Les adjectifs numéraux ordinaux.,16,70,18,74,complete,"['comparatif', 'superlatif', 'nombres 100+', 'ordinaux', 'famille', 'études']",needs_review
+19,Le pronom relatif. La proposition relative.,18,74,20,79,complete,"['relatif', 'relative', 'travail', 'émigration', 'métiers']",needs_review
+20,Les indéfinis.,21,80,23,84,complete,"['indéfinis', 'diminutif', 'Alger', 'ville']",needs_review
+21,L’exclamation. La négation (fin).,23,85,25,88,complete,"['exclamation', 'vocatif', 'négation', 'agriculture', 'moisson']",needs_review
+22,La construction. Les particules (mots et expressions invariables).,25,89,25,89,partial,"['construction', 'maison', 'particules']",needs_review

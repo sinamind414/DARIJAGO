@@ -1,0 +1,21 @@
+{
+  "removed": [
+    {
+      "path": "/home/user/uploads/Manuel-arab-algerien-1.pdf",
+      "bytes": null,
+      "dry_run": false
+    },
+    {
+      "path": "/home/user/projet-darija/manuel-arabe-algerien/ocr/partie-01",
+      "bytes": null,
+      "dry_run": false
+    },
+    {
+      "path": "/home/user/projet-darija/manuel-arabe-algerien/scripts/ocr_partie.py",
+      "bytes": null,
+      "dry_run": false
+    }
+  ],
+  "errors": [],
+  "dry_run": false
+}

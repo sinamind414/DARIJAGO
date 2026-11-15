@@ -1,0 +1,184 @@
+{
+ "book": "manuel-arabe-algerien",
+ "title": "Manuel d’arabe algérien moderne",
+ "parts_expected": 5,
+ "part": "partie-05",
+ "filename": "partie-05.pdf",
+ "sha256": "89e7a77ba1840d1f110f81530f768d3fd7824b8abbff3c38f33b91f51f0c917f",
+ "bytes": 5776806,
+ "pdf_pages": 14,
+ "status": "book_complete",
+ "author": "Norbert Tapiéro",
+ "publisher": "Klincksieck",
+ "series": "série linguistique 7",
+ "edition": "1re éd. 1971 ; 2e éd. 1978 ; © Klincksieck 2002",
+ "isbn": "2-252-03395-9",
+ "dialect": "arabe algérien (parler moyen pédagogique)",
+ "register": "tapiero_1971_2002",
+ "ocr_method": "column-aware halves; left fra/psm6; right ara+fra/psm4",
+ "printed_page_formula": "partie-01 : pdf>=7 gauche=2*pdf-12 droite=2*pdf-11 ; partie-02 : gauche=2*pdf+38 droite=2*pdf+39 (pdf 1..25, segments confondus) ; partie-03 : pdf<=8 gauche=2*pdf+88 droite=2*pdf+89 ; pdf9=DOUBLON du spread 104/105 (non ingéré) ; pdf>=10 gauche=2*pdf+86 droite=2*pdf+87 ; partie-04 : gauche=2*pdf+136 droite=2*pdf+137 (pdf 1..25) ; partie-05 : gauche=2*pdf+186 droite=2*pdf+187 (pdf 1..14)",
+ "lessons_seen": "1-30 complètes ; 15 dialogues complets ; glossaires complets ; index ; table des matières",
+ "next": null,
+ "ingestion": "curated_manual_assisted_by_column_ocr",
+ "counts_partie_01": {
+  "sources": 1,
+  "pages": 50,
+  "lessons": 11,
+  "vocabulary": 271,
+  "grammar_rules": 29,
+  "exercises": 30,
+  "study_texts": 11,
+  "review_tasks": 352
+ },
+ "app_ready": 0,
+ "quality_note": "Toutes les entrées restent needs_review ; aucune publication app sans validation native.",
+ "cleaned": false,
+ "archive": null,
+ "cleanup_note": "Archives ZIP redondantes supprimées pour libérer le workspace ; dossiers sources conservés.",
+ "parts": {
+  "partie-01": {
+   "filename": "Manuel-arab-algerien-1.pdf",
+   "drive_filename": "Manuel-arab-algerien-1.pdf",
+   "drive_file_id": "17W7t4D139ahyK8eJ35vrfGh1Osnjs083",
+   "sha256": "3f69a4799f9ba5a5cd7cbdb98504384de6b5fea54364006e8dc70222e7bfb95a",
+   "bytes": 9716656,
+   "pdf_pages": 25,
+   "printed_pages": "1-39",
+   "lessons": "1-10 complètes, 11 commencée",
+   "ingested": true
+  },
+  "partie-02": {
+   "segments": [
+    {
+     "filename": "partie-02-1.pdf",
+     "bytes": 5084523,
+     "sha256": "74afa9cb8701a077aadd5844adbc71531ea084c9b6000013860ac7a647147a8b",
+     "drive_file_id": "1bXpSfvxhQX8-OXYslycORo8lLceTvwc_"
+    },
+    {
+     "filename": "partie-02-2.pdf",
+     "bytes": 6273197,
+     "sha256": "448c2a1e0b8c62f1e2429587316f4d2de34e3916604b372d1bd76ed1500cb995",
+     "drive_file_id": "1GrY8TrEhk3m9V6NTvoVnDJDf--1CbUP_"
+    },
+    {
+     "filename": "partie-02-3.pdf",
+     "bytes": 3134296,
+     "sha256": "1b2a5e1c90901a95021558ff6b5cbd1892fadae4e0a1db88820ad1bf0b503cf4",
+     "drive_file_id": "15vMAIawoEdgZ9xR_ms5XZ9yLDf_OMgcb"
+    }
+   ],
+   "pdf_pages": 25,
+   "printed_pages": "40-89",
+   "lessons": "11 achevée, 12-21 complètes, 22 commencée (§108)",
+   "ingested": true
+  },
+  "partie-03": {
+   "filename": "Manuel-arab-algerien-3.pdf",
+   "drive_filename": "Manuel-arab-algerien-3.pdf",
+   "drive_file_id": "1imJWKWtplzeUmvIJeScL-D9Z2-P--NQM",
+   "sha256": "812ac206299794f5aad60f0f9325fe3b6813875238016cab67a1fa5988b892f8",
+   "md5": "1782058a1a1bcb949fb8b8023474a052",
+   "bytes": 12202072,
+   "pdf_pages": 25,
+   "printed_pages": "90-137 (spread 104/105 scanné 2x : pdf8=pdf9)",
+   "lessons": "22 achevée, 23-30 complètes ; glossaire p.129-137 (référence, non fusionné)",
+   "duplicate_pdf_page": 9,
+   "ingested": true
+  },
+  "partie-04": {
+   "filename": "Manuel-arab-algerien-4.pdf",
+   "drive_filename": "Manuel-arab-algerien-4.pdf",
+   "drive_file_id": "1GiiQyFH3GCL9k-leam8QdicbAXr_mm5O",
+   "sha256": "bb24082f5fbe5dc4d342e932f21695ad1403de516c4b28f5f0ce9a6c6b5ff4dd",
+   "md5": "8fb8903dfde56ce0eeb4408417ee0a01",
+   "bytes": 10900199,
+   "pdf_pages": 25,
+   "printed_pages": "138-187",
+   "content": "glossaire ar-fr fin (138-149), glossaire fr-ar (150-170), index (171-173), dialogues I-V (complets) + VI (arabe seul)",
+   "ingested": true
+  },
+  "partie-05": {
+   "filename": "Manuel-arab-algerien-5.pdf",
+   "drive_filename": "Manuel-arab-algerien-5.pdf",
+   "drive_file_id": "1Y2CQ0LzvmtPGxEz4U2E0l9of3rlBSucz",
+   "sha256": "89e7a77ba1840d1f110f81530f768d3fd7824b8abbff3c38f33b91f51f0c917f",
+   "md5": "0f3f89466afca1e4330aec2426811da5",
+   "bytes": 5776806,
+   "pdf_pages": 14,
+   "printed_pages": "188-215",
+   "content": "traduction dialogue VI (188), dialogues VII-XV (189-211), table des matières (213-214)",
+   "ingested": true
+  }
+ },
+ "drive_source_folder": {
+  "id": "1wds9v7GwsIpDwMFSR3-m_oXm6BJ1LHR8",
+  "name": "DEUXIEME LIVRE DARIJA",
+  "url": "https://drive.google.com/drive/folders/1wds9v7GwsIpDwMFSR3-m_oXm6BJ1LHR8"
+ },
+ "counts_total": {
+  "sources": 5,
+  "pages": 226,
+  "lessons": 30,
+  "vocabulary": 850,
+  "grammar_rules": 86,
+  "exercises": 97,
+  "study_texts": 30,
+  "dialogues": 15,
+  "review_tasks": 1140
+ },
+ "counts_partie_02": {
+  "sources": 1,
+  "pages": 50,
+  "lessons": 11,
+  "vocabulary": 410,
+  "grammar_rules": 36,
+  "exercises": 37,
+  "study_texts": 11
+ },
+ "integrity_check": "ok",
+ "foreign_key_check": [],
+ "counts_partie_03": {
+  "sources": 1,
+  "pages": 48,
+  "lessons": 8,
+  "vocabulary": 169,
+  "grammar_rules": 21,
+  "exercises": 30,
+  "study_texts": 8
+ },
+ "counts_partie_04": {
+  "sources": 1,
+  "pages": 50,
+  "dialogues": 6
+ },
+ "book_complete": true,
+ "counts_partie_05": {
+  "sources": 1,
+  "pages": 28,
+  "dialogues": 9
+ },
+ "fusion_glossaires": {
+  "status": "review_pass_done",
+  "date": "2026-11-14",
+  "script": "scripts/fusionner_glossaires.py",
+  "ocr_script": "scripts/ocr_glossaire_4col.py",
+  "ocr_dir": "ocr/glossaire-4col",
+  "counts": {
+   "ar_fr": 727,
+   "fr_ar": 1490,
+   "exact": 240,
+   "variant": 29,
+   "fuzzy": 38,
+   "proposals": 76,
+   "conflicts": 26,
+   "lookup": 2324
+  },
+  "db_md5": "539144e105d250bcf0cb0874548b6abf",
+  "db_sha256": "3aaab974ed6a51a7f786dd5b2cd00ea4b7b7f2bfe7b4fca1511c1b18cdee26ab",
+  "db_bytes": 1597440,
+  "policy": "Aucune modification des 850 fiches curées ; propositions + conflits + lookup FR->DZ en needs_review ; app_ready=0.",
+  "backup": "backups/manuel-apres-fusion-glossaires.sqlite",
+  "report": "review/fusion-glossaires-rapport.md"
+ }
+}

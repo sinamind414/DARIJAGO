@@ -1,0 +1,10 @@
+{
+  "name": "darijaGO — Apprendre la darija algérienne",
+  "description": "Plateforme interactive pour apprendre à parler la darija algérienne : leçons audio, phonétique arabizi, dialogues immersifs et quiz.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "dialogue_uid": "tapiero-p04-dialoguei",
+    "numeral": "I",
+    "title_fr": "La famille et le logement",
+    "pdf_page_ar": 20,
+    "printed_page_ar": 177,
+    "pdf_page_fr": 21,
+    "printed_page_fr": 178,
+    "completeness": "complete",
+    "status": "needs_review"
+  },
+  {
+    "dialogue_uid": "tapiero-p04-dialogueii",
+    "numeral": "II",
+    "title_fr": "Mère de famille malade",
+    "pdf_page_ar": 21,
+    "printed_page_ar": 179,
+    "pdf_page_fr": 22,
+    "printed_page_fr": 180,
+    "completeness": "complete",
+    "status": "needs_review"
+  },
+  {
+    "dialogue_uid": "tapiero-p04-dialogueiii",
+    "numeral": "III",
+    "title_fr": "La famille et l’école",
+    "pdf_page_ar": 22,
+    "printed_page_ar": 181,
+    "pdf_page_fr": 23,
+    "printed_page_fr": 182,
+    "completeness": "complete",
+    "status": "needs_review"
+  },
+  {
+    "dialogue_uid": "tapiero-p04-dialogueiv",
+    "numeral": "IV",
+    "title_fr": "La préformation",
+    "pdf_page_ar": 23,
+    "printed_page_ar": 183,
+    "pdf_page_fr": 24,
+    "printed_page_fr": 184,
+    "completeness": "complete",
+    "status": "needs_review"
+  },
+  {
+    "dialogue_uid": "tapiero-p04-dialoguev",
+    "numeral": "V",
+    "title_fr": "L’alphabétisation",
+    "pdf_page_ar": 24,
+    "printed_page_ar": 185,
+    "pdf_page_fr": 25,
+    "printed_page_fr": 186,
+    "completeness": "complete",
+    "status": "needs_review"
+  },
+  {
+    "dialogue_uid": "tapiero-p04-dialoguevi",
+    "numeral": "VI",
+    "title_fr": "La sécurité sociale",
+    "pdf_page_ar": 25,
+    "printed_page_ar": 187,
+    "pdf_page_fr": null,
+    "printed_page_fr": null,
+    "completeness": "partial",
+    "status": "needs_review"
+  }
+]

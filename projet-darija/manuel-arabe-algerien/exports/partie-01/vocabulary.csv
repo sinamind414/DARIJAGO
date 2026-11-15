@@ -1,0 +1,272 @@
+entry_uid,lesson_no,form_latin,form_ar,pos,gender,plural,root,gloss_fr,example_latin,example_fr,pdf_page,printed_page,side,paragraph_ref,status,notes
+tapiero-p01-l01-kt-b-001,1,ktâb,,nom,,ktüb,ktb,livre,,,7,3,R,5,needs_review,
+tapiero-p01-l01-weld-002,1,weld,,nom,,ulâd,,garçon,,,7,3,R,5,needs_review,
+tapiero-p01-l01-bent-003,1,bent,,nom,f,,,fille,,,7,3,R,5,needs_review,
+tapiero-p01-l01-r-jel-004,1,râjel,,nom,,,,homme,,,7,3,R,5,needs_review,
+tapiero-p01-l01-mr-005,1,mré,,nom,f,,,femme,,,7,3,R,5,needs_review,
+tapiero-p01-l01-madrasa-006,1,madrasa,,nom,f,,,école,,,7,3,R,5,needs_review,
+tapiero-p01-l01-tr-g-007,1,trêg,,nom,f,,,"route, chemin",,,7,3,R,5,needs_review,
+tapiero-p01-l01-ems-008,1,šems,,nom,f,,,soleil,,,7,3,R,5,needs_review,
+tapiero-p01-l01-all-h-009,1,allâh,,nom,,,,Dieu,,,7,3,R,5,needs_review,
+tapiero-p01-l01-kbir-010,1,kbir,,adj,,,,"grand, âgé",,,7,3,R,5,needs_review,
+tapiero-p01-l01-sg-r-011,1,sgêr,,adj,,,,"petit, jeune",,,7,3,R,5,needs_review,
+tapiero-p01-l01-s-ken-012,1,sâken,,participe,,sâknîn,skn,"habitant, domicilié",,,7,3,R,5,needs_review,
+tapiero-p01-l01-fi-013,1,fi,,préposition,,,,dans (sans mouvement),,,7,3,R,5,needs_review,
+tapiero-p01-l01-sukna-014,1,sukna,,nom,,,,logis,,,7,3,R,5,needs_review,
+tapiero-p01-l01-el-jaz-ir-015,1,el-jazâir,,nom propre,,,,l’Algérie,,,7,3,R,5,needs_review,
+tapiero-p01-l02-mea-016,2,mea,,préposition,,,,avec (qn),,,9,7,R,10,needs_review,
+tapiero-p01-l02-qadd-r-017,2,Qaddûr,,nom propre,,,,Kaddour,,,9,7,R,10,needs_review,
+tapiero-p01-l02-cali-018,2,cali,,nom propre,,,,Ali,,,9,7,R,10,needs_review,
+tapiero-p01-l02-el-s-ma-019,2,el-âséma,,nom,f,,,la capitale,,,9,7,R,10,needs_review,
+tapiero-p01-l02-eabd-all-h-020,2,eabd-allâh,,nom propre,,,,Abdallah,,,9,7,R,10,needs_review,
+tapiero-p01-l02-f-t-ma-021,2,Fâtéma,,nom propre,f,,,Fatma,,,9,7,R,10,needs_review,
+tapiero-p01-l02-gedra-022,2,gedra,,nom,f,,,marmite,,,9,7,R,10,needs_review,
+tapiero-p01-l02-hodra-023,2,hodra,,nom collectif,,,,légumes verts,,,9,7,R,10,needs_review,
+tapiero-p01-l02-lham-024,2,lham,,nom,,,,viande,,,9,7,R,10,needs_review,
+tapiero-p01-l02-haws-025,2,haws,,nom,,,,cour,,,9,7,R,10,needs_review,
+tapiero-p01-l03-arr-026,3,šarr,,nom,,,,mal,,,10,9,R,13bis,needs_review,
+tapiero-p01-l03-akbar-027,3,akbar,,adj,,,,(le) plus grand,,,10,9,R,13bis,needs_review,
+tapiero-p01-l03-jam-l-028,3,jamâl,,nom,,,,beauté,,,10,9,R,13bis,needs_review,
+tapiero-p01-l03-b-b-029,3,bâb,,nom,,,,porte,,,10,9,R,13bis,needs_review,
+tapiero-p01-l03-r-s-030,3,râs,,nom,,,,tête,,,10,9,R,13bis,needs_review,
+tapiero-p01-l03-jmil-031,3,jmil,,adj,,,,"joli, beau",,,10,9,R,13bis,needs_review,
+tapiero-p01-l03-g-sed-032,3,gâsed,,participe,,gâedîn,gced,assis,,,10,9,R,13bis,needs_review,féminin gâeda
+tapiero-p01-l03-hayma-033,3,hayma,,nom,f,,,tente,,,10,9,R,13bis,needs_review,
+tapiero-p01-l03-tabb-h-034,3,tabbâh,,nom,,,,"cuisinier, restaurateur",,,10,9,R,13,needs_review,
+tapiero-p01-l03-fell-h-035,3,fellâh,,nom,,,,cultivateur,,,10,9,R,13,needs_review,
+tapiero-p01-l04-d-r-036,4,dâr,,nom,f,dûr,,maison,,,12,12,L,17bis,needs_review,
+tapiero-p01-l04-h-l-037,4,hâl,,nom,,,,"état, situation, temps",,,12,12,L,17bis,needs_review,
+tapiero-p01-l04-mr-d-038,4,mréd,,adj,,,,malade,,,12,12,L,17bis,needs_review,
+tapiero-p01-l04-sayyed-039,4,sayyed,,nom,,,,monsieur,,,12,12,L,17bis,needs_review,
+tapiero-p01-l04-s-g-040,4,sôg,,nom,,,,"marché, rue marchande",,,12,12,L,17bis,needs_review,
+tapiero-p01-l04-duw-r-041,4,duwâr,,nom,,,,"douar, groupe de tentes",,,12,12,L,17bis,needs_review,
+tapiero-p01-l04-y-042,4,yâ,,particule,,,,ô… (vocatif),,,12,12,L,17bis,needs_review,
+tapiero-p01-l04-l-b-s-043,4,lâ-bâs,,expression,,,,"pas mal, bien",,,12,12,L,17bis,needs_review,
+tapiero-p01-l04-uya-044,4,šuya,,adverbe,,,,un peu,,,12,12,L,17bis,needs_review,
+tapiero-p01-l04-b-es-sahh-045,4,b-es-sahh,,expression,,,,"mais, cependant",,,12,12,L,17bis,needs_review,
+tapiero-p01-l04-mea-na-046,4,mea-na,,expression,,,,avec nous,,,12,12,L,17bis,needs_review,
+tapiero-p01-l04-l-047,4,l-,,préposition,,,,à (avec mouvement),,,12,12,L,17bis,needs_review,
+tapiero-p01-l04-b-048,4,b-,,préposition,,,,"avec (qch.), moyen de",,,12,12,L,17bis,needs_review,
+tapiero-p01-l04-ela-049,4,ela,,préposition,,,,sur,,,12,12,L,17bis,needs_review,
+tapiero-p01-l04-b-h-r-050,4,b-hér,,expression,,,,bien,râni b-hér,je vais bien,11,11,R,17,needs_review,
+tapiero-p01-l04-el-hamdu-ll-h-051,4,el-hamdu-llâh,,expression,,,,Dieu soit loué,,,11,11,R,17,needs_review,
+tapiero-p01-l04-tb-rak-all-h-052,4,tbârak-allâh,,expression,,,,Dieu soit béni,,,11,11,R,17,needs_review,
+tapiero-p01-l04-u-ela-h-r-053,4,u-ela-hér,,expression,,,,parfaitement bien,,,11,11,R,17,needs_review,
+tapiero-p01-l04-ja-054,4,ja,,verbe,,,ja,il est venu,,,11,11,R,17,needs_review,accompli 3e m. sg.
+tapiero-p01-l04-a-k-n-055,4,aškûn,,interrogatif,,,,qui ? qui est-ce ?,,,12,13,R,18,needs_review,
+tapiero-p01-l04-w-056,4,wâš,,interrogatif,,,,quoi ? que ? est-ce que ?,,,12,13,R,18,needs_review,
+tapiero-p01-l04-k-f-057,4,kéf,,interrogatif,,,,comment ?,,,12,13,R,18,needs_review,
+tapiero-p01-l04-w-n-058,4,wén,,interrogatif,,,,où ?,,,12,13,R,18,needs_review,
+tapiero-p01-l04-weqta-059,4,weqtaš,,interrogatif,,,,quand ?,,,12,13,R,18,needs_review,
+tapiero-p01-l04-ela-060,4,elaš,,interrogatif,,,,pourquoi ?,,,12,13,R,18,needs_review,
+tapiero-p01-l04-h-l-061,4,šhâl,,interrogatif,,,,combien ?,,,12,13,R,18,needs_review,
+tapiero-p01-l04-mnayn-062,4,mnayn,,interrogatif,,,,d’où ?,,,12,13,R,18,needs_review,
+tapiero-p01-l05-wast-063,5,wast,,nom,,,,"centre, milieu",,,14,16,L,22,needs_review,
+tapiero-p01-l05-bl-d-064,5,blâd,,nom,,,,"ville, village, terre, pays",,,14,16,L,22,needs_review,
+tapiero-p01-l05-earbi-065,5,earbi,,adj,,,,arabe,,,14,16,L,22,needs_review,
+tapiero-p01-l05-h-rej-066,5,hârej,,nom,,,,"banlieue, périphérie",,,14,16,L,22,needs_review,
+tapiero-p01-l05-zayy-067,5,zayy,,nom,,,,"style, mode, type",,,14,16,L,22,needs_review,
+tapiero-p01-l05-k-mel-068,5,kâmel,,participe/adj,,,,"entier, total",,,14,16,L,22,needs_review,
+tapiero-p01-l05-k-n-n-069,5,kânûn,,nom,,,,fourneau en terre cuite,,,14,16,L,22,needs_review,
+tapiero-p01-l05-frans-wi-070,5,fransâwi,,adj,,,,français,,,14,16,L,22,needs_review,
+tapiero-p01-l05-m-071,5,mâ,,nom,m,,,eau,,,14,16,L,22,needs_review,
+tapiero-p01-l05-ke-k-s-072,5,keškâs,,nom,,,,passoire d’alfa,,,14,16,L,22,needs_review,
+tapiero-p01-l05-te-m-meft-l-073,5,teâm meftûl,,nom,,,,couscous roulé,,,14,16,L,22,needs_review,
+tapiero-p01-l05-zerb-ya-074,5,zerbîya,,nom,f,,,tapis,,,14,16,L,22,needs_review,
+tapiero-p01-l05-halfa-075,5,halfa,,nom,,,,alfa,,,14,16,L,22,needs_review,
+tapiero-p01-l05-g-eda-076,5,gâeda,,participe/adj,f,,,assise (f.),,,14,16,L,22,needs_review,
+tapiero-p01-l05-b-t-077,5,bît,,nom,,byât,,"chambre, pièce",,,14,16,L,22,needs_review,
+tapiero-p01-l05-s-f-078,5,sôf,,nom,,,,laine,,,14,16,L,22,needs_review,
+tapiero-p01-l05-hs-ra-079,5,hsêra,,nom,f,,,natte,,,14,16,L,22,needs_review,
+tapiero-p01-l05-hz-na-080,5,hzâna,,nom,f,,,"armoire, bahut",,,14,16,L,22,needs_review,
+tapiero-p01-l05-ma-i-081,5,ma-ši,,négation,,,,non pas (négation),,,14,16,L,22,needs_review,
+tapiero-p01-l05-gudd-m-082,5,guddâm,,préposition,,,,devant,,,14,16,L,22,needs_review,
+tapiero-p01-l05-mt-e-083,5,mtâe,,préposition,,,,à/de (possession) ; en/de (matière),,,14,16,L,22,needs_review,
+tapiero-p01-l05-dy-l-084,5,dyâl,,préposition,,,,à/de (possession) ; en/de (matière),,,14,16,L,22,needs_review,
+tapiero-p01-l05-eand-085,5,eand,,préposition,,,,"chez, à ; avoir (possession)",eand-i dâr,j’ai une maison,14,17,R,26,needs_review,
+tapiero-p01-l05-b-086,5,bû,,nom,,,,père,,,13,15,R,22,needs_review,bû-ya = mon père
+tapiero-p01-l05-yemm-087,5,yemm,,nom,f,,,mère,,,13,15,R,22,needs_review,yemm-à / imm-à = ma mère
+tapiero-p01-l05-h-088,5,hô,,nom,,,,frère,,,13,15,R,22,needs_review,hô-ya = mon frère
+tapiero-p01-l05-qa-089,5,qaÿš,,nom,,,,"affaires, objets divers",,,13,15,R,22,needs_review,
+tapiero-p01-l06-d-f-090,6,dêf,,nom,,dyûf,,invité,,,16,20,L,28,needs_review,
+tapiero-p01-l06-y-m-091,6,yôm,,nom,,ayyâm,,jour,,,16,20,L,28,needs_review,
+tapiero-p01-l06-camm-092,6,camm,,nom,,,,oncle paternel,,,16,20,L,28,needs_review,
+tapiero-p01-l06-mdina-093,6,mdina,,nom,f,,,"ville, village, bourg",,,16,20,L,28,needs_review,mdinat- en annexion
+tapiero-p01-l06-sayy-ra-094,6,sayyâra,,nom,f,,,automobile,,,16,20,L,28,needs_review,
+tapiero-p01-l06-sb-h-095,6,sbâh,,nom,,,,"matin, matinée",,,16,20,L,28,needs_review,
+tapiero-p01-l06-la-crab-096,6,la-crab,,nom collectif,,,,les Arabes,,,16,20,L,28,needs_review,
+tapiero-p01-l06-ml-h-097,6,mlêh,,adj,,,,"bon, brave",,,16,20,L,28,needs_review,
+tapiero-p01-l06-galb-098,6,galb,,nom,,,,cœur,,,16,20,L,28,needs_review,
+tapiero-p01-l06-krim-099,6,krim,,adj,,,,généreux,,,16,20,L,28,needs_review,
+tapiero-p01-l06-f-kya-100,6,fâkya,,nom collectif,,,,fruits,,,16,20,L,28,needs_review,
+tapiero-p01-l06-keb-101,6,kebš,,nom,,,,mouton,,,16,20,L,28,needs_review,
+tapiero-p01-l06-me-wi-102,6,mešwi,,adj/nom,,,,grillé ; mouton en broche,,,16,20,L,28,needs_review,
+tapiero-p01-l06-farh-n-103,6,farhân,,adj,,,,"content, heureux",,,16,20,L,28,needs_review,
+tapiero-p01-l06-usal-104,6,usal,,verbe,,,,il est arrivé,,,16,20,L,28,needs_review,
+tapiero-p01-l06-hrej-105,6,hrej,,verbe,,,,il est sorti,,,16,20,L,28,needs_review,
+tapiero-p01-l06-dbah-106,6,dbah,,verbe,,,,il a égorgé,,,16,20,L,28,needs_review,
+tapiero-p01-l06-sleh-107,6,sleh,,verbe,,,,il a dépecé,,,16,20,L,28,needs_review,
+tapiero-p01-l06-snaz-108,6,snaz,,verbe,,,,il a fait cuire,,,16,20,L,28,needs_review,
+tapiero-p01-l06-t-ni-109,6,tâni,,adverbe,,,,"aussi, également",,,16,20,L,28,needs_review,
+tapiero-p01-l06-y-ser-110,6,yâser,,adverbe,,,,beaucoup,,,16,20,L,28,needs_review,
+tapiero-p01-l06-ela-h-tar-111,6,ela-hâtar,,expression,,,,parce que,,,16,20,L,28,needs_review,
+tapiero-p01-l06-j-b-112,6,jâb,,verbe,,,,il a apporté,,,15,19,R,28,needs_review,ja + b
+tapiero-p01-l07-awwel-113,7,awwel,,adj ordinal,,,,premier,,,17,23,R,32,needs_review,
+tapiero-p01-l07-har-114,7,šhar,,nom,,šhûr,,mois,,,17,23,R,32,needs_review,
+tapiero-p01-l07-wejh-115,7,wejh,,nom,,,,"figure, visage",,,17,23,R,32,needs_review,
+tapiero-p01-l07-s-b-n-116,7,sâbûn,,nom,,,,savon,,,17,23,R,32,needs_review,"emprunt français, entre crochets dans le livre"
+tapiero-p01-l07-gahwa-117,7,gahwa,,nom,f,,,café,,,17,23,R,32,needs_review,
+tapiero-p01-l07-kt-ba-118,7,ktâba,,nom,f,,,écriture,,,17,23,R,32,needs_review,
+tapiero-p01-l07-kurr-s-119,7,kurrâs,,nom,,,,"cahier, registre",,,17,23,R,32,needs_review,"emprunt français, entre crochets dans le livre"
+tapiero-p01-l07-cotla-120,7,cotla,,nom,f,,,"vacances, congé",,,17,23,R,32,needs_review,
+tapiero-p01-l07-es-s-f-121,7,es-sêf,,nom,,,,l’été,,,17,23,R,32,needs_review,
+tapiero-p01-l07-sayyidat-i-122,7,sayyidat-i,,nom,f,,,madame,,,17,23,R,32,needs_review,
+tapiero-p01-l07-dhel-123,7,dhel,,verbe,,,,il est entré,,,17,23,R,32,needs_review,
+tapiero-p01-l07-lga-124,7,lga,,verbe,,,,il a rencontré,,,17,23,R,32,needs_review,
+tapiero-p01-l07-n-d-125,7,nâd,,verbe,,,,il s’est levé,,,17,23,R,32,needs_review,
+tapiero-p01-l07-g-l-126,7,gâl,,verbe,,,,il a dit ; dire,,,17,23,R,32,needs_review,inaccompli igûl (leçon 9)
+tapiero-p01-l07-sel-127,7,ésel,,verbe,,,,il a lavé,,,17,23,R,32,needs_review,
+tapiero-p01-l07-rab-128,7,šrab,,verbe,,,,il a bu,,,17,23,R,32,needs_review,
+tapiero-p01-l07-hdemt-129,7,hdemt,,verbe,,,,j’ai travaillé,,,17,23,R,32,needs_review,
+tapiero-p01-l07-cammart-130,7,cammart,,verbe,,,,j’ai rempli,,,17,23,R,32,needs_review,
+tapiero-p01-l07-emelt-131,7,emelt,,verbe,,,,j’ai fait,,,17,23,R,32,needs_review,
+tapiero-p01-l07-cajbet-ni-132,7,cajbet-ni,,verbe,,,,elle m’a plu,,,17,23,R,32,needs_review,
+tapiero-p01-l07-bekri-133,7,bekri,,adverbe,,,,de bonne heure,,,17,23,R,32,needs_review,
+tapiero-p01-l07-men-134,7,men,,préposition,,,,"de, en provenance de",,,17,23,R,32,needs_review,
+tapiero-p01-l07-lamma-135,7,lamma,,conjonction,,,,"lorsque, quand",,,17,23,R,32,needs_review,synonyme mnin (leçon 10)
+tapiero-p01-l07-b-ez-z-f-136,7,b-ez-zâf,,expression,,,,"beaucoup, énormément",,,17,23,R,32,needs_review,
+tapiero-p01-l07-b-r-h-i-137,7,b-râh-i,,expression,,,,"de moi, avec ma personne",,,17,23,R,32,needs_review,
+tapiero-p01-l07-men-baed-138,7,men-baed,,expression,,,,"ensuite, puis",,,17,23,R,32,needs_review,
+tapiero-p01-l07-jmie-139,7,jmie,,adverbe,,,,ensemble,,,17,23,R,32,needs_review,
+tapiero-p01-l07-hetta-ay-140,7,hetta-šay,,expression,,,,la moindre chose,,,17,23,R,32,needs_review,
+tapiero-p01-l07-sb-h-el-h-r-141,7,sbâh el-hér,,expression,,,,bonjour,,,17,22,L,32,needs_review,
+tapiero-p01-l08-s-heb-142,8,sâheb,,nom,,shâb,,"camarade, ami",,,19,27,R,38,needs_review,
+tapiero-p01-l08-tfal-143,8,tfal,,nom,,,,"enfant, garçonnet, jeune homme",,,19,27,R,38,needs_review,
+tapiero-p01-l08-m-la-144,8,môla-,,nom,,,,propriétaire de,,,19,27,R,38,needs_review,"môl-, mô- ; féminin môlat"
+tapiero-p01-l08-s-ha-145,8,sâha,,nom,f,,,"cour, place",,,19,27,R,38,needs_review,
+tapiero-p01-l08-le-hs-b-146,8,le-hsâb,,nom,,,,le calcul,,,19,27,R,38,needs_review,
+tapiero-p01-l08-q-eat-ed-dars-147,8,qâeat-ed-dars,,nom,f,,,salle de classe,,,19,27,R,38,needs_review,
+tapiero-p01-l08-et-temrin-148,8,et-temrin,,nom,,,,devoir,,,19,26,L,38,needs_review,OCR partiel ; forme attestée dans le texte
+tapiero-p01-l08-sahl-149,8,sahl,,adj,,,,facile,,,19,27,R,38,needs_review,
+tapiero-p01-l08-se-b-150,8,seâb,,adj,,,,difficile,,,19,27,R,38,needs_review,
+tapiero-p01-l08-dars-151,8,dars,,nom,,,,"leçon, cours",,,19,27,R,38,needs_review,
+tapiero-p01-l08-el-musallim-152,8,el-musallim,,nom,,,,"le maître, l’enseignant, le professeur",,,19,27,R,38,needs_review,
+tapiero-p01-l08-emel-153,8,emel,,verbe,,,,"faire, travailler",,,19,27,R,38,needs_review,
+tapiero-p01-l08-ujed-154,8,ujed,,verbe,,,,trouver,,,19,26,L,38,needs_review,OCR partiel ; forme attestée dans le texte
+tapiero-p01-l08-leab-155,8,leab,,verbe,,,,"jouer, s’amuser",,,19,27,R,38,needs_review,
+tapiero-p01-l08-teallem-156,8,teallem,,verbe,,,,"apprendre, étudier",,,19,27,R,38,needs_review,
+tapiero-p01-l08-hfad-157,8,hfad,,verbe,,,,"apprendre par cœur, conserver, protéger",,,19,27,R,38,needs_review,
+tapiero-p01-l08-thseb-158,8,thseb,,verbe,,,,il compte,,,19,27,R,38,needs_review,verbe hsâb à l’inaccompli
+tapiero-p01-l08-l-ken-159,8,lâ-ken,,conjonction,,,,mais,,,20,28,L,38,needs_review,
+tapiero-p01-l08-h-kda-160,8,hâkda,,adverbe,,,,"ainsi, de cette façon",,,20,28,L,38,needs_review,
+tapiero-p01-l08-el-b-reh-161,8,el-bâreh,,adverbe,,,,"la veille, hier",,,20,28,L,38,needs_review,
+tapiero-p01-l08-h-r-men-162,8,hér-men,,expression,,,,"mieux que, plus que",,,20,28,L,38,needs_review,
+tapiero-p01-l08-h-163,8,hâ-,,particule,,,,voici (suivi d’un pronom isolé de 3e pers.),,,20,28,L,38,needs_review,
+tapiero-p01-l08-sna-164,8,sna,,nom,f,,snîn,année,,,,19,26,L,needs_review,38
+tapiero-p01-l08-eam-165,8,eam,,nom,,,,"an, année",,,19,26,L,38,needs_review,
+tapiero-p01-l09-caziz-166,9,caziz,,adj,,,,"cher, chéri",,,22,32,L,44,needs_review,
+tapiero-p01-l09-matr-ha-167,9,matrûha,,participe,f,,,"versée, renversée",,,22,32,L,44,needs_review,
+tapiero-p01-l09-ard-168,9,ard,,nom,f,,,terre,,,22,32,L,44,needs_review,
+tapiero-p01-l09-felfel-169,9,felfel,,nom collectif,m,,,poivrons,,,22,32,L,44,needs_review,
+tapiero-p01-l09-h-n-170,9,hšîn,,adj,,,,"gros, grossier",,,22,32,L,44,needs_review,
+tapiero-p01-l09-el-b-yec-171,9,el-bâyec,,nom,,,,le vendeur,,,22,32,L,44,needs_review,variante bâis
+tapiero-p01-l09-el-goffa-172,9,el-goffa,,nom,,,,le couffin,,,22,32,L,44,needs_review,
+tapiero-p01-l09-es-sl-ma-173,9,es-slâma,,nom,,,,"la paix, le salut",,,22,32,L,44,needs_review,
+tapiero-p01-l09-dhab-174,9,dhab,,verbe,,,,"aller, s’en aller, partir",,,22,32,L,44,needs_review,inaccompli yedhab
+tapiero-p01-l09-r-h-175,9,râh,,verbe,,,,"s’en aller, partir",,,22,32,L,44,needs_review,inaccompli irûh ; homonyme de râh « il est » (leçon 4)
+tapiero-p01-l09-ra-176,9,šra,,verbe,,,,acheter,,,22,32,L,44,needs_review,inaccompli išri
+tapiero-p01-l09-nzar-177,9,nzar,,verbe,,,,"regarder, examiner",,,22,32,L,44,needs_review,inaccompli yanzor
+tapiero-p01-l09-bda-178,9,bda,,verbe,,,,commencer,,,22,32,L,44,needs_review,inaccompli ibda
+tapiero-p01-l09-hemmem-179,9,hemmem,,verbe,,,,"penser, réfléchir",,,22,32,L,44,needs_review,inaccompli ihemmem
+tapiero-p01-l09-hallas-180,9,hallas,,verbe,,,,"payer, régler",,,22,32,L,44,needs_review,inaccompli ihallas
+tapiero-p01-l09-uzen-181,9,uzen,,verbe,,,,"peser, mesurer",,,22,32,L,44,needs_review,inaccompli yuzen
+tapiero-p01-l09-tr-h-182,9,trâh,,verbe,,,,verser,,,22,32,L,44,needs_review,inaccompli itrâh
+tapiero-p01-l09-eraf-183,9,eraf,,verbe,,,,connaître,,,22,32,L,44,needs_review,inaccompli yacraf
+tapiero-p01-l09-gder-184,9,gder,,verbe,,,,pouvoir,,,22,32,L,44,needs_review,inaccompli igder
+tapiero-p01-l09-rjas-185,9,rjas,,verbe,,,,revenir,,,22,32,L,44,needs_review,inaccompli irjas
+tapiero-p01-l09-y-l-h-186,9,yâ-[lâh,,expression,,,,allons ! courage !,,,22,32,L,44,needs_review,
+tapiero-p01-l09-ma-d-biya-187,9,ma-dâbiya,,expression,,,,"je veux bien, il me plaît de",,,22,32,L,44,needs_review,
+tapiero-p01-l09-gedwa-188,9,gedwa,,adverbe,,,,demain,,,22,32,L,44,needs_review,variante gda
+tapiero-p01-l09-kilu-189,9,kilu,,nom,,,,kilo,,,21,31,L,44,needs_review,
+tapiero-p01-l09-d-ro-190,9,dôro,,nom,,,,douro (ancienne unité monétaire),,,21,31,L,44,needs_review,valeur historique : 5 centimes
+tapiero-p01-l09-dr-hem-191,9,drâhem,,nom,,,,argent,,,22,33,R,46,needs_review,OCR partiel ; à confirmer
+tapiero-p01-l09-sahha-192,9,sahha,,expression,,,,"bon, bien, d’accord",,,21,31,R,44,needs_review,variante sahét
+tapiero-p01-l10-el-ms-d-193,10,el-msîd,,nom,,,,l’école coranique,,,24,36,L,49,needs_review,
+tapiero-p01-l10-yedd-194,10,yedd,,nom,f,,,main,,,24,36,L,49,needs_review,
+tapiero-p01-l10-el-jeld-195,10,el-jeld,,nom,,,,le cuir,,,24,36,L,49,needs_review,
+tapiero-p01-l10-ed-dheb-196,10,ed-dheb,,nom,,,,l’or,,,24,36,L,49,needs_review,
+tapiero-p01-l10-es-s-h-197,10,es-Sêh,,nom,,,,"le maître religieux, le vieillard",,,24,36,L,49,needs_review,
+tapiero-p01-l10-ay-t-el-qor-n-198,10,ayât-el-qorân,,nom,,,,les versets du Coran,,,24,36,L,49,needs_review,
+tapiero-p01-l10-l-ha-199,10,lôha,,nom,f,,,planche,,,24,36,L,49,needs_review,
+tapiero-p01-l10-en-n-s-200,10,en-nâs,,nom collectif,,,,"les gens, le public",,,24,36,L,49,needs_review,
+tapiero-p01-l10-bal-201,10,balâ,,nom,,,,"mal, malheur",,,24,36,L,49,needs_review,
+tapiero-p01-l10-d-heb-202,10,dâheb,,participe actif,,,,allant,,,24,36,L,49,needs_review,
+tapiero-p01-l10-mabr-k-203,10,mabrûk,,participe passif,,,brk,béni,,,24,36,L,49,needs_review,
+tapiero-p01-l10-mseffer-204,10,mseffer,,participe passif,,,,relié,,,24,36,L,49,needs_review,
+tapiero-p01-l10-mzewweg-205,10,mzewweg,,participe passif,,,,"décoré, orné",,,24,36,L,49,needs_review,
+tapiero-p01-l10-mrabbae-206,10,mrabbae,,participe passif,,,,"assis, les jambes croisées",,,24,36,L,49,needs_review,
+tapiero-p01-l10-er-da-207,10,erîda,,adj,f,,,large (f.),,,24,36,L,49,needs_review,
+tapiero-p01-l10-d-yrin-bi-h-208,10,dâyrin bi-h,,participe actif,,,,l’entourant (pl.),,,24,36,L,49,needs_review,
+tapiero-p01-l10-e-lem-209,10,eâlem,,participe actif,,,elm,savant,,,24,36,L,49,needs_review,
+tapiero-p01-l10-msellmin-elih-210,10,msellmin elih,,participe actif,,,,le saluant,,,24,36,L,49,needs_review,
+tapiero-p01-l10-karim-211,10,karim,,adj,,,,"généreux, noble",,,24,36,L,49,needs_review,
+tapiero-p01-l10-mekt-b-212,10,mektûb,,participe passif,,,ktb,écrit,,,24,36,L,49,needs_review,
+tapiero-p01-l10-mahf-d-213,10,mahfûd,,participe passif,,,hfd,"protégé, su par cœur",,,24,36,L,49,needs_review,
+tapiero-p01-l10-h-fed-214,10,hâfed,,participe actif,,,hfd,"protégeant, sachant par cœur",,,24,36,L,49,needs_review,
+tapiero-p01-l10-ela-s-sebea-215,10,ela-s-sebea,,expression,,,,à sept heures,,,24,36,L,49,needs_review,
+tapiero-p01-l10-wella-216,10,wella,,conjonction,,,,"ou, ou bien",,,24,36,L,49,needs_review,
+tapiero-p01-l10-b-et-tagrib-217,10,b-et-tagrib,,expression,,,,"environ, avec approximation",,,24,36,L,49,needs_review,
+tapiero-p01-l10-el-kull-218,10,el-kull,,expression,,,,"le tout, en totalité",,,24,36,L,49,needs_review,
+tapiero-p01-l10-gr-b-219,10,grêb,,adverbe,,,,"bientôt, proche",,,24,36,L,49,needs_review,
+tapiero-p01-l10-kull-220,10,kull-,,déterminant,,,,"tout, chaque",,,24,36,L,49,needs_review,
+tapiero-p01-l10-kull-w-hed-221,10,kull-wâhed,,expression,,,,chacun,,,23,35,R,49,needs_review,
+tapiero-p01-l10-kull-w-hda-222,10,kull-wâhda,,expression,,,,chacune,,,23,35,R,49,needs_review,
+tapiero-p01-l08-w-hed-223,8,wâhed,,numéral,,,,un,,,20,29,R,42,needs_review,état construit : wâhd-el-
+tapiero-p01-l08-w-hda-224,8,wâhda,,numéral,,,,une,,,20,29,R,42,needs_review,état construit : wâhd-el-
+tapiero-p01-l08-z-j-225,8,zûj,,numéral,,,,deux,,,20,29,R,42,needs_review,état construit : zûj-
+tapiero-p01-l08-tl-ta-226,8,tlâta,,numéral,,,,trois,,,20,29,R,42,needs_review,état construit : telt-
+tapiero-p01-l08-rabea-227,8,rabea,,numéral,,,,quatre,,,20,29,R,42,needs_review,état construit : rabe-
+tapiero-p01-l08-hemsa-228,8,hemsa,,numéral,,,,cinq,,,20,29,R,42,needs_review,état construit : hems-
+tapiero-p01-l09-setta-229,9,setta,,numéral,,,,six,,,23,34,L,47,needs_review,état construit : sett-
+tapiero-p01-l09-sebea-230,9,sebea,,numéral,,,,sept,,,23,34,L,47,needs_review,état construit : sebe-
+tapiero-p01-l09-tm-nya-231,9,tmânya,,numéral,,,,huit,,,23,34,L,47,needs_review,état construit : tmân-
+tapiero-p01-l09-tesca-232,9,tesca,,numéral,,,,neuf,,,23,34,L,47,needs_review,état construit : tesc-
+tapiero-p01-l09-ea-ra-233,9,eašra,,numéral,,,,dix,,,23,34,L,47,needs_review,état construit : eašr-
+tapiero-p01-l09-el-h-d-234,9,el-hâd,,nom,,,,dimanche,,,23,34,L,47,needs_review,jour de la semaine ; peut être précédé de nhâr ou yôm
+tapiero-p01-l09-le-tnin-235,9,le-tnin,,nom,,,,lundi,,,23,34,L,47,needs_review,jour de la semaine ; peut être précédé de nhâr ou yôm
+tapiero-p01-l09-et-tl-ta-236,9,et-tlâta,,nom,,,,mardi,,,23,34,L,47,needs_review,jour de la semaine ; peut être précédé de nhâr ou yôm
+tapiero-p01-l09-la-rbae-237,9,la-rbae,,nom,,,,mercredi,,,23,34,L,47,needs_review,jour de la semaine ; peut être précédé de nhâr ou yôm
+tapiero-p01-l09-le-hmis-238,9,le-hmis,,nom,,,,jeudi,,,23,34,L,47,needs_review,jour de la semaine ; peut être précédé de nhâr ou yôm
+tapiero-p01-l09-el-jemca-239,9,el-jemca,,nom,,,,vendredi,,,23,34,L,47,needs_review,jour de la semaine ; peut être précédé de nhâr ou yôm
+tapiero-p01-l09-es-sebt-240,9,es-sebt,,nom,,,,samedi,,,23,34,L,47,needs_review,jour de la semaine ; peut être précédé de nhâr ou yôm
+tapiero-p01-l03-h-da-241,3,hâda,,démonstratif,,,,"celui-ci, ceci",,,11,10,L,15,needs_review,éloignement : hâdak
+tapiero-p01-l03-h-di-242,3,hâdi,,démonstratif,,,,celle-ci,,,11,10,L,15,needs_review,éloignement : hâdik
+tapiero-p01-l03-h-du-243,3,hâdu,,démonstratif,,,,"ceux-ci, celles-ci",,,11,10,L,15,needs_review,éloignement : hâduk
+tapiero-p01-l03-h-dak-244,3,hâdak,,démonstratif,,,,"celui-là, cela",,,11,10,L,15,needs_review,
+tapiero-p01-l03-h-dik-245,3,hâdik,,démonstratif,,,,celle-là,,,11,10,L,15,needs_review,
+tapiero-p01-l03-h-duk-246,3,hâduk,,démonstratif,,,,"ceux-là, celles-là",,,11,10,L,15,needs_review,
+tapiero-p01-l03-h-d-el-247,3,hâd-el-,,démonstratif,,,,ce/cette…-ci (devant nom avec article),,,11,10,L,15,needs_review,
+tapiero-p01-l04-r-ni-248,4,râni,,mot verbal être présent,,,râ,je suis,,,13,14,L,20bis,needs_review,
+tapiero-p01-l04-r-k-249,4,râk,,mot verbal être présent,,,râ,tu es (m.),,,13,14,L,20bis,needs_review,
+tapiero-p01-l04-r-ki-250,4,râki,,mot verbal être présent,,,râ,tu es (f.),,,13,14,L,20bis,needs_review,
+tapiero-p01-l04-r-h-251,4,râh,,mot verbal être présent,,,râ,il est,,,13,14,L,20bis,needs_review,
+tapiero-p01-l04-r-ha-252,4,râha,,mot verbal être présent,,,râ,elle est,,,13,14,L,20bis,needs_review,
+tapiero-p01-l04-r-na-253,4,râna,,mot verbal être présent,,,râ,nous sommes,,,13,14,L,20bis,needs_review,
+tapiero-p01-l04-r-kum-254,4,râkum,,mot verbal être présent,,,râ,vous êtes,,,13,14,L,20bis,needs_review,
+tapiero-p01-l04-r-hum-255,4,râhum,,mot verbal être présent,,,râ,ils/elles sont,,,13,14,L,20bis,needs_review,
+tapiero-p01-l08-ana-256,8,ana,,pronom isolé,,,,je,,,20,28,L,39,needs_review,
+tapiero-p01-l08-enta-257,8,enta,,pronom isolé,,,,tu (m.),,,20,28,L,39,needs_review,
+tapiero-p01-l08-enti-258,8,enti,,pronom isolé,,,,tu (f.),,,20,28,L,39,needs_review,
+tapiero-p01-l08-huwwa-259,8,huwwa,,pronom isolé,,,,il,,,20,28,L,39,needs_review,
+tapiero-p01-l08-hiyya-260,8,hiyya,,pronom isolé,,,,elle,,,20,28,L,39,needs_review,
+tapiero-p01-l08-ahna-261,8,ahna,,pronom isolé,,,,nous,,,20,28,L,39,needs_review,
+tapiero-p01-l08-ntuma-262,8,ntuma,,pronom isolé,,,,vous,,,20,28,L,39,needs_review,
+tapiero-p01-l08-huma-263,8,huma,,pronom isolé,,,,ils/elles,,,20,28,L,39,needs_review,
+tapiero-p01-l05-i-264,5,-i,,pronom suffixe,,,,mon/ma/moi,,,14,17,R,25,needs_review,
+tapiero-p01-l05-k-265,5,-k,,pronom suffixe,,,,ton/ta/toi (m.),,,14,17,R,25,needs_review,
+tapiero-p01-l05-ki-266,5,-ki,,pronom suffixe,,,,ton/ta/toi (f.),,,14,17,R,25,needs_review,
+tapiero-p01-l05-o-267,5,-o,,pronom suffixe,,,,son/sa/lui (m.),,,14,17,R,25,needs_review,
+tapiero-p01-l05-ha-268,5,-ha,,pronom suffixe,,,,son/sa/elle (f.),,,14,17,R,25,needs_review,
+tapiero-p01-l05-na-269,5,-na,,pronom suffixe,,,,notre/nous,,,14,17,R,25,needs_review,
+tapiero-p01-l05-kum-270,5,-kum,,pronom suffixe,,,,votre/vous,,,14,17,R,25,needs_review,
+tapiero-p01-l05-hum-271,5,-hum,,pronom suffixe,,,,leur/eux,,,14,17,R,25,needs_review,

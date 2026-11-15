@@ -1,0 +1,8 @@
+vite.config.ts(6,29): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '() => { plugins: Plugin<any>[][]; resolve: { alias: { '@': string; }; dedupe: string[]; }; optimizeDeps: { include: string[]; }; server: { allowedHosts: boolean; hmr: boolean; watch: {} | null; }; }' is not assignable to parameter of type 'UserConfigExport'.
+      Type '() => { plugins: Plugin<any>[][]; resolve: { alias: { '@': string; }; dedupe: string[]; }; optimizeDeps: { include: string[]; }; server: { allowedHosts: boolean; hmr: boolean; watch: {} | null; }; }' is not assignable to type 'UserConfigFn'.
+        Type '{ plugins: Plugin<any>[][]; resolve: { alias: { '@': string; }; dedupe: string[]; }; optimizeDeps: { include: string[]; }; server: { allowedHosts: boolean; hmr: boolean; watch: {} | null; }; }' is not assignable to type 'Promise<UserConfig> | UserConfig'.
+          Type '{ plugins: Plugin<any>[][]; resolve: { alias: { '@': string; }; dedupe: string[]; }; optimizeDeps: { include: string[]; }; server: { allowedHosts: boolean; hmr: boolean; watch: {} | null; }; }' is not assignable to type 'UserConfig'.
+            The types of 'server.allowedHosts' are incompatible between these types.
+              Type 'boolean' is not assignable to type 'true | string[] | undefined'.

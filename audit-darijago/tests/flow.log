@@ -1,0 +1,102 @@
+{
+  "steps": [
+    {
+      "name": "load autostart",
+      "ok": true,
+      "ms": 1628
+    },
+    {
+      "name": "parcours",
+      "ok": true,
+      "ms": 113
+    },
+    {
+      "name": "conjugation",
+      "ok": true,
+      "ms": 3098
+    },
+    {
+      "name": "quiz",
+      "ok": true,
+      "ms": 125
+    },
+    {
+      "name": "dictionary",
+      "ok": true,
+      "ms": 1704
+    },
+    {
+      "name": "dictation",
+      "ok": true,
+      "ms": 1083
+    },
+    {
+      "name": "profil",
+      "ok": true,
+      "ms": 79
+    },
+    {
+      "name": "reset progress",
+      "ok": true,
+      "ms": 387
+    },
+    {
+      "name": "switch EN",
+      "ok": false,
+      "ms": 30005,
+      "error": "TimeoutError: locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: 'EN', exact: true })\n"
+    },
+    {
+      "name": "mobile load",
+      "ok": true,
+      "ms": 1449
+    }
+  ],
+  "errors": [],
+  "merrors": [],
+  "axeLearn": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "nodes": 12
+    },
+    {
+      "id": "image-redundant-alt",
+      "impact": "minor",
+      "nodes": 1
+    }
+  ],
+  "axeMobile": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "nodes": 12
+    },
+    {
+      "id": "image-redundant-alt",
+      "impact": "minor",
+      "nodes": 1
+    }
+  ],
+  "conjInfo": {
+    "text": "Speak Algeria\nApprendre\nParcours\nQuiz\nProgrès\nProfil\n0 XP\nCommencer\nParcours\n\nSuivez la méthode orale pas à pas : unités guidées, fenêtres culturelles sur l’Algérie et dialogues du quotidien.\n\nDarija (Algérie)\nParcours guidé\nGrammaire & Verbes\nTable de conjugaison\nFenêtre sur l’Algérie\nDialogues loc",
+    "buttons": 199
+  },
+  "dictInfo": {
+    "text": "Speak Algeria\nApprendre\nParcours\nQuiz\nProgrès\nProfil\n0 XP\nCommencer\nQuiz actif\nDictée\nDictionnaire & Verbes (A–Z)\nLexique & Sons 3, 7, 9\n\nBelkassem Ben Sedira (1910) · Volumes 1–10 / 10 · pp. I–LVI, 1–790 (A → Z · Intégralité du livre intégrée)\n\nDictionnaire & Répertoire complet des Verbes\n\nTotalité"
+  },
+  "storage": {
+    "darijago_progress_v1": "{\"xp\":0,\"streak\":1,\"dailyXpGoal\":50,\"masteredIds\":[],\"practicedIds\":[],\"readStoryIds\":[],\"quizzesCompleted\":0,\"bestQuizAccuracy\":0,\"quizStreak\":0,\"bestQuizStreak\":0,\"dialogueTurnsCount\":0,\"xpByDate\":{",
+    "darijago_theme_v1": "light"
+  },
+  "langInfo": {
+    "lang": "fr",
+    "title": "Speak Algeria — Apprendre la darija algérienne"
+  },
+  "mobileInfo": {
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "bottomNav": true,
+    "safeArea": "0px"
+  }
+}

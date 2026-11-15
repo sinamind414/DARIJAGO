@@ -1,0 +1,608 @@
+[
+  {
+    "rule_uid": "tapiero-p03-rule-110-les-particules",
+    "lesson_no": 22,
+    "paragraph_ref": "110",
+    "title": "Les particules",
+    "summary_fr": "On appelle particules l’ensemble des mots et expressions invariables : conjonctions, prépositions, adverbes et locutions. Le glossaire en donne le détail ; le tableau présente les catégories principales.",
+    "examples": [
+      {
+        "latin": "tumma",
+        "fr": "ensuite (conjonction)"
+      },
+      {
+        "latin": "fâq-",
+        "fr": "au-dessus de (préposition)"
+      },
+      {
+        "latin": "lhéh",
+        "fr": "là-bas (adverbe)"
+      },
+      {
+        "latin": "b-es-syäsa",
+        "fr": "lentement"
+      },
+      {
+        "latin": "lamma",
+        "fr": "lorsque"
+      },
+      {
+        "latin": "bin-",
+        "fr": "entre"
+      }
+    ],
+    "pdf_page": 2,
+    "printed_page": 92,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-113-l-expression-de-temps",
+    "lesson_no": 23,
+    "paragraph_ref": "113",
+    "title": "L’expression de temps",
+    "summary_fr": "Chaque aspect de la conjugaison a une correspondance dans le temps. L’accompli correspond en général au passé composé ou au passé simple (action achevée), ou à un présent pour un état ressenti.",
+    "examples": [
+      {
+        "latin": "rkbet el-qitâr",
+        "fr": "je suis monté / je montai dans le train"
+      },
+      {
+        "latin": "ana fraht",
+        "fr": "je suis content"
+      },
+      {
+        "latin": "huwwa eṭaš",
+        "fr": "il est altéré"
+      }
+    ],
+    "pdf_page": 3,
+    "printed_page": 95,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-113bis-l-expression-de-temps-fin",
+    "lesson_no": 23,
+    "paragraph_ref": "113bis",
+    "title": "L’expression de temps (fin)",
+    "summary_fr": "L’inaccompli correspond au présent et parfois au futur (action inachevée). Certaines conjonctions (belli, hetta, bâš, ida, lâkân) peuvent être suivies de l’accompli ou de l’inaccompli, à traduire au mode français convenable. L’impératif correspond à un impératif (ordre ou conseil).",
+    "examples": [
+      {
+        "latin": "nerkeb el-bâhira",
+        "fr": "je monte / je monterai sur le bateau"
+      },
+      {
+        "latin": "arkeb w-arwah le-fransâ",
+        "fr": "embarque-toi et viens en France"
+      }
+    ],
+    "pdf_page": 4,
+    "printed_page": 96,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-115-les-temps-compos-s",
+    "lesson_no": 23,
+    "paragraph_ref": "115",
+    "title": "Les temps composés",
+    "summary_fr": "L’ensemble kân, ikûn + un autre verbe forme des temps composés. a) kân à l’accompli + verbe à l’inaccompli = imparfait. Quand deux verbes se suivent (accompli + inaccompli), le second équivaut à un infinitif.",
+    "examples": [
+      {
+        "latin": "kân igûl-li",
+        "fr": "il me disait"
+      },
+      {
+        "latin": "kunt gâced",
+        "fr": "j’étais assis"
+      },
+      {
+        "latin": "bda yanzor li",
+        "fr": "il commença à me regarder"
+      }
+    ],
+    "pdf_page": 4,
+    "printed_page": 96,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-115bis-les-temps-compos-s-fin",
+    "lesson_no": 23,
+    "paragraph_ref": "115bis",
+    "title": "Les temps composés (fin)",
+    "summary_fr": "b) kân accompli + verbe accompli = plus-que-parfait. c) ikûn inaccompli + verbe accompli = futur antérieur. Pour un présent duratif (progressif), on emploie râni, râk… + inaccompli.",
+    "examples": [
+      {
+        "latin": "kân fham-ni",
+        "fr": "il m’avait compris"
+      },
+      {
+        "latin": "zâd jeal",
+        "fr": "il avait mis en plus"
+      },
+      {
+        "latin": "ikûn kteb-li",
+        "fr": "il m’aura écrit"
+      },
+      {
+        "latin": "râh ihdem",
+        "fr": "il travaille (est en train de travailler)"
+      }
+    ],
+    "pdf_page": 4,
+    "printed_page": 97,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-118-les-verbes-conjugaison-particuli-re",
+    "lesson_no": 24,
+    "paragraph_ref": "118",
+    "title": "Les verbes à conjugaison particulière",
+    "summary_fr": "Verbes dont la racine se compose de deux consonnes (ou d’une consonne avec voyelle), plus les racines à deux consonnes dont la 2e est redoublée. On distingue trois sortes selon la place de la voyelle : concave, défectueux, sourd.",
+    "examples": [
+      {
+        "latin": "gâl, igûl",
+        "fr": "dire (concave)"
+      },
+      {
+        "latin": "bda, ibda",
+        "fr": "commencer (défectueux)"
+      },
+      {
+        "latin": "habb, ihabb",
+        "fr": "aimer (sourd)"
+      }
+    ],
+    "pdf_page": 6,
+    "printed_page": 100,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-118bis-les-verbes-conjugaisons-particuli-res-fin",
+    "lesson_no": 24,
+    "paragraph_ref": "118bis",
+    "title": "Les verbes à conjugaisons particulières (fin)",
+    "summary_fr": "Le concave a la voyelle au milieu (bâe, ibîe) ; le défectueux a la voyelle à la fin (mša, imši ; ja, iji) ; le sourd a la 2e consonne redoublée (madd, imadd). Certains verbes à deux consonnes (wsal) se conjuguent comme des verbes à trois consonnes.",
+    "examples": [
+      {
+        "latin": "hâf, ihâf",
+        "fr": "avoir peur (concave)"
+      },
+      {
+        "latin": "eṭâ, yeṭâ",
+        "fr": "donner (défectueux)"
+      },
+      {
+        "latin": "wsal, yusal",
+        "fr": "arriver (conjugaison ordinaire)"
+      }
+    ],
+    "pdf_page": 6,
+    "printed_page": 101,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-120-le-verbe-concave",
+    "lesson_no": 24,
+    "paragraph_ref": "120",
+    "title": "Le verbe concave",
+    "summary_fr": "a) Accompli : aux 1re/2e personnes sing. et pl., la voyelle intérieure devient la voyelle brève correspondant à la voyelle longue de l’inaccompli. b) Inaccompli normal. c) Impératif : voyelle de l’inaccompli mais brève. d) Participe actif : consonne supplémentaire y (râyeh, fâyeh) ; parfois w dans les dérivés (dawwar).",
+    "examples": [
+      {
+        "latin": "gult, gult, gulti, gâl, gâlet ; gulna, gultu, gâlu",
+        "fr": "accompli de gâl"
+      },
+      {
+        "latin": "gul, guli, gulu",
+        "fr": "impératif de gâl"
+      },
+      {
+        "latin": "râyeh",
+        "fr": "allant (participe de râh)"
+      }
+    ],
+    "pdf_page": 7,
+    "printed_page": 102,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-123-le-verbe-d-fectueux",
+    "lesson_no": 25,
+    "paragraph_ref": "123",
+    "title": "Le verbe défectueux",
+    "summary_fr": "a) Accompli : racine avec a final aux 3es personnes ; aux 1re/2e personnes sing. et pl., le a devient i. À la 3e pers. pl., le w suffixé se transforme en consonne (bdaw, mšaw).",
+    "examples": [
+      {
+        "latin": "bdit, bdit, bditi, bda, bdat ; bdina, bditu, bdaw",
+        "fr": "accompli de bda"
+      },
+      {
+        "latin": "mšit, mšit, mšiti, mša, mšat ; mšina, mšitu, mšaw",
+        "fr": "accompli de mša"
+      }
+    ],
+    "pdf_page": 8,
+    "printed_page": 105,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-123bis-le-verbe-d-fectueux-fin",
+    "lesson_no": 25,
+    "paragraph_ref": "123bis",
+    "title": "Le verbe défectueux (fin)",
+    "summary_fr": "b) Inaccompli normal mais : à la 2e pers. f. sing. le suffixe i tombe pour éviter le hiatus (tebdi, temši) ; aux 3es pers. pl. le w se transforme (nebdaw, nemšiw). c) Impératif : mêmes terminaisons (bda, bdi, bdaw). d) Participe actif terminé par i (gâli, zâhi). Nota : kla (yakul) et hda (yahud) sont défectueux à l’accompli mais ordinaires à l’inaccompli.",
+    "examples": [
+      {
+        "latin": "tebdi, temši",
+        "fr": "tu commences / tu vas (f.)"
+      },
+      {
+        "latin": "bda, bdi, bdaw",
+        "fr": "impératif de bda"
+      },
+      {
+        "latin": "gâli",
+        "fr": "cher (participe)"
+      }
+    ],
+    "pdf_page": 10,
+    "printed_page": 106,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-125-le-verbe-sourd",
+    "lesson_no": 25,
+    "paragraph_ref": "125",
+    "title": "Le verbe sourd",
+    "summary_fr": "À l’accompli, les 1re/2e personnes sing. et pl. dédoublent la racine devant le suffixe (terminaisons proches du défectueux). À l’inaccompli et à l’impératif, la racine sourde se présente comme une racine à trois consonnes, la voyelle intérieure se maintenant après la 1re radicale. Les dérivés ont la même particularité.",
+    "examples": [
+      {
+        "latin": "habbit, habbit, habbiti, habb, habbet ; habbina, habbitu, habbu",
+        "fr": "accompli de habb"
+      },
+      {
+        "latin": "nhabb, thabb… nhabbu",
+        "fr": "inaccompli de habb"
+      }
+    ],
+    "pdf_page": 10,
+    "printed_page": 107,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-128-les-verbes-d-riv-s",
+    "lesson_no": 26,
+    "paragraph_ref": "128",
+    "title": "Les verbes dérivés",
+    "summary_fr": "Certaines racines donnent, par addition de consonnes ou voyelles longues, des formes dérivées du verbe primitif (Ire forme). Chaque forme ajoute une nuance. On distingue formes actives et formes réfléchies/passives. Les dérivés se conjuguent comme les verbes ordinaires, sauf ceux issus de défectueux (terminaison a à l’accompli).",
+    "examples": [
+      {
+        "latin": "walla, iwalli",
+        "fr": "revenir, devenir (comme mša)"
+      },
+      {
+        "latin": "teašša, iteašša",
+        "fr": "souper (comme bda)"
+      }
+    ],
+    "pdf_page": 12,
+    "printed_page": 110,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-128bis-les-verbes-d-riv-s-fin",
+    "lesson_no": 26,
+    "paragraph_ref": "128bis",
+    "title": "Les verbes dérivés (fin)",
+    "summary_fr": "Les dérivés ont des participes et noms d’action correspondant à chaque forme. Les participes commencent par m- (me, mu) avec i/é/a avant la consonne finale ; ceux des défectueux se terminent par i/é/a. Les noms d’action sont de plus en plus employés dans le langage moderne.",
+    "examples": [
+      {
+        "latin": "mrabbi",
+        "fr": "élevé (participe)"
+      },
+      {
+        "latin": "mġaṭṭi",
+        "fr": "couvert, recouvert"
+      },
+      {
+        "latin": "mustašfa",
+        "fr": "hôpital (lieu où est recherchée la guérison)"
+      }
+    ],
+    "pdf_page": 12,
+    "printed_page": 111,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-130-formes-d-riv-es-actives",
+    "lesson_no": 26,
+    "paragraph_ref": "130",
+    "title": "Formes dérivées actives",
+    "summary_fr": "Deux formes à sens actif, transitives. a) IIe forme : redoublement de la consonne intérieure (deux w/y pour les concaves) ; nuance factitive, causative ou intensive. Parfois dérivée d’un nom ou adjectif.",
+    "examples": [
+      {
+        "latin": "earraf",
+        "fr": "faire connaître, identifier (de eraf)"
+      },
+      {
+        "latin": "tawwal",
+        "fr": "rendre long (de ṭâl)"
+      },
+      {
+        "latin": "fetteš",
+        "fr": "rechercher (de fteš)"
+      },
+      {
+        "latin": "sellem",
+        "fr": "adresser le salut (de salâm)"
+      },
+      {
+        "latin": "hassan",
+        "fr": "rendre beau, se raser (de hasan)"
+      }
+    ],
+    "pdf_page": 12,
+    "printed_page": 111,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-130bis-formes-d-riv-es-actives-fin",
+    "lesson_no": 26,
+    "paragraph_ref": "130bis",
+    "title": "Formes dérivées actives (fin)",
+    "summary_fr": "Le nom d’action de la IIe forme a un a après la 2e consonne au lieu du redoublement (taerif, tafftîš). b) IIIe forme : â après la 1re consonne (w/y pour les concaves) ; nuance participative ou active, action en faveur de qn. Nom d’action : m- préfixé et a final (mucâwana).",
+    "examples": [
+      {
+        "latin": "taerif",
+        "fr": "identification, identité"
+      },
+      {
+        "latin": "bâyes",
+        "fr": "saluer qn avec respect"
+      },
+      {
+        "latin": "eâwen",
+        "fr": "aider qn"
+      },
+      {
+        "latin": "râfeq",
+        "fr": "accompagner qn"
+      },
+      {
+        "latin": "mucâwana",
+        "fr": "aide, assistance"
+      }
+    ],
+    "pdf_page": 13,
+    "printed_page": 112,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-133-formes-d-riv-es-r-fl-chies",
+    "lesson_no": 27,
+    "paragraph_ref": "133",
+    "title": "Formes dérivées réfléchies",
+    "summary_fr": "Quatre formes à sens réfléchi. a) Ve forme : préfixe t- devant la IIe forme ; sens réfléchi du dérivé, parfois passif ; forme réfléchie la plus fréquente. Nom d’action avec u intérieur (tafarruq).",
+    "examples": [
+      {
+        "latin": "tkassar",
+        "fr": "se casser (de kassar)"
+      },
+      {
+        "latin": "tharrak",
+        "fr": "se remuer (de harrak)"
+      },
+      {
+        "latin": "tnaqqal",
+        "fr": "se transporter, être transporté (de naqqal)"
+      }
+    ],
+    "pdf_page": 14,
+    "printed_page": 115,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-133bis-formes-d-riv-es-r-fl-chies-fin",
+    "lesson_no": 27,
+    "paragraph_ref": "133bis",
+    "title": "Formes dérivées réfléchies (fin)",
+    "summary_fr": "b) VIe forme : t- devant la IIIe forme ; réciprocité (surtout au pluriel), renforcée par -bâed. Nom d’action u intérieur (tacâwun). c) VIIIe forme : t- infixé après la 1re consonne ; action profitable à soi-même. Nom d’action i intérieur + a avant dernière radicale (štiġâl). d) Xe forme : préfixe st(a)- ; sens réfléchi ou recherche d’un but. Nom d’action comme VIIIe (stieâjâb). Une IVe forme active existe mais est peu apparente (aetâ).",
+    "examples": [
+      {
+        "latin": "teâwen",
+        "fr": "s’entraider (de eâwen)"
+      },
+      {
+        "latin": "tdârab",
+        "fr": "se battre réciproquement"
+      },
+      {
+        "latin": "štġal",
+        "fr": "s’occuper (de šġal)"
+      },
+      {
+        "latin": "stiejab",
+        "fr": "s’émerveiller (de ejab)"
+      },
+      {
+        "latin": "stġfar",
+        "fr": "rechercher le pardon de Dieu"
+      }
+    ],
+    "pdf_page": 15,
+    "printed_page": 116,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-135-formes-d-riv-es-passives",
+    "lesson_no": 27,
+    "paragraph_ref": "135",
+    "title": "Formes dérivées passives",
+    "summary_fr": "Deux formes à sens passif. a) VIIe forme : préfixe n- devant le verbe primitif d’action ; sens passif. Nom d’action i intérieur + a avant dernière radicale (nqisâm). b) IXe forme : â avant la dernière radicale d’un verbe d’état ou de couleur ; sens réfléchi passif ; pas de nom d’action. La Ve forme peut aussi avoir un sens passif (twelled).",
+    "examples": [
+      {
+        "latin": "njrah",
+        "fr": "être blessé (de jrah)"
+      },
+      {
+        "latin": "ngsam",
+        "fr": "être partagé (de qsam)"
+      },
+      {
+        "latin": "šeâb",
+        "fr": "se compliquer (de seâb)"
+      },
+      {
+        "latin": "ḥdâr",
+        "fr": "verdir (de ḥdar)"
+      },
+      {
+        "latin": "twelled",
+        "fr": "être mis au monde, naître"
+      }
+    ],
+    "pdf_page": 15,
+    "printed_page": 117,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-136bis-tableau-r-capitulatif-des-formes-d-riv-es",
+    "lesson_no": 27,
+    "paragraph_ref": "136bis",
+    "title": "Tableau récapitulatif des formes dérivées",
+    "summary_fr": "Tableau des formes dérivées courantes (IIe, IIIe, Ve, VIe, VIIe, VIIIe, IXe, Xe) avec verbe, participe et nom d’action. Les participes entre parenthèses sont ceux de l’arabe littéral, de plus en plus usités.",
+    "examples": [
+      {
+        "latin": "eallam / meallam / taclîm",
+        "fr": "IIe : enseigner / enseignant / enseignement"
+      },
+      {
+        "latin": "eâwen / meâwen / mucâwana",
+        "fr": "IIIe : aider / aidant / assistance"
+      },
+      {
+        "latin": "teallam / meteallam / tasallum",
+        "fr": "Ve : apprendre"
+      },
+      {
+        "latin": "nqsam / menqsem / nqisâm",
+        "fr": "VIIe : être partagé"
+      },
+      {
+        "latin": "štġal / meštġel / štiġâl",
+        "fr": "VIIIe : s’occuper"
+      }
+    ],
+    "pdf_page": 16,
+    "printed_page": 118,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-138-mani-res-de-traduire-l-infinitif",
+    "lesson_no": 28,
+    "paragraph_ref": "138",
+    "title": "Manières de traduire l’infinitif",
+    "summary_fr": "L’infinitif n’existe pas en arabe. Deux moyens : 1) l’inaccompli du verbe, placé après un verbe à l’accompli ou inaccompli, sans conjonction si le premier exprime sentiment/désir/volonté/pouvoir/commencement, sinon avec bâš (souvent supprimable). 2) un nom d’action ou d’état (a intérieur ou a final), y compris ceux des formes dérivées.",
+    "examples": [
+      {
+        "latin": "bda igsil",
+        "fr": "il s’est mis à laver"
+      },
+      {
+        "latin": "nhabb neleab",
+        "fr": "j’aime jouer"
+      },
+      {
+        "latin": "hrej bâš idarbo la-hwâ",
+        "fr": "il est sorti pour prendre l’air"
+      },
+      {
+        "latin": "nhabb er-rqâd",
+        "fr": "j’aime m’étendre"
+      },
+      {
+        "latin": "neštġal bi-tacallum el-luga",
+        "fr": "je m’occupe d’étudier la langue"
+      }
+    ],
+    "pdf_page": 17,
+    "printed_page": 121,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p03-rule-142-le-passif-traduction-de-on",
+    "lesson_no": 29,
+    "paragraph_ref": "142",
+    "title": "Le passif ; traduction de « on »",
+    "summary_fr": "a) Le passif est rare (agent inconnu). Moyens : 1) VIIe forme (préfixe n-) ou formes réfléchies Ve/VIe à sens passif ; 2) ajouter t- au préfixe de l’inaccompli. Ne pas confondre nhallu (passif) et nhall (actif). b) « on » se rend par la 1re pers. pl., la 3e pers. pl., un passif, ou un sujet vague (en-nâs).",
+    "examples": [
+      {
+        "latin": "nhallu l-bibân",
+        "fr": "les portes ont été ouvertes"
+      },
+      {
+        "latin": "tbârek allâh",
+        "fr": "Dieu soit béni"
+      },
+      {
+        "latin": "el-ġâleb yutġlab",
+        "fr": "le vainqueur sera vaincu"
+      },
+      {
+        "latin": "nleabu",
+        "fr": "on joue (nous jouons)"
+      },
+      {
+        "latin": "demmru-ni",
+        "fr": "on m’a bousculé"
+      },
+      {
+        "latin": "en-nâs eayyṭu",
+        "fr": "on cria (les gens crièrent)"
+      }
+    ],
+    "pdf_page": 19,
+    "printed_page": 124,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  }
+]

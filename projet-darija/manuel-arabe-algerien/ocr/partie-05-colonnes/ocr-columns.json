@@ -1,0 +1,317 @@
+{
+  "pdf": "raw/partie-05.pdf",
+  "sha256": "89e7a77ba1840d1f110f81530f768d3fd7824b8abbff3c38f33b91f51f0c917f",
+  "pdf_pages": 14,
+  "page_offset": 0,
+  "printed_left_first": 188,
+  "method": "column-aware halves; left fra/psm6; right ara+fra/psm4 (front matter fra/psm6)",
+  "scale": 4.0,
+  "left_box": [
+    40,
+    20,
+    1475,
+    2212
+  ],
+  "right_box": [
+    1505,
+    20,
+    2970,
+    2212
+  ],
+  "pages": [
+    {
+      "pdf_page": 1,
+      "pdf_page_local": 1,
+      "pdf_file": "partie-05.pdf",
+      "printed_pages": [
+        188,
+        189
+      ],
+      "left": {
+        "file": "page-001-L.txt",
+        "langs": "fra",
+        "psm": 6,
+        "chars": 2001
+      },
+      "right": {
+        "file": "page-001-R.txt",
+        "langs": "ara+fra",
+        "psm": 4,
+        "chars": 1943
+      }
+    },
+    {
+      "pdf_page": 2,
+      "pdf_page_local": 2,
+      "pdf_file": "partie-05.pdf",
+      "printed_pages": [
+        190,
+        191
+      ],
+      "left": {
+        "file": "page-002-L.txt",
+        "langs": "fra",
+        "psm": 6,
+        "chars": 2438
+      },
+      "right": {
+        "file": "page-002-R.txt",
+        "langs": "ara+fra",
+        "psm": 4,
+        "chars": 1937
+      }
+    },
+    {
+      "pdf_page": 3,
+      "pdf_page_local": 3,
+      "pdf_file": "partie-05.pdf",
+      "printed_pages": [
+        192,
+        193
+      ],
+      "left": {
+        "file": "page-003-L.txt",
+        "langs": "fra",
+        "psm": 6,
+        "chars": 2084
+      },
+      "right": {
+        "file": "page-003-R.txt",
+        "langs": "ara+fra",
+        "psm": 4,
+        "chars": 1628
+      }
+    },
+    {
+      "pdf_page": 4,
+      "pdf_page_local": 4,
+      "pdf_file": "partie-05.pdf",
+      "printed_pages": [
+        194,
+        195
+      ],
+      "left": {
+        "file": "page-004-L.txt",
+        "langs": "fra",
+        "psm": 6,
+        "chars": 2383
+      },
+      "right": {
+        "file": "page-004-R.txt",
+        "langs": "ara+fra",
+        "psm": 4,
+        "chars": 2355
+      }
+    },
+    {
+      "pdf_page": 5,
+      "pdf_page_local": 5,
+      "pdf_file": "partie-05.pdf",
+      "printed_pages": [
+        196,
+        197
+      ],
+      "left": {
+        "file": "page-005-L.txt",
+        "langs": "fra",
+        "psm": 6,
+        "chars": 2686
+      },
+      "right": {
+        "file": "page-005-R.txt",
+        "langs": "ara+fra",
+        "psm": 4,
+        "chars": 1904
+      }
+    },
+    {
+      "pdf_page": 6,
+      "pdf_page_local": 6,
+      "pdf_file": "partie-05.pdf",
+      "printed_pages": [
+        198,
+        199
+      ],
+      "left": {
+        "file": "page-006-L.txt",
+        "langs": "fra",
+        "psm": 6,
+        "chars": 2168
+      },
+      "right": {
+        "file": "page-006-R.txt",
+        "langs": "ara+fra",
+        "psm": 4,
+        "chars": 1402
+      }
+    },
+    {
+      "pdf_page": 7,
+      "pdf_page_local": 7,
+      "pdf_file": "partie-05.pdf",
+      "printed_pages": [
+        200,
+        201
+      ],
+      "left": {
+        "file": "page-007-L.txt",
+        "langs": "fra",
+        "psm": 6,
+        "chars": 1722
+      },
+      "right": {
+        "file": "page-007-R.txt",
+        "langs": "ara+fra",
+        "psm": 4,
+        "chars": 2511
+      }
+    },
+    {
+      "pdf_page": 8,
+      "pdf_page_local": 8,
+      "pdf_file": "partie-05.pdf",
+      "printed_pages": [
+        202,
+        203
+      ],
+      "left": {
+        "file": "page-008-L.txt",
+        "langs": "fra",
+        "psm": 6,
+        "chars": 776
+      },
+      "right": {
+        "file": "page-008-R.txt",
+        "langs": "ara+fra",
+        "psm": 4,
+        "chars": 2305
+      }
+    },
+    {
+      "pdf_page": 9,
+      "pdf_page_local": 9,
+      "pdf_file": "partie-05.pdf",
+      "printed_pages": [
+        204,
+        205
+      ],
+      "left": {
+        "file": "page-009-L.txt",
+        "langs": "fra",
+        "psm": 6,
+        "chars": 2395
+      },
+      "right": {
+        "file": "page-009-R.txt",
+        "langs": "ara+fra",
+        "psm": 4,
+        "chars": 1056
+      }
+    },
+    {
+      "pdf_page": 10,
+      "pdf_page_local": 10,
+      "pdf_file": "partie-05.pdf",
+      "printed_pages": [
+        206,
+        207
+      ],
+      "left": {
+        "file": "page-010-L.txt",
+        "langs": "fra",
+        "psm": 6,
+        "chars": 2109
+      },
+      "right": {
+        "file": "page-010-R.txt",
+        "langs": "ara+fra",
+        "psm": 4,
+        "chars": 2580
+      }
+    },
+    {
+      "pdf_page": 11,
+      "pdf_page_local": 11,
+      "pdf_file": "partie-05.pdf",
+      "printed_pages": [
+        208,
+        209
+      ],
+      "left": {
+        "file": "page-011-L.txt",
+        "langs": "fra",
+        "psm": 6,
+        "chars": 1040
+      },
+      "right": {
+        "file": "page-011-R.txt",
+        "langs": "ara+fra",
+        "psm": 4,
+        "chars": 1865
+      }
+    },
+    {
+      "pdf_page": 12,
+      "pdf_page_local": 12,
+      "pdf_file": "partie-05.pdf",
+      "printed_pages": [
+        210,
+        211
+      ],
+      "left": {
+        "file": "page-012-L.txt",
+        "langs": "fra",
+        "psm": 6,
+        "chars": 2239
+      },
+      "right": {
+        "file": "page-012-R.txt",
+        "langs": "ara+fra",
+        "psm": 4,
+        "chars": 1367
+      }
+    },
+    {
+      "pdf_page": 13,
+      "pdf_page_local": 13,
+      "pdf_file": "partie-05.pdf",
+      "printed_pages": [
+        212,
+        213
+      ],
+      "left": {
+        "file": "page-013-L.txt",
+        "langs": "fra",
+        "psm": 6,
+        "chars": 67
+      },
+      "right": {
+        "file": "page-013-R.txt",
+        "langs": "ara+fra",
+        "psm": 4,
+        "chars": 2872
+      }
+    },
+    {
+      "pdf_page": 14,
+      "pdf_page_local": 14,
+      "pdf_file": "partie-05.pdf",
+      "printed_pages": [
+        214,
+        215
+      ],
+      "left": {
+        "file": "page-014-L.txt",
+        "langs": "fra",
+        "psm": 6,
+        "chars": 1978
+      },
+      "right": {
+        "file": "page-014-R.txt",
+        "langs": "ara+fra",
+        "psm": 4,
+        "chars": 0
+      }
+    }
+  ]
+}

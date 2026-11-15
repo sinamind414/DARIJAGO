@@ -1,0 +1,283 @@
+{
+  "version": "1.0.0",
+  "license_note": "Exemples originaux créés pour le skill. Ne pas copier des leçons, audios ou textes tiers.",
+  "transliteration": "Convention simple : 3 = ع, 7 = ح, kh = خ, gh = غ, ch = ش.",
+  "items": [
+    {
+      "id": "salut",
+      "fr": "salut",
+      "ar": "سلام",
+      "lat": "salam",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "سلام، واش راك؟",
+      "exemple_lat": "salam, wach rak?",
+      "exemple_fr": "Salut, comment vas-tu ?"
+    },
+    {
+      "id": "comment_vas_tu_m",
+      "fr": "comment vas-tu ? (masculin)",
+      "ar": "واش راك؟",
+      "lat": "wach rak?",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "واش راك اليوم؟",
+      "exemple_lat": "wach rak lyoum?",
+      "exemple_fr": "Comment vas-tu aujourd’hui ?"
+    },
+    {
+      "id": "comment_vas_tu_f",
+      "fr": "comment vas-tu ? (féminin)",
+      "ar": "واش راكي؟",
+      "lat": "wach raki?",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "واش راكي يا ختي؟",
+      "exemple_lat": "wach raki ya khti?",
+      "exemple_fr": "Comment vas-tu, ma sœur ?"
+    },
+    {
+      "id": "ca_va",
+      "fr": "ça va",
+      "ar": "لاباس",
+      "lat": "labas",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "لاباس، الحمد لله",
+      "exemple_lat": "labas, lhamdoullah",
+      "exemple_fr": "Ça va, Dieu merci"
+    },
+    {
+      "id": "merci",
+      "fr": "merci",
+      "ar": "شكرا",
+      "lat": "chokran",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "شكرا بزاف",
+      "exemple_lat": "chokran bezaf",
+      "exemple_fr": "Merci beaucoup"
+    },
+    {
+      "id": "merci_chaleureux",
+      "fr": "merci / que Dieu te donne la santé",
+      "ar": "يعطيك الصحة",
+      "lat": "ya3tik essaha",
+      "niveau": "débutant",
+      "registre": "chaleureux",
+      "exemple_ar": "يعطيك الصحة على المساعدة",
+      "exemple_lat": "ya3tik essaha 3la lmosa3ada",
+      "exemple_fr": "Merci pour l’aide"
+    },
+    {
+      "id": "sil_te_plait",
+      "fr": "s’il te plaît",
+      "ar": "من فضلك",
+      "lat": "men fadlek",
+      "niveau": "débutant",
+      "registre": "poli",
+      "exemple_ar": "من فضلك، عاود",
+      "exemple_lat": "men fadlek, 3awed",
+      "exemple_fr": "S’il te plaît, répète"
+    },
+    {
+      "id": "je_nai_pas_compris",
+      "fr": "je n’ai pas compris",
+      "ar": "ما فهمتش",
+      "lat": "ma fhemtch",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "ما فهمتش، عاود من فضلك",
+      "exemple_lat": "ma fhemtch, 3awed men fadlek",
+      "exemple_fr": "Je n’ai pas compris, répète s’il te plaît"
+    },
+    {
+      "id": "repete",
+      "fr": "répète",
+      "ar": "عاود",
+      "lat": "3awed",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "عاود بشوية",
+      "exemple_lat": "3awed bchwiya",
+      "exemple_fr": "Répète lentement"
+    },
+    {
+      "id": "combien",
+      "fr": "combien ?",
+      "ar": "بشحال؟",
+      "lat": "bchhal?",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "بشحال هادا؟",
+      "exemple_lat": "bchhal hada?",
+      "exemple_fr": "Combien ça coûte ?"
+    },
+    {
+      "id": "ou",
+      "fr": "où ?",
+      "ar": "وين؟",
+      "lat": "win?",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "وين راهي المحطة؟",
+      "exemple_lat": "win rahi lma7atta?",
+      "exemple_fr": "Où est la station ?"
+    },
+    {
+      "id": "je_veux",
+      "fr": "je veux",
+      "ar": "نبغي",
+      "lat": "nbghi",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "نبغي نروح للسوق",
+      "exemple_lat": "nbghi nruh l souq",
+      "exemple_fr": "Je veux aller au marché"
+    },
+    {
+      "id": "je_ne_veux_pas",
+      "fr": "je ne veux pas",
+      "ar": "ما نبغيش",
+      "lat": "ma nbghich",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "ما نبغيش نروح اليوم",
+      "exemple_lat": "ma nbghich nruh lyoum",
+      "exemple_fr": "Je ne veux pas aller aujourd’hui"
+    },
+    {
+      "id": "je_vais",
+      "fr": "je vais / j’irai",
+      "ar": "نروح",
+      "lat": "nruh",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "نروح غدا",
+      "exemple_lat": "nruh ghedwa",
+      "exemple_fr": "J’irai demain"
+    },
+    {
+      "id": "aujourdhui",
+      "fr": "aujourd’hui",
+      "ar": "اليوم",
+      "lat": "lyoum",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "اليوم راني نخدم",
+      "exemple_lat": "lyoum rani nkhedem",
+      "exemple_fr": "Aujourd’hui je travaille"
+    },
+    {
+      "id": "demain",
+      "fr": "demain",
+      "ar": "غدا",
+      "lat": "ghedwa",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "غدا نجي",
+      "exemple_lat": "ghedwa nji",
+      "exemple_fr": "Demain je viendrai"
+    },
+    {
+      "id": "beaucoup",
+      "fr": "beaucoup",
+      "ar": "بزاف",
+      "lat": "bezzaf",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "غالي بزاف",
+      "exemple_lat": "ghali bezaf",
+      "exemple_fr": "C’est très cher"
+    },
+    {
+      "id": "un_peu",
+      "fr": "un peu",
+      "ar": "شوية",
+      "lat": "chwiya",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "أهدر بشوية",
+      "exemple_lat": "ahder bchwiya",
+      "exemple_fr": "Parle un peu lentement"
+    },
+    {
+      "id": "maintenant",
+      "fr": "maintenant",
+      "ar": "درك",
+      "lat": "dork",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "نروح درك",
+      "exemple_lat": "nruh dork",
+      "exemple_fr": "J’y vais maintenant"
+    },
+    {
+      "id": "maison",
+      "fr": "maison",
+      "ar": "دار",
+      "lat": "dar",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "راني في الدار",
+      "exemple_lat": "rani fi dar",
+      "exemple_fr": "Je suis à la maison"
+    },
+    {
+      "id": "travail",
+      "fr": "travail",
+      "ar": "خدمة",
+      "lat": "khedma",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "عندي خدمة اليوم",
+      "exemple_lat": "3andi khedma lyoum",
+      "exemple_fr": "J’ai du travail aujourd’hui"
+    },
+    {
+      "id": "eau",
+      "fr": "eau",
+      "ar": "ما",
+      "lat": "ma",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "نبغي ما",
+      "exemple_lat": "nbghi ma",
+      "exemple_fr": "Je veux de l’eau",
+      "note": "À distinguer de la négation ma selon le contexte."
+    },
+    {
+      "id": "pain",
+      "fr": "pain",
+      "ar": "خبز",
+      "lat": "khobz",
+      "niveau": "débutant",
+      "registre": "quotidien",
+      "exemple_ar": "نبغي خبز",
+      "exemple_lat": "nbghi khobz",
+      "exemple_fr": "Je veux du pain"
+    },
+    {
+      "id": "desole",
+      "fr": "désolé / excuse-moi",
+      "ar": "سمحلي",
+      "lat": "smahli",
+      "niveau": "débutant",
+      "registre": "poli",
+      "exemple_ar": "سمحلي، ما فهمتش",
+      "exemple_lat": "smahli, ma fhemtch",
+      "exemple_fr": "Désolé, je n’ai pas compris"
+    },
+    {
+      "id": "bienvenue",
+      "fr": "bienvenue",
+      "ar": "مرحبا",
+      "lat": "mrhba",
+      "niveau": "débutant",
+      "registre": "chaleureux",
+      "exemple_ar": "مرحبا بيك",
+      "exemple_lat": "mrhba bik",
+      "exemple_fr": "Bienvenue à toi"
+    }
+  ]
+}

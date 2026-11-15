@@ -1,0 +1,414 @@
+{
+  "matched": 1985,
+  "not_matched": 312,
+  "examples": [
+    {
+      "app_id": "bs-v-a-abaisser",
+      "app_head": "Abaisser, faire descendre",
+      "app_page": "p. 2",
+      "db": [
+        2,
+        "partie-01",
+        70,
+        70,
+        "Abaisser",
+        null
+      ]
+    },
+    {
+      "app_id": "bs-v-a-abandonner",
+      "app_head": "Abandonner, laisser",
+      "app_page": "p. 2",
+      "db": [
+        5,
+        "partie-01",
+        70,
+        70,
+        "Abandonner",
+        null
+      ]
+    },
+    {
+      "app_id": "bs-v-a-abdiquer",
+      "app_head": "Abdiquer",
+      "app_page": "p. 2",
+      "db": [
+        9,
+        "partie-01",
+        70,
+        70,
+        "Abdiquer",
+        null
+      ]
+    },
+    {
+      "app_id": "bs-v-a-abhorrer",
+      "app_head": "Abhorrer, détester",
+      "app_page": "p. 3",
+      "db": [
+        13,
+        "partie-01",
+        71,
+        72,
+        "Abhorrer",
+        null
+      ]
+    },
+    {
+      "app_id": "bs-v-a-aboyer",
+      "app_head": "Aboyer",
+      "app_page": "p. 4",
+      "db": [
+        14,
+        "partie-01",
+        72,
+        72,
+        "Aboyer",
+        null
+      ]
+    },
+    {
+      "app_id": "bs-v-a-abreger",
+      "app_head": "Abréger",
+      "app_page": "p. 4",
+      "db": [
+        17,
+        "partie-01",
+        72,
+        72,
+        "Abréger",
+        null
+      ]
+    },
+    {
+      "app_id": "bs-v-a-abreuver",
+      "app_head": "Abreuver",
+      "app_page": "p. 4",
+      "db": [
+        18,
+        "partie-01",
+        72,
+        72,
+        "Abreuver",
+        null
+      ]
+    },
+    {
+      "app_id": "bs-v-a-abrutir",
+      "app_head": "Abrutir",
+      "app_page": "p. 4",
+      "db": [
+        24,
+        "partie-01",
+        72,
+        72,
+        "Abrutir",
+        null
+      ]
+    },
+    {
+      "app_id": "bs-v-a-accepter",
+      "app_head": "Accepter, accueillir, admettre",
+      "app_page": "p. 5",
+      "db": [
+        31,
+        "partie-01",
+        73,
+        73,
+        "Accepter",
+        null
+      ]
+    },
+    {
+      "app_id": "bs-v-a-acclimater",
+      "app_head": "Acclimater (et s’acclimater)",
+      "app_page": "p. 5",
+      "db": [
+        34,
+        "partie-01",
+        73,
+        73,
+        "Acclimater",
+        null
+      ]
+    },
+    {
+      "app_id": "bs-v-a-accompagner",
+      "app_head": "Accompagner, reconduire",
+      "app_page": "p. 5",
+      "db": [
+        35,
+        "partie-01",
+        73,
+        73,
+        "Accompagner",
+        null
+      ]
+    },
+    {
+      "app_id": "bs-v-a-accoucher",
+      "app_head": "Accoucher",
+      "app_page": "p. 6",
+      "db": [
+        38,
+        "partie-01",
+        74,
+        74,
+        "Accoucher",
+        null
+      ]
+    }
+  ],
+  "missing_sample": [
+    {
+      "id": "bs-v-a-abattre-demolir",
+      "head": "Abattre (démolir, égorger)",
+      "page": "p. 2"
+    },
+    {
+      "id": "bs-v-a-abattre-s",
+      "head": "Abattre (s’), tomber sur",
+      "page": "p. 2"
+    },
+    {
+      "id": "bs-v-a-abimer",
+      "head": "Abîmer, gâter (et s’abîmer)",
+      "page": "p. 3"
+    },
+    {
+      "id": "bs-v-a-abjurer",
+      "head": "Abjurer (sa religion)",
+      "page": "p. 3"
+    },
+    {
+      "id": "bs-v-a-abolir",
+      "head": "Abolir, abroger",
+      "page": "p. 3"
+    },
+    {
+      "id": "bs-v-a-aboutir",
+      "head": "Aboutir",
+      "page": "p. 3"
+    },
+    {
+      "id": "bs-v-a-abriter",
+      "head": "Abriter, protéger",
+      "page": "p. 4"
+    },
+    {
+      "id": "bs-v-a-absenter-s",
+      "head": "Absenter (s’)",
+      "page": "p. 5"
+    },
+    {
+      "id": "bs-v-a-abstenir-s",
+      "head": "Abstenir (s’)",
+      "page": "p. 5"
+    },
+    {
+      "id": "bs-v-a-abuser",
+      "head": "Abuser (tromper quelqu’un)",
+      "page": "p. 5"
+    },
+    {
+      "id": "bs-v-a-accorder",
+      "head": "Accorder (donner)",
+      "page": "p. 5"
+    },
+    {
+      "id": "bs-v-a-accorder-s",
+      "head": "Accorder (s’), tomber d’accord",
+      "page": "p. 6"
+    },
+    {
+      "id": "bs-v-a-accouder-s",
+      "head": "Accouder (s’)",
+      "page": "p. 6"
+    },
+    {
+      "id": "bs-v-a-accoutumer-s",
+      "head": "Accoutumer (s’)",
+      "page": "p. 6"
+    },
+    {
+      "id": "bs-v-a-accrocher",
+      "head": "Accrocher, suspendre (et s’accrocher)",
+      "page": "p. 6"
+    },
+    {
+      "id": "bs-v-a-accroupir-s",
+      "head": "Accroupir (s’)",
+      "page": "p. 7"
+    },
+    {
+      "id": "bs-v-a-acheminer-s",
+      "head": "Acheminer (s’)",
+      "page": "p. 7"
+    },
+    {
+      "id": "bs-v-a-achever",
+      "head": "Achever, finir",
+      "page": "p. 8"
+    },
+    {
+      "id": "bs-v-a-acquiescer",
+      "head": "Acquiescer, consentir",
+      "page": "p. 8"
+    },
+    {
+      "id": "bs-v-a-additionner",
+      "head": "Additionner",
+      "page": "p. 9"
+    },
+    {
+      "id": "bs-v-a-administrer",
+      "head": "Administrer, gouverner",
+      "page": "p. 10"
+    },
+    {
+      "id": "bs-v-a-adonner-s",
+      "head": "Adonner (s’)",
+      "page": "p. 10"
+    },
+    {
+      "id": "bs-v-a-adoucir",
+      "head": "Adoucir (au goût / calmer)",
+      "page": "p. 11"
+    },
+    {
+      "id": "bs-v-a-adresser-envoyer",
+      "head": "Adresser, envoyer (ou parler)",
+      "page": "p. 11"
+    },
+    {
+      "id": "bs-v-a-affermir",
+      "head": "Affermir, consolider",
+      "page": "p. 12"
+    },
+    {
+      "id": "bs-v-a-affreter",
+      "head": "Affréter, louer un navire",
+      "page": "p. 13"
+    },
+    {
+      "id": "bs-v-a-agacer",
+      "head": "Agacer, exciter",
+      "page": "p. 13"
+    },
+    {
+      "id": "bs-v-a-agiter",
+      "head": "Agiter, secouer",
+      "page": "p. 13"
+    },
+    {
+      "id": "bs-v-a-aigrir",
+      "head": "Aigrir (devenir aigre)",
+      "page": "p. 15"
+    },
+    {
+      "id": "bs-v-a-aliter-s",
+      "head": "Aliter (s’)",
+      "page": "p. 18"
+    },
+    {
+      "id": "bs-v-a-allier-s",
+      "head": "Allier (s’), s’apparenter",
+      "page": "p. 19"
+    },
+    {
+      "id": "bs-v-a-alterer",
+      "head": "Altérer (donner soif / modifier)",
+      "page": "p. 20"
+    },
+    {
+      "id": "bs-v-a-amble",
+      "head": "Aller à l’amble (cheval)",
+      "page": "p. 21"
+    },
+    {
+      "id": "bs-v-a-apprendre",
+      "head": "Apprendre (étudier)",
+      "page": "p. 27"
+    },
+    {
+      "id": "bs-v-a-arrierer",
+      "head": "Arriérer, retarder",
+      "page": "p. 32"
+    },
+    {
+      "id": "bs-v-a-arroger-s",
+      "head": "Arroger (s’)",
+      "page": "p. 33"
+    },
+    {
+      "id": "bs-v-a-articuler",
+      "head": "Articuler, prononcer",
+      "page": "p. 34"
+    },
+    {
+      "id": "bs-v-a-aspirer",
+      "head": "Aspirer (l’air), respirer",
+      "page": "p. 35"
+    },
+    {
+      "id": "bs-v-a-asservir",
+      "head": "Asservir, soumettre",
+      "page": "p. 36"
+    },
+    {
+      "id": "bs-v-a-associer-s",
+      "head": "Associer (s’)",
+      "page": "p. 37"
+    },
+    {
+      "id": "bs-v-a-assommer",
+      "head": "Assommer (tuer / importuner)",
+      "page": "p. 37"
+    },
+    {
+      "id": "bs-v-a-assurer",
+      "head": "Assurer, garantir, certifier",
+      "page": "p. 38"
+    },
+    {
+      "id": "bs-v-a-attarder-s",
+      "head": "Attarder (s’), tarder",
+      "page": "p. 39"
+    },
+    {
+      "id": "bs-v-a-attendrir",
+      "head": "Attendrir (rendre tendre / apitoyer)",
+      "page": "p. 39"
+    },
+    {
+      "id": "bs-v-a-avancer",
+      "head": "Avancer (devant / payer d’avance)",
+      "page": "p. 43"
+    },
+    {
+      "id": "bs-v-a-aveugler",
+      "head": "Aveugler, rendre aveugle",
+      "page": "p. 44"
+    },
+    {
+      "id": "bs-v-b-babiller",
+      "head": "Babiller, importuner",
+      "page": "p. 45"
+    },
+    {
+      "id": "bs-v-b-badigeonner",
+      "head": "Badigeonner (blanchir à la chaux)",
+      "page": "p. 46"
+    },
+    {
+      "id": "bs-v-b-baigner-se",
+      "head": "Baigner (se) (eau chaude / mer)",
+      "page": "p. 46"
+    },
+    {
+      "id": "bs-v-b-baiser",
+      "head": "Baiser, embrasser",
+      "page": "p. 47"
+    }
+  ]
+}

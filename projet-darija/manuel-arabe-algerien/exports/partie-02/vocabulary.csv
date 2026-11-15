@@ -1,0 +1,411 @@
+entry_uid,lesson_no,form_latin,form_ar,pos,gender,plural,root,gloss_fr,example_latin,example_fr,pdf_page,printed_page,side,paragraph_ref,status,notes
+tapiero-p02-l11-tfal-001,11,tfal,,nom,,taflân,,garçonnet,,,1,40,L,54,needs_review,"Repris de la leçon 8 (partie 01) : tfal, enfant"
+tapiero-p02-l11-tayyeb-002,11,tayyeb,,adj,,,,bon,,,1,40,L,54,needs_review,
+tapiero-p02-l11-qr-ya-003,11,qrâya,,nom,f,,,lecture,,,1,40,L,54,needs_review,Partie 01 : grâya (variante q/g)
+tapiero-p02-l11-marra-004,11,marra,,nom,f,marrât,,une fois,,,1,40,L,54,needs_review,
+tapiero-p02-l11-kasl-n-005,11,kaslân,,adj,,,,paresseux,,,1,40,L,54,needs_review,
+tapiero-p02-l11-el-frans-w-ya-006,11,el-fransâwîya,,nom,,,,le français (la langue),,,1,40,L,54,needs_review,Nom de langue ; forme voisine el-franséwiya dans le texte
+tapiero-p02-l11-el-carb-ya-007,11,el-carbîya,,nom,,,,l’arabe (la langue),,,1,40,L,54,needs_review,
+tapiero-p02-l11-h-ja-008,11,hâja,,nom,f,,,une chose,,,1,40,L,54,needs_review,
+tapiero-p02-l11-qb-h-009,11,qbêh,,adj,,,,méchant,,,1,40,L,54,needs_review,
+tapiero-p02-l11-kl-m-010,11,klâm,,nom collectif,,,,"paroles, conseils",,,1,40,L,54,needs_review,
+tapiero-p02-l11-habb-011,11,habb,,verbe,,,,"vouloir, aimer (avec un complément)",,,1,40,L,54,needs_review,inaccompli ihabb
+tapiero-p02-l11-hass-012,11,hass,,verbe,,,,manquer (une chose) à qn,,,1,40,L,54,needs_review,inaccompli ihass
+tapiero-p02-l11-tkellem-013,11,tkellem,,verbe,,,,parler,,,1,40,L,54,needs_review,"inaccompli itkellem ; Également au vocabulaire de la leçon 20 (p. 82, §98)"
+tapiero-p02-l11-smae-014,11,smae,,verbe,,,,"entendre, écouter",,,1,40,L,54,needs_review,inaccompli ismae l-
+tapiero-p02-l11-qra-015,11,qra,,verbe,,,,lire,,,1,40,L,54,needs_review,inaccompli iqra
+tapiero-p02-l11-hrab-016,11,hrab,,verbe,,,,"se sauver, s’enfuir",,,1,40,L,54,needs_review,inaccompli ihrab
+tapiero-p02-l11-ela-l-k-f-017,11,ela-l-kîf,,expression,,,,"comme il faut, parfaitement",,,1,40,L,54,needs_review,
+tapiero-p02-l11-h-l-men-018,11,âšhâl-men,,interrogatif,,,,combien de…,,,1,40,L,54,needs_review,"Variante de šhâl-men (partie 01, leçon 4)"
+tapiero-p02-l11-b-es-sahh-019,11,b-es-sahh,,expression,,,,"mais, à la vérité",,,1,40,L,54,needs_review,Déjà étudié leçon 4 (partie 01) : b-es-sahh
+tapiero-p02-l12-sana-020,12,sana,,nom,f,sanawât ou snîn,,année,,,2,43,R,58,needs_review,Synonyme eâm ; déjà vu sous la forme sna en leçon 8
+tapiero-p02-l12-el-hr-f-021,12,el-hréf,,nom,,,,l’automne,,,2,43,R,58,needs_review,
+tapiero-p02-l12-es-s-f-022,12,es-sêf,,nom,,,,l’été,,,2,43,R,58,needs_review,Déjà étudié leçon 7 (partie 01)
+tapiero-p02-l12-el-berd-023,12,el-berd,,nom,,,,le froid,,,2,43,R,58,needs_review,
+tapiero-p02-l12-fasl-024,12,fasl,,nom,,fsûl,,saison,,,2,43,R,58,needs_review,OCR de la forme isolée partiel ; confirmée par le texte 58
+tapiero-p02-l12-qesm-025,12,qesm,,nom,,qsûm,,"division, partie, classe",,,2,43,R,58,needs_review,
+tapiero-p02-l12-er-rb-e-026,12,er-rbîe,,nom,,,,le printemps,,,2,43,R,58,needs_review,
+tapiero-p02-l12-el-ot-027,12,el-otâ,,nom,,,,la plaine,,,2,43,R,58,needs_review,
+tapiero-p02-l12-et-telj-028,12,et-telj,,nom,,,,la neige,,,2,43,R,58,needs_review,
+tapiero-p02-l12-el-jbel-029,12,el-jbel,,nom,m,,,la montagne,,,2,43,R,58,needs_review,
+tapiero-p02-l12-el-gamar-030,12,el-gamar,,nom,m,,,la lune,,,2,43,R,58,needs_review,
+tapiero-p02-l12-el-rubbiyin-031,12,el-ürubbiyin,,nom collectif,,,,"les Européens, les Chrétiens",,,2,43,R,58,needs_review,
+tapiero-p02-l12-e-m-032,12,eâm,,nom,,,,"an, année",,,2,43,R,58,needs_review,Déjà étudié leçon 8 (partie 01)
+tapiero-p02-l12-usb-e-033,12,usbûe,,nom,m,,,semaine,,,2,43,R,58,needs_review,"Apparenté à sebea, sept ; synonyme jemca"
+tapiero-p02-l12-y-m-034,12,yôm,,nom,,iyyâm ou ayyâm,,jour,,,2,43,R,58,needs_review,Déjà étudié leçon 6 (partie 01)
+tapiero-p02-l12-en-n-035,12,en-nû,,nom,f,,,la pluie,,,2,43,R,58,needs_review,
+tapiero-p02-l12-la-h-036,12,la-hšîš,,nom,m,,,l’herbe,,,2,43,R,58,needs_review,
+tapiero-p02-l12-bagra-037,12,bagra,,nom,f,,,vache,,,2,43,R,58,needs_review,"Annexion : bagret-el-fellâh, bgart-i"
+tapiero-p02-l12-qawi-038,12,qawi,,adj,,,,"fort, qui est intense",,,3,44,L,58,needs_review,"Féminin qawiya, aussi entendu gwiya"
+tapiero-p02-l12-h-rr-039,12,hârr,,adj,,,,"chaud, brûlant, piquant",,,3,44,L,58,needs_review,Féminin hârra
+tapiero-p02-l12-mahr-q-040,12,mahrûq,,participe passif,,,,brûlé,,,3,44,L,58,needs_review,
+tapiero-p02-l12-ngsam-041,12,ngsam,,verbe,,,,se diviser en,,,3,44,L,58,needs_review,inaccompli ingsam ela-
+tapiero-p02-l12-nbet-042,12,nbet,,verbe,,,,"pousser, germer",,,3,44,L,58,needs_review,inaccompli inbet
+tapiero-p02-l12-fr-h-043,12,frâh,,verbe,,,,se réjouir,,,3,44,L,58,needs_review,inaccompli ifrah
+tapiero-p02-l12-t-h-044,12,tâh,,verbe,,,,tomber,,,3,44,L,58,needs_review,inaccompli itîh
+tapiero-p02-l12-s-b-045,12,sâb,,verbe,,,,tomber (en parlant de la pluie),,,3,44,L,58,needs_review,inaccompli isûb
+tapiero-p02-l12-smen-046,12,smen,,verbe,,,,grossir,,,3,44,L,58,needs_review,inaccompli ismen
+tapiero-p02-l12-aktar-men-047,12,aktar men,,expression,,,,plus que…,,,3,44,L,58,needs_review,
+tapiero-p02-l12-ela-hs-b-048,12,ela-hsâb,,expression,,,,"selon…, suivant…",,,3,44,L,58,needs_review,
+tapiero-p02-l12-zy-da-ela-049,12,zyâda ela,,expression,,,,"de plus que, en supplément sur",,,3,44,L,58,needs_review,
+tapiero-p02-l12-hd-050,12,hdâš,,numéral,,,,onze,,,3,45,R,61,needs_review,"Suivi d’un nom au singulier sans article, souvent avec -en- de liaison"
+tapiero-p02-l12-tn-051,12,tnâš,,numéral,,,,douze,,,3,45,R,61,needs_review,"OCR partiel ; à confirmer ; Suivi d’un nom au singulier sans article, souvent avec -en- de liaison"
+tapiero-p02-l12-tl-ta-052,12,tlâtaš,,numéral,,,,treize,,,3,45,R,61,needs_review,"OCR illisible ; forme reconstituée d’après la série, à confirmer ; Suivi d’un nom au singulier sans article, souvent avec -en- de liaison"
+tapiero-p02-l12-rbet-053,12,rbetâš,,numéral,,,,quatorze,,,3,45,R,61,needs_review,"Suivi d’un nom au singulier sans article, souvent avec -en- de liaison"
+tapiero-p02-l12-hmest-054,12,hmestâš,,numéral,,,,quinze,,,3,45,R,61,needs_review,"Suivi d’un nom au singulier sans article, souvent avec -en- de liaison"
+tapiero-p02-l12-sett-055,12,settâš,,numéral,,,,seize,,,3,45,R,61,needs_review,"Suivi d’un nom au singulier sans article, souvent avec -en- de liaison"
+tapiero-p02-l12-sbet-056,12,sbetâš,,numéral,,,,dix-sept,,,3,45,R,61,needs_review,"Suivi d’un nom au singulier sans article, souvent avec -en- de liaison"
+tapiero-p02-l12-tment-057,12,tmentâš,,numéral,,,,dix-huit,,,3,45,R,61,needs_review,"Suivi d’un nom au singulier sans article, souvent avec -en- de liaison"
+tapiero-p02-l12-tset-058,12,tsetâš,,numéral,,,,dix-neuf,,,3,45,R,61,needs_review,"Suivi d’un nom au singulier sans article, souvent avec -en- de liaison"
+tapiero-p02-l13-el-hobz-059,13,el-hobz,,nom,,,,le pain,,,4,47,R,63,needs_review,
+tapiero-p02-l13-el-fl-ha-060,13,el-flâha,,nom,,,,"la culture, la récolte (de céréales)",,,4,47,R,63,needs_review,
+tapiero-p02-l13-el-hs-d-061,13,el-hsâd,,nom,,,,la moisson,,,4,47,R,63,needs_review,
+tapiero-p02-l13-ed-dr-s-062,13,ed-drâs,,nom,,,,le battage (du blé),,,4,47,R,63,needs_review,
+tapiero-p02-l13-e-mel-063,13,eâmel,,nom,,eummâl,,ouvrier,,,4,47,R,63,needs_review,
+tapiero-p02-l13-jiha-064,13,jiha,,nom,f,,,"côté, direction, région",,,4,47,R,63,needs_review,"Également au vocabulaire de la leçon 17 (p. 67, §83)"
+tapiero-p02-l13-gemh-065,13,gemh,,nom,,,,blé,,,4,47,R,63,needs_review,Le livre donne deux prononciations : gemh / qemh
+tapiero-p02-l13-k-ra-066,13,škâra,,nom,f,škâyer,,sac,,,4,47,R,63,needs_review,"Emprunt, entre crochets dans le livre"
+tapiero-p02-l13-mathana-067,13,mathana,,nom,,,,moulin,,,4,47,R,63,needs_review,"Nom de lieu de la racine thn, moudre"
+tapiero-p02-l13-rahh-y-068,13,rahhây,,nom,,,,meunier,,,4,47,R,63,needs_review,
+tapiero-p02-l13-el-hebb-z-069,13,el-hebbâz,,nom,,,,le boulanger,,,4,47,R,63,needs_review,
+tapiero-p02-l13-hedma-070,13,hedma,,nom,f,,,"travail, ouvrage",,,4,47,R,63,needs_review,Avec suffixe : hedmt-o
+tapiero-p02-l13-el-lil-071,13,el-lil,,nom,,,,la nuit,,,4,47,R,63,needs_review,
+tapiero-p02-l13-maemel-072,13,maemel,,nom,,,,"atelier, usine",,,4,47,R,63,needs_review,
+tapiero-p02-l13-kelba-073,13,kelba,,nom,f,,,chienne,,,4,47,R,63,needs_review,
+tapiero-p02-l13-el-farr-n-074,13,el-farrân,,nom,,,,"le four, fournil",,,4,47,R,63,needs_review,"Emprunt, entre crochets dans le livre"
+tapiero-p02-l13-es-sh-na-075,13,es-shâna,,nom,,,,la chaleur,,,4,47,R,63,needs_review,
+tapiero-p02-l13-hedd-m-076,13,heddâm,,nom,,heddâma,,travailleur,,,4,47,R,63,needs_review,
+tapiero-p02-l13-el-baraka-077,13,el-baraka,,nom,,,,la bénédiction (de Dieu),,,4,47,R,63,needs_review,
+tapiero-p02-l13-h-n-t-078,13,hânût,,nom,,hwânet,,"magasin, boutique",,,4,47,R,63,needs_review,"Également au vocabulaire de la leçon 14 (p. 51, §68)"
+tapiero-p02-l13-ed-dr-fa-079,13,ed-drâfa,,nom,,,,la politesse,,,4,47,R,63,needs_review,
+tapiero-p02-l13-kemmel-080,13,kemmel,,verbe,,,,achever,,,5,48,L,63,needs_review,inaccompli ikemmel
+tapiero-p02-l13-j-y-081,13,jây,,participe actif,,,,venant,,,5,48,L,63,needs_review,"Participe actif de ja, iji"
+tapiero-p02-l13-s-f-082,13,sâf,,verbe,,,,"voir, apercevoir",,,5,48,L,63,needs_review,inaccompli isûf
+tapiero-p02-l13-sket-083,13,sket,,verbe,,,,se taire,,,5,48,L,63,needs_review,inaccompli iskut
+tapiero-p02-l13-nbah-084,13,nbah,,verbe,,,,"aboyer contre, après qn",,,5,48,L,63,needs_review,inaccompli inbah f-
+tapiero-p02-l13-dres-085,13,dres,,verbe,,,,battre (le grain),,,5,48,L,63,needs_review,inaccompli idres
+tapiero-p02-l13-hmel-086,13,hmel,,verbe,,,,porter,,,5,48,L,63,needs_review,inaccompli ihmel
+tapiero-p02-l13-than-087,13,than,,verbe,,,,moudre,,,5,48,L,63,needs_review,inaccompli ithan
+tapiero-p02-l13-ejen-088,13,ejen,,verbe,,,,pétrir,,,5,48,L,63,needs_review,inaccompli yasjen
+tapiero-p02-l13-snae-089,13,snae,,verbe,,,,"confectionner, fabriquer",,,5,48,L,63,needs_review,inaccompli isnae
+tapiero-p02-l13-b-e-090,13,bâe,,verbe,,,,vendre,,,5,48,L,63,needs_review,inaccompli ibîe
+tapiero-p02-l13-sellem-091,13,sellem,,verbe,,,,saluer,,,5,48,L,63,needs_review,inaccompli isellem
+tapiero-p02-l13-dr-k-092,13,drûk-,,expression,,,,être sur le point de,,,5,48,L,63,needs_review,Suivi d’un verbe à l’inaccompli
+tapiero-p02-l13-b-093,13,bâš-,,expression,,,,"afin de, pour que",,,5,48,L,63,needs_review,Suivi d’un verbe à l’inaccompli
+tapiero-p02-l13-elli-094,13,elli,,relatif,,,,"qui, celui qui",,,5,48,L,63,needs_review,"Voir §94, leçon 19"
+tapiero-p02-l13-hda-095,13,hda,,expression,,,,à côté de,,,5,48,L,63,needs_review,
+tapiero-p02-l14-zenqa-096,14,zenqa,,nom,f,znûq,,rue,,,6,51,R,68,needs_review,"Emprunt, entre crochets dans le livre"
+tapiero-p02-l14-wil-ya-097,14,wilâya,,nom,f,,,"département, région",,,6,51,R,68,needs_review,
+tapiero-p02-l14-wahr-n-098,14,Wahrân,,nom propre,,,,Oran,,,6,51,R,68,needs_review,
+tapiero-p02-l14-lyemna-099,14,lyemna,,nom,,,,la droite,,,6,51,R,68,needs_review,
+tapiero-p02-l14-lesra-100,14,lesra,,nom,,,,la gauche,,,6,51,R,68,needs_review,Dans le texte 68 : ela-l-yesra
+tapiero-p02-l14-dy-r-101,14,dyâr,,nom collectif,,,,maisons,,,6,51,R,68,needs_review,Pluriel de dâr
+tapiero-p02-l14-byad-102,14,byad,,nom,,,,le blanc,,,6,51,R,68,needs_review,"Également au vocabulaire de la leçon 17 (p. 68, §83)"
+tapiero-p02-l14-es-sfar-103,14,es-sfar,,nom,,,,le jaune,,,6,51,R,68,needs_review,
+tapiero-p02-l14-lawn-104,14,lawn,,nom,,lwân,,couleur,,,6,51,R,68,needs_review,
+tapiero-p02-l14-el-eid-106,14,el-eid,,nom,,,,la fête (musulmane),,,6,51,R,68,needs_review,
+tapiero-p02-l14-el-hall-q-107,14,el-hallâq,,nom,,,,le coiffeur,,,6,51,R,68,needs_review,
+tapiero-p02-l14-el-jazz-r-108,14,el-jazzâr,,nom,,,,le boucher,,,6,51,R,68,needs_review,
+tapiero-p02-l14-el-hayy-t-109,14,el-hayyât,,nom,,,,le tailleur,,,6,51,R,68,needs_review,
+tapiero-p02-l14-el-borgo-110,14,el-borgo,,nom,,,,le calicot,,,6,51,R,68,needs_review,"Emprunt, entre crochets dans le livre"
+tapiero-p02-l14-lkett-n-111,14,lkettân,,nom,,,,tissu (de coton),,,6,51,R,68,needs_review,"Emprunt, entre crochets dans le livre"
+tapiero-p02-l14-damm-112,14,damm,,nom,,,,sang,,,6,51,R,68,needs_review,
+tapiero-p02-l14-baqq-l-113,14,baqqâl,,nom,,,,marchand de légumes,,,6,51,R,68,needs_review,
+tapiero-p02-l14-karr-sa-114,14,karrôsa,,nom,,krâres,,"voiture, véhicule",,,6,51,R,68,needs_review,"Emprunt entre crochets ; OCR partiel, à confirmer"
+tapiero-p02-l14-w-see-115,14,wâsee,,adj,,,,vaste,,,7,52,L,68,needs_review,
+tapiero-p02-l14-kt-r-116,14,ktîr,,adj,,,,"nombreux, abondant",,,7,52,L,68,needs_review,
+tapiero-p02-l14-tw-l-117,14,twîl,,adj,,,,long,,,7,52,L,68,needs_review,
+tapiero-p02-l14-er-d-118,14,erîd,,adj,,,,large,,,7,52,L,68,needs_review,
+tapiero-p02-l14-mbayyad-119,14,mbayyad,,participe passif,,,,"peint, enduit",,,7,52,L,68,needs_review,
+tapiero-p02-l14-hor-120,14,âhor,,adj,,,,autre,,,7,52,L,68,needs_review,"Féminin ohra, pluriel ohrîn"
+tapiero-p02-l14-mt-n-121,14,mtîn,,adj,,,,solide,,,7,52,L,68,needs_review,
+tapiero-p02-l14-jdid-122,14,jdid,,adj,,,,neuf,,,7,52,L,68,needs_review,
+tapiero-p02-l14-hmar-123,14,hmar,,adj,,,,rouge,,,7,52,L,68,needs_review,
+tapiero-p02-l14-hdar-124,14,hdar,,adj,,,,vert,,,7,52,L,68,needs_review,
+tapiero-p02-l14-mhayyar-125,14,mhayyar,,participe passif,,,,choisi,,,7,52,L,68,needs_review,"Également au vocabulaire de la leçon 18 (p. 71, §87)"
+tapiero-p02-l14-kedd-b-126,14,keddâb,,adj,,,,menteur,,,7,52,L,68,needs_review,
+tapiero-p02-l14-mdayyeg-127,14,mdayyeg,,participe passif,,,,étroit,,,7,52,L,68,needs_review,
+tapiero-p02-l14-sken-128,14,sken,,verbe,,,,habiter,,,7,52,L,68,needs_review,inaccompli iskun
+tapiero-p02-l14-s-hed-129,14,sâhed,,verbe,,,,"assister à, apercevoir, contempler",,,7,52,L,68,needs_review,inaccompli isâhed
+tapiero-p02-l14-breq-130,14,breq,,verbe,,,,"allumer, briller, étinceler",,,7,52,L,68,needs_review,inaccompli ibreq
+tapiero-p02-l14-hatt-131,14,hatt,,verbe,,,,"poser, installer",,,7,52,L,68,needs_review,inaccompli ihott
+tapiero-p02-l14-hayyat-132,14,hayyat,,verbe,,,,"coudre, confectionner",,,7,52,L,68,needs_review,inaccompli ihayyat
+tapiero-p02-l14-j-z-133,14,jâz,,verbe,,,,passer,,,7,52,L,68,needs_review,inaccompli ijûz
+tapiero-p02-l14-habbar-134,14,habbar,,verbe,,,,informer,,,7,52,L,68,needs_review,inaccompli ihabbar
+tapiero-p02-l14-ela-l-yemna-135,14,ela-l-yemna,,préposition,,,,à droite,,,7,52,L,68,needs_review,
+tapiero-p02-l14-ki-136,14,ki-,,préposition,,,,comme (comparaison),,,7,52,L,68,needs_review,"Également au vocabulaire de la leçon 21 (p. 87, §103)"
+tapiero-p02-l14-qbal-137,14,qbal-,,préposition,,,,avant,,,7,52,L,68,needs_review,"Également au vocabulaire de la leçon 17 (p. 68, §83)"
+tapiero-p02-l15-es-s-ea-138,15,es-sâea,,nom,,,,"l’heure, la montre",,,9,57,R,73,needs_review,
+tapiero-p02-l15-e-ref-139,15,eâref,,participe actif,,,,sachant,,,9,57,R,73,needs_review,
+tapiero-p02-l15-m-i-140,15,mâši,,participe actif,,,,"allant, marchant",,,9,57,R,73,needs_review,
+tapiero-p02-l15-mjammae-141,15,mjammae,,participe passif,,,,réuni,,,9,57,R,73,needs_review,
+tapiero-p02-l15-rj-l-142,15,rjâl,,nom collectif,,,,hommes,,,9,57,R,73,needs_review,Pluriel de râjel
+tapiero-p02-l15-rboe-143,15,rboe,,nom,,,,un quart (d’heure),,,9,57,R,73,needs_review,
+tapiero-p02-l15-s-dati-144,15,sâdati,,nom collectif,,,,"messieurs, mes seigneurs",,,9,57,R,73,needs_review,Pluriel de sîdi
+tapiero-p02-l15-fadl-145,15,fadl,,nom,,,,"grâce, bonté",,,9,57,R,73,needs_review,men-fadl-ek : s’il te plaît
+tapiero-p02-l15-dq-yeq-146,15,dqâyeq,,nom collectif,,,,minutes,,,9,57,R,73,needs_review,Pluriel de dqîqa
+tapiero-p02-l15-ed-dr-ri-147,15,ed-drâri,,nom collectif,,,,les enfants,,,9,57,R,73,needs_review,
+tapiero-p02-l15-noss-148,15,noss,,nom,,,,une demi-(heure),,,9,57,R,73,needs_review,
+tapiero-p02-l15-r-beh-149,15,râbeh,,participe actif,,,,"gagnant, victorieux, lauréat",,,9,57,R,73,needs_review,
+tapiero-p02-l15-mtih-n-150,15,mtihân,,nom,,,,"examen, concours",,,9,57,R,73,needs_review,
+tapiero-p02-l15-el-fadda-151,15,el-fadda,,nom,,,,l’argent (métal précieux),,,9,57,R,73,needs_review,
+tapiero-p02-l15-s-ea-152,15,sâea,,nom,f,swâyee,,heure,,,9,57,R,73,needs_review,
+tapiero-p02-l15-gassar-153,15,gassar,,verbe,,,,"parler, bavarder, converser",,,9,57,R,73,needs_review,inaccompli igassar
+tapiero-p02-l15-j-web-154,15,jâweb,,verbe,,,,répondre à,,,9,57,R,73,needs_review,inaccompli ijâweb
+tapiero-p02-l15-rham-155,15,rham,,verbe,,,,faire miséricorde (en parlant de Dieu),,,9,57,R,73,needs_review,inaccompli irham
+tapiero-p02-l15-jbed-156,15,jbed,,verbe,,,,"tirer, attirer",,,9,57,R,73,needs_review,inaccompli ijbed
+tapiero-p02-l15-sbar-157,15,sbar,,verbe,,,,patienter,,,9,57,R,73,needs_review,inaccompli isbar
+tapiero-p02-l15-njah-158,15,njah,,verbe,,,,réussir,,,9,57,R,73,needs_review,inaccompli yanjah
+tapiero-p02-l15-g-r-159,15,gêr,,expression,,,,"moins, sauf, si ce n’est que",,,9,57,R,73,needs_review,
+tapiero-p02-l15-u-160,15,u-,,expression,,,,voici (tant de temps) que,,,9,57,R,73,needs_review,OCR partiel ; à confirmer
+tapiero-p02-l15-illa-161,15,illa,,expression,,,,ne… que (après une négation),,,9,57,R,73,needs_review,OCR partiel ; voir §106 a
+tapiero-p02-l15-el-haqq-162,15,el-haqq,,expression,,,,"effectivement, en vérité, en effet",,,9,57,R,73,needs_review,
+tapiero-p02-l15-men-hna-ela-163,15,men-hna ela-,,expression,,,,d’ici (tant de temps),,,9,57,R,73,needs_review,
+tapiero-p02-l15-ela-164,15,ela-,,expression,,,,à (telle heure),,,9,57,R,73,needs_review,Suivi d’un nombre avec l’article
+tapiero-p02-l15-b-ad-dabt-165,15,b-ad-dabt,,expression,,,,"juste, exactement",,,9,57,R,73,needs_review,
+tapiero-p02-l15-ida-166,15,ida,,expression,,,,si (condition potentielle),,,9,57,R,73,needs_review,Se construit souvent avec un accompli à valeur de présent-futur
+tapiero-p02-l16-t-jer-167,16,tâjer,,nom,,tujjâr,,commerçant,,,12,62,L,78,needs_review,
+tapiero-p02-l16-gan-168,16,ganî,,adj,,,,riche,,,12,62,L,78,needs_review,
+tapiero-p02-l16-z-yla-169,16,zâyla,,nom,f,zwâyel,,bête de trait,,,12,62,L,78,needs_review,
+tapiero-p02-l16-hayl-170,16,hayl,,nom collectif,,,,chevaux,,,12,62,L,78,needs_review,
+tapiero-p02-l16-hm-r-171,16,hmâr,,nom,,hmîr,,âne,,,12,62,L,78,needs_review,
+tapiero-p02-l16-bgel-172,16,bgel,,nom,,bgâl,,mulet,,,12,62,L,78,needs_review,
+tapiero-p02-l16-gnem-173,16,gnem,,nom collectif,,,,moutons,,,12,62,L,78,needs_review,
+tapiero-p02-l16-ibel-174,16,ibel,,nom collectif,,,,chameaux,,,12,62,L,78,needs_review,
+tapiero-p02-l16-hatra-175,16,hatra,,nom,f,htrât,,fois,,,12,62,L,78,needs_review,
+tapiero-p02-l16-tij-ra-176,16,tijâra,,nom,f,,,commerce,,,12,62,L,78,needs_review,
+tapiero-p02-l16-sahr-177,16,sahrâ,,nom,f,,,"Sahara, désert",,,12,62,L,78,needs_review,
+tapiero-p02-l16-dr-ham-178,16,drâham,,nom collectif,,,,"argent, fonds",,,12,62,L,78,needs_review,Pluriel ; déjà signalé en leçon 9 (partie 01)
+tapiero-p02-l16-zerb-ya-179,16,zerbîya,,nom,f,zrâbi,,tapis,,,12,62,L,78,needs_review,Déjà étudié leçon 5 (partie 01)
+tapiero-p02-l16-us-da-180,16,usâda,,nom,f,usâyed,,coussin,,,12,62,L,78,needs_review,
+tapiero-p02-l16-mdarrba-181,16,mdarrba,,nom,f,mdarrbât,,matelas,,,12,62,L,78,needs_review,
+tapiero-p02-l16-hr-r-182,16,hrîr,,nom,,,,soie,,,12,62,L,78,needs_review,
+tapiero-p02-l16-qat-fa-183,16,qatêfa,,nom,,,,velours,,,12,62,L,78,needs_review,
+tapiero-p02-l16-h-t-184,16,hêt,,nom,,hyôt,,mur,,,12,62,L,78,needs_review,
+tapiero-p02-l16-tasw-ra-185,16,taswîra,,nom,f,tsâwir,,"image, tableau",,,12,62,L,78,needs_review,
+tapiero-p02-l16-tbae-186,16,tbae,,nom,,tbâe,,"sorte, modèle",,,12,62,L,78,needs_review,
+tapiero-p02-l16-el-m-kla-187,16,el-mâkla,,nom,,,,"le manger, la nourriture",,,12,62,L,78,needs_review,
+tapiero-p02-l16-t-bla-188,16,tâbla,,nom,f,twâbel,,table,,,12,62,L,78,needs_review,"Emprunt, entre crochets dans le livre"
+tapiero-p02-l16-kursi-189,16,kursi,,nom,,krâsa,,chaise,,,12,62,L,78,needs_review,
+tapiero-p02-l16-sni-190,16,sni,,nom,,snâwi,,plateau,,,12,62,L,78,needs_review,
+tapiero-p02-l16-nh-s-191,16,nhâs,,nom,,,,cuivre,,,12,62,L,78,needs_review,
+tapiero-p02-l16-eabd-192,16,eabd,,nom,,eabîd,,serviteur (de couleur),,,12,62,L,78,needs_review,
+tapiero-p02-l16-hd-ma-193,16,hdîma,,nom,f,hdîmât,,servante,,,12,62,L,78,needs_review,
+tapiero-p02-l16-mesk-n-194,16,meskîn,,adj,,msâken,,"pauvre, malheureux",,,12,62,L,78,needs_review,
+tapiero-p02-l16-m-a-195,16,mša,,verbe,,,,"aller, marcher, partir",,,12,62,L,78,needs_review,inaccompli imši
+tapiero-p02-l16-mreffeh-196,16,mreffeh,,participe passif,,,,"riche, fortuné",,,12,62,L,78,needs_review,
+tapiero-p02-l16-sawwar-197,16,sawwar,,verbe,,,,"gagner, réaliser un profit",,,12,62,L,78,needs_review,inaccompli isawwar
+tapiero-p02-l16-mgatt-198,16,mgatté,,participe passif,,,,recouvert,,,12,62,L,78,needs_review,Pluriel en -én au lieu de -în
+tapiero-p02-l16-staejab-199,16,staejab,,verbe,,,,"s’étonner, éprouver de l’admiration",,,12,62,L,78,needs_review,"inaccompli istaejab ; Également au vocabulaire de la leçon 20 (p. 82, §98)"
+tapiero-p02-l16-hdem-200,16,hdem,,verbe,,,,"travailler pour le compte de, au service de",,,12,62,L,78,needs_review,inaccompli ihdem ela-
+tapiero-p02-l16-e-201,16,eâš,,verbe,,,,"bien vivre, vivre",,,12,62,L,78,needs_review,inaccompli ieîš
+tapiero-p02-l16-e-ye-202,16,eâyeš,,participe actif,,,,vivant,,,12,62,L,78,needs_review,
+tapiero-p02-l16-l-k-n-la-203,16,lûkân… la-,,expression,,,,si (condition irréelle),,,12,62,L,78,needs_review,Ne pas confondre le la- de la principale avec le lâ- de l’impératif négatif
+tapiero-p02-l16-hetta-204,16,hetta,,expression,,,,"jusqu’à, même",,,12,62,L,78,needs_review,
+tapiero-p02-l16-temma-205,16,temma,,expression,,,,"là, là-bas",,,12,62,L,78,needs_review,
+tapiero-p02-l17-benn-y-206,17,bennây,,nom,,,,maçon,,,14,67,R,83,needs_review,
+tapiero-p02-l17-e-iya-207,17,ešiya,,nom,f,,,"soir, soirée",,,14,67,R,83,needs_review,
+tapiero-p02-l17-r-s-209,17,râs,,nom,,ryûs,,tête,,,14,67,R,83,needs_review,Déjà étudié leçon 3 (partie 01)
+tapiero-p02-l17-tb-b-210,17,tbêb,,nom,,tebbâ,,médecin,,,14,67,R,83,needs_review,"Pluriel OCR partiel, à confirmer"
+tapiero-p02-l17-warga-211,17,warga,,nom,f,wrâq,,feuille,,,14,67,R,83,needs_review,
+tapiero-p02-l17-mumarrida-212,17,mumarrida,,nom,f,mumarridât,,infirmière,,,14,67,R,83,needs_review,
+tapiero-p02-l17-mharma-213,17,mharma,,nom,f,mhârem,,"foulard, voile",,,14,67,R,83,needs_review,
+tapiero-p02-l17-fomm-214,17,fomm,,nom,m,,,bouche,,,14,67,R,83,needs_review,
+tapiero-p02-l17-ls-n-215,17,lsân,,nom,m,,,langue,,,14,67,R,83,needs_review,
+tapiero-p02-l17-gmeja-216,17,gmeja,,nom,f,gmâyej,,chemise,,,14,67,R,83,needs_review,
+tapiero-p02-l17-sdar-217,17,sdar,,nom,,sdûr,,poitrine,,,14,67,R,83,needs_review,
+tapiero-p02-l17-dw-218,17,dwâ,,nom,,,,"médicament, remède",,,14,67,R,83,needs_review,
+tapiero-p02-l17-d-yeh-219,17,dâyeh,,participe actif,,,,atteint de vertige,,,15,68,L,83,needs_review,
+tapiero-p02-l17-f-yeg-220,17,fâyeg,,participe actif,,,,éveillé,,,15,68,L,83,needs_review,
+tapiero-p02-l17-mr-d-221,17,mréd,,adj,,morda,,malade,,,15,68,L,83,needs_review,Déjà étudié leçon 4 (partie 01)
+tapiero-p02-l17-dih-n-222,17,dihân,,adj,,,,"ayant mal à la tête, la tête lourde",,,15,68,L,83,needs_review,
+tapiero-p02-l17-l-bes-223,17,lâbes,,participe actif,,,,vêtu,,,15,68,L,83,needs_review,
+tapiero-p02-l17-mahl-l-224,17,mahlûl,,participe passif,,,,ouvert,,,15,68,L,83,needs_review,
+tapiero-p02-l17-tea-226,17,teaššâ,,verbe,,,,souper,,,15,68,L,83,needs_review,inaccompli itteaššâ
+tapiero-p02-l17-neas-227,17,neas,,verbe,,,,dormir,,,15,68,L,83,needs_review,inaccompli ineas
+tapiero-p02-l17-b-t-228,17,bât,,verbe,,,,passer la nuit,,,15,68,L,83,needs_review,inaccompli ibât
+tapiero-p02-l17-sbah-229,17,sbah,,verbe,,,,"être le matin, devenir",,,15,68,L,83,needs_review,inaccompli isbah
+tapiero-p02-l17-ujas-230,17,ujas,,verbe,,,,faire mal (en parlant d’un organe),,,15,68,L,83,needs_review,inaccompli yujas
+tapiero-p02-l17-n-da-231,17,nâda,,verbe,,,,"appeler, faire appeler qn",,,15,68,L,83,needs_review,inaccompli inâdi l-
+tapiero-p02-l17-stenna-232,17,stenna,,verbe,,,,attendre,,,15,68,L,83,needs_review,inaccompli istenna
+tapiero-p02-l17-jles-233,17,jles,,verbe,,,,s’asseoir,,,15,68,L,83,needs_review,inaccompli ijles
+tapiero-p02-l17-herrej-234,17,herrej,,verbe,,,,faire sortir,,,15,68,L,83,needs_review,inaccompli iherrej
+tapiero-p02-l17-nehha-235,17,nehha,,verbe,,,,ôter,,,15,68,L,83,needs_review,inaccompli inehhi
+tapiero-p02-l17-sannat-236,17,sannat,,verbe,,,,"ausculter, écouter",,,15,68,L,83,needs_review,OCR partiel ; à confirmer
+tapiero-p02-l17-seal-237,17,seal,,verbe,,,,tousser,,,15,68,L,83,needs_review,inaccompli iseal
+tapiero-p02-l17-z-d-238,17,zâd,,verbe,,,,"augmenter, ajouter",,,15,68,L,83,needs_review,inaccompli izid ; OCR partiel
+tapiero-p02-l17-ineffes-239,17,ineffes,,verbe,,,,respirer,,,15,68,L,83,needs_review,inaccompli itneffes
+tapiero-p02-l17-fa-240,17,šfa,,verbe,,,,guérir,,,15,68,L,83,needs_review,inaccompli išfa
+tapiero-p02-l17-ma-h-yen-b-s-241,17,ma-hâyen bâs,,expression,,,,il n’y a pas de mal,,,15,68,L,83,needs_review,
+tapiero-p02-l17-ma-elik-b-s-242,17,ma-elik bâs,,expression,,,,tu n’as rien de grave,,,15,68,L,83,needs_review,Mot à mot : pas sur toi de mal
+tapiero-p02-l17-qbal-men-244,17,qbal-men-,,expression,,,,avant (quelqu’un),,,15,68,L,83,needs_review,
+tapiero-p02-l17-hna-245,17,hna,,expression,,,,ici,,,15,68,L,83,needs_review,
+tapiero-p02-l17-hnak-246,17,hnak,,expression,,,,là-bas,,,15,68,L,83,needs_review,
+tapiero-p02-l18-h-t-247,18,hôt,,nom collectif,,,,"frères, frères et sœurs",,,16,71,R,87,needs_review,Pluriel de hô
+tapiero-p02-l18-hto-248,18,hto,,nom,f,hwât,,sœur,,,16,71,R,87,needs_review,OCR de la forme isolée partiel ; forme du texte 87
+tapiero-p02-l18-najj-r-249,18,najjâr,,nom,,,,menuisier,,,16,71,R,87,needs_review,
+tapiero-p02-l18-meallem-250,18,meallem,,nom,,,,patron,,,16,71,R,87,needs_review,
+tapiero-p02-l18-din-r-251,18,dinâr,,nom,,dnânir,,dinar,,,16,71,R,87,needs_review,
+tapiero-p02-l18-t-leb-252,18,tâleb,,nom,,tolba,,étudiant,,,16,71,R,87,needs_review,
+tapiero-p02-l18-muh-mi-253,18,muhâmi,,nom,,,,avocat,,,16,71,R,87,needs_review,
+tapiero-p02-l18-dur-s-254,18,durûs,,nom collectif,,,,"études, cours",,,16,71,R,87,needs_review,Pluriel de dars
+tapiero-p02-l18-el-e-m-el-j-y-255,18,el-eâm el-jây,,nom,,,,l’an prochain,,,16,71,R,87,needs_review,Littéralement : l’an le venant
+tapiero-p02-l18-el-e-m-l-awwel-256,18,el-eâm l-awwel,,nom,,,,l’an passé,,,16,71,R,87,needs_review,Littéralement : l’an le premier
+tapiero-p02-l18-layla-257,18,Layla,,nom propre,f,,,Leïla (prénom féminin),,,16,71,R,87,needs_review,
+tapiero-p02-l18-tilm-d-258,18,tilmîd,,nom,,tlâmîd,,élève,,,16,71,R,87,needs_review,
+tapiero-p02-l18-tlems-n-259,18,tlemsân,,nom propre,,,,Tlemcen,,,16,71,R,87,needs_review,
+tapiero-p02-l18-ahsan-260,18,ahsan,,adj,,,,meilleur,,,16,71,R,87,needs_review,
+tapiero-p02-l18-eaz-m-261,18,eazîm,,adj,,,,"grand, formidable",,,16,71,R,87,needs_review,
+tapiero-p02-l18-eulya-262,18,eulya,,adj,f,,,"plus haute, supérieure",,,16,71,R,87,needs_review,Féminin de aela
+tapiero-p02-l18-hn-n-ela-264,18,hnîn ela-,,adj,,,,plus tendre que,,,16,71,R,87,needs_review,
+tapiero-p02-l18-t-naw-265,18,tânawî,,adj,,,,secondaire,,,16,71,R,87,needs_review,"Féminin tânawîya ; dérivé de tânî, second"
+tapiero-p02-l18-agbah-men-266,18,agbah men-,,adj,,,,plus méchant que,,,16,71,R,87,needs_review,
+tapiero-p02-l18-e-qel-267,18,eâqel,,participe actif,,,,"raisonnable, gentil, sage",,,16,71,R,87,needs_review,
+tapiero-p02-l18-rbah-268,18,rbah,,verbe,,,,"gagner (un salaire), réussir",,,16,71,R,87,needs_review,inaccompli irbah
+tapiero-p02-l18-thallas-men-269,18,thallas men-,,verbe,,,,"achever, régler, payer qch.",,,16,71,R,87,needs_review,"Verbe hallas, leçon 9"
+tapiero-p02-l18-tzawwej-270,18,tzawwej,,verbe,,,,se marier,,,16,71,R,87,needs_review,inaccompli itzawwej
+tapiero-p02-l18-bah-271,18,šbah,,verbe,,,,ressembler à,,,16,71,R,87,needs_review,inaccompli išbah l-
+tapiero-p02-l18-dres-272,18,dres,,verbe,,,,étudier,,,16,71,R,87,needs_review,inaccompli idrus ; repris de la leçon 13
+tapiero-p02-l18-nbaga-273,18,nbaga,,verbe,,,,convenir,,,16,71,R,87,needs_review,inaccompli yanbagi
+tapiero-p02-l18-ma-k-n-metl-274,18,ma-kân-š metl-,,expression,,,,il n’y a pas comme,,,17,72,L,87,needs_review,
+tapiero-p02-l18-ki-ma-yanbagi-275,18,ki-ma yanbagi,,expression,,,,impeccablement (comme il convient),,,17,72,L,87,needs_review,
+tapiero-p02-l18-el-kull-276,18,el-kull,,expression,,,,"la totalité, en totalité",,,17,72,L,87,needs_review,Déjà étudié leçon 10 (partie 01)
+tapiero-p02-l18-b-ez-z-f-277,18,b-ez-zâf,,expression,,,,"beaucoup, très",,,17,72,L,87,needs_review,"Déjà étudié leçon 7 (partie 01) ; Également au vocabulaire de la leçon 19 (p. 77, §93)"
+tapiero-p02-l18-metl-278,18,metl-,,expression,,,,comme,,,17,72,L,87,needs_review,
+tapiero-p02-l18-k-f-279,18,kîf-,,expression,,,,comme,,,17,72,L,87,needs_review,
+tapiero-p02-l18-ea-r-n-280,18,eašrîn,,numéral,,,,vingt,,,15,68,L,85,needs_review,De 30 à 90 : unité + suffixe -în ; 20 : eašra + suffixe du duel -în
+tapiero-p02-l18-tl-t-n-281,18,tlâtîn,,numéral,,,,trente,,,15,68,L,85,needs_review,De 30 à 90 : unité + suffixe -în ; 20 : eašra + suffixe du duel -în
+tapiero-p02-l18-rabe-n-282,18,rabeîn,,numéral,,,,quarante,,,15,68,L,85,needs_review,De 30 à 90 : unité + suffixe -în ; 20 : eašra + suffixe du duel -în
+tapiero-p02-l18-hems-n-283,18,hemsîn,,numéral,,,,cinquante,,,15,68,L,85,needs_review,De 30 à 90 : unité + suffixe -în ; 20 : eašra + suffixe du duel -în
+tapiero-p02-l18-sett-n-284,18,settîn,,numéral,,,,soixante,,,15,68,L,85,needs_review,De 30 à 90 : unité + suffixe -în ; 20 : eašra + suffixe du duel -în
+tapiero-p02-l18-sebe-n-285,18,sebeîn,,numéral,,,,soixante-dix,,,15,68,L,85,needs_review,De 30 à 90 : unité + suffixe -în ; 20 : eašra + suffixe du duel -în
+tapiero-p02-l18-tm-n-n-286,18,tmânîn,,numéral,,,,quatre-vingts,,,15,68,L,85,needs_review,De 30 à 90 : unité + suffixe -în ; 20 : eašra + suffixe du duel -în
+tapiero-p02-l18-tes-n-287,18,tesɛîn,,numéral,,,,quatre-vingt-dix,,,15,68,L,85,needs_review,De 30 à 90 : unité + suffixe -în ; 20 : eašra + suffixe du duel -în
+tapiero-p02-l18-mya-288,18,mya,,numéral,,,,cent,,,17,73,R,90,needs_review,
+tapiero-p02-l18-m-t-n-289,18,mîtîn,,numéral,,,,deux cents,,,17,73,R,90,needs_review,Duel de mya
+tapiero-p02-l18-alef-290,18,alef,,numéral,,,,mille,,,17,73,R,90,needs_review,
+tapiero-p02-l18-alf-n-291,18,alfîn,,numéral,,,,deux mille,,,17,73,R,90,needs_review,Duel de alef
+tapiero-p02-l18-al-f-292,18,alâf,,numéral,,,,milliers,,,17,73,R,90,needs_review,"Pluriel de alef, employé de 3 000 à 10 000"
+tapiero-p02-l18-awwel-293,18,awwel,,adj ordinal,,,,premier,,,18,74,L,91,needs_review,"Forme spéciale ; Forme du participe actif ; féminin en -a, pluriel en -în"
+tapiero-p02-l18-t-n-294,18,tânî,,adj ordinal,,,,"deuxième, second",,,18,74,L,91,needs_review,"Forme du participe actif ; féminin en -a, pluriel en -în"
+tapiero-p02-l18-t-let-295,18,tâlet,,adj ordinal,,,,troisième,,,18,74,L,91,needs_review,"Forme du participe actif ; féminin en -a, pluriel en -în"
+tapiero-p02-l18-r-be-296,18,râbeɛ,,adj ordinal,,,,quatrième,,,18,74,L,91,needs_review,"Forme du participe actif ; féminin en -a, pluriel en -în"
+tapiero-p02-l18-h-mes-297,18,hâmes,,adj ordinal,,,,cinquième,,,18,74,L,91,needs_review,"Forme du participe actif ; féminin en -a, pluriel en -în"
+tapiero-p02-l18-s-tes-298,18,sâtes,,adj ordinal,,,,sixième,,,18,74,L,91,needs_review,"Forme du participe actif ; féminin en -a, pluriel en -în"
+tapiero-p02-l18-s-be-299,18,sâbeɛ,,adj ordinal,,,,septième,,,18,74,L,91,needs_review,"Forme du participe actif ; féminin en -a, pluriel en -în"
+tapiero-p02-l18-t-men-300,18,tâmen,,adj ordinal,,,,huitième,,,18,74,L,91,needs_review,"Forme du participe actif ; féminin en -a, pluriel en -în"
+tapiero-p02-l18-t-see-301,18,tâsee,,adj ordinal,,,,neuvième,,,18,74,L,91,needs_review,"Forme du participe actif ; féminin en -a, pluriel en -în"
+tapiero-p02-l18-e-er-302,18,eâšer,,adj ordinal,,,,dixième,,,18,74,L,91,needs_review,"Forme du participe actif ; féminin en -a, pluriel en -în"
+tapiero-p02-l18-t-li-303,18,tâli,,adj ordinal,,,,dernier,,,18,74,L,91,needs_review,"À ne pas confondre avec tânî, second ; Forme du participe actif ; féminin en -a, pluriel en -în"
+tapiero-p02-l19-rubb-304,19,ûrubbâ,,nom propre,,,,Europe,,,19,77,R,93,needs_review,
+tapiero-p02-l19-bayy-d-305,19,bayyâd,,nom,,bayyâdîn,,peintre,,,19,77,R,93,needs_review,Le livre note : pluriel én = în
+tapiero-p02-l19-menjem-306,19,menjem,,nom,,mnâjem,,mine,,,19,77,R,93,needs_review,
+tapiero-p02-l19-masnae-307,19,masnae,,nom,,msânee,,usine,,,19,77,R,93,needs_review,
+tapiero-p02-l19-sedd-308,19,sedd,,nom,,sdûd,,barrage,,,19,77,R,93,needs_review,
+tapiero-p02-l19-el-katra-309,19,el-katra,,nom,,,,la majorité,,,19,77,R,93,needs_review,
+tapiero-p02-l19-g-leb-310,19,gâleb,,nom,,,,(la) plupart,,,19,77,R,93,needs_review,
+tapiero-p02-l19-h-n-311,19,hîn,,nom,,ahyân,,moment,,,19,77,R,93,needs_review,
+tapiero-p02-l19-sanea-312,19,sanea,,nom,f,,,métier,,,19,77,R,93,needs_review,Synonyme herfa
+tapiero-p02-l19-mihna-313,19,mihna,,nom,f,mihan,,profession,,,19,77,R,93,needs_review,
+tapiero-p02-l19-mihn-314,19,mihnî,,adj,,,,professionnel,,,19,77,R,93,needs_review,
+tapiero-p02-l19-suh-la-315,19,suhûla,,nom,f,,,facilité,,,19,77,R,93,needs_review,
+tapiero-p02-l19-kayf-ya-316,19,kayfîya,,nom,f,,,"manière, procédé",,,19,77,R,93,needs_review,
+tapiero-p02-l19-herfa-317,19,herfa,,nom,f,hiraf,,métier,,,19,77,R,93,needs_review,
+tapiero-p02-l19-hd-d-318,19,hdîd,,nom,,,,"fer, acier",,,19,77,R,93,needs_review,
+tapiero-p02-l19-ujra-319,19,ujra,,nom,f,wjûr,,salaire,,,19,77,R,93,needs_review,
+tapiero-p02-l19-bar-d-320,19,barîd,,nom,,,,poste,,,19,77,R,93,needs_review,
+tapiero-p02-l19-aqrab-321,19,aqrab,,nom,,aqârib,,proche parent,,,19,77,R,93,needs_review,
+tapiero-p02-l19-zawja-322,19,zawja,,nom,f,zawjât,,épouse,,,19,77,R,93,needs_review,
+tapiero-p02-l19-e-yla-323,19,eâyla,,nom,f,eâylât,,famille,,,19,77,R,93,needs_review,Le livre donne aussi eâila
+tapiero-p02-l19-b-hira-324,19,bâhira,,nom,f,,,bateau,,,19,77,R,93,needs_review,
+tapiero-p02-l19-tayy-ra-325,19,tayyâra,,nom,f,,,avion,,,19,77,R,93,needs_review,
+tapiero-p02-l19-watan-326,19,watan,,nom,,,,patrie,,,19,77,R,93,needs_review,
+tapiero-p02-l19-hb-b-327,19,hbîb,,nom,,hbâb,,ami,,,19,77,R,93,needs_review,
+tapiero-p02-l19-e-da-328,19,eâda,,nom,f,eâdât,,coutume,,,19,77,R,93,needs_review,
+tapiero-p02-l19-gorba-329,19,gorba,,nom,f,,,"solitude, éloignement",,,19,77,R,93,needs_review,
+tapiero-p02-l19-ayyed-330,19,šayyed,,verbe,,,,"monter, édifier",,,19,77,R,93,needs_review,inaccompli išayyed
+tapiero-p02-l19-s-b-331,19,sâb,,verbe,,,,trouver,,,19,77,R,93,needs_review,"inaccompli isêb ; homonyme de sâb, tomber (pluie), leçon 12"
+tapiero-p02-l19-e-wen-332,19,eâwen,,verbe,,,,aider,,,19,77,R,93,needs_review,inaccompli ieâwen
+tapiero-p02-l19-qbad-333,19,qbad,,verbe,,,,"toucher, percevoir",,,19,77,R,93,needs_review,inaccompli iqbad
+tapiero-p02-l19-rsel-334,19,rsel,,verbe,,,,"envoyer, expédier",,,19,77,R,93,needs_review,inaccompli irsel
+tapiero-p02-l19-trek-335,19,trek,,verbe,,,,"laisser, abandonner",,,19,77,R,93,needs_review,inaccompli itrek
+tapiero-p02-l19-rkeb-336,19,rkeb,,verbe,,,,"monter sur, prendre (un véhicule)",,,19,77,R,93,needs_review,inaccompli irkeb
+tapiero-p02-l19-rjae-337,19,rjae,,verbe,,,,revenir,,,19,77,R,93,needs_review,inaccompli irjae ; déjà étudié leçon 9 (partie 01)
+tapiero-p02-l19-muw-lef-bi-338,19,muwâlef bi-,,participe passif,,,,habitué à,,,19,77,R,93,needs_review,
+tapiero-p02-l19-men-340,19,men-,,expression,,,,"parmi, de",,,19,77,R,93,needs_review,Avec un pluriel
+tapiero-p02-l19-aw-341,19,aw,,conjonction,,,,"ou, ou bien",,,19,77,R,93,needs_review,"Variante de wella, leçon 10"
+tapiero-p02-l19-f-el-g-leb-el-ahy-n-342,19,f-el-gâleb el-ahyân,,expression,,,,la plupart du temps,,,19,77,R,93,needs_review,
+tapiero-p02-l19-bl-343,19,blâ,,préposition,,,,sans,,,19,77,R,93,needs_review,
+tapiero-p02-l19-ma-g-r-344,19,ma-… -gêr,,négation,,,,ne… que,,,19,77,R,93,needs_review,
+tapiero-p02-l19-hos-s-345,19,hosôs,,adverbe,,,,"surtout, particulièrement",,,19,77,R,93,needs_review,
+tapiero-p02-l19-b-suh-la-346,19,b-suhûla,,expression,,,,facilement,,,19,77,R,93,needs_review,
+tapiero-p02-l19-tumma-347,19,tumma,,adverbe,,,,ensuite,,,19,77,R,93,needs_review,
+tapiero-p02-l19-derwaq-348,19,derwaq,,adverbe,,,,maintenant,,,19,77,R,93,needs_review,
+tapiero-p02-l20-md-na-349,20,mdîna,,nom,f,mdûn,,ville,,,22,82,L,98,needs_review,Déjà étudié leçon 6 (partie 01)
+tapiero-p02-l20-att-350,20,šatt,,nom,,,,"bord, rivage",,,22,82,L,98,needs_review,
+tapiero-p02-l20-le-bhar-351,20,le-bhar,,nom,m,,,la mer,,,22,82,L,98,needs_review,
+tapiero-p02-l20-rukk-b-352,20,rukkâb,,nom collectif,,,,voyageurs,,,22,82,L,98,needs_review,Pluriel de râkeb
+tapiero-p02-l20-marsa-353,20,marsa,,nom,f,,,"port, quai",,,22,82,L,98,needs_review,
+tapiero-p02-l20-hbel-354,20,hbel,,nom,,,,corde,,,22,82,L,98,needs_review,Diminutif hbîla
+tapiero-p02-l20-hajra-355,20,hajra,,nom,f,,,pierre,,,22,82,L,98,needs_review,Diminutif hjîra
+tapiero-p02-l20-hawma-356,20,hawma,,nom,f,,,quartier,,,22,82,L,98,needs_review,
+tapiero-p02-l20-haq-ba-357,20,haqîba,,nom,f,hqâyeb,,valise,,,22,82,L,98,needs_review,
+tapiero-p02-l20-goffa-358,20,goffa,,nom,f,gfef,,couffin,,,22,82,L,98,needs_review,Déjà étudié leçon 9 (partie 01) : el-goffa
+tapiero-p02-l20-el-qbayliya-359,20,el-qbayliya,,nom,,,,la langue kabyle,,,22,82,L,98,needs_review,
+tapiero-p02-l20-r-keb-360,20,râkeb,,participe actif,,,,"voyageur, passager",,,22,82,L,98,needs_review,
+tapiero-p02-l20-man-r-361,20,manšûr,,participe passif,,,,"tendu, étendu",,,22,82,L,98,needs_review,
+tapiero-p02-l20-mna-ar-362,20,mnaššar,,participe passif,,,,étalé,,,22,82,L,98,needs_review,
+tapiero-p02-l20-maht-t-363,20,mahtût,,participe passif,,,,"posé, disposé",,,22,82,L,98,needs_review,
+tapiero-p02-l20-mdarraj-364,20,mdarraj,,participe passif,,,,étagé,,,22,82,L,98,needs_review,
+tapiero-p02-l20-msettef-365,20,msettef,,participe passif,,,,"rangé, ordonné",,,22,82,L,98,needs_review,
+tapiero-p02-l20-jd-d-366,20,jdîd,,adj,,jdâd,,"neuf, nouveau",,,22,82,L,98,needs_review,
+tapiero-p02-l20-qd-m-367,20,qdîm,,adj,,qdâm,,"vieux, ancien",,,22,82,L,98,needs_review,
+tapiero-p02-l20-ah-d-368,20,šahîd,,nom,,šuhadâ,,martyr,,,22,82,L,98,needs_review,
+tapiero-p02-l20-tgarrab-370,20,tgarrab,,verbe,,,,s’approcher de,,,22,82,L,98,needs_review,inaccompli itgarrab men
+tapiero-p02-l20-te-wen-371,20,teâwen,,verbe,,,,s’aider,,,22,82,L,98,needs_review,inaccompli iteâwen
+tapiero-p02-l20-b-n-372,20,bân,,verbe,,,,apparaître à qn,,,22,82,L,98,needs_review,inaccompli ibân l-
+tapiero-p02-l20-nzel-373,20,nzel,,verbe,,,,descendre (d’un véhicule),,,22,82,L,98,needs_review,inaccompli inzel
+tapiero-p02-l20-tlae-374,20,tlae,,verbe,,,,"monter, gravir",,,22,82,L,98,needs_review,inaccompli itlae
+tapiero-p02-l20-hbat-375,20,hbat,,verbe,,,,descendre,,,22,82,L,98,needs_review,inaccompli ihbat
+tapiero-p02-l20-hall-377,20,hallâ,,verbe,,,,laisser,,,22,82,L,98,needs_review,"inaccompli ihallî ; OCR partiel, à confirmer"
+tapiero-p02-l20-hawwes-378,20,hawwes,,verbe,,,,"se promener, chercher",,,22,82,L,98,needs_review,inaccompli ihawwes
+tapiero-p02-l20-b-ed-379,20,bâed-,,expression,,,,"certain, certains, certaine, certaines",,,22,82,L,98,needs_review,
+tapiero-p02-l20-bin-u-380,20,bin… u-,,expression,,,,entre… et…,,,22,82,L,98,needs_review,
+tapiero-p02-l20-f-q-381,20,fûq,,expression,,,,au-dessus,,,22,82,L,98,needs_review,
+tapiero-p02-l21-s-hel-382,21,sâhel,,nom,m,,,"rivage, bord de mer",,,24,87,R,103,needs_review,
+tapiero-p02-l21-d-lya-383,21,dâlya,,nom,f,,,vigne,,,24,87,R,103,needs_review,
+tapiero-p02-l21-j-r-384,21,šjâr,,nom collectif,,,,arbres,,,24,87,R,103,needs_review,Pluriel de šajra
+tapiero-p02-l21-na-385,21,šîna,,nom,f,,,"orange, oranger",,,24,87,R,103,needs_review,
+tapiero-p02-l21-q-res-386,21,qâres,,nom,m,,,"citron, mandarine, citronnier, mandarinier",,,24,87,R,103,needs_review,
+tapiero-p02-l21-e-r-387,21,šeîr,,nom,m,,,orge,,,24,87,R,103,needs_review,
+tapiero-p02-l21-karm-s-388,21,karmûs,,nom,m,,,"figue, figuier",,,24,87,R,103,needs_review,
+tapiero-p02-l21-z-t-n-389,21,zîtûn,,nom,m,,,"olive, olivier",,,24,87,R,103,needs_review,
+tapiero-p02-l21-da-ra-390,21,dašra,,nom,f,dsûr,,hameau,,,24,87,R,103,needs_review,
+tapiero-p02-l21-es-s-ba-391,21,es-sâba,,nom,,,,la récolte de blé,,,24,87,R,103,needs_review,
+tapiero-p02-l21-j-r-392,21,jâr,,nom,m,jîrân,,voisin,,,24,87,R,103,needs_review,
+tapiero-p02-l21-menjel-393,21,menjel,,nom,m,mnâjel,,faucille,,,24,87,R,103,needs_review,
+tapiero-p02-l21-ej-z-394,21,ejûz,,nom,f,ejâyez,,vieille femme,,,24,87,R,103,needs_review,
+tapiero-p02-l21-zrae-395,21,zrae,,verbe,,,,semer,,,24,87,R,103,needs_review,inaccompli izrae
+tapiero-p02-l21-gres-396,21,gres,,verbe,,,,planter,,,24,87,R,103,needs_review,inaccompli igres
+tapiero-p02-l21-tlemm-397,21,tlemm,,verbe,,,,"se réunir, se rassembler",,,24,87,R,103,needs_review,inaccompli itlemm
+tapiero-p02-l21-wjad-398,21,wjad,,verbe,,,,être prête (en parlant d’une chose),,,24,87,R,103,needs_review,inaccompli ywjad
+tapiero-p02-l21-t-b-399,21,tâb,,verbe,,,,"mûrir, être mûre (en parlant d’une chose)",,,24,87,R,103,needs_review,inaccompli itôb
+tapiero-p02-l21-bqa-400,21,bqa,,verbe,,,,"rester, être en reste",,,24,87,R,103,needs_review,inaccompli ibqa
+tapiero-p02-l21-gead-401,21,gead,,verbe,,,,"rester, être assis",,,24,87,R,103,needs_review,inaccompli igead
+tapiero-p02-l21-sall-402,21,sallâ,,verbe,,,,"faire la Prière, bénir",,,24,87,R,103,needs_review,inaccompli isallâ
+tapiero-p02-l21-hsad-403,21,hsad,,verbe,,,,"moissonner, faucher",,,24,87,R,103,needs_review,inaccompli ihsad
+tapiero-p02-l21-f-el-g-leb-404,21,f-el-gâleb,,expression,,,,la plupart du temps,,,24,87,R,103,needs_review,
+tapiero-p02-l21-men-hna-406,21,men-hna,,expression,,,,"par ici, d’ici",,,24,87,R,103,needs_review,
+tapiero-p02-l21-y-407,21,yâ-,,expression,,,,ô… (vocatif),,,24,87,R,104,needs_review,Déjà étudié leçon 4 (partie 01) ; voir §104 a
+tapiero-p02-l21-ayya-408,21,ayya-,,expression,,,,allons ! allons-y ! en avant !,,,24,87,R,104,needs_review,Avec un verbe à l’inaccompli
+tapiero-p02-l21-y-l-h-409,21,yâ-lâh,,expression,,,,allons ! allons-y ! en avant !,,,24,87,R,104,needs_review,Variante de ayya- ; déjà vu leçon 9 (partie 01)
+tapiero-p02-l21-l-budda-410,21,lâ-budda,,expression,,,,"il faut, c’est nécessaire !",,,24,87,R,104,needs_review,
+tapiero-p02-l21-h-411,21,hâ-,,expression,,,,"voici (le, la, les)",,,24,87,R,104,needs_review,Avec un pronom personnel isolé de 3e personne ; déjà vu leçon 8
+tapiero-p02-l21-y-saedi-412,21,yâ-saedi,,expression,,,,à ma chance ! quelle chance !,,,24,87,R,104,needs_review,
+tapiero-p02-l21-y-hasra-413,21,yâ-hasra,,expression,,,,hélas ! (soupir de regret sur le temps jadis),,,24,87,R,104,needs_review,
+tapiero-p02-l21-l-u-l-414,21,lâ-… u-là-,,négation,,,,ni… ni…,,,25,88,L,106,needs_review,Négation répétée avec noms ou adjectifs au pluriel
+tapiero-p02-l21-l-415,21,lâ,,négation,,,,non,,,25,88,L,106,needs_review,Négation isolée
+tapiero-p02-l21-w-h-416,21,wâh,,expression,,,,oui,,,25,88,L,106,needs_review,Affirmation isolée ; selon les régions
+tapiero-p02-l21-y-h-417,21,yêh,,expression,,,,oui,,,25,88,L,106,needs_review,Affirmation isolée ; selon les régions
+tapiero-p02-l21-ayw-418,21,aywâ,,expression,,,,oui,,,25,88,L,106,needs_review,Affirmation isolée ; selon les régions
+tapiero-p02-l21-neam-419,21,neam,,expression,,,,oui ; présent !,,,25,88,L,106,needs_review,Affirmation isolée ; signifie aussi : présent

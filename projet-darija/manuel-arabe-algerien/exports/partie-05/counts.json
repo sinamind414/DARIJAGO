@@ -1,0 +1,18 @@
+{
+  "total": {
+    "sources": 5,
+    "pages": 226,
+    "lessons": 30,
+    "vocabulary": 850,
+    "grammar_rules": 86,
+    "exercises": 97,
+    "study_texts": 30,
+    "dialogues": 15,
+    "review_tasks": 1140
+  },
+  "partie_05": {
+    "pages": 28,
+    "dialogues": 9
+  },
+  "book_complete": true
+}

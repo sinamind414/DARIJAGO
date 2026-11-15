@@ -1,0 +1,40 @@
+{
+  "mode": "original",
+  "info": {
+    "title": "Speak Algeria — Apprendre la darija algérienne",
+    "rootChildren": 0,
+    "rootHtmlLength": 0,
+    "bodyText": "",
+    "scripts": [
+      {
+        "src": "http://127.0.0.1:3000/@vite/client",
+        "type": "module"
+      },
+      {
+        "src": "http://127.0.0.1:3000/src/main.tsx",
+        "type": "1fb22c8f7a64eae797eb384c-module"
+      },
+      {
+        "src": "http://127.0.0.1:3000/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js",
+        "type": ""
+      }
+    ]
+  },
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "pageErrors": [],
+  "failedRequests": [
+    {
+      "url": "http://127.0.0.1:3000/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:3000/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js",
+      "status": 404
+    }
+  ],
+  "axe": null
+}

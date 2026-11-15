@@ -1,0 +1,23 @@
+{
+  "total": {
+    "sources": 2,
+    "pages": 100,
+    "lessons": 22,
+    "lesson_sections": 24,
+    "vocabulary": 681,
+    "grammar_rules": 65,
+    "exercises": 67,
+    "study_texts": 22,
+    "review_tasks": 868
+  },
+  "partie_02": {
+    "pages": 50,
+    "lessons": 11,
+    "vocabulary": 410,
+    "grammar_rules": 36,
+    "exercises": 37,
+    "study_texts": 11
+  },
+  "vocab_dedup_removed": 9,
+  "cross_part_reprises": 11
+}

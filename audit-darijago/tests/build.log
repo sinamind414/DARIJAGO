@@ -1,0 +1,17 @@
+
+> react-example@0.0.0 build
+> vite build
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - `__dirname` (vite.config.ts:11:27). Use `import.meta.dirname` instead
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+vite v8.3.8 building client environment for production...
+transforming...
+<script src="/src/main.tsx"> in "/index.html" can't be bundled without type="module" attribute
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"> in "/index.html" can't be bundled without type="module" attribute
+✓ 2 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html  1.77 kB │ gzip: 0.80 kB
+
+✓ built in 90ms

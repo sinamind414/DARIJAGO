@@ -1,0 +1,170 @@
+entry_uid,lesson_no,form_latin,form_ar,pos,gender,plural,root,gloss_fr,example_latin,example_fr,pdf_page,printed_page,side,paragraph_ref,status,notes
+tapiero-p03-l22-rasm-001,22,rasm,,nom,m,rsûm,,"dessin, plan",,,1,91,R,108,needs_review,
+tapiero-p03-l22-mudda-002,22,mudda,,nom,f,,,"durée, laps de temps",,,1,91,R,108,needs_review,
+tapiero-p03-l22-n-e-003,22,nûe,,nom,,nwâe,,"sorte, qualité, type, catégorie",,,1,91,R,108,needs_review,
+tapiero-p03-l22-s-ma-004,22,sûma,,nom,f,,,"somme, prix",,,1,91,R,108,needs_review,
+tapiero-p03-l22-h-li-005,22,hâli,,participe actif,,,,"vide, nu",,,1,91,R,108,needs_review,
+tapiero-p03-l22-hina-006,22,šâhina,,nom,f,šâhinât,,camion,,,1,91,R,108,needs_review,"Emprunt, entre crochets dans le livre"
+tapiero-p03-l22-meammar-b-007,22,meammar b-,,participe passif,,,,rempli de,,,1,91,R,108,needs_review,
+tapiero-p03-l22-hjar-008,22,hjar,,nom collectif,,,,pierres,,,1,91,R,108,needs_review,
+tapiero-p03-l22-rmel-009,22,rmel,,nom,,,,sable,,,1,91,R,108,needs_review,
+tapiero-p03-l22-l-ha-010,22,lôha,,nom,f,lwâh,,planche,,,1,91,R,108,needs_review,
+tapiero-p03-l22-tr-b-011,22,trâb,,nom,m,,,"terre (matière), poussière épaisse",,,1,91,R,108,needs_review,
+tapiero-p03-l22-nq-012,22,nqî,,adj,,,,"propre, trié",,,1,91,R,108,needs_review,
+tapiero-p03-l22-el-j-r-013,22,el-jîr,,nom,,,,"la chaux, le ciment",,,1,91,R,108,needs_review,
+tapiero-p03-l22-miz-j-014,22,mizâj,,nom,,,,mélange (produit mélangé),,,1,91,R,108,needs_review,
+tapiero-p03-l22-surea-015,22,surea,,nom,f,,,rapidité,,,1,91,R,108,needs_review,
+tapiero-p03-l22-l-qarm-d-016,22,l-qarmûd,,nom collectif,,,,les tuiles,,,1,91,R,108,needs_review,
+tapiero-p03-l22-es-sqef-017,22,es-sqef,,nom,,,,"le toit, le plafond",,,1,91,R,108,needs_review,
+tapiero-p03-l22-muq-wil-018,22,muqâwil,,participe actif,,,,"contractant, entrepreneur",,,1,91,R,108,needs_review,
+tapiero-p03-l22-si-019,22,si-,,nom,,,,"monsieur, sieur",,,1,91,R,108,needs_review,Abréviation de sîdi ou sayyîdi
+tapiero-p03-l22-bna-020,22,bna,,verbe,,,,"construire, faire construire",,,1,91,R,108,needs_review,inaccompli ibni
+tapiero-p03-l22-tt-feq-021,22,ttâfeq,,verbe,,,,s’accorder sur,,,1,91,R,108,needs_review,inaccompli ittâfeq ela- ; s’emploie surtout au pluriel
+tapiero-p03-l22-hallat-022,22,hallat,,verbe,,,,mélanger,,,1,91,R,108,needs_review,inaccompli ihallat
+tapiero-p03-l22-hfar-023,22,hfar,,verbe,,,,"creuser, piocher",,,1,91,R,108,needs_review,inaccompli ihfar
+tapiero-p03-l22-laggat-024,22,laggat,,verbe,,,,ramasser,,,1,91,R,108,needs_review,inaccompli ilaggat
+tapiero-p03-l22-fettet-025,22,fettet,,verbe,,,,réduire en poussière,,,1,91,R,108,needs_review,inaccompli ifettet
+tapiero-p03-l22-dres-026,22,dres,,verbe,,,,broyer,,,1,91,R,108,needs_review,"inaccompli idres ; homonyme de dres, idrus (étudier), voir glossaire"
+tapiero-p03-l22-tallae-027,22,tallae,,verbe,,,,"édifier, faire monter",,,1,91,R,108,needs_review,inaccompli itallae
+tapiero-p03-l22-seggef-028,22,seggef,,verbe,,,,recouvrir d’un toit,,,1,91,R,108,needs_review,inaccompli iseggef
+tapiero-p03-l22-warra-029,22,warra,,verbe,,,,"montrer, faire voir",,,1,91,R,108,needs_review,inaccompli iwarri
+tapiero-p03-l22-ntaq-030,22,ntaq,,verbe,,,,"parler à qn, lui adresser la parole",,,1,91,R,108,needs_review,inaccompli intaq l-
+tapiero-p03-l22-h-rej-men-031,22,hârej-men,,expression,,,,en dehors de,,,1,91,R,108,needs_review,Variante hârej
+tapiero-p03-l22-baed-032,22,baed-,,expression,,,,après (un laps de temps),,,1,91,R,108,needs_review,
+tapiero-p03-l22-bih-fih-033,22,bih-fih,,expression,,,,"rapidement, vite, immédiatement",,,1,91,R,108,needs_review,Variante fih-bih ; synonyme b-surea
+tapiero-p03-l22-muddat-034,22,muddat-,,expression,,,,pendant…,,,1,91,R,108,needs_review,
+tapiero-p03-l22-zm-n-035,22,zmân,,expression,,,,"jadis, il y a longtemps",,,1,91,R,108,needs_review,
+tapiero-p03-l22-men-hnak-036,22,men-hnak,,expression,,,,par là-bas,,,1,91,R,108,needs_review,
+tapiero-p03-l22-hetta-037,22,hetta-,,expression,,,,jusqu’à ce que,,,1,91,R,108,needs_review,Avec un verbe
+tapiero-p03-l22-g-r-038,22,gêr,,expression,,,,"seulement, il suffit",,,1,91,R,108,needs_review,Avec un verbe
+tapiero-p03-l22-ki-ma-039,22,ki-ma-,,expression,,,,comme si,,,1,91,R,108,needs_review,Avec un verbe
+tapiero-p03-l23-qsont-na-040,23,qsontîna,,nom propre,,,,Constantine,,,3,95,R,112,needs_review,
+tapiero-p03-l23-ris-la-041,23,risâla,,nom,f,,,lettre,,,3,95,R,112,needs_review,Synonyme brîya
+tapiero-p03-l23-warqa-042,23,warqa,,nom,f,,,"papier, feuille",,,3,95,R,112,needs_review,Emprunt entre crochets : kâgat
+tapiero-p03-l23-eunw-n-043,23,eunwân,,nom,,,,adresse,,,3,95,R,112,needs_review,
+tapiero-p03-l23-qit-r-044,23,qitâr,,nom,,,,"train, locomotive",,,3,95,R,112,needs_review,
+tapiero-p03-l23-mahatta-045,23,mahatta,,nom,f,,,"gare, station",,,3,95,R,112,needs_review,
+tapiero-p03-l23-weqt-046,23,weqt,,nom,,,,"moment, époque",,,3,95,R,112,needs_review,
+tapiero-p03-l23-kelma-047,23,kelma,,nom,f,klâm,,parole,,,3,95,R,112,needs_review,
+tapiero-p03-l23-el-easkar-048,23,el-easkar,,nom,,,,"la vie militaire, le service militaire",,,3,95,R,112,needs_review,
+tapiero-p03-l23-mhenni-049,23,mhenni,,adj,,,,"tranquille, en paix",,,3,95,R,112,needs_review,
+tapiero-p03-l23-h-yer-050,23,hâyer,,participe actif,,,,"étonné, embarrassé",,,3,95,R,112,needs_review,
+tapiero-p03-l23-mesk-n-051,23,meskîn,,adj,,msâkîn,,"pauvre, malheureux",,,3,95,R,112,needs_review,
+tapiero-p03-l23-nasr-ni-052,23,nasrâni,,adj,,nṣârâ,,"chrétien, européen",,,3,95,R,112,needs_review,
+tapiero-p03-l23-lhaq-053,23,lhaq,,verbe,,,,parvenir (chose) à qn,,,3,95,R,112,needs_review,inaccompli ilhaq + complément direct
+tapiero-p03-l23-rwah-054,23,rwah,,verbe,,,,viens !,,,3,95,R,112,needs_review,Impératif arwah seulement
+tapiero-p03-l23-jeal-055,23,jeal,,verbe,,,,"mettre, placer",,,3,95,R,112,needs_review,inaccompli ijeal
+tapiero-p03-l23-bqa-056,23,bqa,,verbe,,,,rester,,,3,95,R,112,needs_review,inaccompli ibqa ; accompli 1re pers. bqit
+tapiero-p03-l23-eraf-057,23,eraf,,verbe,,,,"connaître, savoir",,,3,95,R,112,needs_review,inaccompli yaeraf
+tapiero-p03-l23-ugef-058,23,ugef,,verbe,,,,"se tenir debout, s’arrêter",,,3,95,R,112,needs_review,inaccompli yugef
+tapiero-p03-l23-nzar-059,23,nzar,,verbe,,,,regarder qn ou qch.,,,3,95,R,112,needs_review,inaccompli yanzor l-
+tapiero-p03-l23-b-yes-060,23,bâyes,,verbe,,,,saluer qn avec respect,,,3,95,R,112,needs_review,inaccompli ibâyes l-
+tapiero-p03-l23-fham-061,23,fham,,verbe,,,,comprendre qn ou qch.,,,3,95,R,112,needs_review,inaccompli ifham
+tapiero-p03-l23-r-feq-062,23,râfeq,,verbe,,,,accompagner qn,,,3,95,R,112,needs_review,inaccompli irâfeq
+tapiero-p03-l23-sellem-063,23,sellem,,verbe,,,,"saluer, embrasser",,,3,95,R,112,needs_review,inaccompli isellem ela-
+tapiero-p03-l23-et-064,23,etâ,,verbe,,,,donner qch. à qn,,,3,95,R,112,needs_review,Variantes aetâ ; inaccompli yaetê ou yuetê ; 2 compléments directs
+tapiero-p03-l23-bl-065,23,blâ-,,expression,,,,sans,,,3,95,R,112,needs_review,
+tapiero-p03-l23-men-066,23,men-,,expression,,,,depuis,,,3,95,R,112,needs_review,Avec un laps de temps
+tapiero-p03-l23-h-di-067,23,hâdi-,,expression,,,,depuis,,,3,95,R,112,needs_review,Avec un laps de temps
+tapiero-p03-l23-ml-h-068,23,mlêh,,expression,,,,"bien, convenablement",,,3,95,R,112,needs_review,
+tapiero-p03-l23-hetta-l-069,23,hetta-l-,,expression,,,,jusqu’à (lieu),,,3,95,R,112,needs_review,
+tapiero-p03-l23-illa-070,23,illa,,expression,,,,si ce n’est,,,3,95,R,112,needs_review,Après une négation
+tapiero-p03-l24-el-b-e-071,24,el-bîe,,nom,,,,la vente,,,6,100,L,117,needs_review,
+tapiero-p03-l24-e-r-072,24,eš-šrâ,,nom,,,,l’achat,,,6,100,L,117,needs_review,
+tapiero-p03-l24-sfanji-073,24,sfanji,,nom,,,,marchand de beignets,,,6,100,L,117,needs_review,
+tapiero-p03-l24-h-la-074,24,hâla,,nom,f,,,"situation, dimension",,,6,100,L,117,needs_review,
+tapiero-p03-l24-sb-b-i-075,24,sbâbṭi,,nom,,,,cordonnier,,,6,100,L,117,needs_review,OCR ṣbâbṭê ; à confirmer
+tapiero-p03-l24-el-eatriya-076,24,el-eatriya,,nom,,,,"les épices, les comestibles",,,6,100,L,117,needs_review,
+tapiero-p03-l24-q-bsa-077,24,qâbsa,,nom,f,,,"boîte, caissette",,,6,100,L,117,needs_review,"Emprunt, entre crochets dans le livre"
+tapiero-p03-l24-sabb-t-078,24,sabbât,,nom,m,,,paire de chaussures,,,6,100,L,117,needs_review,Singulatif ; collectif šbâbṭa
+tapiero-p03-l24-nafqa-079,24,nafqa,,nom,f,,,"dépense, prix",,,6,100,L,117,needs_review,
+tapiero-p03-l24-mahfada-080,24,mahfada,,nom,f,,,portefeuille,,,6,100,L,117,needs_review,
+tapiero-p03-l24-j-yez-ela-081,24,jâyez ela-,,participe actif,,,,passant près de,,,6,100,L,117,needs_review,
+tapiero-p03-l24-d-hel-082,24,dâhel,,participe actif,,,,entrant,,,6,100,L,117,needs_review,
+tapiero-p03-l24-r-si-083,24,râsi,,adj,,,,"usé, râpé",,,6,100,L,117,needs_review,Synonyme bâli
+tapiero-p03-l24-z-hi-084,24,zâhi,,adj,,,,"brillant, flambant",,,6,100,L,117,needs_review,
+tapiero-p03-l24-g-li-085,24,gâli,,adj,,,,"cher, d’un prix élevé",,,6,100,L,117,needs_review,
+tapiero-p03-l24-rh-s-086,24,rhês,,adj,,,,bon marché,,,6,100,L,117,needs_review,
+tapiero-p03-l24-dawwar-087,24,dawwar,,verbe,,,,"tourner, retourner qch.",,,6,100,L,117,needs_review,inaccompli idawwar ; verbe transitif
+tapiero-p03-l24-z-r-088,24,zâr,,verbe,,,,rendre visite à qn,,,6,100,L,117,needs_review,inaccompli izûr ; verbe transitif
+tapiero-p03-l24-q-s-089,24,qâs,,verbe,,,,"essayer, mesurer ; jeter",,,6,100,L,117,needs_review,inaccompli iqês
+tapiero-p03-l24-bga-090,24,bga,,verbe,,,,"vouloir, désirer",,,6,100,L,117,needs_review,inaccompli ibgi
+tapiero-p03-l24-m-t-091,24,mât,,verbe,,,,mourir,,,6,100,L,117,needs_review,inaccompli imût
+tapiero-p03-l24-rwa-092,24,rwaḥ,,verbe,,,,venir,,,6,100,L,117,needs_review,inaccompli irwaḥ
+tapiero-p03-l24-dkar-093,24,dkar,,verbe,,,,"citer, rappeler",,,6,100,L,117,needs_review,inaccompli idkar
+tapiero-p03-l24-hda-094,24,hda,,verbe,,,,prendre,,,6,100,L,117,needs_review,inaccompli yahud ; impératif hud
+tapiero-p03-l24-hemmem-095,24,hemmem,,verbe,,,,réfléchir,,,6,100,L,117,needs_review,inaccompli ihemmem
+tapiero-p03-l24-k-f-k-f-096,24,kîf-kîf,,expression,,,,"la même chose (comme, comme)",,,6,100,L,117,needs_review,
+tapiero-p03-l24-g-ya-097,24,gâya,,expression,,,,"impeccablement, extrêmement",,,6,100,L,117,needs_review,
+tapiero-p03-l24-qadd-qadd-098,24,qadd-qadd,,expression,,,,exactement,,,6,100,L,117,needs_review,
+tapiero-p03-l25-rahh-l-099,25,rahhâl,,nom,,rahhâla,,nomade,,,8,105,R,122,needs_review,
+tapiero-p03-l25-el-dar-100,25,el-ḥdar,,nom collectif,,,,"les citadins, les sédentaires",,,8,105,R,122,needs_review,Singulier ḥaḍri
+tapiero-p03-l25-ism-101,25,ism,,nom,,,,nom (de qn),,,8,105,R,122,needs_review,
+tapiero-p03-l25-qarya-102,25,qarya,,nom,f,,,village,,,8,105,R,122,needs_review,
+tapiero-p03-l25-bedw-103,25,bedwî,,adj,,,,bédouin,,,8,105,R,122,needs_review,
+tapiero-p03-l25-am-104,25,šḥam,,nom,,,,graisse,,,8,105,R,122,needs_review,
+tapiero-p03-l25-el-l-105,25,el-ḥlâ,,nom,,,,"la campagne, l’immensité",,,8,105,R,122,needs_review,Synonyme er-rîf
+tapiero-p03-l25-zhar-106,25,zhar,,nom,,,,"chance, bonne fortune",,,8,105,R,122,needs_review,
+tapiero-p03-l25-b-diya-107,25,bâdiya,,nom,f,,,désert,,,8,105,R,122,needs_review,
+tapiero-p03-l25-ay-t-108,25,ḥayât,,nom,f,,,"vie, existence",,,8,105,R,122,needs_review,Synonyme meîša
+tapiero-p03-l25-maer-f-109,25,maerûf,,participe passif,,,,connu,,,8,105,R,122,needs_review,
+tapiero-p03-l25-sae-d-110,25,saeîd,,adj,,,,heureux,,,8,105,R,122,needs_review,
+tapiero-p03-l25-sm-n-111,25,smîn,,adj,,smân,,gras,,,8,105,R,122,needs_review,
+tapiero-p03-l25-s-lem-112,25,sâlem,,participe actif,,,,sain,,,8,105,R,122,needs_review,
+tapiero-p03-l25-fl-n-113,25,flân,,adj,,,,"un tel, une telle",,,8,105,R,122,needs_review,Féminin flâna ; synonyme flâni (f. flâniya)
+tapiero-p03-l25-s-q-114,25,sâq,,verbe,,,,mener (une bête) en la poussant,,,8,105,R,122,needs_review,inaccompli isôq fi-
+tapiero-p03-l25-ayyar-115,25,ḥayyar,,verbe,,,,choisir,,,8,105,R,122,needs_review,inaccompli iḥayyar
+tapiero-p03-l25-har-116,25,ḍhar,,verbe,,,,"convenir, plaire à qn ; apparaître",,,8,105,R,122,needs_review,inaccompli iḍhar l-
+tapiero-p03-l25-s-wem-117,25,sâwem,,verbe,,,,demander le prix (de qch.),,,8,105,R,122,needs_review,inaccompli isâwem ela-
+tapiero-p03-l25-ts-wem-118,25,tsâwem,,verbe,,,,discuter le prix (de qch.),,,8,105,R,122,needs_review,inaccompli itsâwem ela-
+tapiero-p03-l25-dfae-119,25,dfae,,verbe,,,,verser (de l’argent) à qn,,,8,105,R,122,needs_review,inaccompli idfae l-
+tapiero-p03-l25-rabba-120,25,rabba,,verbe,,,,élever qn,,,8,105,R,122,needs_review,inaccompli irabbi
+tapiero-p03-l25-rea-121,25,rea,,verbe,,,,"brouter, paître, garder les bêtes",,,8,105,R,122,needs_review,inaccompli irea
+tapiero-p03-l25-rhel-122,25,rhel,,verbe,,,,se déplacer,,,8,105,R,122,needs_review,inaccompli irhel
+tapiero-p03-l25-kla-123,25,kla,,verbe,,,,manger,,,8,105,R,122,needs_review,inaccompli yakul
+tapiero-p03-l25-trabba-124,25,trabba,,verbe,,,,"être élevé, s’élever",,,8,105,R,122,needs_review,inaccompli itrabba
+tapiero-p03-l25-jra-125,25,jra,,verbe,,,,courir,,,8,105,R,122,needs_review,inaccompli ijri
+tapiero-p03-l25-bka-126,25,bka,,verbe,,,,pleurer,,,8,105,R,122,needs_review,inaccompli ibki
+tapiero-p03-l25-mra-127,25,mraḍ,,verbe,,,,tomber malade,,,8,105,R,122,needs_review,inaccompli imraḍ
+tapiero-p03-l26-ftan-128,26,ftan,,verbe,,,,"se réveiller, comprendre clairement",,,12,110,L,127,needs_review,inaccompli iftan
+tapiero-p03-l26-nawwa-129,26,nawwaḍ,,verbe,,,,"faire lever qn, réveiller qn",,,12,110,L,127,needs_review,inaccompli inawwaḍ
+tapiero-p03-l26-kassar-130,26,kassar,,verbe,,,,"casser, briser",,,12,110,L,127,needs_review,inaccompli ikassar
+tapiero-p03-l26-hassan-131,26,hassan,,verbe,,,,se raser (embellir),,,12,110,L,127,needs_review,inaccompli ihassan
+tapiero-p03-l26-tawwal-132,26,tawwal,,verbe,,,,allonger,,,12,110,L,127,needs_review,inaccompli itawwal
+tapiero-p03-l26-harrak-133,26,harrak,,verbe,,,,remuer qn ou qch.,,,12,110,L,127,needs_review,inaccompli iharrak
+tapiero-p03-l26-uqqef-134,26,uqqef,,verbe,,,,"mettre debout qn, le mettre sur ses jambes",,,12,110,L,127,needs_review,inaccompli yuqqef
+tapiero-p03-l26-leffef-135,26,leffef,,verbe,,,,envelopper qn ou qch.,,,12,110,L,127,needs_review,inaccompli ileffef
+tapiero-p03-l26-rawwa-136,26,rawwaḥ,,verbe,,,,s’en aller,,,12,110,L,127,needs_review,inaccompli irawwaḥ
+tapiero-p03-l26-seqs-137,26,seqsâ,,verbe,,,,questionner,,,12,110,L,127,needs_review,inaccompli iseqsê
+tapiero-p03-l26-nz-d-138,26,nzâd,,verbe,,,,"s’ajouter, naître",,,12,110,L,127,needs_review,inaccompli inzâd
+tapiero-p03-l26-madd-139,26,madd,,verbe,,,,"tendre, donner qch.",,,12,110,L,127,needs_review,inaccompli imadd
+tapiero-p03-l26-herrej-140,26,herrej,,verbe,,,,"faire sortir, tirer",,,12,110,L,127,needs_review,inaccompli iherrej
+tapiero-p03-l26-qsam-141,26,qsam,,verbe,,,,partager,,,12,110,L,127,needs_review,inaccompli iqsam
+tapiero-p03-l26-riyyeh-142,26,riyyeh,,verbe,,,,"souffler, se reposer",,,12,110,L,127,needs_review,inaccompli iriyyeh
+tapiero-p03-l26-fette-143,26,fetteš,,verbe,,,,rechercher,,,12,110,L,127,needs_review,inaccompli ifetteš
+tapiero-p03-l26-dfae-144,26,dfae,,verbe,,,,"pousser qn, verser (de l’argent, un papier)",,,12,110,L,127,needs_review,inaccompli idfae ; repris leçon 25
+tapiero-p03-l26-walla-145,26,walla,,verbe,,,,"revenir, devenir",,,12,110,L,127,needs_review,inaccompli iwalli
+tapiero-p03-l26-naqqal-146,26,naqqal,,verbe,,,,transporter,,,12,110,L,127,needs_review,inaccompli inaqqal
+tapiero-p03-l26-lzem-147,26,lzem,,verbe,,,,être nécessaire,,,12,110,L,127,needs_review,inaccompli ilzem
+tapiero-p03-l27-tl-ga-148,27,tlâga,,verbe,,,,se rencontrer,,,14,115,R,132,needs_review,inaccompli itlâga
+tapiero-p03-l27-tfarraq-149,27,tfarraq,,verbe,,,,"se séparer, se diviser en",,,14,115,R,132,needs_review,inaccompli itfarraq ela-
+tapiero-p03-l27-hbat-150,27,hbat,,verbe,,,,"frapper, donner des coups",,,14,115,R,132,needs_review,inaccompli ihbat
+tapiero-p03-l27-th-bat-151,27,thâbat,,verbe,,,,se donner des coups réciproquement,,,14,115,R,132,needs_review,inaccompli ithâbat
+tapiero-p03-l27-tharrak-152,27,tharrak,,verbe,,,,se remuer,,,14,115,R,132,needs_review,inaccompli itharrak
+tapiero-p03-l27-lhaq-153,27,lhaq,,verbe,,,,"atteindre, aller vite vers",,,14,115,R,132,needs_review,inaccompli ilhaq ; repris leçon 23 avec autre sens
+tapiero-p03-l27-td-fae-154,27,tdâfae,,verbe,,,,se bousculer,,,14,115,R,132,needs_review,inaccompli itdâfae
+tapiero-p03-l27-gleb-155,27,gleb,,verbe,,,,vaincre qn,,,14,115,R,132,needs_review,inaccompli igleb
+tapiero-p03-l27-njrah-156,27,njrah,,verbe,,,,être blessé,,,14,115,R,132,needs_review,inaccompli injrah
+tapiero-p03-l27-l-qa-157,27,lâqa,,verbe,,,,"rencontrer qn, atteindre qch.",,,14,115,R,132,needs_review,inaccompli ilâqi
+tapiero-p03-l27-qfez-158,27,qfez,,verbe,,,,sauter,,,14,115,R,132,needs_review,inaccompli iqfez
+tapiero-p03-l27-hkem-159,27,hkem,,verbe,,,,"atteindre, saisir",,,14,115,R,132,needs_review,inaccompli ihkem
+tapiero-p03-l27-tfarraj-160,27,tfarraj,,verbe,,,,jouir d’un spectacle,,,14,115,R,132,needs_review,inaccompli itfarraj
+tapiero-p03-l27-tkassar-161,27,tkassar,,verbe,,,,"se casser, se briser",,,14,115,R,132,needs_review,inaccompli itkassar
+tapiero-p03-l27-tme-a-162,27,tmešša,,verbe,,,,"se déplacer, marcher",,,14,115,R,132,needs_review,inaccompli itmešša
+tapiero-p03-l27-twakka-163,27,twakka,,verbe,,,,s’appuyer,,,14,115,R,132,needs_review,inaccompli itwakka
+tapiero-p03-l27-tnaqqal-164,27,tnaqqal,,verbe,,,,être transporté,,,14,115,R,132,needs_review,inaccompli itnaqqal
+tapiero-p03-l27-td-bez-165,27,tdâbez,,verbe,,,,se battre à coups de poing,,,14,115,R,132,needs_review,inaccompli itdâbez
+tapiero-p03-l27-td-rab-166,27,tdârab,,verbe,,,,se battre,,,14,115,R,132,needs_review,inaccompli itdârab
+tapiero-p03-l27-hezz-167,27,hezz,,verbe,,,,"secouer, prendre",,,14,115,R,132,needs_review,inaccompli ihezz
+tapiero-p03-l27-sellek-168,27,sellek,,verbe,,,,"libérer, délivrer qn",,,14,115,R,132,needs_review,inaccompli isellek
+tapiero-p03-l27-t-al-169,27,štġal,,verbe,,,,s’occuper de,,,14,115,R,132,needs_review,inaccompli ištġal b-

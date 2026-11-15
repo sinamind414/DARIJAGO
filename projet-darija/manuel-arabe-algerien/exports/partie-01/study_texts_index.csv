@@ -1,0 +1,12 @@
+text_uid,lesson_no,paragraph_ref,title_latin,pdf_page,printed_page,side,completeness,status,latin_text,ar_text,fr_translation
+tapiero-p01-text-5,1,5,Lire les mots et expressions,7,3,R,complete,needs_review,,,
+tapiero-p01-text-10,2,10,Lire les mots et expressions,9,7,R,complete,needs_review,,,
+tapiero-p01-text-13,3,13,Récapitulation : expressions,10,9,R,complete,needs_review,,,
+tapiero-p01-text-17,4,17,"yâ-Mohammed, ké-râk ?",11,11,R,complete,needs_review,,,
+tapiero-p01-text-22,5,22,eand-i dâr,13,15,R,complete,needs_review,,,
+tapiero-p01-text-28,6,28,eand-na dêf,15,19,R,complete,needs_review,,,
+tapiero-p01-text-32,7,32,Mohammed w-el-madrasa,17,22,L,complete,needs_review,,,
+tapiero-p01-text-38,8,38,Mohammed u-cali f-el-madrasa,19,26,L,complete,needs_review,,,
+tapiero-p01-text-44,9,44,f-es-sûq,21,31,L,complete,needs_review,,,
+tapiero-p01-text-49,10,49,le-msîd,23,35,R,complete,needs_review,,,
+tapiero-p01-text-54,11,54,Mohammed u-hô-h es-sgêr,25,39,R,partial,needs_review,,,

@@ -1,0 +1,260 @@
+TAP version 13
+# Subtest: buildAudioCacheKeyUrl creates canonical GET URLs per voice, speed, Arabic, and Latin text
+ok 1 - buildAudioCacheKeyUrl creates canonical GET URLs per voice, speed, Arabic, and Latin text
+  ---
+  duration_ms: 2.353851
+  ...
+# Subtest: Cache API storage persists base64 and Response audio clips, reports counts, and clears cleanly
+ok 2 - Cache API storage persists base64 and Response audio clips, reports counts, and clears cleanly
+  ---
+  duration_ms: 44.545006
+  ...
+# Subtest: collectVerbOfflineAudioClips builds deduplicated clips for all verb conjugations
+ok 3 - collectVerbOfflineAudioClips builds deduplicated clips for all verb conjugations
+  ---
+  duration_ms: 423.792036
+  ...
+# Subtest: extractArabicVerbRoot and extractLatinVerbRoot extract clean consonantal roots
+ok 4 - extractArabicVerbRoot and extractLatinVerbRoot extract clean consonantal roots
+  ---
+  duration_ms: 2.03088
+  ...
+# Subtest: buildVerbConjugationIndex indexes all integrated verbs cleanly
+ok 5 - buildVerbConjugationIndex indexes all integrated verbs cleanly
+  ---
+  duration_ms: 366.263273
+  ...
+# Subtest: filterVerbConjugationIndex supports root search and tense search accurately
+ok 6 - filterVerbConjugationIndex supports root search and tense search accurately
+  ---
+  duration_ms: 405.2563
+  ...
+# Subtest: classifyVerbDifficulty and difficulty filters partition all 2,121 verbs cleanly
+ok 7 - classifyVerbDifficulty and difficulty filters partition all 2,121 verbs cleanly
+  ---
+  duration_ms: 284.767322
+  ...
+# Subtest: normalizeDarijaInput converts Arabizi numbers and strips accents/punctuation
+ok 8 - normalizeDarijaInput converts Arabizi numbers and strips accents/punctuation
+  ---
+  duration_ms: 1.320938
+  ...
+# Subtest: isDarijaAnswerMatch accepts exact and equivalent Arabizi spellings
+ok 9 - isDarijaAnswerMatch accepts exact and equivalent Arabizi spellings
+  ---
+  duration_ms: 0.337467
+  ...
+# Subtest: togglePhraseMastery awards XP once and toggles masteredIds cleanly
+ok 10 - togglePhraseMastery awards XP once and toggles masteredIds cleanly
+  ---
+  duration_ms: 1.458964
+  ...
+# Subtest: markPhrasePracticed and recordQuizResult update XP and best accuracy
+ok 11 - markPhrasePracticed and recordQuizResult update XP and best accuracy
+  ---
+  duration_ms: 0.3283
+  ...
+# Subtest: computeModuleProgress and computeOverallProgress calculate accurate percentages
+ok 12 - computeModuleProgress and computeOverallProgress calculate accurate percentages
+  ---
+  duration_ms: 0.444529
+  ...
+# Subtest: filterLexicon filters by query in French, Arabizi, or Arabic and by module
+ok 13 - filterLexicon filters by query in French, Arabizi, or Arabic and by module
+  ---
+  duration_ms: 3.693516
+  ...
+# Subtest: generateQuizDeck produces deterministic questions including sentence-builder
+ok 14 - generateQuizDeck produces deterministic questions including sentence-builder
+  ---
+  duration_ms: 0.82841
+  ...
+# Subtest: parseProgressState safely handles invalid JSON and older saved schemas
+ok 15 - parseProgressState safely handles invalid JSON and older saved schemas
+  ---
+  duration_ms: 0.534569
+  ...
+# Subtest: recordQuizAnswerStreak tracks consecutive quiz answers and best streak
+ok 16 - recordQuizAnswerStreak tracks consecutive quiz answers and best streak
+  ---
+  duration_ms: 0.225116
+  ...
+# Subtest: evaluateAchievements unlocks First 100 XP, 5 Lessons Completed, Quiz Streak, and Dialogue milestones
+ok 17 - evaluateAchievements unlocks First 100 XP, 5 Lessons Completed, Quiz Streak, and Dialogue milestones
+  ---
+  duration_ms: 0.674361
+  ...
+# Subtest: buildLast7DaysXpSeries builds a 7-day cumulative XP progression ending at current XP
+ok 18 - buildLast7DaysXpSeries builds a 7-day cumulative XP progression ending at current XP
+  ---
+  duration_ms: 0.484456
+  ...
+# Subtest: parseAppLanguage recognizes the 7 supported startup languages and rejects invalid values
+ok 19 - parseAppLanguage recognizes the 7 supported startup languages and rejects invalid values
+  ---
+  duration_ms: 0.167021
+  ...
+# Subtest: buildLast7DaysXpSeries, evaluateAchievements, filterLexicon, and generateQuizDeck localize cleanly
+ok 20 - buildLast7DaysXpSeries, evaluateAchievements, filterLexicon, and generateQuizDeck localize cleanly
+  ---
+  duration_ms: 1.930952
+  ...
+# Subtest: sanitizeDailyXpGoal clamps values and defaults invalid inputs
+ok 21 - sanitizeDailyXpGoal clamps values and defaults invalid inputs
+  ---
+  duration_ms: 0.193876
+  ...
+# Subtest: computeDailyGoalStatus tracks daily progress, completion threshold, and goal updates
+ok 22 - computeDailyGoalStatus tracks daily progress, completion threshold, and goal updates
+  ---
+  duration_ms: 0.623794
+  ...
+# Subtest: computeNextPhraseReview schedules intervals across ratings and resets on again
+ok 23 - computeNextPhraseReview schedules intervals across ratings and resets on again
+  ---
+  duration_ms: 0.179387
+  ...
+# Subtest: recordPhraseReview, attachPhraseReviewDates, and getPriorityReviewPhrases prioritize overdue and due-today phrases
+ok 24 - recordPhraseReview, attachPhraseReviewDates, and getPriorityReviewPhrases prioritize overdue and due-today phrases
+  ---
+  duration_ms: 0.920078
+  ...
+# Subtest: markStoryRead awards XP once per story and restores cleanly via parseProgressState
+ok 25 - markStoryRead awards XP once per story and restores cleanly via parseProgressState
+  ---
+  duration_ms: 0.328694
+  ...
+# Subtest: normalizeDictationLatin unifies Arabizi numerals and Algerian Latin variants
+ok 26 - normalizeDictationLatin unifies Arabizi numerals and Algerian Latin variants
+  ---
+  duration_ms: 1.812399
+  ...
+# Subtest: buildDictationDeck respects unit filter, count, and deterministic seed
+ok 27 - buildDictationDeck respects unit filter, count, and deterministic seed
+  ---
+  duration_ms: 1.717162
+  ...
+# Subtest: evaluateDictationAttempt validates exact, Arabizi variant, Arabic script, partial, and empty inputs
+ok 28 - evaluateDictationAttempt validates exact, Arabizi variant, Arabic script, partial, and empty inputs
+  ---
+  duration_ms: 1.721227
+  ...
+# Subtest: computeDictationHintMask preserves initial letters and punctuation cleanly
+ok 29 - computeDictationHintMask preserves initial letters and punctuation cleanly
+  ---
+  duration_ms: 0.393437
+  ...
+# Subtest: normalizeDictionarySearch handles Ben Sedira apostrophes, accents, and Arabizi digits
+ok 30 - normalizeDictionarySearch handles Ben Sedira apostrophes, accents, and Arabizi digits
+  ---
+  duration_ms: 1.600325
+  ...
+# Subtest: BEN_SEDIRA_DICTIONARY has unique IDs and complete verb metadata across A, B, C, D, E
+ok 31 - BEN_SEDIRA_DICTIONARY has unique IDs and complete verb metadata across A, B, C, D, E
+  ---
+  duration_ms: 5.960886
+  ...
+# Subtest: filterBenSediraEntries searches across French, conjugations, Arabic, letters, and verb patterns
+ok 32 - filterBenSediraEntries searches across French, conjugations, Arabic, letters, and verb patterns
+  ---
+  duration_ms: 472.925423
+  ...
+# Subtest: category and verb pattern counts sum accurately
+ok 33 - category and verb pattern counts sum accurately
+  ---
+  duration_ms: 1.738946
+  ...
+# Subtest: deriveFullConjugationTable generates 8 persons for regular, defective, and avoir verbs
+ok 34 - deriveFullConjugationTable generates 8 persons for regular, defective, and avoir verbs
+  ---
+  duration_ms: 4.537131
+  ...
+# Subtest: buildDictionaryQuickDrill creates valid 6-item mixed and verb-only drills across C–Z
+ok 35 - buildDictionaryQuickDrill creates valid 6-item mixed and verb-only drills across C–Z
+  ---
+  duration_ms: 15.487266
+  ...
+# Subtest: deriveFutureForm produces authentic Algerian ghadi + aorist and special avoir/être forms
+ok 36 - deriveFutureForm produces authentic Algerian ghadi + aorist and special avoir/être forms
+  ---
+  duration_ms: 452.783579
+  ...
+# Subtest: buildVerbFlashcardDeck distributes past, present, and future forms in mixed mode and respects single-tense modes
+ok 37 - buildVerbFlashcardDeck distributes past, present, and future forms in mixed mode and respects single-tense modes
+  ---
+  duration_ms: 340.740153
+  ...
+# Subtest: evaluateFlashcardTyping and computeFlashcardSessionStats work accurately
+ok 38 - evaluateFlashcardTyping and computeFlashcardSessionStats work accurately
+  ---
+  duration_ms: 283.371898
+  ...
+# Subtest: enqueueToast adds toasts, deduplicates by id, and caps stack at MAX_VISIBLE_TOASTS
+ok 39 - enqueueToast adds toasts, deduplicates by id, and caps stack at MAX_VISIBLE_TOASTS
+  ---
+  duration_ms: 3.37835
+  ...
+# Subtest: dismissToast removes target toast cleanly without mutating input array
+ok 40 - dismissToast removes target toast cleanly without mutating input array
+  ---
+  duration_ms: 0.546374
+  ...
+# Subtest: desktop notification helpers handle missing browser Notification API gracefully
+ok 41 - desktop notification helpers handle missing browser Notification API gracefully
+  ---
+  duration_ms: 0.396486
+  ...
+# Subtest: toSimplifiedLatinWord converts Arabizi numbers into readable simplified Latin syllables
+ok 42 - toSimplifiedLatinWord converts Arabizi numbers into readable simplified Latin syllables
+  ---
+  duration_ms: 1.920082
+  ...
+# Subtest: detectSpecialDarijaSounds identifies 7, 3, ch, and gemination in lesson phrases
+ok 43 - detectSpecialDarijaSounds identifies 7, 3, ch, and gemination in lesson phrases
+  ---
+  duration_ms: 1.230618
+  ...
+# Subtest: analyzePhrasePhonetics builds word breakdowns and localized sound guides across all phrases
+ok 44 - analyzePhrasePhonetics builds word breakdowns and localized sound guides across all phrases
+  ---
+  duration_ms: 2.996967
+  ...
+# Subtest: normalizeArabicScript strips diacritics and normalizes alef/punctuation
+ok 45 - normalizeArabicScript strips diacritics and normalizes alef/punctuation
+  ---
+  duration_ms: 1.442183
+  ...
+# Subtest: normalizeSpokenLatin unifies French phonetic and Arabizi variants
+ok 46 - normalizeSpokenLatin unifies French phonetic and Arabizi variants
+  ---
+  duration_ms: 0.409858
+  ...
+# Subtest: comparePronunciation scores exact Arabic Web Speech transcripts as excellent
+ok 47 - comparePronunciation scores exact Arabic Web Speech transcripts as excellent
+  ---
+  duration_ms: 0.929954
+  ...
+# Subtest: comparePronunciation scores French phonetic transcripts as excellent
+ok 48 - comparePronunciation scores French phonetic transcripts as excellent
+  ---
+  duration_ms: 0.620727
+  ...
+# Subtest: comparePronunciation detects partial matches and unrelated speech cleanly
+ok 49 - comparePronunciation detects partial matches and unrelated speech cleanly
+  ---
+  duration_ms: 0.953299
+  ...
+# Subtest: comparePronunciation handles empty transcripts and formats duration
+ok 50 - comparePronunciation handles empty transcripts and formats duration
+  ---
+  duration_ms: 0.209954
+  ...
+1..50
+# tests 50
+# suites 0
+# pass 50
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7269.28247

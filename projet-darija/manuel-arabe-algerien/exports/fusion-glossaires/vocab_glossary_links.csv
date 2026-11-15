@@ -1,0 +1,308 @@
+link_id,vocab_id,entry_id,match_type,sense_compatible,proposed_gender,proposed_plural,proposed_gloss,status,form_latin,vocab_gloss,headword,printed_page
+1,2,656,exact,1,m,wläd,"garçon, fils, enfant",needs_review,weld,garçon,weld,147
+2,3,42,exact,1,f,bnât,"fille, jeune fille",needs_review,bent,fille,bent,130
+3,4,496,exact,1,m,,"homme râk, tu es",needs_review,râjel,homme,râjel,142
+4,6,326,exact,0,f,mdûres,"ét maire (type européen) à madrasa tânawîya, lycée madrüb, madr6b (part. pas}, timbré, déséquilibré (mental madrüb er-râs, déséquilibrém (frappé de la tête), fou",needs_review,madrasa,école,madrasa,138
+5,14,541,exact,1,m,,"logis, demeure",needs_review,sukna,logis,sukna,143
+6,16,426,exact,1,,,"avec (qn) (a ment) meallem, syn. mueallim, exp (celui qui instruit) “",needs_review,mea,avec (qn),mea-,140
+7,18,694,exact,1,,,Ali (nom dk eayn (voir ein) %,needs_review,cali,Ali,cali,148
+8,21,118,exact,1,f,,"Fatma{ femme) . (el-)fâyda w-el hâsul, touts finalement à",needs_review,Fâtéma,Fatma,Fâtéma,132
+9,23,234,exact,1,,,"légumes frais, légumes verts",needs_review,hodra,légumes verts,hodrâ,136
+10,28,251,exact,1,m,,"beauté, beau",needs_review,jamâl,beauté,jamäl,136
+11,29,8,exact,1,m,bibân,"porte bâbä, père, mon père, papa bäbâh, son père",needs_review,bâb,porte,bâb,129
+12,30,499,exact,1,m,,"tête râs-el-câm, le jour de l'an (la tête de l’année) x",needs_review,râs,tête,râs,142
+13,33,215,exact,1,f,kyém,"tente hayyar, thayyar (v.), choisir hayyat, ihayyat (v.), coudre, confection- ner un vêtement",needs_review,hayma,tente,hayma,135
+14,34,624,exact,1,,,tabbâh (n. m.; pl. ên ou a restaurateur ÿ,needs_review,tabbâh,"cuisinier, restaurateur",tabbâh,146
+15,35,121,exact,0,m,,",",needs_review,fellâh,cultivateur,felläh,132
+16,37,171,exact,1,m,hwdl,"(syn. käla, n. f.), état, situation, temps halfa, voir helja hall, $hall (v.), ouvrir",needs_review,hâl,"état, situation, temps",hâl,134
+17,38,396,exact,1,m,mräd,"|: malade, fatigué",needs_review,mréd,malade,mréd,140
+18,40,571,exact,1,m,swdg,"mare marché, semaine (syn:s4 srâ, isrâ (v.), avoir lieu (événement inattendu ; sy",needs_review,sôg,"marché, rue marchande",sôg,144
+19,41,88,exact,1,m,dwäwer,"douar, groupement de tentes habitées par des nomades ou des sédentaires",needs_review,duwâr,"douar, groupe de tentes",duwâr,131
+20,45,45,exact,1,,,"mais,",needs_review,b-es-sahh,"mais, cependant",b-es-sahh,130
+21,50,51,exact,1,,,bien :,needs_review,b-hér,bien,b-hér,130
+22,62,389,exact,0,,,"d'où, par où mneë$er (part. pas.), étendu",needs_review,mnayn,d’où ?,mnayn,139
+23,63,652,exact,1,m,,"milieu, centre",needs_review,wast,"centre, milieu",wast,147
+24,65,705,fuzzy,1,,,"arabe d carbiya, earabiya (n. f.), lan",needs_review,earbi,arabe,earbîi,148
+25,66,212,exact,1,,,"sortant (el-)hârej, l'extérieur, la banlieue (d'une ville) hass, ihass-(ni) (v.), (me) manquer (chose), faire défaut hatartin (duel), deux fois (ela-)hâtar, parce que",needs_review,hârej,"banlieue, périphérie",hâréj,135
+26,67,672,exact,1,m,,"style, mode, type",needs_review,zayy,"style, mode, type",zayy,148
+27,70,127,exact,0,,,franç,needs_review,fransâwi,français,fransâwi,132
+28,71,322,exact,0,,,"ce qui, ce qu ma- … $i (nég.), ne (verbe)p ma-$i, n'est pas # ma- … gér, ne … que si ma-kân-$, il n'y a pas, il n'y ma-kân-$ ki-, il n'y a pas Ok ne vaut L. ma-kâyen-$, syn. de ma-kân: ma-zàl, il n’a pas cessé d'ê pas cessé de, il est toujou",needs_review,mâ,eau,ma,138
+29,74,676,exact,1,f,zrébi,"tapis, tapis de laine à zga, izgi (v.), crier, clamer zga ela-, gronder qn",needs_review,zerbîya,tapis,zerbiya,148
+30,80,241,exact,1,f,,"armoire, buffet, bahut, coffre, caisse hzer, ihzer fi- (v.), regarder, observer, contempler qn ou qch. I + ou #5 (après un verbe) (pron. suf., 1re pers. s.), de moi, mon, ma, me, moi £bel (col. f.), chameaux da, voir tla",needs_review,hzâna,"armoire, bahut",hzâna,136
+31,84,90,exact,1,,,"à (possession), de, en",needs_review,dyâl,à/de (possession) ; en/de (matière),dyäl-,131
+32,85,702,exact,1,,,"chez, à (posses: de... 1° (ma-)eandi hâja fi, je n'ai dans..., je n’ai pas à mo",needs_review,eand,"chez, à ; avoir (possession)",eand-,148
+33,90,97,exact,1,m,dyäf,"invité, hôte",needs_review,dêf,invité,déf,132
+34,91,669,exact,1,m,ayyêm ou iyyäm,"jour, journée | el-yôm, aujourd’hui (ce jour, | vuelé, voir ae Z'et Z zâd, izâd (v.), venir au monde zâd, izid (v.), continuer à, ajouter, joindre qch. à...",needs_review,yôm,jour,yôm,148
+35,92,699,exact,1,m,,oncle paterni,needs_review,camm,oncle paternel,camm,148
+36,95,562,exact,1,m,,"matin, mat sbâh-el-hér, bonjour (matin: sbar, isbar (v.), patiente Fsbétär\ (n. m.), hôpital M (es-)séf (n. m.), l'été",needs_review,sbâh,"matin, matinée",sbâh,144
+37,96,721,fuzzy,1,,,"Arabes (la-)erab er-rahhâla, Arabes nomades erad, yasrad (v.), inviter qn craf, yasraf (v.), savoir, connaître",needs_review,la-crab,les Arabes,crab,149
+38,97,387,exact,1,,,"bon, gentil, brave",needs_review,mlêh,"bon, brave",mléh,139
+39,97,388,exact,1,,,"bien, bon mm, ma mère",needs_review,mlêh,"bon, brave",mléh,139
+40,98,133,exact,1,m,,"cœur,",needs_review,galb,cœur,galb,132
+41,98,464,exact,1,m,,"cœur gâm, 1gôm (v.), se lever (el-)qamar (n. m.), la lune",needs_review,galb,cœur,galb,141
+42,100,111,exact,1,,,fruits,needs_review,fâkya,fruits,fäkya,132
+43,106,67,exact,0,,,"saigner, égorger une",needs_review,dbah,il a égorgé,dbah,131
+44,109,597,exact,0,,,"deuxième, second",needs_review,tâni,"aussi, également",täni,145
+45,109,598,exact,1,,,"aussi, également",needs_review,tâni,"aussi, également",tâni,145
+46,110,665,exact,1,,,"beaucoup yaeté, yuelé, inac. de ae",needs_review,yâser,beaucoup,yâser,148
+47,115,655,exact,1,m,,"figure, visage",needs_review,wejh,"figure, visage",wejh,147
+48,119,296,exact,1,m,,"cahier, carnet",needs_review,kurrâs,"cahier, registre",kurrâs,137
+49,120,720,exact,1,f,,"congé, vacances",needs_review,cotla,"vacances, congé",cotla,149
+50,127,724,exact,0,m,,"miel (la-)s$iya (n. f.), après-midi, soirée etâ, yasté, yuelé (v.), donner à qn qch. elâ-ni la-esû, il m'a donné le bâton, il m'a administré la bastonnade",needs_review,ésel,il a lavé,esel,149
+51,135,303,exact,1,,,"lorsque, quand lâga, ilâgi (v.), rencontrer, atteindre",needs_review,lamma,"lorsque, quand",lamma,138
+52,136,48,exact,1,,,"beaucoup: béa, ibét ou 1bgé (v.), vo - | bgar (col. m.), bovins",needs_review,b-ez-zâf,"beaucoup, énormément",b-ez-zâf,130
+53,141,562,fuzzy,1,m,,"matin, mat sbâh-el-hér, bonjour (matin: sbar, isbar (v.), patiente Fsbétär\ (n. m.), hôpital M (es-)séf (n. m.), l'été",needs_review,sbâh el-hér,bonjour,sbâh,144
+54,142,554,exact,1,m,skéb,"compagnon, ami, propriétaire de.",needs_review,sâheb,"camarade, ami",sâheb,144
+55,143,632,exact,1,f,,"jeun garçon, garçonnet } than, ithan (v.), moudre tlab, itlab (v.), demander chercher . Îlae, itlas (v.), monter, grax (soleil) 14 inâs (syn. inâÿ) É",needs_review,tfal,"enfant, garçonnet, jeune homme",tfal,146
+56,148,611,variant,1,m,,"devoir, exercice",needs_review,et-temrin,devoir,temrin,145
+57,153,220,fuzzy,1,,,travailler pour qn,needs_review,emel,"faire, travailler",hdem-ela,135
+58,155,321,exact,0,m,,"jeu | (el-)leab b-el-hora, le footk avec le ballon) e M 1",needs_review,leab,"jouer, s’amuser",leab,138
+59,159,299,exact,1,,,mais,needs_review,lâ-ken,mais,lâ-ken,138
+60,161,22,exact,1,,,"hier bârek, ibârek (fi-) (v.), bénir (Dieu) qr",needs_review,el-bâreh,"la veille, hier",el-bâreh,130
+61,165,696,exact,0,m,,"an,a (el-)eâm l-awwel, l'an passé (el-)eâm el-jây, l'an procha",needs_review,eam,"an, année",eâm,148
+62,169,120,exact,1,,,poivrons,needs_review,felfel,poivrons,felfel,132
+63,170,238,exact,1,,,"grossier, gros hti, ma sœur",needs_review,hšîn,"gros, grossier",hSin,136
+64,181,642,fuzzy,1,,,"peser, mesurer W Ar (particule de serment) Onj.), et, alors que (remplace u-) 1. m.), délégation :",needs_review,uzen,"peser, mesurer",Juzen,147
+65,191,79,fuzzy,1,,,"argent, fortune",needs_review,drâhem,argent,dräham,131
+66,192,552,exact,0,f,,santé,needs_review,sahha,"bon, bien, d’accord",sahha,144
+67,192,553,exact,1,,,"merci, bien, bon, d'accord",needs_review,sahha,"bon, bien, d’accord",sahha,144
+68,193,402,variant,1,m,,"école coranique mtârah, pl. de matrah mtâs-, syn. ntâe- (prép.), de, en mtel-, syn. metl- (prép.), comme",needs_review,el-msîd,l’école coranique,msîd,140
+69,194,666,exact,1,f,,"| main, manche | véh, oui |",needs_review,yedd,main,yedd,148
+70,195,261,variant,1,m,,cuir,needs_review,el-jeld,le cuir,jeld,136
+71,200,432,variant,1,m,,; gens,needs_review,en-nâs,"les gens, le public",nâs,140
+72,203,324,exact,1,,,"béni, se madd, imadd (v.), tendre qch: qch., étendre 1",needs_review,mabrûk,béni,mabrûk,138
+73,204,398,exact,1,,,relié,needs_review,mseffer,relié,mseffer,140
+74,205,424,exact,1,,,"orné, décoré",needs_review,mzewweg,"décoré, orné",mzewweg,140
+75,206,394,exact,1,,,assis les jambes | : croisées,needs_review,mrabbae,"assis, les jambes croisées",mrabbae,140
+76,210,400,fuzzy,1,,,saluant,needs_review,msellmin elih,le saluant,msellem,140
+77,216,657,exact,1,,,"ou, ou bien welled, iwelled (v.), enfanter, mettre au monde wén (inter.), où ? wénta (inter.), quand ?",needs_review,wella,"ou, ou bien",wella,147
+78,218,295,variant,1,,,"tout, chaque kull-3i, kulleS, toute chose (el-)kull, la totalité, en totalité Rull-wäâhed (f. kull-wâhda), chacun, chacune -kum (pron. suf. 2e pers. pl.), de vous, votre, vous",needs_review,el-kull,"le tout, en totalité",kull,137
+79,220,295,exact,1,,,"tout, chaque kull-3i, kulleS, toute chose (el-)kull, la totalité, en totalité Rull-wäâhed (f. kull-wâhda), chacun, chacune -kum (pron. suf. 2e pers. pl.), de vous, votre, vous",needs_review,kull-,"tout, chaque",kull,137
+80,221,295,fuzzy,1,,,"tout, chaque kull-3i, kulleS, toute chose (el-)kull, la totalité, en totalité Rull-wäâhed (f. kull-wâhda), chacun, chacune -kum (pron. suf. 2e pers. pl.), de vous, votre, vous",needs_review,kull-wâhed,chacun,kull,137
+81,222,295,fuzzy,1,,,"tout, chaque kull-3i, kulleS, toute chose (el-)kull, la totalité, en totalité Rull-wäâhed (f. kull-wâhda), chacun, chacune -kum (pron. suf. 2e pers. pl.), de vous, votre, vous",needs_review,kull-wâhda,chacune,kull,137
+82,223,644,exact,0,,,"un, une, unité wâhd-el, un, une (équivaut à l’article indéfini français) wâhd-el (suivi d'un nom de nombre), un nombre... environ...",needs_review,wâhed,un,wâhed,147
+83,227,490,fuzzy,1,,,"quatrième rabea, rabe-e, quatre rabeîn, quarante radd, iradd (v.), rendre, transformer râfeg, trâfeg (v.), accompagner qn",needs_review,rabea,quatre,râbes,142
+84,234,165,variant,1,,,"quelqu'un (ma-).. hâd, personne (el-)hâd, dimanche",needs_review,el-hâd,dimanche,hâd,134
+85,241,149,exact,1,,,"celui-ci, ceci",needs_review,hâda,"celui-ci, ceci",hâda,133
+86,242,152,exact,1,,,"celle-ci, voici",needs_review,hâdi,celle-ci,hâdi,133
+87,243,154,exact,1,,,"ceux-ci, celles-ci",needs_review,hâdu,"ceux-ci, celles-ci",hädu,133
+88,244,151,exact,1,,,"celui-là, cela",needs_review,hâdak,"celui-là, cela",hâdak,133
+89,245,153,exact,1,,,"celle-là, voilà hâdik eli-ha, voilà pourquoi hädi… u- (avec une expression de temps), voici que",needs_review,hâdik,celle-là,hâdik,133
+90,246,154,fuzzy,1,,,"ceux-ci, celles-ci",needs_review,hâduk,"ceux-là, celles-là",hädu,133
+91,247,150,exact,1,,,"ce, cet, cette, ces",needs_review,hâd-el-,ce/cette…-ci (devant nom avec article),hâd-el-,133
+92,252,492,exact,0,f,,"repos, détente",needs_review,râha,elle est,râha,142
+93,257,106,exact,0,,,"toi, tu",needs_review,enta,tu (m.),enta,132
+94,258,107,exact,0,,,"toi, tu (f.)",needs_review,enti,tu (f.),enti,132
+95,259,162,exact,0,,,"lui, c'est (lui)",needs_review,huwwa,il,huwwa,134
+96,260,159,exact,1,,,"elle, c’est (elle) hna. ici (men-)hna, d'ici, par ici",needs_review,hiyya,elle,hiyya,134
+97,271,161,exact,1,,,"eux, elles, c'est (eux, elles), ce sont huma (voir hum)",needs_review,-hum,leur/eux,hum,134
+98,272,632,exact,1,f,,"jeun garçon, garçonnet } than, ithan (v.), moudre tlab, itlab (v.), demander chercher . Îlae, itlas (v.), monter, grax (soleil) 14 inâs (syn. inâÿ) É",needs_review,tfal,garçonnet,tfal,146
+99,273,629,exact,1,,,"bon, bien tbah, itbah (v.), cuisiner thârak-alläh ! voir tbârak",needs_review,tayyeb,bon,tayyeb,146
+100,276,275,fuzzy,1,,,"paresseux e-)katra men, la plupart de ou d’entre... allar, thattar (v.), augmenter, multi- plier",needs_review,kaslân,paresseux,aslän,137
+101,277,128,variant,1,f,,"langue fr frâ$ (n. m.; pl. frûs), lit, ma",needs_review,el-fransâwîya,le français (la langue),fransäwiya,132
+102,279,169,exact,1,f,,"chose, affaire, objet hajj, thajj (v.), faire le pèlerinage à La Mecque (el-)hajj (n. m.), le pèlerinage",needs_review,hâja,une chose,hâja,134
+103,290,45,exact,1,,,"mais,",needs_review,b-es-sahh,"mais, à la vérité",b-es-sahh,130
+104,292,237,variant,1,m,,"automne hrej, threj, ihroj (v.), sortir h$âna (n. f.), grossièreté",needs_review,el-hréf,l’automne,hréf,136
+105,294,44,variant,1,m,,"froid , | berreh, iberreh (v.), faire blic, publier en cria",needs_review,el-berd,le froid,berd,130
+106,295,117,exact,1,m,,"saison f4s (inter.), dans quoi fât, ifüt (v.), passer, s'éco:",needs_review,fasl,saison,fasl,132
+107,299,608,variant,1,m,,neige,needs_review,et-telj,la neige,telj,145
+108,300,258,variant,1,m,,montagne,needs_review,el-jbel,la montagne,jbel,136
+109,303,696,exact,0,m,,"an,a (el-)eâm l-awwel, l'an passé (el-)eâm el-jây, l'an procha",needs_review,eâm,"an, année",eâm,148
+110,305,669,exact,1,m,ayyêm ou iyyäm,"jour, journée | el-yôm, aujourd’hui (ce jour, | vuelé, voir ae Z'et Z zâd, izâd (v.), venir au monde zâd, izid (v.), continuer à, ajouter, joindre qch. à...",needs_review,yôm,jour,yôm,148
+111,308,10,exact,1,f,,vache,needs_review,bagra,vache,bagra,129
+112,310,182,exact,1,,,"piquant, chaud harrak, tharrak (v.), rem ter qch.. mettre en mou",needs_review,hârr,"chaud, brûlant, piquant",hârr,134
+113,311,333,fuzzy,1,,,brûlé,needs_review,mahrûq,brûlé,mahrüg,138
+114,315,595,exact,0,,yên,dernier,needs_review,tâh,tomber,tâh,145
+115,320,7,fuzzy,1,,,"plus haut, supérieur aclâ, yaslé ou yuelé (v.), donner qch. à qn (un ou deux compl. dir.) B b-, par (particule de serment) b-, be-, bi- (prép.), avec (moyen)..., par...",needs_review,zyâda ela,"de plus que, en supplément sur",aela,129
+116,330,233,variant,1,,,pain,needs_review,el-hobz,le pain,hobz,136
+117,331,124,variant,1,f,,culture (dun céréales) ;,needs_review,el-flâha,"la culture, la récolte (de céréales)",fläha,132
+118,333,81,fuzzy,1,m,,battage des céréales,needs_review,ed-drâs,le battage (du blé),drâs,131
+119,334,698,exact,1,m,exmmäl,. ouvrier FE:,needs_review,eâmel,ouvrier,eâmel,148
+120,338,348,fuzzy,1,f,,moulin,needs_review,mathana,moulin,athana,139
+121,339,494,exact,1,m,,meunier tâhna (voir râna),needs_review,rahhây,meunier,rahhäy,142
+122,340,222,variant,1,m,,boulanger,needs_review,el-hebbâz,le boulanger,hebbäz,135
+123,341,225,exact,1,f,,"travail, besogne hella, ihelli (v.; voir halla, thalli) hemmem, ihemmem (v.), réfléchir 10",needs_review,hedma,"travail, ouvrage",hedma,135
+124,342,311,variant,1,m,,"nuit, obscurité",needs_review,el-lil,la nuit,lil,138
+125,346,529,variant,1,f,,chaleur,needs_review,es-shâna,la chaleur,shâna,143
+126,347,223,exact,1,m,,"employé, travailleur —— (adj.), grand travailleur, bon tra- vailleur",needs_review,heddâm,travailleur,heddâm,135
+127,348,21,variant,1,f,,"bénédiction bâred (adj), froid",needs_review,el-baraka,la bénédiction (de Dieu),baraka,130
+128,349,178,exact,1,,,hânût (n. m.; pl. 4w4 boutique F,needs_review,hânût,"magasin, boutique",hânût,134
+129,350,99,fuzzy,1,f,,"politesse, bonnes manières",needs_review,ed-drâfa,la politesse,drâfa,132
+130,352,256,exact,1,,,"venant, arrivai jâz, 1jàz (v.), passer, s’écoul (el-)jazäir (n. f.), l'Algérie jazäiri, jazäiri (n. m.; pl. ja Algérien ‘0",needs_review,jây,venant,jây,136
+131,357,200,fuzzy,1,,,"porter qch. (sur les iles), supporter, endurer qch. iron. is., 1re pers. pl.), nous “adj. ; pl. hnân), tendre, affec- juin. £; pl d), quartier (d’une 4 j.), pur, libre (homme)",needs_review,hmel,porter,Ghmel,135
+132,363,83,exact,1,,,"voir derwaq drûk (suivi d'un v. à l'inac.), être sur le point de.",needs_review,drûk-,être sur le point de,druk,131
+133,365,104,exact,1,,,"qui, que, quoi, dont, lequel, laquelle, lesquels, lesquelles",needs_review,elli,"qui, celui qui",elli,132
+134,368,659,exact,1,f,,"département, région",needs_review,wilâya,"département, région",wiläya,147
+135,369,645,exact,1,,,Oran,needs_review,Wahrân,Oran,wahrän,147
+136,370,667,variant,1,f,,"droite, main droite |",needs_review,lyemna,la droite,yemna,148
+137,372,91,exact,0,,de där,dyär (pl. de där),needs_review,dyâr,maisons,dyär,131
+138,374,564,variant,1,m,,jaune (couleu,needs_review,es-sfar,le jaune,sfar,144
+139,374,565,variant,0,,sofar,ja,needs_review,es-sfar,le jaune,sfar,144
+140,375,304,exact,1,m,,"couleur, teinte",needs_review,lawn,couleur,lawn,138
+141,377,172,variant,1,m,,"coiffeur el-hamdu-lläh, Dieu soit loué, louange à Dieu ù",needs_review,el-hallâq,le coiffeur,halläq,134
+142,378,257,variant,0,m,,"bou jâe, ije (v.), avoir faim . jbed, ijbed (v.), tirer, retirer M",needs_review,el-jazzâr,le boucher,jazzâr,136
+143,381,284,fuzzy,1,m,,"tissu, cotonnade ki, kîf (inter. ; voir ké, kéf) ki-, kif- (prép.), comme (suivi d’un n.) Rif-kif, kif-kif, c'est pareil, c’est la . même chose",needs_review,lkettân,tissu (de coton),lkettän1,137
+144,389,356,exact,1,,,"enduit, blanchi, peint",needs_review,mbayyad,"peint, enduit",mbayyad,139
+145,391,405,exact,1,,méân,"solide, épais (tissu)",needs_review,mtîn,solide,mtin,140
+146,392,259,exact,1,,jdâd,"neuf, récent (4",needs_review,jdid,neuf,jdid,136
+147,394,190,exact,0,,de hadri,À hdâ$ onze ñ,needs_review,hdar,vert,hdar,134
+148,394,218,exact,1,m,,vert (couleur),needs_review,hdar,vert,hdar,135
+149,394,219,exact,1,,hodar,"vert hdûr, ihdâr (v.), verdir, se verdir hdem, ihdem (v.), travailler",needs_review,hdar,vert,hdar,135
+150,395,378,fuzzy,1,,,"choisi, excellent",needs_review,mhayyar,choisi,mhayyer,139
+151,397,360,exact,1,,,"rétréci, étroit",needs_review,mdayyeg,étroit,Mdayyeg,139
+152,405,667,fuzzy,1,f,,"droite, main droite |",needs_review,ela-l-yemna,à droite,yemna,148
+153,412,510,exact,0,,de râjel,s,needs_review,rjâl,hommes,rjâl,142
+154,413,502,exact,1,m,,"un quart, un",needs_review,rboe,un quart (d’heure),rboe,142
+155,414,519,exact,0,,,sâdati (pl. de sayyidi ou de sf?,needs_review,sâdati,"messieurs, mes seigneurs",sâdati,142
+156,417,80,fuzzy,1,,,enfants,needs_review,ed-drâri,les enfants,dräri,131
+157,419,489,exact,1,,,"gagnant, lauréat",needs_review,râbeh,"gagnant, victorieux, lauréat",râbeh,142
+158,420,404,exact,1,m,,examen,needs_review,mtihân,"examen, concours",mtihân,140
+159,421,110,variant,1,f,,"argent (métal) fadl (n:. m.), grâce, bonté (men-)fadl-ek, s’il te plaît",needs_review,el-fadda,l’argent (métal précieux),fadda,132
+160,428,441,exact,1,,,réussir,needs_review,njah,réussir,njah,141
+161,429,143,exact,1,,,"seulement (ma-)… gér, ne. que",needs_review,gêr,"moins, sauf, si ce n’est que",gér,133
+162,429,144,exact,1,,,"sauf, moins gér-gedwa, après-demain gér-, gér- (avec pron. suf.), autre que, tiers, prochain égfar, igfar (v.), pardonner (surtout . Dieu) à qn",needs_review,gêr,"moins, sauf, si ce n’est que",gér,133
+163,431,245,exact,0,,,"ssi immä, ma mère nt immäh, sa mère ‘à in-$és-alläh, si Dieu le veut. à Dieu r (!-)insän (n. m.), l'homme, l'êtr",needs_review,illa,ne… que (après une négation),illa,136
+164,436,140,exact,0,,,"s’en aller, partir Kadv.), demain",needs_review,ida,si (condition potentielle),Ida,133
+165,437,593,exact,1,m,fuyjér,"commerçant, négociant",needs_review,tâjer,commerçant,tâjer,145
+166,439,673,exact,1,f,zwdyel,bête de somme,needs_review,zâyla,bête de trait,zâyla,148
+167,440,214,exact,1,,,chevaux,needs_review,hayl,chevaux,hayl,135
+168,443,147,exact,1,,,"moutons, ovins",needs_review,gnem,moutons,gnem,133
+169,445,213,exact,1,f,,une fois,needs_review,hatra,fois,hatra,135
+170,447,556,fuzzy,1,f,,"désert (es-)sahrä (n. pr. f.), le Sahara",needs_review,sahrâ,"Sahara, désert",sahr4,144
+171,448,79,exact,1,,,"argent, fortune",needs_review,drâham,"argent, fonds",dräham,131
+172,449,676,exact,1,f,zrébi,"tapis, tapis de laine à zga, izgi (v.), crier, clamer zga ela-, gronder qn",needs_review,zerbîya,tapis,zerbiya,148
+173,454,195,exact,1,m,,"mur, mura hetta (conÿ.), jusqu'à, jusqu'äté",needs_review,hêt,mur,hêt,134
+174,454,228,exact,0,f,hwât,sœur,needs_review,hêt,mur,het,136
+175,455,600,exact,1,f,dt ou tsäwir,"image, . plan, photographie, tableau, pein- ture",needs_review,taswîra,"image, tableau",taswira,145
+176,456,631,exact,1,m,ébde,sorte,needs_review,tbae,"sorte, modèle",tbae,146
+177,457,337,variant,1,f,,"nourriture, epas (bit-el-)makla, salle à manger «",needs_review,el-mâkla,"le manger, la nourriture",makla,138
+178,459,297,exact,1,m,krdsa,"chaise, fau- teuil Let L",needs_review,kursi,chaise,kursi,137
+179,460,535,exact,1,m,snéwi,plateau (en cuivre ou en argent),needs_review,sni,plateau,sni,143
+180,461,440,exact,1,m,,cuivre EH,needs_review,nhâs,cuivre,nhâs,140
+181,462,688,exact,1,m,ebéd,serviteur D,needs_review,eabd,serviteur (de couleur),eabd,148
+182,463,221,exact,1,f,,servante,needs_review,hdîma,servante,hdîma,135
+183,464,368,exact,1,m,msâken,"pauvre, malheureux",needs_review,meskîn,"pauvre, malheureux",meskin,139
+184,466,397,exact,1,,,"très fortuné, riche mÿa, imëi (v.), aller, marcher, partir",needs_review,mreffeh,"riche, fortuné",mreffeh,140
+185,470,220,fuzzy,1,,,travailler pour qn,needs_review,hdem,"travailler pour le compte de, au service de",hdem-ela,135
+186,474,196,exact,0,,,"également, aussk\",needs_review,hetta,"jusqu’à, même",hetta,134
+187,475,609,exact,1,,,là-bas,needs_review,temma,"là, là-bas",temma,145
+188,476,41,exact,1,m,bennéya,maçon,needs_review,bennây,maçon,bennây,130
+189,478,499,exact,1,m,,"tête râs-el-câm, le jour de l'an (la tête de l’année) x",needs_review,râs,tête,râs,142
+190,479,630,exact,0,m,fabbâ,m,needs_review,tbêb,médecin,tbéb,146
+191,480,650,exact,1,f,râg,"feuille de papier, pièce, papier, feuille d'arbre warra, iwarri (v.), montrer qch.",needs_review,warga,feuille,warga,147
+192,481,412,exact,1,f,,infirmière,needs_review,mumarrida,infirmière,mumarrida,140
+193,482,377,exact,1,f,,"foulard (de tête, cachant les cheveux)",needs_review,mharma,"foulard, voile",mharma,139
+194,483,126,exact,0,m,fwäm,"“be verture + frah, ifrah (v.), se réjouir lfransä\ (n. f.), France 4",needs_review,fomm,bouche,fomm,132
+195,485,481,exact,1,f,gméyej,chemise,needs_review,gmeja,chemise,gmeja,141
+196,487,89,exact,1,m,dwdwât,"médicament, remède",needs_review,dwâ,"médicament, remède",dwä,131
+197,489,119,exact,0,,,"réveillé, &",needs_review,fâyeg,éveillé,fâyeg,132
+198,490,396,exact,1,m,mräd,"|: malade, fatigué",needs_review,mréd,malade,mréd,140
+199,491,73,exact,1,,,"ayant la tête qui tourne, abasourdi",needs_review,dihân,"ayant mal à la tête, la tête lourde",dihän,131
+200,492,300,exact,1,,,"habillé de, vêtu de",needs_review,lâbes,vêtu,lâbes,138
+201,493,332,exact,1,,,"ouvert, ét",needs_review,mahlûl,ouvert,mahlül,138
+202,497,562,exact,1,m,,"matin, mat sbâh-el-hér, bonjour (matin: sbar, isbar (v.), patiente Fsbétär\ (n. m.), hôpital M (es-)séf (n. m.), l'été",needs_review,sbah,"être le matin, devenir",sbâh,144
+203,512,160,exact,0,m,,"paix, quiétude hnak, là-bas, là | (men-)hnak, de là-bas, par là-bas hrab, ihrab (v.), s'enfuir, fuir précipi- tamment hreg, ihreq (v.), verser, répandre “hum (pron. suf., 3° pers. pl.), d'eux, d'elles, leur, les, eux, elles",needs_review,hna,ici,hnä,134
+204,518,75,exact,1,m,danänir,dinar,needs_review,dinâr,dinar,dînär,131
+205,519,627,exact,1,,,"étudiant, dl tallas, itallas (v.), monter, édi tawwal, itawwal (v.), allon, long L",needs_review,tâleb,étudiant,tâleb,146
+206,520,410,exact,1,m,,avocat,needs_review,muhâmi,avocat,muhämi,140
+207,524,305,exact,1,,,"Leïla (nom propre de femme) layn, où (lieu où l’on va) laeb (voir leab)",needs_review,Layla,Leïla (prénom féminin),Layla,138
+208,525,615,exact,1,m,äâmid,élève,needs_review,tilmîd,élève,tilmid,146
+209,526,617,exact,1,,,"Tlemcen (ville d'Algérie) tletäs, treize imânîn, quatre-vingts tmânya, huit imenna, itmenna l- (v.), souhaiter qch. à qn imentäs, dix-huit tmenya, tmen-e, huit imessah, itmessah (v.), s'essuyer, être sec imeë$a, itmes$a (v.), marcher, se dépla- cer à pied inaggal, itnagqal (v.), être transporté inä4$, douze ineffes, itneffes (v.), respirer inîn, deux (et-)inîn, lundi",needs_review,tlemsân,Tlemcen,tlemsän,146
+210,531,596,exact,1,,,secondaire,needs_review,tânawî,secondaire,tânawi,145
+211,537,562,exact,0,m,,"matin, mat sbâh-el-hér, bonjour (matin: sbar, isbar (v.), patiente Fsbétär\ (n. m.), hôpital M (es-)séf (n. m.), l'été",needs_review,šbah,ressembler à,sbâh,144
+212,541,285,fuzzy,1,,,"comme si kla, yakul (v.), manger",needs_review,ki-ma yanbagi,impeccablement (comme il convient),ki-ma,137
+213,542,295,variant,1,,,"tout, chaque kull-3i, kulleS, toute chose (el-)kull, la totalité, en totalité Rull-wäâhed (f. kull-wâhda), chacun, chacune -kum (pron. suf. 2e pers. pl.), de vous, votre, vous",needs_review,el-kull,"la totalité, en totalité",kull,137
+214,543,48,exact,1,,,"beaucoup: béa, ibét ou 1bgé (v.), vo - | bgar (col. m.), bovins",needs_review,b-ez-zâf,"beaucoup, très",b-ez-zâf,130
+215,548,490,fuzzy,1,,,"quatrième rabea, rabe-e, quatre rabeîn, quarante radd, iradd (v.), rendre, transformer râfeg, trâfeg (v.), accompagner qn",needs_review,rabeîn,quarante,râbes,142
+216,560,597,exact,1,,,"deuxième, second",needs_review,tânî,"deuxième, second",täni,145
+217,560,598,exact,0,,,"aussi, également",needs_review,tânî,"deuxième, second",tâni,145
+218,561,594,exact,1,,,troisième,needs_review,tâlet,troisième,tâlet,145
+219,562,490,fuzzy,1,,,"quatrième rabea, rabe-e, quatre rabeîn, quarante radd, iradd (v.), rendre, transformer râfeg, trâfeg (v.), accompagner qn",needs_review,râbeɛ,quatrième,râbes,142
+220,563,210,exact,1,,,cinquième,needs_review,hâmes,cinquième,hâmes,135
+221,571,28,exact,1,m,,"peintre bâe, ibîe (v.), vendre",needs_review,bayyâd,peintre,bayyäd,130
+222,572,366,exact,1,m,mnéjem,mine,needs_review,menjem,mine,menjem,139
+223,578,560,exact,1,f,,"art, métier, fabri- cation ï sâr, isér (v.), avoir lieu, se passer (évé- nement, fait), devenir sawwag, isawwag (v.), aller au marché",needs_review,sanea,métier,sanea,144
+224,579,380,exact,1,f,mihan,profession,needs_review,mihna,profession,mihna,139
+225,580,381,exact,1,,,professionnel,needs_review,mihnî,professionnel,mihni,139
+226,582,277,fuzzy,1,f,,"manière, procédé War men, plus grand que (invariable) der, tkber (v.), grandir, devenir grand",needs_review,kayfîya,"manière, procédé",ayfiya,137
+227,583,194,exact,1,f,hiraf,"métier, sion 4",needs_review,herfa,métier,herfa,134
+228,584,191,exact,1,m,,"fer, acier 13",needs_review,hdîd,"fer, acier",hdid,134
+229,586,23,exact,1,m,,"poste lbéris!, Paris bârie (part, adj.), excellent, remar quable barka, assez, ça suffit !",needs_review,barîd,poste,barid,130
+230,588,671,exact,1,f,,épouse,needs_review,zawja,épouse,zawja,148
+231,590,12,exact,1,f,bawähir,"bateau, va- peur, paquebot",needs_review,bâhira,bateau,bâhira,129
+232,591,628,exact,1,f,,avion,needs_review,tayyâra,avion,tayyära,146
+233,592,653,exact,1,m,,"patrie, pays",needs_review,watan,patrie,watan,147
+234,593,188,exact,0,m,hbb,",",needs_review,hbîb,ami,hbib,134
+235,594,691,exact,0,f,,habit,needs_review,eâda,coutume,eâda,148
+236,595,148,exact,1,f,,"solitude, éloignement (du pays) éres, igres (v.), planter gsel, igsel (v.), laver gsel wejho (laver sa figure), se laver la figure, il s’est lavé la figure H -h (pron. suf., 3° pers. m.s.), le, lui; (suffixé à un nom) : son, sa -ha (pron. suf., 3e pers. f. s.), la, elle; (suffixé à un nom) : son, sa hä, … voici hâ-huwwa, le voici",needs_review,gorba,"solitude, éloignement",gorba,133
+237,604,422,fuzzy,1,,,"habitué, accou- tumé à... muwôûlén, mwôâlin, pl. de môla, môl-, mô- mya, myat, cent",needs_review,muwâlef bi-,habitué à,muwäâlef b-,140
+238,606,3,exact,1,,,"ou, ou bien (l-)awla (ord. f.), première, précédente (Z-)awwel (ord. m.), premier, précédent",needs_review,aw,"ou, ou bien",aw-,129
+239,608,56,exact,1,,,"sans... L. 5 | bläd (n. f.; pl. buldän), vi agglomération, pays, ter: : | lhlâsf-el-cawd, place des Alger (ex-place du chev bna, ibni (v.), construire bnadem, voir ben-adem lbogâdo\ (pl. Thogädowätl)\ ; hâmi), avocat Hi lbojir\, bonjour sh lborgo? (n. m.), calicot (toil É blanc) 3 . | (el)-Tb6stä1 (n. f.) (syn. barid , le burèau de poste À bga, ibga (v.), rester, demeu - | bqa ela-hér ! au revoir ! (rest bien-être) * breg, ibreg (v.), briller",needs_review,blâ,sans,blä,130
+240,610,236,exact,1,,,"particulièrement, surtout hôti, mes frères, mes compagnons",needs_review,hosôs,"surtout, particulièrement",hosôs,136
+241,612,621,exact,1,,,ensuite M,needs_review,tumma,ensuite,tumma,146
+242,613,70,fuzzy,1,,,"maintenant, tout de suite dfas, idfas l- (v.), verser à qn (un pa- pier, de l'argent), pousser qn, qch.",needs_review,derwaq,maintenant,derwag,131
+243,617,516,exact,0,,de râkeb,FM,needs_review,rukkâb,voyageurs,rukkâb,142
+244,619,187,exact,1,m,,"corde | hbes, ihbes (v.). s'arrêter, cess",needs_review,hbel,corde,hbel,134
+245,620,170,exact,1,f,,pierre,needs_review,hajra,pierre,hajra,134
+246,625,497,exact,1,,rukkéb,"cavalier, passager (d’un bateau) râki, tu es (f.) râäkum, vous êtes",needs_review,râkeb,"voyageur, passager",râkeb,142
+247,626,339,exact,1,,,étendu,needs_review,manšûr,"tendu, étendu",manSür,138
+248,628,334,fuzzy,1,,,"posé, dépo",needs_review,mahtût,"posé, disposé",mahtôt,138
+249,629,358,exact,1,,,étagé,needs_review,mdarraj,étagé,Mdarraj,139
+250,630,401,exact,1,,,"arrangé, rangé, dis- posé",needs_review,msettef,"rangé, ordonné",msettef,140
+251,631,259,exact,1,,jdâd,"neuf, récent (4",needs_review,jdîd,"neuf, nouveau",jdid,136
+252,642,31,exact,1,,,"certain bâed-na bâed, entre nous, les uns les autres (nous) bda, ibda (v.), commencer, se mettre",needs_review,bâed-,"certain, certains, certaine, certaines",bâed,130
+253,647,531,exact,1,m,,"(syn. $jar), arbres (unité ® sajra) si, sidi, monsieur",needs_review,šjâr,arbres,sjar,143
+254,652,680,exact,1,m,,"olive, olivier",needs_review,zîtûn,"olive, olivier",zitün,148
+255,655,255,exact,0,m,jfrdn,"voisins jâweb, ijâweb (v.), répondre",needs_review,jâr,voisin,jâr,136
+256,664,137,fuzzy,1,,,"rester, s'asseoir, être s'occupation, sans travail G",needs_review,gead,"rester, être assis",igead,133
+257,677,448,exact,0,,,"toi, tu lag, intag L- (v.), parler à qn",needs_review,lâ,non,la,141
+258,677,585,exact,0,f,,police,needs_review,lâ,non,la,145
+259,678,319,variant,0,,,lwäh (pl. de /6ha),needs_review,wâh,oui,lwäh,138
+260,682,500,exact,1,m,rsém,"dessin, plan rasmi (adij.), officiel 3 râ&i (part., adj.), usé, râpé rawwah, trawwah (v.), s’en aller, partir",needs_review,rasm,"dessin, plan",rasm,142
+261,683,407,exact,1,f,,"durée, laps de temps",needs_review,mudda,"durée, laps de temps",mudda,140
+262,685,542,fuzzy,1,f,swäêm,"somme d’ar- gent, prix d’une marchandise",needs_review,sûma,"somme, prix",Tsümal,143
+263,686,209,exact,1,,,"vide, inculte halla, thalli (v.), laisser hallas, ihallas (v.), payer, régler (une dette) —— men-, achever qch. hallat, ihallat (v.), mélanger, brasser, mêler",needs_review,hâli,"vide, nu",hâli,135
+264,687,577,exact,1,f,,"camion Sahrin ou Sahrayn (duel), deux $ay, hetta-$ay (après négation} absolument rien Sajra (voir sajra) | $ân (n. m.; pl. Sudn), affaire M",needs_review,šâhina,camion,Sâhina,144
+265,688,427,exact,0,,,"plein de... i meâwen, Syn. Muedwin (pa n. m.), aide. auxiliaire M meî$a, syn. hayât (n. f.), vie,e genre de vie “4h N Ê -na (pron. suf., 17e pers. pli) notre, nous \ 4 nâd, inôd (v.), se lever 3 nâda, inäâdi l- (v.), appeler",needs_review,meammar b-,rempli de,meammar b-,140
+266,690,512,exact,1,m,,sable À,needs_review,rmel,sable,rmel,142
+267,692,634,exact,1,m,,"terre (matière) poudre 4 trah, itrah (v.), jeter, Verseh",needs_review,trâb,"terre (matière), poussière épaisse",trâb.,146
+268,695,383,exact,1,m,,mélange,needs_review,mizâj,mélange (produit mélangé),mizâj,139
+269,696,545,exact,1,f,,rapidité,needs_review,surea,rapidité,surea,143
+270,713,31,exact,0,,,"certain bâed-na bâed, entre nous, les uns les autres (nous) bda, ibda (v.), commencer, se mettre",needs_review,baed-,après (un laps de temps),bâed,130
+271,714,53,exact,1,,,"vite, imméé bi-llah, par Dieu, par Alle",needs_review,bih-fih,"rapidement, vite, immédiatement",bih-fih,130
+272,715,408,exact,1,,,pendant,needs_review,muddat-,pendant…,muddat-,140
+273,716,681,exact,0,m,,"temps, ancien temps",needs_review,zmân,"jadis, il y a longtemps",zmân,148
+274,716,682,exact,1,,,"autrefois, jadis",needs_review,zmân,"jadis, il y a longtemps",zmân,148
+275,718,196,exact,0,,,"également, aussk\",needs_review,hetta-,jusqu’à ce que,hetta,134
+276,719,143,exact,1,,,"seulement (ma-)… gér, ne. que",needs_review,gêr,"seulement, il suffit",gér,133
+277,719,144,exact,0,,,"sauf, moins gér-gedwa, après-demain gér-, gér- (avec pron. suf.), autre que, tiers, prochain égfar, igfar (v.), pardonner (surtout . Dieu) à qn",needs_review,gêr,"seulement, il suffit",gér,133
+278,720,285,exact,1,,,"comme si kla, yakul (v.), manger",needs_review,ki-ma-,comme si,ki-ma,137
+279,722,509,exact,0,f,r$éil,"lett riyyeh, iriyyeh (v.), se repoi tendre (synonyme : #4, rjae, trjae (v.), revenir, retoi",needs_review,risâla,lettre,risâla,142
+280,724,726,exact,1,m,,"adresse (la-)ewä$ir (n. pl.), les vacances, les fêtes eya, yasya (v.), se fatiguer, être fatigué",needs_review,eunwân,adresse,eunwân,149
+281,726,330,exact,1,f,,"gare, station",needs_review,mahatta,"gare, station",mahatta,138
+282,728,281,exact,1,f,,"parole kemmel, ikemmel (v.), achever, par- faire",needs_review,kelma,parole,kelma,137
+283,730,379,exact,1,,,"tranquille, goûtant la paix",needs_review,mhenni,"tranquille, en paix",mhenni,139
+284,731,185,exact,0,,,"ahuri, st",needs_review,hâyer,"étonné, embarrassé",hâyer,134
+285,732,368,exact,1,m,msâken,"pauvre, malheureux",needs_review,meskîn,"pauvre, malheureux",meskin,139
+286,733,433,fuzzy,1,,,"nasränf (n. m. ou adij.; pl chrétien, européen di",needs_review,nasrâni,"chrétien, européen",nasränf,140
+287,736,267,fuzzy,1,,,"mettre, placer 1 K “ch (pron. suf., 2° pers. m. s.), de toi, ton, ta, te, toi |",needs_review,jeal,"mettre, placer",ijeal,137
+288,741,27,exact,0,m,,"(syn. bte) vendeur, marchand",needs_review,bâyes,saluer qn avec respect,bâyes,130
+289,746,56,exact,1,,,"sans... L. 5 | bläd (n. f.; pl. buldän), vi agglomération, pays, ter: : | lhlâsf-el-cawd, place des Alger (ex-place du chev bna, ibni (v.), construire bnadem, voir ben-adem lbogâdo\ (pl. Thogädowätl)\ ; hâmi), avocat Hi lbojir\, bonjour sh lborgo? (n. m.), calicot (toil É blanc) 3 . | (el)-Tb6stä1 (n. f.) (syn. barid , le burèau de poste À bga, ibga (v.), rester, demeu - | bqa ela-hér ! au revoir ! (rest bien-être) * breg, ibreg (v.), briller",needs_review,blâ-,sans,blä,130
+290,748,152,exact,0,,,"celle-ci, voici",needs_review,hâdi-,depuis,hâdi,133
+291,749,387,exact,0,,,"bon, gentil, brave",needs_review,mlêh,"bien, convenablement",mléh,139
+292,749,388,exact,1,,,"bien, bon mm, ma mère",needs_review,mlêh,"bien, convenablement",mléh,139
+293,751,245,exact,0,,,"ssi immä, ma mère nt immäh, sa mère ‘à in-$és-alläh, si Dieu le veut. à Dieu r (!-)insän (n. m.), l'homme, l'êtr",needs_review,illa,si ce n’est,illa,136
+294,754,527,fuzzy,1,m,,beignets,needs_review,sfanji,marchand de beignets,sfanj,143
+295,761,331,exact,0,f,,"cartable feuille 4 mahfüd, mahfôd (part. pas:), Pr",needs_review,mahfada,portefeuille,mahfada,138
+296,765,670,exact,1,,,"brillant, splendide (ma)-zâl, il n’a pas cessé de, (il est) toujours, encore zâr, 1zûr (v.), visiter, rendre visite, aller en pèlerinage au tombeau d'un saint",needs_review,zâhi,"brillant, flambant",zâhi,148
+297,767,506,exact,0,,rhés,"bonn cher ll (ar-)rif (n. m.), la campagne",needs_review,rhês,bon marché,rhés,142
+298,780,493,exact,1,m,,nomade,needs_review,rahhâl,nomade,rahhâl,142
+299,781,190,variant,0,,de hadri,À hdâ$ onze ñ,needs_review,el-ḥdar,"les citadins, les sédentaires",hdar,134
+300,781,218,variant,0,m,,vert (couleur),needs_review,el-ḥdar,"les citadins, les sédentaires",hdar,135
+301,781,219,variant,0,,hodar,"vert hdûr, ihdâr (v.), verdir, se verdir hdem, ihdem (v.), travailler",needs_review,el-ḥdar,"les citadins, les sédentaires",hdar,135
+302,784,33,exact,1,,,bédouin,needs_review,bedwî,bédouin,bedwi,130
+303,787,677,exact,1,m,,"chance, bonne fortune, sort zher, izher (v.), briller zid ela- (impératif), ajoute à",needs_review,zhar,"chance, bonne fortune",zhar,148
+304,788,9,exact,1,f,,désert,needs_review,bâdiya,désert,bâdiya,129
+305,789,184,exact,1,f,,vie ;,needs_review,ḥayât,"vie, existence",hayät,134
+306,814,182,fuzzy,1,,,"piquant, chaud harrak, tharrak (v.), rem ter qch.. mettre en mou",needs_review,harrak,remuer qn ou qch.,hârr,134
+307,837,443,fuzzy,1,,,"se blesser, être blessé 6 (0. f.), la pluie Mn. m.), demi, demi-heure Mn. :; pl. #wde), sorte, genre, type fadj. : PL. iyin), propre",needs_review,njrah,être blessé,s injrah,141

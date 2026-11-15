@@ -1,0 +1,12 @@
+lesson_no,title,start_pdf_page,start_printed_page,end_pdf_page,end_printed_page,completeness,topics,status
+1,Prononciation et lecture. L’article.,6,1,8,5,complete,"['prononciation', 'article', 'adjectif']",needs_review
+2,Prononciation et lecture (fin). L’article (fin).,8,5,10,8,complete,"['gutturales', 'structure des mots', 'article', 'annexion']",needs_review
+3,Récapitulation des sons. Le démonstratif.,10,9,11,10,complete,"['récapitulation', 'démonstratif']",needs_review
+4,L’interrogation. Manière de rendre « être » au présent.,11,11,13,14,complete,"['interrogation', 'être présent', 'salutations']",needs_review
+5,Les pronoms personnels suffixes. Manière de rendre « avoir » au présent : la possession.,13,15,15,18,complete,"['pronoms suffixes', 'possession', 'maison']",needs_review
+6,Récapitulation. Le verbe « avoir » (suite).,15,19,17,22,complete,"['possession', 'mtâe/dyâl', 'invité', 'récapitulation']",needs_review
+7,Le verbe : accompli. Négation.,17,23,18,25,complete,"['accompli', 'négation', 'école']",needs_review
+8,Les pronoms personnels isolés. La numération de 1 à 5.,19,27,20,29,complete,"['pronoms isolés', 'nombres 1-5', 'école']",needs_review
+9,Le verbe : inaccompli. La numération de 6 à 10.,21,31,23,34,complete,"['inaccompli', 'nombres 6-10', 'jours', 'marché']",needs_review
+10,"Le verbe « être » arabe (kân, ikûn). Les participes.",23,35,25,38,complete,"['kân/ikûn', 'participes', 'école coranique']",needs_review
+11,Récapitulation. L’impératif.,25,39,25,39,partial,"['impératif', 'récit']",needs_review

@@ -1,0 +1,25 @@
+{
+  "part": "partie-10",
+  "pdf_pages": 54,
+  "lexical_pages": 9,
+  "lexical_printed": "743-751",
+  "main_candidates_initial": 93,
+  "main_entries_after_curation": 109,
+  "main_active": 100,
+  "main_false_positives": 9,
+  "subentries_restored": 7,
+  "missing_headwords_added": 16,
+  "new_this_run": 0,
+  "with_arabic": 92,
+  "supplement_tunis": {
+    "pages": 27,
+    "printed": "757-783",
+    "candidates": 400,
+    "entries_total": 400,
+    "inserted_this_run": 0,
+    "register": "tunisien_1910",
+    "in_algerian_corpus": false,
+    "with_arabic": 265
+  },
+  "status": "needs_review"
+}

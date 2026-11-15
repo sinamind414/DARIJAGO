@@ -1,0 +1,656 @@
+[
+  {
+    "rule_uid": "tapiero-p01-rule-1-remarques-pr-liminaires",
+    "lesson_no": 1,
+    "paragraph_ref": "1",
+    "title": "Remarques préliminaires",
+    "summary_fr": "Le manuel décrit un « parler moyen » algérien, non un dialecte unique. La transcription latine est phonétique et simplifiée ; chaque caractère se prononce avec sa valeur propre.",
+    "examples": [
+      {
+        "latin": "el-gedra",
+        "fr": "se prononce el-guedra (g dur)"
+      },
+      {
+        "latin": "râsek",
+        "fr": "se prononce râcek (s sourd)"
+      }
+    ],
+    "pdf_page": 6,
+    "printed_page": 1,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-2-consonnes-communes",
+    "lesson_no": 1,
+    "paragraph_ref": "2",
+    "title": "Consonnes communes",
+    "summary_fr": "Consonnes communes au français et à l’arabe ; g toujours dur, r roulé, s sourd, š = ch, j = dj.",
+    "examples": [
+      {
+        "latin": "š",
+        "fr": "ch"
+      },
+      {
+        "latin": "j",
+        "fr": "dj"
+      }
+    ],
+    "pdf_page": 6,
+    "printed_page": 1,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-3-consonnes-emphatiques",
+    "lesson_no": 1,
+    "paragraph_ref": "3",
+    "title": "Consonnes emphatiques",
+    "summary_fr": "Les emphatiques (d, s, t, etc.) se prononcent avec emphase ; l’emphase peut contaminer le début/milieu du mot.",
+    "examples": [
+      {
+        "latin": "sôg",
+        "fr": "marché"
+      }
+    ],
+    "pdf_page": 7,
+    "printed_page": 2,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-4-voyelles",
+    "lesson_no": 1,
+    "paragraph_ref": "4",
+    "title": "Voyelles",
+    "summary_fr": "Trois voyelles fondamentales a/u/i, brèves ou longues â/û/î ; voyelle neutre e non muette ; timbre conditionné par emphase/gutturales.",
+    "examples": [
+      {
+        "latin": "â",
+        "fr": "a long"
+      },
+      {
+        "latin": "e",
+        "fr": "voyelle neutre articulée"
+      }
+    ],
+    "pdf_page": 7,
+    "printed_page": 2,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-6-article-el",
+    "lesson_no": 1,
+    "paragraph_ref": "6",
+    "title": "Article el",
+    "summary_fr": "Article unique el, valable pour les deux genres et les deux nombres ; placé devant nom ou adjectif épithète d’un nom déterminé.",
+    "examples": [
+      {
+        "latin": "el-ktâb",
+        "fr": "le livre"
+      },
+      {
+        "latin": "el-bent",
+        "fr": "la fille"
+      }
+    ],
+    "pdf_page": 7,
+    "printed_page": 3,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-6bis-article-et-adjectif",
+    "lesson_no": 1,
+    "paragraph_ref": "6bis",
+    "title": "Article et adjectif",
+    "summary_fr": "Le nom sans article correspond souvent à un indéfini ; l’adjectif suit le nom et prend l’article si le nom est déterminé.",
+    "examples": [
+      {
+        "latin": "ktâb",
+        "fr": "un livre"
+      },
+      {
+        "latin": "el-ktâb el-kbir",
+        "fr": "le grand livre"
+      }
+    ],
+    "pdf_page": 8,
+    "printed_page": 4,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-8-consonnes-gutturales",
+    "lesson_no": 2,
+    "paragraph_ref": "8",
+    "title": "Consonnes gutturales",
+    "summary_fr": "Cinq gutturales : h, ḥ, x, ɛ, q (transcrites selon le système du livre). q peut être prononcé g en milieu rural.",
+    "examples": [
+      {
+        "latin": "gâl",
+        "fr": "il a dit"
+      },
+      {
+        "latin": "eabd-allâh",
+        "fr": "Abdallah"
+      }
+    ],
+    "pdf_page": 8,
+    "printed_page": 5,
+    "side": "R",
+    "status": "needs_review",
+    "notes": "Transcription du livre à conserver ; ne pas confondre avec 3/7 modernes."
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-9-structure-des-mots",
+    "lesson_no": 2,
+    "paragraph_ref": "9",
+    "title": "Structure des mots",
+    "summary_fr": "Les mots sont dérivés de racines consonantiques ; les voyelles précisent sens et nature grammaticale ; e neutre facilite l’articulation.",
+    "examples": [
+      {
+        "latin": "kteb",
+        "fr": "il a écrit"
+      },
+      {
+        "latin": "ktâb",
+        "fr": "livre"
+      },
+      {
+        "latin": "ktüb",
+        "fr": "livres"
+      }
+    ],
+    "pdf_page": 9,
+    "printed_page": 6,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-11-article-modifications-phon-tiques",
+    "lesson_no": 2,
+    "paragraph_ref": "11",
+    "title": "Article : modifications phonétiques",
+    "summary_fr": "el peut devenir le/la devant deux consonnes ; le l s’assimile devant dentales/prépalatales (d, t, r, s, š, z, etc.).",
+    "examples": [
+      {
+        "latin": "ed-dâr",
+        "fr": "la maison"
+      },
+      {
+        "latin": "er-râjel",
+        "fr": "l’homme"
+      },
+      {
+        "latin": "eš-šems",
+        "fr": "le soleil"
+      }
+    ],
+    "pdf_page": 9,
+    "printed_page": 7,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-11bis-annexion",
+    "lesson_no": 2,
+    "paragraph_ref": "11bis",
+    "title": "Annexion",
+    "summary_fr": "Un nom sans article suivi d’un autre nom forme un rapport d’annexion ; le second peut être remplacé par un pronom suffixe. Féminin -a devient -at/-et en annexion.",
+    "examples": [
+      {
+        "latin": "weld-Mohammed",
+        "fr": "le garçon de Mohammed"
+      },
+      {
+        "latin": "câsémat-el-jazâir",
+        "fr": "la capitale de l’Algérie"
+      }
+    ],
+    "pdf_page": 10,
+    "printed_page": 8,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-15-d-monstratif",
+    "lesson_no": 3,
+    "paragraph_ref": "15",
+    "title": "Démonstratif",
+    "summary_fr": "Proximité hâda/hâdi/hâdu ; éloignement hâdak/hâdik/hâduk (ou dak/dik/duk). Devant nom avec article : hâd-el- ; sinon pronom.",
+    "examples": [
+      {
+        "latin": "hâd-el-bent",
+        "fr": "cette fille-ci"
+      },
+      {
+        "latin": "hâda weld",
+        "fr": "celui-ci est un garçon"
+      }
+    ],
+    "pdf_page": 11,
+    "printed_page": 10,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-18-interrogation",
+    "lesson_no": 4,
+    "paragraph_ref": "18",
+    "title": "Interrogation",
+    "summary_fr": "Interrogation par ton ou mot interrogatif en tête : wâš, škûn, men, elaš, kéf, wén, weqtaš, šhâl, mnayn, etc.",
+    "examples": [
+      {
+        "latin": "ké-râk ?",
+        "fr": "comment vas-tu ?"
+      },
+      {
+        "latin": "wén-râh ?",
+        "fr": "où est-il ?"
+      }
+    ],
+    "pdf_page": 12,
+    "printed_page": 13,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-20-tre-pr-sent-proposition-sans-verbe",
+    "lesson_no": 4,
+    "paragraph_ref": "20",
+    "title": "Être présent : proposition sans verbe",
+    "summary_fr": "Souvent le verbe être au présent ne s’exprime pas ; l’attribut s’accorde en genre/nombre mais n’a pas l’article.",
+    "examples": [
+      {
+        "latin": "hâda, fellâh",
+        "fr": "celui-ci est un cultivateur"
+      },
+      {
+        "latin": "Fâtéma, sgêra",
+        "fr": "Fatma est jeune"
+      }
+    ],
+    "pdf_page": 12,
+    "printed_page": 13,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-20bis-tre-pr-sent-r-ni-r-k-r-h",
+    "lesson_no": 4,
+    "paragraph_ref": "20bis",
+    "title": "Être présent : râni/râk/râh",
+    "summary_fr": "Quand le sujet est un pronom ou sens existence/localisation, on emploie râni, râk, râki, râh, râha, râna, râkum, râhum.",
+    "examples": [
+      {
+        "latin": "râni sgêr",
+        "fr": "je suis jeune"
+      },
+      {
+        "latin": "Mohammed râh b-hér",
+        "fr": "Mohammed va bien"
+      }
+    ],
+    "pdf_page": 13,
+    "printed_page": 14,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-25-pronoms-personnels-suffixes",
+    "lesson_no": 5,
+    "paragraph_ref": "25",
+    "title": "Pronoms personnels suffixes",
+    "summary_fr": "Suffixes à un nom (possession), à un verbe (objet direct) ou à une préposition (objet indirect). Ex. dâr-i, dâr-ek, dâr-o, dâr-ha, dâr-na, dâr-kum, dâr-hum.",
+    "examples": [
+      {
+        "latin": "ktâb-i",
+        "fr": "mon livre"
+      },
+      {
+        "latin": "drab-ni",
+        "fr": "il m’a frappé"
+      },
+      {
+        "latin": "mea-k",
+        "fr": "avec toi"
+      }
+    ],
+    "pdf_page": 14,
+    "printed_page": 17,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-26-avoir-pr-sent-eand",
+    "lesson_no": 5,
+    "paragraph_ref": "26",
+    "title": "Avoir présent : eand-",
+    "summary_fr": "Le verbe avoir (possession) n’existe pas comme tel ; on emploie eand- + pronom suffixe.",
+    "examples": [
+      {
+        "latin": "eand-i dâr",
+        "fr": "j’ai une maison"
+      },
+      {
+        "latin": "eand-o weld",
+        "fr": "il a un garçon"
+      }
+    ],
+    "pdf_page": 14,
+    "printed_page": 17,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-26bis-possession-mt-e-dy-l",
+    "lesson_no": 5,
+    "paragraph_ref": "26bis",
+    "title": "Possession : mtâe / dyâl",
+    "summary_fr": "mtâe (ou ntâe) / dyâl exprime la possession après nom avec article, ou la matière après nom sans article.",
+    "examples": [
+      {
+        "latin": "ed-dâr mtâe bû-ya",
+        "fr": "la maison de mon père"
+      },
+      {
+        "latin": "zerbîya mtâe es-sôf",
+        "fr": "un tapis de laine"
+      }
+    ],
+    "pdf_page": 15,
+    "printed_page": 18,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-33-le-verbe-et-la-racine",
+    "lesson_no": 7,
+    "paragraph_ref": "33",
+    "title": "Le verbe et la racine",
+    "summary_fr": "Le verbe coïncide avec la racine ; pas d’infinitif. La racine est donnée à la 3e personne masculin singulier de l’accompli.",
+    "examples": [
+      {
+        "latin": "kteb",
+        "fr": "il a écrit"
+      },
+      {
+        "latin": "emel",
+        "fr": "il a fait"
+      }
+    ],
+    "pdf_page": 18,
+    "printed_page": 24,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-35-accompli",
+    "lesson_no": 7,
+    "paragraph_ref": "35",
+    "title": "Accompli",
+    "summary_fr": "L’accompli exprime le passé ; suffixes de personne ; voyelle intérieure peut se déplacer (ressaut). Ex. kteb, ketbet, ktebna, ktebtu, ketbu.",
+    "examples": [
+      {
+        "latin": "ktebt",
+        "fr": "j’ai écrit / tu as écrit (m.)"
+      },
+      {
+        "latin": "ketbet",
+        "fr": "elle a écrit"
+      },
+      {
+        "latin": "ktebna",
+        "fr": "nous avons écrit"
+      }
+    ],
+    "pdf_page": 18,
+    "printed_page": 24,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-36-n-gation-ma-i",
+    "lesson_no": 7,
+    "paragraph_ref": "36",
+    "title": "Négation ma…-ši",
+    "summary_fr": "Négation verbale : ma + verbe + ši (réduit -š). Sans verbe être : ma-ši. ši seul après verbe peut marquer interrogation.",
+    "examples": [
+      {
+        "latin": "ma kteb-ši",
+        "fr": "il n’a pas écrit"
+      },
+      {
+        "latin": "Fâtéma ma-ši farhâna",
+        "fr": "Fatma n’est pas contente"
+      }
+    ],
+    "pdf_page": 18,
+    "printed_page": 25,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-39-pronoms-personnels-isol-s",
+    "lesson_no": 8,
+    "paragraph_ref": "39",
+    "title": "Pronoms personnels isolés",
+    "summary_fr": "ana, enta/enti, huwwa/hiyya, ahna/hna, ntuma/entum, huma/hum. Sujets de proposition sans verbe ou apposition ; distinguent emelt (j’ai fait) de emelt (tu as fait).",
+    "examples": [
+      {
+        "latin": "ana kbir",
+        "fr": "je suis grand"
+      },
+      {
+        "latin": "hâ-hiyya qâeat-ed-dars",
+        "fr": "voici la salle de classe"
+      }
+    ],
+    "pdf_page": 20,
+    "printed_page": 28,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-42-nombres-1-5",
+    "lesson_no": 8,
+    "paragraph_ref": "42",
+    "title": "Nombres 1 à 5",
+    "summary_fr": "État isolé vs état construit : wâhed/wâhda → wâhd-el- ; zûj → zûj- ; tlâta → telt- ; rabea → rabe- ; hemsa → hems-. De 3 à 10, e de liaison devant consonne.",
+    "examples": [
+      {
+        "latin": "wâhd-el-weld",
+        "fr": "un garçon"
+      },
+      {
+        "latin": "telt-e-byût",
+        "fr": "trois pièces"
+      },
+      {
+        "latin": "hems-e-snîn",
+        "fr": "cinq ans"
+      }
+    ],
+    "pdf_page": 20,
+    "printed_page": 29,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-45-inaccompli",
+    "lesson_no": 9,
+    "paragraph_ref": "45",
+    "title": "Inaccompli",
+    "summary_fr": "L’inaccompli exprime présent ou futur ; préfixes de personne (n-, t-, y-/i-, etc.) + suffixes aux formes longues. Ex. nekteb, tekteb, yekteb/ikteb, neketbu, teketbu, iketbu.",
+    "examples": [
+      {
+        "latin": "nekteb",
+        "fr": "j’écris / j’écrirai"
+      },
+      {
+        "latin": "ikteb",
+        "fr": "il écrit / il écrira"
+      }
+    ],
+    "pdf_page": 22,
+    "printed_page": 32,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-45bis-inaccompli-variantes",
+    "lesson_no": 9,
+    "paragraph_ref": "45bis",
+    "title": "Inaccompli : variantes",
+    "summary_fr": "La voyelle du préfixe peut varier ; la consonne est stable. Les verbes dérivés suivent généralement le même schéma. La voyelle intérieure peut disparaître devant suffixe.",
+    "examples": [
+      {
+        "latin": "nhallas",
+        "fr": "je paye"
+      },
+      {
+        "latin": "nhalls-ek",
+        "fr": "je te paye"
+      }
+    ],
+    "pdf_page": 22,
+    "printed_page": 33,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-47-nombres-6-10-et-jours",
+    "lesson_no": 9,
+    "paragraph_ref": "47",
+    "title": "Nombres 6 à 10 et jours",
+    "summary_fr": "setta/sett-, sebea/sebe-, tmânya/tmân-, tesca/tesc-, eašra/eašr-. Jours : el-hâd, le-tnin, et-tlâta, la-rbae, le-hmis, el-jemca, es-sebt.",
+    "examples": [
+      {
+        "latin": "sebea kilu",
+        "fr": "sept kilos"
+      },
+      {
+        "latin": "nhâr le-hmis",
+        "fr": "jeudi"
+      }
+    ],
+    "pdf_page": 23,
+    "printed_page": 34,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-50-k-n-ik-n",
+    "lesson_no": 10,
+    "paragraph_ref": "50",
+    "title": "kân / ikûn",
+    "summary_fr": "Être au passé (imparfait) ou futur : kân, kânet, kânu ; nkûn, tkûn, ikûn, ikûnu. Transpose un état présent dans le passé/futur.",
+    "examples": [
+      {
+        "latin": "l-ulâd kânu gâedîn",
+        "fr": "les enfants étaient assis"
+      },
+      {
+        "latin": "grêb ikûn eâlem",
+        "fr": "bientôt il sera savant"
+      }
+    ],
+    "pdf_page": 24,
+    "printed_page": 37,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-52-participes",
+    "lesson_no": 10,
+    "paragraph_ref": "52",
+    "title": "Participes",
+    "summary_fr": "Participe actif : â après 1re consonne, e après 2e (eâlem, sâken, gâced). Participe passif : ma-/me- + û/ô (mabrûk, mektûb, mahfûd). Dérivés : m-/mu-/me- initial.",
+    "examples": [
+      {
+        "latin": "eâlem",
+        "fr": "savant"
+      },
+      {
+        "latin": "mektûb",
+        "fr": "écrit"
+      },
+      {
+        "latin": "mzewweg",
+        "fr": "décoré"
+      }
+    ],
+    "pdf_page": 24,
+    "printed_page": 37,
+    "side": "R",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-52bis-participes-emploi",
+    "lesson_no": 10,
+    "paragraph_ref": "52bis",
+    "title": "Participes : emploi",
+    "summary_fr": "Les participes s’emploient comme adjectifs ou substantifs ; après kân/ikûn, ils expriment imparfait ou futur. Féminin -a, pluriel -în.",
+    "examples": [
+      {
+        "latin": "kân dâheb",
+        "fr": "il allait"
+      },
+      {
+        "latin": "ikûnu msellmin",
+        "fr": "ils salueront"
+      }
+    ],
+    "pdf_page": 25,
+    "printed_page": 38,
+    "side": "L",
+    "status": "needs_review",
+    "notes": null
+  },
+  {
+    "rule_uid": "tapiero-p01-rule-54-imp-ratif-d-but",
+    "lesson_no": 11,
+    "paragraph_ref": "54",
+    "title": "Impératif (début)",
+    "summary_fr": "La leçon 11 commence par un récit et annonce l’impératif ; la partie 01 ne contient pas encore le développement complet.",
+    "examples": [
+      {
+        "latin": "agra f-el-ktâb !",
+        "fr": "lis dans le livre !"
+      }
+    ],
+    "pdf_page": 25,
+    "printed_page": 39,
+    "side": "R",
+    "status": "needs_review",
+    "notes": "À compléter avec partie 02."
+  }
+]

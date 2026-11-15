@@ -1,0 +1,34 @@
+{
+  "mode": "corrected",
+  "info": {
+    "title": "Speak Algeria — Apprendre la darija algérienne",
+    "rootChildren": 1,
+    "rootHtmlLength": 8748,
+    "bodyText": "Speak Algeria\n\nSpeak Algeria · Méthode orale d’algérien\n\nChoisissez votre langue pour apprendre la darija algérienne\n\nToutes les explications, traductions et mises en situation s’adaptent immédiatement à votre langue.\n\nLangue d’apprentissage\nFrançais (FR)\nFR\nEN\nES\nDE\nIT\nNL\n中文\n\nAperçu de la première leçon\n\nSalam alikoum, wach rak?\n\nBonjour, comment vas-tu ?\n\nÉcouter\n\nVous pourrez changer de langue à tout moment depuis l’accueil.\n\nCommencer l’apprentissage",
+    "scripts": [
+      {
+        "src": "http://127.0.0.1:3000/@vite/client",
+        "type": "module"
+      },
+      {
+        "src": "http://127.0.0.1:3000/src/main.tsx",
+        "type": "module"
+      }
+    ]
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "responses": [],
+  "axe": {
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": 1
+      }
+    ],
+    "passes": 31
+  }
+}

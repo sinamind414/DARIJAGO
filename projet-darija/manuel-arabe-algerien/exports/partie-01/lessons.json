@@ -1,0 +1,168 @@
+[
+  {
+    "lesson_no": 1,
+    "title": "Prononciation et lecture. L’article.",
+    "start_pdf_page": 6,
+    "start_printed_page": 1,
+    "end_pdf_page": 8,
+    "end_printed_page": 5,
+    "completeness": "complete",
+    "topics": [
+      "prononciation",
+      "article",
+      "adjectif"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 2,
+    "title": "Prononciation et lecture (fin). L’article (fin).",
+    "start_pdf_page": 8,
+    "start_printed_page": 5,
+    "end_pdf_page": 10,
+    "end_printed_page": 8,
+    "completeness": "complete",
+    "topics": [
+      "gutturales",
+      "structure des mots",
+      "article",
+      "annexion"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 3,
+    "title": "Récapitulation des sons. Le démonstratif.",
+    "start_pdf_page": 10,
+    "start_printed_page": 9,
+    "end_pdf_page": 11,
+    "end_printed_page": 10,
+    "completeness": "complete",
+    "topics": [
+      "récapitulation",
+      "démonstratif"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 4,
+    "title": "L’interrogation. Manière de rendre « être » au présent.",
+    "start_pdf_page": 11,
+    "start_printed_page": 11,
+    "end_pdf_page": 13,
+    "end_printed_page": 14,
+    "completeness": "complete",
+    "topics": [
+      "interrogation",
+      "être présent",
+      "salutations"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 5,
+    "title": "Les pronoms personnels suffixes. Manière de rendre « avoir » au présent : la possession.",
+    "start_pdf_page": 13,
+    "start_printed_page": 15,
+    "end_pdf_page": 15,
+    "end_printed_page": 18,
+    "completeness": "complete",
+    "topics": [
+      "pronoms suffixes",
+      "possession",
+      "maison"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 6,
+    "title": "Récapitulation. Le verbe « avoir » (suite).",
+    "start_pdf_page": 15,
+    "start_printed_page": 19,
+    "end_pdf_page": 17,
+    "end_printed_page": 22,
+    "completeness": "complete",
+    "topics": [
+      "possession",
+      "mtâe/dyâl",
+      "invité",
+      "récapitulation"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 7,
+    "title": "Le verbe : accompli. Négation.",
+    "start_pdf_page": 17,
+    "start_printed_page": 23,
+    "end_pdf_page": 18,
+    "end_printed_page": 25,
+    "completeness": "complete",
+    "topics": [
+      "accompli",
+      "négation",
+      "école"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 8,
+    "title": "Les pronoms personnels isolés. La numération de 1 à 5.",
+    "start_pdf_page": 19,
+    "start_printed_page": 27,
+    "end_pdf_page": 20,
+    "end_printed_page": 29,
+    "completeness": "complete",
+    "topics": [
+      "pronoms isolés",
+      "nombres 1-5",
+      "école"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 9,
+    "title": "Le verbe : inaccompli. La numération de 6 à 10.",
+    "start_pdf_page": 21,
+    "start_printed_page": 31,
+    "end_pdf_page": 23,
+    "end_printed_page": 34,
+    "completeness": "complete",
+    "topics": [
+      "inaccompli",
+      "nombres 6-10",
+      "jours",
+      "marché"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 10,
+    "title": "Le verbe « être » arabe (kân, ikûn). Les participes.",
+    "start_pdf_page": 23,
+    "start_printed_page": 35,
+    "end_pdf_page": 25,
+    "end_printed_page": 38,
+    "completeness": "complete",
+    "topics": [
+      "kân/ikûn",
+      "participes",
+      "école coranique"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lesson_no": 11,
+    "title": "Récapitulation. L’impératif.",
+    "start_pdf_page": 25,
+    "start_printed_page": 39,
+    "end_pdf_page": 25,
+    "end_printed_page": 39,
+    "completeness": "partial",
+    "topics": [
+      "impératif",
+      "récit"
+    ],
+    "status": "needs_review"
+  }
+]

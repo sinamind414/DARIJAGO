@@ -1,0 +1,762 @@
+[
+ {
+  "vocab_id": 2,
+  "form": "weld",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 147,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 3,
+  "form": "bent",
+  "field": "plural",
+  "current": null,
+  "proposed": "bnât",
+  "page": 130,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 4,
+  "form": "râjel",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 142,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 14,
+  "form": "sukna",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 143,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 28,
+  "form": "jamâl",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 136,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 29,
+  "form": "bâb",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 129,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 29,
+  "form": "bâb",
+  "field": "plural",
+  "current": null,
+  "proposed": "bibân",
+  "page": 129,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 30,
+  "form": "râs",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 142,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 33,
+  "form": "hayma",
+  "field": "plural",
+  "current": null,
+  "proposed": "kyém",
+  "page": 135,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 37,
+  "form": "hâl",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 134,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 37,
+  "form": "hâl",
+  "field": "plural",
+  "current": null,
+  "proposed": "hwdl",
+  "page": 134,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 38,
+  "form": "mréd",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 140,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 38,
+  "form": "mréd",
+  "field": "plural",
+  "current": null,
+  "proposed": "mräd",
+  "page": 140,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 40,
+  "form": "sôg",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 144,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 40,
+  "form": "sôg",
+  "field": "plural",
+  "current": null,
+  "proposed": "swdg",
+  "page": 144,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 41,
+  "form": "duwâr",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 131,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 41,
+  "form": "duwâr",
+  "field": "plural",
+  "current": null,
+  "proposed": "dwäwer",
+  "page": 131,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 63,
+  "form": "wast",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 147,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 67,
+  "form": "zayy",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 148,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 74,
+  "form": "zerbîya",
+  "field": "plural",
+  "current": null,
+  "proposed": "zrébi",
+  "page": 148,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 90,
+  "form": "dêf",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 132,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 91,
+  "form": "yôm",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 148,
+  "match": "exact",
+  "confidence": "medium"
+ },
+ {
+  "vocab_id": 92,
+  "form": "camm",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 148,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 95,
+  "form": "sbâh",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 144,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 98,
+  "form": "galb",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 132,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 98,
+  "form": "galb",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 141,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 115,
+  "form": "wejh",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 147,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 119,
+  "form": "kurrâs",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 137,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 142,
+  "form": "sâheb",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 144,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 143,
+  "form": "tfal",
+  "field": "gender",
+  "current": null,
+  "proposed": "f",
+  "page": 146,
+  "match": "exact",
+  "confidence": "medium"
+ },
+ {
+  "vocab_id": 272,
+  "form": "tfal",
+  "field": "gender",
+  "current": null,
+  "proposed": "f",
+  "page": 146,
+  "match": "exact",
+  "confidence": "medium"
+ },
+ {
+  "vocab_id": 295,
+  "form": "fasl",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 132,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 305,
+  "form": "yôm",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 148,
+  "match": "exact",
+  "confidence": "medium"
+ },
+ {
+  "vocab_id": 334,
+  "form": "eâmel",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 148,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 339,
+  "form": "rahhây",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 142,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 347,
+  "form": "heddâm",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 135,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 375,
+  "form": "lawn",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 138,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 391,
+  "form": "mtîn",
+  "field": "plural",
+  "current": null,
+  "proposed": "méân",
+  "page": 140,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 392,
+  "form": "jdid",
+  "field": "plural",
+  "current": null,
+  "proposed": "jdâd",
+  "page": 136,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 394,
+  "form": "hdar",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 135,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 394,
+  "form": "hdar",
+  "field": "plural",
+  "current": null,
+  "proposed": "hodar",
+  "page": 135,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 413,
+  "form": "rboe",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 142,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 420,
+  "form": "mtihân",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 140,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 437,
+  "form": "tâjer",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 145,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 454,
+  "form": "hêt",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 134,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 456,
+  "form": "tbae",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 146,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 459,
+  "form": "kursi",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 137,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 460,
+  "form": "sni",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 143,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 461,
+  "form": "nhâs",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 140,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 462,
+  "form": "eabd",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 148,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 464,
+  "form": "meskîn",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 139,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 476,
+  "form": "bennây",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 130,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 476,
+  "form": "bennây",
+  "field": "plural",
+  "current": null,
+  "proposed": "bennéya",
+  "page": 130,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 478,
+  "form": "râs",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 142,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 487,
+  "form": "dwâ",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 131,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 487,
+  "form": "dwâ",
+  "field": "plural",
+  "current": null,
+  "proposed": "dwdwât",
+  "page": 131,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 490,
+  "form": "mréd",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 140,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 497,
+  "form": "sbah",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 144,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 518,
+  "form": "dinâr",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 131,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 520,
+  "form": "muhâmi",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 140,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 525,
+  "form": "tilmîd",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 146,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 571,
+  "form": "bayyâd",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 130,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 572,
+  "form": "menjem",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 139,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 584,
+  "form": "hdîd",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 134,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 586,
+  "form": "barîd",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 130,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 590,
+  "form": "bâhira",
+  "field": "plural",
+  "current": null,
+  "proposed": "bawähir",
+  "page": 129,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 592,
+  "form": "watan",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 147,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 619,
+  "form": "hbel",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 134,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 625,
+  "form": "râkeb",
+  "field": "plural",
+  "current": null,
+  "proposed": "rukkéb",
+  "page": 142,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 647,
+  "form": "šjâr",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 143,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 690,
+  "form": "rmel",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 142,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 695,
+  "form": "mizâj",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 139,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 724,
+  "form": "eunwân",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 149,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 732,
+  "form": "meskîn",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 139,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 780,
+  "form": "rahhâl",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 142,
+  "match": "exact",
+  "confidence": "high"
+ },
+ {
+  "vocab_id": 787,
+  "form": "zhar",
+  "field": "gender",
+  "current": null,
+  "proposed": "m",
+  "page": 148,
+  "match": "exact",
+  "confidence": "high"
+ }
+]

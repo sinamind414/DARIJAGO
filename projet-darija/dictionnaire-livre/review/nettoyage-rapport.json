@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-11-15T05:50:25.611202+00:00",
+  "dry_run": false,
+  "deleted_count": 0,
+  "deleted_bytes": 0,
+  "deleted": [],
+  "kept": [
+    {
+      "path": "raw/partie-01.pdf",
+      "reason": "canonical source PDF verified"
+    },
+    {
+      "path": "raw/partie-02.pdf",
+      "reason": "canonical source PDF verified"
+    },
+    {
+      "path": "raw/partie-03.pdf",
+      "reason": "canonical source PDF verified"
+    },
+    {
+      "path": "raw/partie-04.pdf",
+      "reason": "canonical source PDF verified"
+    },
+    {
+      "path": "raw/partie-05.pdf",
+      "reason": "canonical source PDF verified"
+    },
+    {
+      "path": "raw/partie-06.pdf",
+      "reason": "canonical source PDF verified"
+    },
+    {
+      "path": "raw/partie-07.pdf",
+      "reason": "canonical source PDF verified"
+    },
+    {
+      "path": "raw/partie-08.pdf",
+      "reason": "canonical source PDF verified"
+    },
+    {
+      "path": "raw/partie-09.pdf",
+      "reason": "canonical source PDF verified"
+    },
+    {
+      "path": "raw/partie-10.pdf",
+      "reason": "canonical source PDF verified"
+    },
+    {
+      "path": "backups/dictionnaire-avant-partie-10.sqlite",
+      "reason": "latest safety backup kept"
+    }
+  ],
+  "errors": [],
+  "policy": "Conservative: canonical PDFs, DB, OCR text, scripts, exports, reports kept."
+}

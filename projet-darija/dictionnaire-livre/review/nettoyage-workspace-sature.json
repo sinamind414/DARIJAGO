@@ -1,0 +1,239 @@
+{
+  "dry_run": false,
+  "deleted_count": 46,
+  "deleted_bytes": 56311959,
+  "deleted": [
+    {
+      "path": "dictionnaire-livre-partie-10.zip",
+      "bytes": 38902750,
+      "reason": "archive ZIP redondante avec le dossier source ; régénérable"
+    },
+    {
+      "path": "manuel-arabe-algerien-partie-01.zip",
+      "bytes": 9155141,
+      "reason": "archive ZIP redondante avec le dossier source ; régénérable"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-01-entries-brutes.json",
+      "bytes": 86209,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-02-entries-brutes.json",
+      "bytes": 373693,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-03-entries-brutes.json",
+      "bytes": 720255,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-04-entries-brutes.json",
+      "bytes": 652897,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-05-entries-brutes.json",
+      "bytes": 659494,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-06-entries-brutes.json",
+      "bytes": 642938,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-07-entries-brutes.json",
+      "bytes": 659521,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-08-entries-brutes.json",
+      "bytes": 682622,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-09-entries-brutes.json",
+      "bytes": 713715,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-10-entries-brutes.json",
+      "bytes": 81789,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-10-supplement-tunis-entries-brutes.json",
+      "bytes": 311261,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-01-entries-brutes.csv",
+      "bytes": 38052,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-02-entries-brutes.csv",
+      "bytes": 168894,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-03-entries-brutes.csv",
+      "bytes": 263371,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-04-entries-brutes.csv",
+      "bytes": 243285,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-05-entries-brutes.csv",
+      "bytes": 238683,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-06-entries-brutes.csv",
+      "bytes": 235252,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-07-entries-brutes.csv",
+      "bytes": 242209,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-08-entries-brutes.csv",
+      "bytes": 249828,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-09-entries-brutes.csv",
+      "bytes": 259218,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-10-entries-brutes.csv",
+      "bytes": 31001,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-10-supplement-tunis-entries-brutes.csv",
+      "bytes": 124096,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-01-echantillon-app.json",
+      "bytes": 3616,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-02-echantillon-app.json",
+      "bytes": 6603,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-03-echantillon-app.json",
+      "bytes": 9269,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-04-echantillon-app.json",
+      "bytes": 11589,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-05-echantillon-app.json",
+      "bytes": 10794,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-06-echantillon-app.json",
+      "bytes": 15384,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-07-echantillon-app.json",
+      "bytes": 15248,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-08-echantillon-app.json",
+      "bytes": 14455,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-09-echantillon-app.json",
+      "bytes": 15383,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-10-echantillon-app.json",
+      "bytes": 15332,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-01-apercu.md",
+      "bytes": 1199,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-02-apercu.md",
+      "bytes": 1439,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-03-apercu.md",
+      "bytes": 2425,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-04-apercu.md",
+      "bytes": 2341,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-05-apercu.md",
+      "bytes": 2436,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-06-apercu.md",
+      "bytes": 2435,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-07-apercu.md",
+      "bytes": 2385,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-08-apercu.md",
+      "bytes": 2518,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-09-apercu.md",
+      "bytes": 2511,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/partie-10-apercu.md",
+      "bytes": 3066,
+      "reason": "export intermédiaire par partie ; masters conservés"
+    },
+    {
+      "path": "dictionnaire-livre/exports/dictionnaire-supplement-tunis-brut.json",
+      "bytes": 311261,
+      "reason": "doublon exact de l’export tunisien actif"
+    },
+    {
+      "path": "dictionnaire-livre/exports/dictionnaire-supplement-tunis-brut.csv",
+      "bytes": 124096,
+      "reason": "doublon exact de l’export tunisien actif"
+    }
+  ],
+  "errors": [],
+  "kept_policy": "PDF raw/, SQLite, OCR texte, scripts, rapports, masters, backups récents"
+}

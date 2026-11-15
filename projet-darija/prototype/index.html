@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DarijaPro — prototype fonctionnel original</title>
+<style>
+  :root{
+    --bg:#0f172a; --phone:#f8fafc; --ink:#0f172a; --muted:#64748b;
+    --brand:#0f766e; --brand2:#14b8a6; --accent:#f59e0b; --danger:#ef4444;
+    --ok:#16a34a; --card:#ffffff; --line:#e2e8f0; --chip:#ecfeff;
+    --radius:22px; --shadow:0 18px 50px rgba(2,6,23,.35);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(1200px 600px at 20% -10%,#134e4a 0%,var(--bg) 55%);color:var(--ink);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+  .layout{display:grid;grid-template-columns:320px 400px;gap:28px;align-items:start}
+  .brief{color:#e2e8f0}
+  .brief h1{font-size:22px;margin:0 0 10px}
+  .brief p{color:#cbd5e1;line-height:1.55;font-size:14px}
+  .brief .tag{display:inline-block;background:#134e4a;border:1px solid #2dd4bf33;color:#99f6e4;padding:5px 10px;border-radius:999px;font-size:12px;margin-bottom:12px}
+  .brief ul{padding-left:18px;color:#cbd5e1;font-size:13px;line-height:1.7}
+  .brief .warn{background:#7c2d1233;border:1px solid #fb923c55;color:#fed7aa;padding:10px;border-radius:12px;font-size:12px}
+  .phone{width:400px;height:820px;background:var(--phone);border-radius:38px;box-shadow:var(--shadow);overflow:hidden;border:10px solid #0b1220;position:relative;display:flex;flex-direction:column}
+  .status{height:30px;background:#0b1220;color:#e2e8f0;display:flex;justify-content:space-between;align-items:center;padding:0 18px;font-size:11px}
+  .screen{flex:1;overflow:auto;position:relative}
+  .top{background:linear-gradient(135deg,var(--brand),#115e59);color:white;padding:16px 16px 18px;border-bottom-left-radius:24px;border-bottom-right-radius:24px}
+  .top .row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .iconbtn{border:1px solid #ffffff44;background:#ffffff1f;color:white;border-radius:14px;padding:8px 10px;font-size:13px;cursor:pointer}
+  .title{font-weight:800;font-size:17px}
+  .sub{opacity:.85;font-size:12px;margin-top:3px}
+  .stars{background:#ffffff22;border:1px solid #ffffff33;padding:6px 10px;border-radius:999px;font-size:13px;font-weight:700}
+  .content{padding:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:0 8px 20px rgba(15,23,42,.06)}
+  .card + .card{margin-top:14px}
+  .muted{color:var(--muted)}
+  .h2{font-size:18px;font-weight:800;margin:0 0 8px}
+  .h3{font-size:15px;font-weight:800;margin:0 0 8px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:16px;padding:13px 16px;font-weight:800;cursor:pointer;font-size:14px}
+  .btn.primary{background:var(--brand);color:white}
+  .btn.ghost{background:#f1f5f9;color:var(--ink);border:1px solid var(--line)}
+  .btn.warn{background:var(--accent);color:#3b2503}
+  .btn.block{width:100%}
+  .btn:disabled{opacity:.45;cursor:not-allowed}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .module{background:white;border:1px solid var(--line);border-radius:18px;padding:14px;cursor:pointer}
+  .module .emoji{font-size:26px}
+  .module .name{font-weight:800;margin-top:8px}
+  .module .meta{font-size:12px;color:var(--muted);margin-top:4px}
+  .progress{height:10px;background:#e2e8f0;border-radius:999px;overflow:hidden}
+  .progress > span{display:block;height:100%;background:linear-gradient(90deg,var(--brand2),var(--brand));border-radius:999px}
+  .tabs{display:flex;gap:8px;margin:12px 0}
+  .tab{flex:1;text-align:center;padding:9px;border-radius:12px;background:#f1f5f9;border:1px solid var(--line);font-size:12px;font-weight:800;cursor:pointer}
+  .tab.active{background:var(--chip);border-color:var(--brand2);color:var(--brand)}
+  .ar{font-size:40px;font-weight:800;text-align:center;direction:rtl}
+  .ph{text-align:center;color:var(--muted);font-style:italic;margin-top:6px}
+  .fr{text-align:center;font-weight:800;margin-top:10px}
+  .pill{display:inline-block;padding:5px 10px;border-radius:999px;font-size:12px;font-weight:800}
+  .pill.new{background:#ede9fe;color:#6d28d9}
+  .pill.seen{background:#dcfce7;color:#15803d}
+  .audio{width:64px;height:64px;border-radius:999px;border:3px solid var(--brand2);background:#ecfeff;color:var(--brand);font-size:24px;cursor:pointer;display:flex;align-items:center;justify-content:center;margin:14px auto}
+  .reveal{display:block;margin:12px auto;background:#eef2ff;border:2px solid #6366f1;color:#3730a3;border-radius:14px;padding:10px 18px;font-weight:800;cursor:pointer}
+  .navcards{display:flex;align-items:center;justify-content:space-between;margin-top:16px}
+  .round{width:48px;height:48px;border-radius:999px;border:1px solid var(--line);background:white;font-size:20px;cursor:pointer}
+  .dots{display:flex;gap:6px}
+  .dot{width:8px;height:8px;border-radius:999px;background:#cbd5e1}
+  .dot.active{width:22px;background:var(--brand)}
+  .dialogue{line-height:1.9;font-size:15px}
+  .hl{background:#ede9fe;color:#5b21b6;padding:2px 5px;border-radius:6px;font-weight:800}
+  .hl.seen{background:#dcfce7;color:#166534}
+  .quizopt{width:100%;text-align:center;background:white;border:1px solid var(--line);border-radius:16px;padding:14px;margin-top:10px;font-weight:800;cursor:pointer}
+  .quizopt.selected{border-color:var(--brand);background:var(--chip)}
+  .quizopt.correct{border-color:var(--ok);background:#dcfce7}
+  .quizopt.wrong{border-color:var(--danger);background:#fee2e2}
+  .tabbar{display:flex;background:white;border-top:1px solid var(--line);padding:8px 6px}
+  .tabbar button{flex:1;border:0;background:transparent;color:var(--muted);font-size:11px;font-weight:800;cursor:pointer;padding:6px}
+  .tabbar button.active{color:var(--brand)}
+  .tabbar .ico{display:block;font-size:19px;margin-bottom:2px}
+  .toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#0f172a;color:white;padding:12px 16px;border-radius:14px;font-size:13px;opacity:0;pointer-events:none;transition:.25s;max-width:90vw;text-align:center}
+  .toast.show{opacity:1}
+  .listrow{display:flex;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:1px solid var(--line)}
+  .listrow:last-child{border-bottom:0}
+  .badge{background:#fef3c7;color:#92400e;padding:4px 8px;border-radius:999px;font-size:11px;font-weight:800}
+  .premium{background:linear-gradient(135deg,#111827,#1f2937);color:white}
+  .premium .muted{color:#cbd5e1}
+  .switch{width:46px;height:26px;background:#cbd5e1;border-radius:999px;position:relative;cursor:pointer}
+  .switch.on{background:var(--brand)}
+  .switch::after{content:"";position:absolute;width:20px;height:20px;background:white;border-radius:999px;top:3px;left:3px;transition:.2s}
+  .switch.on::after{left:23px}
+  @media (max-width:820px){.layout{grid-template-columns:1fr}.brief{display:none}body{padding:0}.phone{width:100vw;height:100vh;border-radius:0;border:0}}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside class="brief">
+    <span class="tag">Prototype original — pas une copie</span>
+    <h1>DarijaPro : clone fonctionnel pédagogique</h1>
+    <p>Ce prototype reproduit les <b>mécaniques génériques</b> observées dans l’application de référence : théorie, flashcards audio, dialogue, quiz, progression et premium. Il n’utilise pas ses textes, audio, images ou son identité exacte.</p>
+    <ul>
+      <li>Accueil → module → leçon</li>
+      <li>Théorie courte</li>
+      <li>Cartes : arabe + phonétique + traduction masquée</li>
+      <li>Dialogue avec vocabulaire coloré</li>
+      <li>Quiz à choix multiples</li>
+      <li>Score, étoiles, rappels, premium</li>
+    </ul>
+    <div class="warn">Les boutons audio sont des emplacements : les vrais enregistrements natifs devront être produits et validés avant publication.</div>
+  </aside>
+
+  <div class="phone">
+    <div class="status"><span>9:41</span><span>DarijaPro • prototype</span><span>🔋 100%</span></div>
+    <div class="screen" id="screen"></div>
+    <nav class="tabbar" id="tabbar"></nav>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const LESSONS = [
+  {
+    id:'temps', emoji:'⏰', title:'Matin, midi et soir', level:'Débutant',
+    theory:{
+      title:'Parler du temps en darija',
+      body:'En darija algérienne, on utilise des mots simples pour situer un moment de la journée. Écoute, répète, puis cache la traduction pour tester ta mémoire.',
+      rows:[['صباح','sba7','matin'],['ليل','lil','nuit'],['اليوم','lyoum','aujourd’hui'],['غدا','ghedwa','demain']]
+    },
+    cards:[
+      {ar:'صباح', ph:'sba7', fr:'matin', ex:'fi sba7', exFr:'le matin'},
+      {ar:'ليل', ph:'lil', fr:'nuit', ex:'fi lil', exFr:'la nuit'},
+      {ar:'اليوم', ph:'lyoum', fr:'aujourd’hui', ex:'lyoum', exFr:'aujourd’hui'},
+      {ar:'غدا', ph:'ghedwa', fr:'demain', ex:'ghedwa', exFr:'demain'},
+      {ar:'بكري', ph:'bekri', fr:'tôt', ex:'bekri', exFr:'tôt'}
+    ],
+    dialogue:[
+      {who:'A', text:'Sbah lkhir! Wach rak?'},
+      {who:'B', text:'Labas, hamdoullah. Winta t rouh l souq?'},
+      {who:'A', text:'Lyoum fi sba7, nrouh bekri.'},
+      {who:'B', text:'Ana nrouh fi l3cha, machi fi sba7.'}
+    ],
+    highlights:['sba7','lil','lyoum','ghedwa','bekri'],
+    quiz:[
+      {q:'Comment dit-on “matin” ?', opts:['sba7','lil','ghedwa','bekri'], a:0},
+      {q:'“ghedwa” signifie :', opts:['hier','demain','nuit','tôt'], a:1},
+      {q:'“fi lil” signifie :', opts:['le matin','à midi','la nuit','demain'], a:2},
+      {q:'“bekri” signifie :', opts:['tard','tôt','hier','beaucoup'], a:1},
+      {q:'“lyoum” signifie :', opts:['aujourd’hui','demain','la nuit','le matin'], a:0}
+    ]
+  },
+  {
+    id:'salutations', emoji:'👋', title:'Salutations essentielles', level:'Débutant',
+    theory:{title:'Dire bonjour et demander comment ça va', body:'Les salutations changent selon le moment et la personne. Commence par des formules simples, puis écoute la prononciation native.', rows:[['سلام','salam','salut'],['صباح الخير','sbah lkhir','bonjour le matin'],['واش راك','wach rak','comment vas-tu ?'],['لاباس','labas','ça va']]},
+    cards:[
+      {ar:'سلام', ph:'salam', fr:'salut', ex:'salam', exFr:'salut'},
+      {ar:'واش راك', ph:'wach rak', fr:'comment vas-tu ?', ex:'wach rak?', exFr:'comment vas-tu ?'},
+      {ar:'لاباس', ph:'labas', fr:'ça va', ex:'labas', exFr:'ça va'},
+      {ar:'شكرا', ph:'chokran', fr:'merci', ex:'chokran', exFr:'merci'}
+    ],
+    dialogue:[{who:'A',text:'Salam! Wach rak?'},{who:'B',text:'Labas, chokran. W rak?'},{who:'A',text:'Labas, hamdoullah.'}],
+    highlights:['salam','wach rak','labas','chokran'],
+    quiz:[{q:'“wach rak” sert à :',opts:['demander comment ça va','dire au revoir','demander le prix','dire merci'],a:0},{q:'“chokran” signifie :',opts:['bonjour','merci','pardon','demain'],a:1},{q:'“labas” signifie :',opts:['ça va','très cher','où ?','combien ?'],a:0}]
+  },
+  {
+    id:'marche', emoji:'🛒', title:'Au marché', level:'Débutant',
+    theory:{title:'Demander un prix et acheter', body:'Au marché, les phrases courtes sont utiles. Apprends à demander “combien ?”, “où ?” et à dire que tu ne comprends pas.', rows:[['بشحال','bchhal','combien ?'],['وين','win','où ?'],['ما فهمتش','ma fhemtch','je n’ai pas compris'],['غالي','ghali','cher']]},
+    cards:[
+      {ar:'بشحال', ph:'bchhal', fr:'combien ?', ex:'bchhal hada?', exFr:'combien ça coûte ?'},
+      {ar:'وين', ph:'win', fr:'où ?', ex:'win rah?', exFr:'où est-il ?'},
+      {ar:'ما فهمتش', ph:'ma fhemtch', fr:'je n’ai pas compris', ex:'ma fhemtch', exFr:'je n’ai pas compris'},
+      {ar:'غالي', ph:'ghali', fr:'cher', ex:'ghali bezaf', exFr:'très cher'}
+    ],
+    dialogue:[{who:'A',text:'Salam, bchhal hada?'},{who:'B',text:'Hada b miyat dinar.'},{who:'A',text:'Ghali bezaf! Win rah rkhiss?'},{who:'B',text:'Rouh l souq, temma rkhiss.'}],
+    highlights:['bchhal','win','ma fhemtch','ghali'],
+    quiz:[{q:'“bchhal” signifie :',opts:['où ?','combien ?','merci','demain'],a:1},{q:'“ma fhemtch” signifie :',opts:['je veux','je n’ai pas compris','je vais','c’est cher'],a:1},{q:'“ghali” signifie :',opts:['pas cher','cher','où','combien'],a:1}]
+  }
+];
+
+const state = {
+  screen: localStorage.getItem('dp_screen') || 'home',
+  lesson: 0,
+  tab: 'theory',
+  card: 0,
+  revealed: false,
+  quiz: 0,
+  selected: null,
+  checked: false,
+  quizCorrect: 0,
+  score: Number(localStorage.getItem('dp_score') || 0),
+  stars: Number(localStorage.getItem('dp_stars') || 0),
+  done: JSON.parse(localStorage.getItem('dp_done') || '[]'),
+  reminders: localStorage.getItem('dp_rem') !== '0',
+  premium: localStorage.getItem('dp_premium') === '1'
+};
+
+function save(){
+  localStorage.setItem('dp_score', state.score);
+  localStorage.setItem('dp_stars', state.stars);
+  localStorage.setItem('dp_done', JSON.stringify(state.done));
+  localStorage.setItem('dp_rem', state.reminders ? '1':'0');
+  localStorage.setItem('dp_premium', state.premium ? '1':'0');
+}
+function toast(msg){
+  const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show');
+  clearTimeout(window.__t); window.__t=setTimeout(()=>t.classList.remove('show'),2200);
+}
+function audio(){ toast('Emplacement audio : enregistrer une voix native algérienne validée.'); }
+function go(s){ state.screen=s; render(); }
+function openLesson(i){ state.lesson=i; state.tab='theory'; state.card=0; state.revealed=false; state.quiz=0; state.selected=null; state.checked=false; state.quizCorrect=0; go('lesson'); }
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+
+function top(title, sub, right=''){
+  return `<div class="top"><div class="row"><button class="iconbtn" onclick="go('home')">← Menu</button><div style="text-align:center;flex:1"><div class="title">${esc(title)}</div><div class="sub">${esc(sub)}</div></div>${right||'<div style="width:64px"></div>'}</div></div>`;
+}
+function tabbar(){
+  const items=[['home','🏠','Accueil'],['modules','📚','Leçons'],['progress','📈','Progrès'],['profile','👤','Profil']];
+  document.getElementById('tabbar').innerHTML = items.map(([k,ico,label])=>`<button class="${state.screen===k?'active':''}" onclick="go('${k}')"><span class="ico">${ico}</span>${label}</button>`).join('');
+}
+function render(){
+  tabbar();
+  const el=document.getElementById('screen');
+  const L=LESSONS[state.lesson];
+  if(state.screen==='home'){
+    el.innerHTML = top('DarijaPro','Apprendre la darija algérienne',`<div class="stars">⭐ ${state.stars}</div>`) + `
+    <div class="content">
+      <div class="card">
+        <div class="h2">Leçon du jour</div>
+        <div class="muted">Continue avec une leçon courte : théorie, audio, dialogue, quiz.</div>
+        <div style="margin:14px 0" class="progress"><span style="width:${Math.min(100,state.done.length/LESSONS.length*100)}%"></span></div>
+        <button class="btn primary block" onclick="openLesson(0)">Commencer : ${esc(LESSONS[0].title)}</button>
+      </div>
+      <div class="grid" style="margin-top:14px">
+        ${LESSONS.map((l,i)=>`<div class="module" onclick="openLesson(${i})"><div class="emoji">${l.emoji}</div><div class="name">${esc(l.title)}</div><div class="meta">${l.level} • ${l.cards.length} cartes</div></div>`).join('')}
+        <div class="module" onclick="go('premium')"><div class="emoji">👑</div><div class="name">Premium</div><div class="meta">Sans pub + hors-ligne</div></div>
+      </div>
+    </div>`;
+  }
+  else if(state.screen==='modules'){
+    el.innerHTML = top('Modules','Choisis un thème') + `<div class="content">${LESSONS.map((l,i)=>`
+      <div class="card listrow" style="cursor:pointer" onclick="openLesson(${i})">
+        <div><div class="h3">${l.emoji} ${esc(l.title)}</div><div class="muted" style="font-size:12px">${l.level} • théorie + cartes + dialogue + quiz</div></div>
+        <div class="badge">${state.done.includes(l.id)?'Vu':'Nouveau'}</div>
+      </div>`).join('')}</div>`;
+  }
+  else if(state.screen==='lesson'){
+    const tabs=[['theory','Théorie'],['cards','Cartes'],['dialogue','Dialogue'],['quiz','Quiz']];
+    el.innerHTML = top(L.title, L.level, `<div class="stars">⭐ ${state.stars}</div>`) + `
+      <div class="content">
+        <div class="tabs">${tabs.map(([k,n])=>`<div class="tab ${state.tab===k?'active':''}" onclick="state.tab='${k}';render()">${n}</div>`).join('')}</div>
+        ${state.tab==='theory'?theory(L):''}
+        ${state.tab==='cards'?cards(L):''}
+        ${state.tab==='dialogue'?dialogue(L):''}
+        ${state.tab==='quiz'?quiz(L):''}
+      </div>`;
+  }
+  else if(state.screen==='result'){
+    el.innerHTML = top('Résultat','Quiz terminé',`<div class="stars">⭐ ${state.stars}</div>`) + `
+    <div class="content"><div class="card" style="text-align:center">
+      <div style="font-size:54px">🏆</div><div class="h2">Bravo !</div>
+      <div class="muted">Score : ${state.lastScore}/${state.lastTotal}</div>
+      <div style="margin:16px 0" class="progress"><span style="width:${state.lastScore/state.lastTotal*100}%"></span></div>
+      <button class="btn primary block" onclick="state.tab='cards';go('lesson')">Revoir les cartes</button>
+      <button class="btn ghost block" style="margin-top:10px" onclick="go('modules')">Choisir une autre leçon</button>
+    </div></div>`;
+  }
+  else if(state.screen==='progress'){
+    el.innerHTML = top('Progression','Sauvegardée sur cet appareil') + `
+    <div class="content">
+      <div class="card"><div class="h2">⭐ ${state.stars} étoiles</div><div class="muted">Score total : ${state.score} points</div>
+      <div style="margin-top:14px" class="progress"><span style="width:${Math.min(100,state.done.length/LESSONS.length*100)}%"></span></div>
+      <div class="muted" style="font-size:12px;margin-top:8px">${state.done.length}/${LESSONS.length} leçons terminées</div></div>
+      <div class="card"><div class="h3">Révision espacée</div><div class="muted">Version complète : l’app fera revenir les mots oubliés au bon moment.</div></div>
+      <div class="card"><div class="h3">Rappels quotidiens</div><div class="listrow"><span>Me rappeler chaque jour</span><div class="switch ${state.reminders?'on':''}" onclick="state.reminders=!state.reminders;save();render()"></div></div></div>
+    </div>`;
+  }
+  else if(state.screen==='profile'){
+    el.innerHTML = top('Profil','Réglages et confiance') + `
+    <div class="content">
+      <div class="card"><div class="h3">Compte</div><div class="muted">Prototype local. Version réelle : compte optionnel + synchronisation.</div></div>
+      <div class="card"><div class="h3">Confidentialité</div>
+        <div class="listrow"><span>Analytics anonymes</span><div class="switch" onclick="toast('À configurer dans la version réelle.')"></div></div>
+        <div class="listrow"><span>Supprimer mes données</span><button class="btn ghost" onclick="if(confirm('Effacer la progression locale ?')){localStorage.clear();location.reload()}">Effacer</button></div>
+      </div>
+      <div class="card premium"><div class="h3">👑 Premium</div><div class="muted">Tout le contenu, hors-ligne, sans publicité.</div><button class="btn warn block" style="margin-top:12px" onclick="go('premium')">Voir l’offre</button></div>
+    </div>`;
+  }
+  else if(state.screen==='premium'){
+    el.innerHTML = top('Premium','Optionnel') + `
+    <div class="content"><div class="card premium">
+      <div class="h2">Débloque toute la darija</div>
+      <div class="muted">Prix à définir. Exemple de positionnement :</div>
+      <ul style="line-height:1.9;color:#e2e8f0">
+        <li>Tous les modules et dialogues</li>
+        <li>Audio natif complet</li>
+        <li>Mode hors-ligne</li>
+        <li>Révision espacée avancée</li>
+        <li>Sans publicité</li>
+      </ul>
+      <button class="btn warn block" onclick="state.premium=true;save();toast('Premium simulé pour le prototype.');render()">${state.premium?'Premium activé (simulation)':'Activer la simulation'}</button>
+      <button class="btn ghost block" style="margin-top:10px" onclick="go('home')">Plus tard</button>
+    </div></div>`;
+  }
+  document.getElementById('screen').scrollTop=0;
+}
+function theory(L){
+  return `<div class="card"><div style="font-size:50px;text-align:center">${L.emoji}</div><div class="ar">${L.theory.rows[0][0]}</div><div class="ph">${L.theory.rows[0][1]}</div><div class="fr">${L.theory.rows[0][2]}</div></div>
+  <div class="card"><div class="h3">${esc(L.theory.title)}</div><div class="muted" style="line-height:1.6">${esc(L.theory.body)}</div>
+  <div style="margin-top:12px">${L.theory.rows.map(r=>`<div class="listrow"><span class="ar" style="font-size:22px">${r[0]}</span><span class="ph" style="margin:0">${r[1]}</span><b>${r[2]}</b></div>`).join('')}</div>
+  <button class="btn primary block" style="margin-top:14px" onclick="state.tab='cards';render()">Passer aux cartes</button></div>`;
+}
+function cards(L){
+  const c=L.cards[state.card];
+  return `<div class="card" style="text-align:center">
+    <div class="muted" style="font-size:12px">${state.card+1} / ${L.cards.length}</div>
+    <div style="font-size:46px;margin:10px 0">${L.emoji}</div>
+    <div class="ar">${c.ar}</div><div class="ph">${c.ph}</div>
+    ${state.revealed?`<div class="fr">${c.fr}</div><div class="muted" style="margin-top:8px">${c.ex} — ${c.exFr}</div>`:`<button class="reveal" onclick="state.revealed=true;render()">Voir la traduction</button>`}
+    <button class="audio" onclick="audio()">🔊</button>
+    <div class="navcards"><button class="round" onclick="prevCard()">←</button><div class="dots">${L.cards.map((_,i)=>`<span class="dot ${i===state.card?'active':''}"></span>`).join('')}</div><button class="round" onclick="nextCard()">→</button></div>
+    <button class="btn primary block" style="margin-top:14px" onclick="state.tab='dialogue';render()">Voir le dialogue</button>
+  </div>`;
+}
+function prevCard(){ const L=LESSONS[state.lesson]; state.card=(state.card-1+L.cards.length)%L.cards.length; state.revealed=false; render(); }
+function nextCard(){ const L=LESSONS[state.lesson]; state.card=(state.card+1)%L.cards.length; state.revealed=false; render(); }
+function dialogue(L){
+  const text=L.dialogue.map(d=>{
+    let t=esc(d.text);
+    L.highlights.forEach(h=>{ const re=new RegExp('\\b('+h.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')\\b','gi'); t=t.replace(re,'<span class="hl">$1</span>'); });
+    return `<div style="margin:10px 0"><b>${d.who}:</b> <span class="dialogue">${t}</span></div>`;
+  }).join('');
+  return `<div class="card"><div class="h3">Dialogue contextualisé</div>
+    <div class="muted" style="font-size:12px;margin-bottom:10px"><span class="pill new">Violet = nouveau</span> <span class="pill seen">Vert = déjà vu</span></div>
+    ${text}
+    <button class="audio" onclick="audio()">🔊</button>
+    <div class="grid"><button class="btn ghost" onclick="toast('Traduction complète à intégrer.')">Traduction</button><button class="btn ghost" onclick="toast('Masquage du vocabulaire à intégrer.')">Masquer vocab</button></div>
+    <button class="btn primary block" style="margin-top:14px" onclick="state.tab='quiz';state.quiz=0;state.selected=null;state.checked=false;state.quizCorrect=0;render()">Passer au quiz</button>
+  </div>`;
+}
+function quiz(L){
+  if(state.quiz>=L.quiz.length){
+    return `<div class="card" style="text-align:center"><div style="font-size:50px">✅</div><div class="h2">Quiz terminé</div><button class="btn primary block" onclick="finishQuiz()">Voir le résultat</button></div>`;
+  }
+  const q=L.quiz[state.quiz];
+  return `<div class="card">
+    <div class="muted" style="font-size:12px">${state.quiz+1} / ${L.quiz.length}</div>
+    <div style="margin:8px 0" class="progress"><span style="width:${(state.quiz)/L.quiz.length*100}%"></span></div>
+    <div class="h3">${esc(q.q)}</div>
+    ${q.opts.map((o,i)=>{
+      let cls='quizopt';
+      if(state.selected===i) cls+=' selected';
+      if(state.checked && i===q.a) cls+=' correct';
+      if(state.checked && state.selected===i && i!==q.a) cls+=' wrong';
+      return `<button class="${cls}" onclick="selectOpt(${i})">${esc(o)}</button>`;
+    }).join('')}
+    <button class="btn primary block" style="margin-top:14px" ${state.selected===null?'disabled':''} onclick="checkOpt()">${state.checked?'Question suivante':'Vérifier'}</button>
+  </div>`;
+}
+function selectOpt(i){ if(state.checked) return; state.selected=i; render(); }
+function checkOpt(){
+  const L=LESSONS[state.lesson], q=L.quiz[state.quiz];
+  if(!state.checked){
+    state.checked=true;
+    if(state.selected===q.a){ state.quizCorrect++; state.score+=10; state.stars+=1; save(); toast('Bonne réponse ! +10 points'); }
+    else toast('Pas grave : regarde la bonne réponse.');
+    render();
+  } else {
+    state.quiz++; state.selected=null; state.checked=false; render();
+  }
+}
+function finishQuiz(){
+  const L=LESSONS[state.lesson];
+  state.lastScore=state.quizCorrect; state.lastTotal=L.quiz.length;
+  if(!state.done.includes(L.id)) state.done.push(L.id);
+  save(); go('result');
+}
+render();
+</script>
+</body>
+</html>

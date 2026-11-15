@@ -1,0 +1,152 @@
+[
+  {
+    "dialogue_uid": "tapiero-p04-dialogue-i",
+    "numeral": "I",
+    "title_fr": "La famille et le logement",
+    "printed_page_ar": 177,
+    "printed_page_fr": 178,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-04"
+  },
+  {
+    "dialogue_uid": "tapiero-p04-dialogue-ii",
+    "numeral": "II",
+    "title_fr": "Mère de famille malade",
+    "printed_page_ar": 179,
+    "printed_page_fr": 180,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-04"
+  },
+  {
+    "dialogue_uid": "tapiero-p04-dialogue-iii",
+    "numeral": "III",
+    "title_fr": "La famille et l’école",
+    "printed_page_ar": 181,
+    "printed_page_fr": 182,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-04"
+  },
+  {
+    "dialogue_uid": "tapiero-p04-dialogue-iv",
+    "numeral": "IV",
+    "title_fr": "La préformation",
+    "printed_page_ar": 183,
+    "printed_page_fr": 184,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-04"
+  },
+  {
+    "dialogue_uid": "tapiero-p04-dialogue-v",
+    "numeral": "V",
+    "title_fr": "L’alphabétisation",
+    "printed_page_ar": 185,
+    "printed_page_fr": 186,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-04"
+  },
+  {
+    "dialogue_uid": "tapiero-p04-dialogue-vi",
+    "numeral": "VI",
+    "title_fr": "La sécurité sociale",
+    "printed_page_ar": 187,
+    "printed_page_fr": 188,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-04"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialogue-vii",
+    "numeral": "VII",
+    "title_fr": "L’hôpital",
+    "printed_page_ar": 189,
+    "printed_page_fr": 190,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-05"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialogue-viii",
+    "numeral": "VIII",
+    "title_fr": "Au supermarché",
+    "printed_page_ar": 191,
+    "printed_page_fr": 192,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-05"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialogue-ix",
+    "numeral": "IX",
+    "title_fr": "Le travail en usine",
+    "printed_page_ar": 193,
+    "printed_page_fr": 194,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-05"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialogue-x",
+    "numeral": "X",
+    "title_fr": "Le chômage et la vie chère",
+    "printed_page_ar": 195,
+    "printed_page_fr": 196,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-05"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialogue-xi",
+    "numeral": "XI",
+    "title_fr": "Le retour",
+    "printed_page_ar": 197,
+    "printed_page_fr": 198,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-05"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialogue-xii",
+    "numeral": "XII",
+    "title_fr": "Les papiers officiels",
+    "printed_page_ar": 200,
+    "printed_page_fr": 202,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-05"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialogue-xiii",
+    "numeral": "XIII",
+    "title_fr": "L’automobile",
+    "printed_page_ar": 203,
+    "printed_page_fr": 205,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-05"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialogue-xiv",
+    "numeral": "XIV",
+    "title_fr": "Les loisirs",
+    "printed_page_ar": 206,
+    "printed_page_fr": 208,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-05"
+  },
+  {
+    "dialogue_uid": "tapiero-p05-dialogue-xv",
+    "numeral": "XV",
+    "title_fr": "Les vacances",
+    "printed_page_ar": 209,
+    "printed_page_fr": 211,
+    "completeness": "complete",
+    "status": "needs_review",
+    "source_id": "tapiero-manuel-partie-05"
+  }
+]

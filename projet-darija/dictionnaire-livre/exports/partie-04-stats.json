@@ -1,0 +1,13 @@
+{
+  "part": "partie-04",
+  "pages": 90,
+  "candidates": 1076,
+  "inserted": 1076,
+  "skipped": 0,
+  "with_arabic": 910,
+  "weak_evidence": 63,
+  "cross_page": 54,
+  "parser_version": "lexical-2-draft",
+  "warnings": [],
+  "status": "needs_review"
+}
