@@ -62,6 +62,27 @@ Une vraie détection (sans forçage, 8 clips par source) donne :
 Les 672 `text_raw` de la base ont été transcrits en forçant l'arabe → ils sont donc erronés.
 Ces clips ne doivent **pas** servir de voix off darija. Le lecteur de relecture créé pour eux est à repenser.
 
+#### Ré-transcription automatique finale (17/11)
+`retrancire-auto.py` (relançable, détection `language=None`, puis correction des détections douteuses
+avec la langue dominante de la source) a traité les 672 clips :
+
+| Langue | Segments |
+|---|---:|
+| français | 271 |
+| anglais | 259 |
+| arabe | 142 |
+| **Total** | **672** |
+
+126 détections douteuses corrigées par la langue dominante de leur source. 663 textes non vides en base.
+Colonnes ajoutées : `text_auto`, `language_auto`, `language_probability` — `text_raw` et `status` intacts.
+Rapport complet : `analyse-speak-algerian/transcriptions-auto.json`.
+
+Exemples : « Je vous ai préparé 15 expressions que vous allez entendre très souvent en Algérie. » (D1, fr 0.99) ·
+« We can follow that with the person's name or the word for brother… » (A1, en 0.99) ·
+`أراك إن شوفكم خطر الجاية إن شاء الله` (B1, ar 0.99).
+
+👉 Ces transcriptions sont une **matière première écrite** pour rédiger des leçons, pas une voix off.
+
 ### Lecteur de relecture native (17/11/2026)
 
 Outil local : `analyse-speak-algerian/relecture/serveur.py` + `index.html`, sur **http://127.0.0.1:3910/**.
