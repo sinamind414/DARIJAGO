@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-16",
+  "scope": "Tadjer expressions (49) + verbes-273 (229)",
+  "verified_edits": [
+    {
+      "entry_id": 1,
+      "rank": 2,
+      "ar": "بطّل",
+      "source": "Tadjer PDF, p.2 native text layer",
+      "note": "Arabic fragment belonging to bettêl, confirmed in PDF text p.2; split from following variant."
+    },
+    {
+      "entry_id": 1,
+      "rank": 3,
+      "ar": "خطي",
+      "source": "Tadjer PDF, p.2 native text layer",
+      "note": "Arabic fragment belonging to xtî, confirmed in PDF text p.2; split from preceding variant."
+    },
+    {
+      "entry_id": 8,
+      "rank": 1,
+      "ar": "حبّ",
+      "source": "Tadjer PDF, p.2 native text layer",
+      "note": "Reordered shadda to canonical Arabic combining-mark position; PDF text p.2 contains the same base letters and shadda."
+    }
+  ],
+  "status_counts_after": {
+    "corrected": 2,
+    "needs_review": 276
+  },
+  "cross_database_checks": {
+    "Ben Sedira 1910": {
+      "exact_normalized_variant_matches": 5,
+      "variants_tested": 435,
+      "method": "Latin exact match after case/diacritic/punctuation normalization; matches are leads, not semantic validation."
+    },
+    "Tapiéro": {
+      "exact_normalized_variant_matches": 35,
+      "variants_tested": 435,
+      "method": "Latin exact match after case/diacritic/punctuation normalization; matches are leads, not semantic validation."
+    },
+    "AZIRI": {
+      "exact_normalized_variant_matches": 0,
+      "variants_tested": 435,
+      "method": "Latin exact match after case/diacritic/punctuation normalization; matches are leads, not semantic validation."
+    }
+  },
+  "limitations": [
+    "Only 2 entries received source-verified edits in this pass; remaining 276 remain needs_review.",
+    "Cross-database exact matches are pointers for human comparison; source dialect/register differ.",
+    "No native validation or app_ready status assigned."
+  ],
+  "backup": "projet-darija/lexiques-tadjer/db/lexiques-avant-correction-lot278.sqlite",
+  "integrity_check": "ok"
+}

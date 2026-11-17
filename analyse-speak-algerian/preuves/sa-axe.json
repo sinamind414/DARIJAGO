@@ -1,0 +1,71 @@
+[
+  {
+    "label": "home",
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text"
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds"
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Images must have alternative text"
+      }
+    ]
+  },
+  {
+    "label": "pricing",
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text"
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds"
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Images must have alternative text"
+      }
+    ]
+  },
+  {
+    "label": "login",
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text"
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds"
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Images must have alternative text"
+      }
+    ]
+  }
+]

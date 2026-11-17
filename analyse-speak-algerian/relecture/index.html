@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>darijaGO — Relecture native</title>
+<style>
+  :root { --fond:#f7f5ef; --carte:#fff; --encre:#23201c; --vert:#4e6231; --orange:#8e5b1e; --rouge:#a33; --bord:#e4dfd2; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.5 system-ui,sans-serif; background:var(--fond); color:var(--encre); }
+  header { background:#23201c; color:#fff; padding:14px 22px; display:flex; align-items:center; gap:18px; flex-wrap:wrap; }
+  header h1 { font-size:17px; margin:0; }
+  .compteurs { display:flex; gap:14px; font-size:13px; }
+  .compteurs b { font-size:16px; }
+  .layout { display:grid; grid-template-columns:minmax(0,1fr) 320px; gap:18px; padding:18px; max-width:1500px; margin:auto; }
+  @media (max-width:900px) { .layout { grid-template-columns:1fr; } }
+  .carte { background:var(--carte); border:1px solid var(--bord); border-radius:14px; padding:20px; }
+  .barre { display:flex; gap:10px; align-items:center; margin-bottom:16px; flex-wrap:wrap; }
+  select, input, textarea { font:inherit; padding:7px 9px; border:1px solid var(--bord); border-radius:8px; background:#fff; color:inherit; }
+  textarea { width:100%; min-height:52px; resize:vertical; }
+  input[type=text] { width:100%; }
+  label { display:block; font-size:12px; font-weight:600; color:#686259; margin:10px 0 3px; }
+  .badge { font-size:12px; padding:3px 9px; border-radius:999px; font-weight:700; }
+  .needs_review { background:#f5f1e8; color:var(--orange); }
+  .app_ready { background:#e6f1dc; color:var(--vert); }
+  .rejected { background:#fbe6e6; color:var(--rouge); }
+  audio { width:100%; margin:14px 0; }
+  .arabe { font-size:26px; line-height:1.9; background:#faf8f3; border:1px solid var(--bord); border-radius:10px; padding:14px; }
+  .actions { display:flex; gap:10px; margin-top:18px; flex-wrap:wrap; }
+  button { font:inherit; font-weight:700; padding:9px 16px; border-radius:9px; border:1px solid var(--bord); background:#fff; cursor:pointer; }
+  button.primaire { background:var(--vert); color:#fff; border-color:var(--vert); }
+  button.danger { color:var(--rouge); }
+  button:disabled { opacity:.4; cursor:not-allowed; }
+  .liste { max-height:78vh; overflow:auto; }
+  .liste button { display:block; width:100%; text-align:left; border:0; border-bottom:1px solid var(--bord); border-radius:0; background:transparent; padding:9px 10px; font-weight:500; }
+  .liste button.actif { background:#eef2e8; }
+  .liste .ligne { display:flex; justify-content:space-between; gap:8px; align-items:center; }
+  .liste .txt { font-size:13px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; direction:auto; }
+  .point { width:9px; height:9px; border-radius:50%; flex:none; }
+  .point.needs_review { background:var(--orange); }
+  .point.app_ready { background:var(--vert); }
+  .point.rejected { background:var(--rouge); }
+  .progression { height:8px; background:#e8e4da; border-radius:99px; overflow:hidden; margin-top:10px; }
+  .progression i { display:block; height:100%; background:var(--vert); }
+  .astuce { font-size:12px; color:#8e867b; margin-top:12px; }
+  .avert { font-size:12px; background:#fff6e6; border:1px solid #e8cf9c; border-radius:9px; padding:9px 12px; margin-bottom:14px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🇩🇿 darijaGO — Relecture native</h1>
+  <div class="compteurs" id="compteurs"></div>
+</header>
+<div class="layout">
+  <div class="carte">
+    <div class="avert">Son réel extrait des vidéos sources. Ne publier qu'après relecture par un locuteur natif (<code>app_ready</code>).</div>
+    <div class="barre">
+      <select id="filtreSource"><option value="">Toutes les sources</option></select>
+      <select id="filtreStatut">
+        <option value="">Tous les statuts</option>
+        <option value="needs_review">À revoir</option>
+        <option value="app_ready">Validés</option>
+        <option value="rejected">Rejetés</option>
+      </select>
+      <span id="position"></span>
+    </div>
+    <div id="contenu"></div>
+  </div>
+  <div class="carte liste" id="liste"></div>
+</div>
+<script>
+let tout = [], visible = [], idx = 0, audio = null;
+
+const $ = (s) => document.querySelector(s);
+const ech = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+async function charger() {
+  const r = await fetch('/api/segments');
+  const d = await r.json();
+  tout = d.segments;
+  const srcs = [...new Set(tout.map(s => s.source_id))].sort();
+  $('#filtreSource').innerHTML = '<option value="">Toutes les sources</option>' +
+    srcs.map(s => `<option value="${ech(s)}">${ech(s)}</option>`).join('');
+  const c = d.counts;
+  $('#compteurs').innerHTML =
+    `<span>📋 <b>${tout.length}</b> segments</span>` +
+    `<span>🟠 <b>${c.needs_review}</b> à revoir</span>` +
+    `<span>🟢 <b>${c.app_ready}</b> validés</span>` +
+    `<span>🔴 <b>${c.rejected}</b> rejetés</span>`;
+  filtrer();
+}
+
+function filtrer() {
+  const s = $('#filtreSource').value, st = $('#filtreStatut').value;
+  visible = tout.filter(x => (!s || x.source_id === s) && (!st || x.status === st));
+  idx = Math.max(0, Math.min(idx, visible.length - 1));
+  rendre();
+}
+
+function rendre() {
+  const liste = $('#liste');
+  liste.innerHTML = visible.map((s, i) => `
+    <button class="${i === idx ? 'actif' : ''}" data-i="${i}">
+      <span class="ligne">
+        <span class="txt" title="${ech(s.text_raw)}">${ech(s.text_raw || '(vide)')}</span>
+        <span class="point ${s.status}"></span>
+      </span>
+      <small style="color:#8e867b">${ech(s.source_id)} · ${s.segment_no}</small>
+    </button>`).join('');
+  liste.querySelectorAll('button').forEach(b => b.onclick = () => { idx = +b.dataset.i; rendre(); });
+
+  if (!visible.length) { $('#contenu').innerHTML = '<p>Aucun segment pour ces filtres.</p>'; $('#position').textContent = ''; return; }
+  const s = visible[idx];
+  const done = tout.filter(x => x.status === 'app_ready').length;
+  $('#position').textContent = `${idx + 1} / ${visible.length}`;
+  $('#contenu').innerHTML = `
+    <div class="barre">
+      <span class="badge ${s.status}">${s.status}</span>
+      <strong>${ech(s.source_id)}</strong>
+      <small style="color:#8e867b">segment ${s.segment_no} · ${s.start_time} → ${s.end_time} · ${ech(s.creator)}</small>
+    </div>
+    <div class="progression"><i style="width:${(done/tout.length*100).toFixed(1)}%"></i></div>
+    <audio controls preload="metadata" id="lecteur" src="${ech(s.file)}"></audio>
+    <label>Transcription Whisper (à corriger si besoin)</label>
+    <div class="arabe" dir="auto">${ech(s.text_raw)}</div>
+    <label>Texte arabe corrigé</label><textarea id="text_corrected" dir="auto">${ech(s.text_corrected)}</textarea>
+    <label>Translittération darija</label><input type="text" id="text_latin" value="${ech(s.text_latin)}">
+    <label>Arabe (version propre)</label><input type="text" id="text_ar" dir="auto" value="${ech(s.text_ar)}">
+    <label>Traduction française</label><input type="text" id="french" value="${ech(s.french)}">
+    <label>Notes</label><input type="text" id="notes" value="${ech(s.notes)}">
+    <div class="actions">
+      <button class="primaire" id="valider">✓ Valider (app_ready)</button>
+      <button id="corriger">✓ Corriger et valider</button>
+      <button class="danger" id="rejeter">✗ Rejeter</button>
+      <button id="prec">← Précédent</button>
+      <button id="suiv">Suivant →</button>
+    </div>
+    <div class="astuce">Raccourcis : <b>Espace</b> lecture/pause · <b>Entrée</b> valider et suivant · <b>← / →</b> naviguer. Vitesse 0,7×</div>`;
+  audio = $('#lecteur');
+  audio.addEventListener('loadedmetadata', () => { audio.playbackRate = 0.7; if ('preservesPitch' in audio) audio.preservesPitch = true; });
+  $('#valider').onclick = () => enregistrer('app_ready', true);
+  $('#corriger').onclick = () => enregistrer('app_ready', true);
+  $('#rejeter').onclick = () => enregistrer('rejected', true);
+  $('#prec').onclick = () => { if (idx > 0) { idx--; rendre(); } };
+  $('#suiv').onclick = () => { if (idx < visible.length - 1) { idx++; rendre(); } };
+}
+
+async function enregistrer(statut, avancer) {
+  const s = visible[idx];
+  const corps = { segment_id: s.segment_id, status: statut };
+  for (const c of ['text_corrected','text_latin','text_ar','french','notes']) {
+    const el = $('#' + c);
+    if (el) corps[c] = el.value;
+  }
+  const r = await fetch('/api/review', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(corps) });
+  const d = await r.json();
+  if (!d.ok) { alert('Erreur : ' + d.error); return; }
+  const original = tout.find(x => x.segment_id === s.segment_id);
+  Object.assign(original, corps);
+  if (avancer && idx < visible.length - 1) idx++;
+  await charger();
+}
+
+document.addEventListener('keydown', (e) => {
+  if (/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) return;
+  if (e.code === 'Space') { e.preventDefault(); if (audio) audio.paused ? audio.play() : audio.pause(); }
+  else if (e.key === 'Enter') { e.preventDefault(); if (visible.length) enregistrer('app_ready', true); }
+  else if (e.key === 'ArrowLeft' && idx > 0) { idx--; rendre(); }
+  else if (e.key === 'ArrowRight' && idx < visible.length - 1) { idx++; rendre(); }
+});
+
+$('#filtreSource').onchange = filtrer;
+$('#filtreStatut').onchange = filtrer;
+charger();
+</script>
+</body>
+</html>

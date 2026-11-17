@@ -1,0 +1,14 @@
+{
+  "fichier_source": "test_silence.mp3",
+  "lien_source": "https://exemple.com/test",
+  "source_createur": "TEST",
+  "droits": "A VERIFIER - ne pas integrer les audios originaux sans autorisation explicite",
+  "modele_whisper": "tiny",
+  "langue_detectee": "en",
+  "langue_probabilite": 0.275,
+  "duree_audio_s": 3.0,
+  "date_transcription": "2026-11-16T11:03:13",
+  "nb_segments": 0,
+  "statut_validation": "needs_review",
+  "segments": []
+}

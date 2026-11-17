@@ -1,0 +1,89 @@
+{
+  "total": 386,
+  "categories": [
+    {
+      "nom": "Greetings",
+      "mots": 16
+    },
+    {
+      "nom": "Introducing Yourself",
+      "mots": 17
+    },
+    {
+      "nom": "Countries & Ethnicities",
+      "mots": 36
+    },
+    {
+      "nom": "Numbers",
+      "mots": 101
+    },
+    {
+      "nom": "Family",
+      "mots": 19
+    },
+    {
+      "nom": "Food",
+      "mots": 51
+    },
+    {
+      "nom": "Daily Life",
+      "mots": 92
+    },
+    {
+      "nom": "days of the week",
+      "mots": 7
+    },
+    {
+      "nom": "Special Occasions",
+      "mots": 16
+    },
+    {
+      "nom": "Prepositions",
+      "mots": 4
+    },
+    {
+      "nom": "Question words",
+      "mots": 7
+    },
+    {
+      "nom": "Emotions",
+      "mots": 12
+    },
+    {
+      "nom": "Adjectives",
+      "mots": 2
+    },
+    {
+      "nom": "Ramadan",
+      "mots": 6
+    }
+  ],
+  "audio_present": 385,
+  "audio_cloudinary": 385,
+  "script_arabe": 386,
+  "prononciation": 386,
+  "exemple_present": 175,
+  "exemple_manquant": 211,
+  "wordType_rempli": 60,
+  "possessiveType_rempli": 30,
+  "difficulte": {
+    "beginner": 283,
+    "intermediate": 103
+  },
+  "creation_par_mois": {
+    "2025-10": 256,
+    "2025-12": 73,
+    "2026-01": 30,
+    "2026-02": 27
+  },
+  "derniere_creation": "2026-02-21T09:46:46.383000",
+  "derniere_maj": "2026-02-21T09:46:46.383000",
+  "doublons_vedette": {
+    "romania": 2
+  },
+  "traductions_dupliquees": 16,
+  "tentatives_totales": 13869,
+  "bonnes_reponses": 12846,
+  "jamais_etudie": 0,
+  "taux_reussite_pct": 92.6
+}

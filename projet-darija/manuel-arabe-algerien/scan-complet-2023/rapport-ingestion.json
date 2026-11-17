@@ -1,0 +1,35 @@
+{
+  "source_ajoutee": "tapiero-manuel-scan-complet-1978",
+  "sha256": "5196ec28a5315d2e…",
+  "pages_ocr_stockees": 227,
+  "nouvelles_pages_cette_execution": 0,
+  "pages_avec_bloc_arabe": 31,
+  "candidats_ocr_total": 98,
+  "nouveaux_candidats_cette_execution": 0,
+  "repartition": {
+    "dialogue.ar_text": 15,
+    "dialogue.fr_translation": 15,
+    "dialogue.latin_text": 15,
+    "study_text.ar_text": 23,
+    "study_text.latin_text": 30
+  },
+  "dialogues_couverts": 15,
+  "textes_couverts": 30,
+  "confiance": {
+    "high": 15,
+    "low": 38,
+    "medium": 45
+  },
+  "aucune_donnee_ecrasee": {
+    "vocabulary": 850,
+    "lessons": 30,
+    "dialogues": 15,
+    "study_texts": 30,
+    "champs_reference_toujours_vides": {
+      "dialogues.ar_text": 15,
+      "study_texts.latin_text": 30,
+      "vocabulary.form_ar": 850
+    }
+  },
+  "integrity_check": "ok"
+}

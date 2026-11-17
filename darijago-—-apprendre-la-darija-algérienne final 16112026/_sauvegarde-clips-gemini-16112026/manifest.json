@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "voice": "Kore",
+  "speakerName": "Yasmine",
+  "city": "Alger",
+  "generatedAt": "2026-11-16T13:14:47.669Z",
+  "totalTargets": 35494,
+  "clips": [
+    {
+      "id": "4c05aca24a207c94",
+      "ar": "السلام عليكم، واش راك؟",
+      "lat": "Salam alikoum, wach rak?",
+      "speed": "normal",
+      "file": "/audio/yasmine/4c05aca24a207c94.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 9165,
+      "category": "lesson"
+    },
+    {
+      "id": "2e5faf8ae2bc43d9",
+      "ar": "لاباس، الحمد لله. و نتا؟",
+      "lat": "Labès, el hamdoullah. W nta?",
+      "speed": "normal",
+      "file": "/audio/yasmine/2e5faf8ae2bc43d9.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 10605,
+      "category": "lesson"
+    },
+    {
+      "id": "8cef46445361a4de",
+      "ar": "صباح الخير، صباح النور",
+      "lat": "Sba7 el khir, sba7 el nour",
+      "speed": "normal",
+      "file": "/audio/yasmine/8cef46445361a4de.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 9357,
+      "category": "lesson"
+    },
+    {
+      "id": "db8085410fd7a47d",
+      "ar": "صحيت، يعطيك الصحة",
+      "lat": "Sahit, ya3tik essa7a",
+      "speed": "normal",
+      "file": "/audio/yasmine/db8085410fd7a47d.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 8685,
+      "category": "lesson"
+    },
+    {
+      "id": "bfdca2d461480d5f",
+      "ar": "سماحلي خويا، معليش؟",
+      "lat": "Sma7li khouya, ma3lich?",
+      "speed": "normal",
+      "file": "/audio/yasmine/bfdca2d461480d5f.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 10125,
+      "category": "lesson"
+    },
+    {
+      "id": "949803b1ad7fd5b0",
+      "ar": "بسلامة، في أمان الله",
+      "lat": "Beslama, fi aman Allah",
+      "speed": "normal",
+      "file": "/audio/yasmine/949803b1ad7fd5b0.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 7917,
+      "category": "lesson"
+    },
+    {
+      "id": "f8ca572f93b4f2d4",
+      "ar": "واش اسمك؟ أنا اسمي كريم",
+      "lat": "Wach ismek? Ana ismi Karim",
+      "speed": "normal",
+      "file": "/audio/yasmine/f8ca572f93b4f2d4.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 10605,
+      "category": "lesson"
+    }
+  ]
+}

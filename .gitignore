@@ -1,0 +1,52 @@
+# Secrets — ne JAMAIS pousser
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
+
+# Dependances et artefacts lourds
+**/node_modules/
+**/.venv/
+**/venv/
+**/dist/
+**/build/
+**/.next/
+**/.cache/
+**/__pycache__/
+*.pyc
+*.pyo
+.audio-cache/
+*.tsbuildinfo
+
+# Depots clones / poids de modeles / binaires
+**/.git/
+# Clone amont VoiceStudio : code public, tres lourd (venv/node_modules/poids)
+analyse-voicestudio/VoiceStudio/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+analyse-voicestudio/VoiceStudio/.git/
+analyse-voicestudio/VoiceStudio/node_modules/
+analyse-voicestudio/VoiceStudio/.venv/
+analyse-voicestudio/VoiceStudio/electron/
+analyse-voicestudio/VoiceStudio/docs/
+outils/facebook-ads-library-mcp/
+
+# Audio brut des videos sources (droits) — seuls les MP3 Yasmine de l'app sont publics
+*.m4a
+*.mp4
+*.mkv
+*.webm
+*.wav
+analyse-speak-algerian/clips-segments/
+analyse-speak-algerian/whisper-cache/
+
+# Fichiers temporaires
+*.tmp
+*.log
+Thumbs.db
+Desktop.ini

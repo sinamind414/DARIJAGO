@@ -1,0 +1,123 @@
+{
+  "188": {
+    "pdf_page": 188,
+    "printed_page": 178,
+    "y_cut_px": 248,
+    "dpi": 220,
+    "mode": "page_entiere"
+  },
+  "190": {
+    "pdf_page": 190,
+    "printed_page": 180,
+    "y_cut_px": 257,
+    "dpi": 220,
+    "mode": "page_entiere"
+  },
+  "192": {
+    "pdf_page": 192,
+    "printed_page": 182,
+    "y_cut_px": 549,
+    "dpi": 220,
+    "y_cut_pt": 179.7,
+    "mode": "coupe"
+  },
+  "194": {
+    "pdf_page": 194,
+    "printed_page": 184,
+    "y_cut_px": 695,
+    "dpi": 220,
+    "y_cut_pt": 227.5,
+    "mode": "coupe"
+  },
+  "196": {
+    "pdf_page": 196,
+    "printed_page": 186,
+    "y_cut_px": 892,
+    "dpi": 220,
+    "y_cut_pt": 291.9,
+    "mode": "coupe"
+  },
+  "198": {
+    "pdf_page": 198,
+    "printed_page": 188,
+    "y_cut_px": 801,
+    "dpi": 220,
+    "y_cut_pt": 262.1,
+    "mode": "coupe"
+  },
+  "200": {
+    "pdf_page": 200,
+    "printed_page": 190,
+    "y_cut_px": 628,
+    "dpi": 220,
+    "y_cut_pt": 205.5,
+    "mode": "coupe"
+  },
+  "202": {
+    "pdf_page": 202,
+    "printed_page": 192,
+    "y_cut_px": 608,
+    "dpi": 220,
+    "y_cut_pt": 199.0,
+    "mode": "coupe"
+  },
+  "204": {
+    "pdf_page": 204,
+    "printed_page": 194,
+    "y_cut_px": 675,
+    "dpi": 220,
+    "y_cut_pt": 220.9,
+    "mode": "coupe"
+  },
+  "206": {
+    "pdf_page": 206,
+    "printed_page": 196,
+    "y_cut_px": 583,
+    "dpi": 220,
+    "y_cut_pt": 190.8,
+    "mode": "coupe"
+  },
+  "208": {
+    "pdf_page": 208,
+    "printed_page": 198,
+    "y_cut_px": 1110,
+    "dpi": 220,
+    "y_cut_pt": 363.3,
+    "mode": "coupe"
+  },
+  "209": {
+    "pdf_page": 209,
+    "printed_page": 199,
+    "y_cut_px": null,
+    "dpi": 220,
+    "mode": "page_entiere"
+  },
+  "212": {
+    "pdf_page": 212,
+    "printed_page": 202,
+    "y_cut_px": null,
+    "dpi": 220,
+    "mode": "page_entiere"
+  },
+  "215": {
+    "pdf_page": 215,
+    "printed_page": 205,
+    "y_cut_px": null,
+    "dpi": 220,
+    "mode": "page_entiere"
+  },
+  "218": {
+    "pdf_page": 218,
+    "printed_page": 208,
+    "y_cut_px": null,
+    "dpi": 220,
+    "mode": "page_entiere"
+  },
+  "221": {
+    "pdf_page": 221,
+    "printed_page": 211,
+    "y_cut_px": null,
+    "dpi": 220,
+    "mode": "page_entiere"
+  }
+}

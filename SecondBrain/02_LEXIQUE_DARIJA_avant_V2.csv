@@ -1,0 +1,20 @@
+id,arabe,arabizi,francais,negation_arabizi,negation_arabe,feminin_arabizi,pluriel_arabizi,motif,usage,statut,source
+existence_kayen,كاين,kayen,il y a,makanch,ما كانش,kayena,kayenin,kayen / kayena / kayenin ; négation makanch,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+etat_rani_labas,راني لاباس,rani labas,je vais bien,ma ranich labas,ما رانيش لاباس,,,ma + rani + ch + état,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+avoir_temps,عندي الوقت,3andi el waqt,j’ai le temps,ma 3andich el waqt,ما عنديش الوقت,,,ma + 3andi + ch,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+avoir_raison,عندك الحق,3andek el haqq,tu as raison,ma 3andekch el haqq,ما عندكش الحق,,,ma + 3andek + ch,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+adjectif_machi_melih,هذا مليح,hada melih,c’est bien / bon,hada machi melih,هذا ماشي مليح,hadi meliha,,machi + adjectif,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+adjectif_machi_sahel,هذا ساهل,hada sahel,c’est facile,hada machi sahel,هذا ماشي ساهل,hadi sahla,,machi + adjectif ; féminin -a,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+vrai_faux,هذي صحيحة,hadi s7i7a,"c’est vrai, féminin",hadi machi s7i7a,هذي ماشي صحيحة,,,accord genre + machi,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+pret_wajed,راني واجد,rani wajed,je suis prêt,ma ranich wajed,ما رانيش واجد,rani wajda,,ma + rani + ch ; féminin -a,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+chance_zhar,عندي الزهر,3andi zhar,j’ai de la chance,ma 3andich zhar,ما عنديش الزهر,,,ma + 3andi + ch,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+place_blasa,كاين بلاصة,kayen blasa,il y a une place,makanch blasa,ما كانش بلاصة,,kayenin blayes,kayen + nom ; pluriel lexical,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+content_ferhan,راني فرحان,rani ferhan,je suis content,ma ranich ferhan,ما رانيش فرحان,rani ferhana,,ma + rani + ch ; féminin -a,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+possible_momken,هذا ممكن,hada momken,c’est possible,hada machi momken,هذا ماشي ممكن,hadi momkena,,machi + adjectif,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+confiance_tiqa,عندي فيك الثقة,3andi fik tiqa,j’ai confiance en toi,ma 3andich tiqa fik,ما عنديش الثقة فيك,,,ma + 3andi + ch,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+solution_7all,كاين الحل,kayen l7all,il y a une solution,makanch 7all,ما كانش حل,,kayenin 7lul,kayen + nom ; pluriel lexical,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+social_ma3lich,ما عليش,ma3lich,ce n’est pas grave,,,,,,"rassurer, dédramatiser",A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+social_3la_slamtek,على سلامتك,3la slamtek,bienvenue / bon rétablissement,,,,,,"retour de voyage, rétablissement",A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+emotion_ya_7asra,يا حسرة,ya 7asra,nostalgie / regret,,,,,,exprimer un regret ou une nostalgie,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+perplexe_7ayr,راني حاير,rani 7ayr,je suis perplexe,,,rani 7ayra,,féminin -a,,A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json
+merci_y3tik_sa7a,يعطيك الصحة,y3tik sa7a,merci / bravo,,,,,,"remercier, encourager",A VERIFIER (validated:false),projet-darija/agent-darija/corpus/echantillon-annote.json

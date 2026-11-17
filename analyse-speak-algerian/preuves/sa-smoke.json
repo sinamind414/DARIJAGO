@@ -1,0 +1,62 @@
+[
+  {
+    "label": "home-desktop",
+    "url": "https://www.speak-algerian.com/",
+    "status": 200,
+    "loadMs": 2538,
+    "title": "Emergent | Fullstack App",
+    "lang": "en",
+    "metaDesc": "A product of emergent.sh",
+    "h1": "(aucun)",
+    "errors": [],
+    "text": "Home | Vocabulary | Games | Progress | Sign In |  | 🎉 Use code OPENING50 for 50% off your first month! 🎉 |  | It's time to learn to |  | Learn the Algiers dialect with interactive games, comprehensive vocabulary, and personalized progress tracking. |  | Brought to you by Jamilah, the derja teacher you all know and love ✨ |  | Whether it's to connect with family, communicate with business prospects, or connect to your roots"
+  },
+  {
+    "label": "home-mobile",
+    "url": "https://www.speak-algerian.com/",
+    "status": 200,
+    "loadMs": 1086,
+    "title": "Emergent | Fullstack App",
+    "lang": "en",
+    "metaDesc": "A product of emergent.sh",
+    "h1": "(aucun)",
+    "errors": [],
+    "text": "🎉 Use code OPENING50 for 50% off your first month! 🎉 |  | It's time to learn to |  | Learn the Algiers dialect with interactive games, comprehensive vocabulary, and personalized progress tracking. |  | Brought to you by Jamilah, the derja teacher you all know and love ✨ |  | Whether it's to connect with family, communicate with business prospects, or connect to your roots, learning Algerian derja has never been"
+  },
+  {
+    "label": "pricing-mobile",
+    "url": "https://www.speak-algerian.com/pricing",
+    "status": 200,
+    "loadMs": 1527,
+    "title": "Emergent | Fullstack App",
+    "lang": "en",
+    "metaDesc": "A product of emergent.sh",
+    "h1": "Start Learning Today",
+    "errors": [],
+    "text": "🎉 Use code OPENING50 for 50% off your first month! 🎉 |  | Full Access | Start Learning Today |  | Subscribe to access all vocabulary, games, and features for just £9.99/month |  | Monthly Subscription | Full access to everything | £9.99 |  | per month |  | Have a promo code? | Apply |  | What's included: |  | Extensive vocabulary list 📝 | Play interactive games 🎮 | Track your learning progress 📈 | Listen to authentic pronunciations \ud83d"
+  },
+  {
+    "label": "vocabulary-mobile",
+    "url": "https://www.speak-algerian.com/vocabulary",
+    "status": 200,
+    "loadMs": 1285,
+    "title": "Emergent | Fullstack App",
+    "lang": "en",
+    "metaDesc": "A product of emergent.sh",
+    "h1": "(aucun)",
+    "errors": [],
+    "text": "Welcome Back! | Sign in to continue your learning journey | Email | Password | Sign In | OR CONTINUE WITH | Sign in with Google | Don't have an account? Sign up | Forgot password? | Connect with Jamilah | Email | Instagram | TikTok | YouTube | Shop |  | Questions about Algerian Derja? Want to suggest new words or features? | Follow me on social media or send an email - I'd love to hear from you! 💚 |  | © 2024 Speak Algerian. All righ"
+  },
+  {
+    "label": "games-mobile",
+    "url": "https://www.speak-algerian.com/games",
+    "status": 200,
+    "loadMs": 1446,
+    "title": "Emergent | Fullstack App",
+    "lang": "en",
+    "metaDesc": "A product of emergent.sh",
+    "h1": "(aucun)",
+    "errors": [],
+    "text": "Welcome Back! | Sign in to continue your learning journey | Email | Password | Sign In | OR CONTINUE WITH | Sign in with Google | Don't have an account? Sign up | Forgot password? | Connect with Jamilah | Email | Instagram | TikTok | YouTube | Shop |  | Questions about Algerian Derja? Want to suggest new words or features? | Follow me on social media or send an email - I'd love to hear from you! 💚 |  | © 2024 Speak Algerian. All righ"
+  }
+]

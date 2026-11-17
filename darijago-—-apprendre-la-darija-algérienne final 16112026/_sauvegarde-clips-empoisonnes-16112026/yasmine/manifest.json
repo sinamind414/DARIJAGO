@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "voice": "Kore",
+  "speakerName": "Yasmine",
+  "city": "Alger",
+  "generatedAt": "2026-11-16T12:50:37.950Z",
+  "totalTargets": 35494,
+  "clips": [
+    {
+      "id": "4c05aca24a207c94",
+      "ar": "السلام عليكم، واش راك؟",
+      "lat": "Salam alikoum, wach rak?",
+      "speed": "normal",
+      "file": "/audio/yasmine/4c05aca24a207c94.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 21453,
+      "category": "lesson"
+    },
+    {
+      "id": "2e5faf8ae2bc43d9",
+      "ar": "لاباس، الحمد لله. و نتا؟",
+      "lat": "Labès, el hamdoullah. W nta?",
+      "speed": "normal",
+      "file": "/audio/yasmine/2e5faf8ae2bc43d9.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 29229,
+      "category": "lesson"
+    },
+    {
+      "id": "8cef46445361a4de",
+      "ar": "صباح الخير، صباح النور",
+      "lat": "Sba7 el khir, sba7 el nour",
+      "speed": "normal",
+      "file": "/audio/yasmine/8cef46445361a4de.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 24621,
+      "category": "lesson"
+    },
+    {
+      "id": "db8085410fd7a47d",
+      "ar": "صحيت، يعطيك الصحة",
+      "lat": "Sahit, ya3tik essa7a",
+      "speed": "normal",
+      "file": "/audio/yasmine/db8085410fd7a47d.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 24429,
+      "category": "lesson"
+    },
+    {
+      "id": "bfdca2d461480d5f",
+      "ar": "سماحلي خويا، معليش؟",
+      "lat": "Sma7li khouya, ma3lich?",
+      "speed": "normal",
+      "file": "/audio/yasmine/bfdca2d461480d5f.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 23469,
+      "category": "lesson"
+    },
+    {
+      "id": "47bd59182e0d4968",
+      "ar": "لاباس",
+      "lat": "Labes",
+      "speed": "normal",
+      "file": "/audio/yasmine/47bd59182e0d4968.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 21453,
+      "category": "dictionary"
+    },
+    {
+      "id": "00c933938845e0d8",
+      "ar": "نوطّي، وطّيت، وطّى",
+      "lat": "nouat’t’i ، ouat’t’it ، ouat’t’a",
+      "speed": "normal",
+      "file": "/audio/yasmine/00c933938845e0d8.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 30573,
+      "category": "conjugation"
+    },
+    {
+      "id": "d42ea3fc7656d7ee",
+      "ar": "نوطّي",
+      "lat": "nouat’t’i",
+      "speed": "normal",
+      "file": "/audio/yasmine/d42ea3fc7656d7ee.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 20781,
+      "category": "conjugation"
+    },
+    {
+      "id": "e544653f16d69d3b",
+      "ar": "وطّيت",
+      "lat": "ouat’t’it",
+      "speed": "normal",
+      "file": "/audio/yasmine/e544653f16d69d3b.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 21741,
+      "category": "conjugation"
+    },
+    {
+      "id": "962a2bc8ff05e84c",
+      "ar": "وطّى",
+      "lat": "ouat’t’a",
+      "speed": "normal",
+      "file": "/audio/yasmine/962a2bc8ff05e84c.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 24429,
+      "category": "conjugation"
+    },
+    {
+      "id": "26f11bf0c86edcf9",
+      "ar": "هبّط الصندوق هنا",
+      "lat": "Habbet el-sandouq hna",
+      "speed": "normal",
+      "file": "/audio/yasmine/26f11bf0c86edcf9.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 28269,
+      "category": "dictionary"
+    },
+    {
+      "id": "16bd110ca820c552",
+      "ar": "نروّح، روّحت، روّح",
+      "lat": "narouah’ ، rouah’t ، rouah’",
+      "speed": "normal",
+      "file": "/audio/yasmine/16bd110ca820c552.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 12621,
+      "category": "conjugation"
+    },
+    {
+      "id": "3e1c7a7bd0c0c178",
+      "ar": "نروّح",
+      "lat": "narouah’",
+      "speed": "normal",
+      "file": "/audio/yasmine/3e1c7a7bd0c0c178.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 18669,
+      "category": "conjugation"
+    },
+    {
+      "id": "44a401fff92da6bc",
+      "ar": "روّحت",
+      "lat": "rouah’t",
+      "speed": "normal",
+      "file": "/audio/yasmine/44a401fff92da6bc.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 19629,
+      "category": "conjugation"
+    },
+    {
+      "id": "79424ac27a57fcd1",
+      "ar": "روّح",
+      "lat": "rouah’",
+      "speed": "normal",
+      "file": "/audio/yasmine/79424ac27a57fcd1.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 17421,
+      "category": "conjugation"
+    },
+    {
+      "id": "d722420237917c13",
+      "ar": "أرواح لهنا!",
+      "lat": "Arouah’ lehna !",
+      "speed": "normal",
+      "file": "/audio/yasmine/d722420237917c13.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 17229,
+      "category": "dictionary"
+    },
+    {
+      "id": "a17e921167eab935",
+      "ar": "نوطّي / وطّيت / وطّى",
+      "lat": "nouat’t’i ، ouat’t’it ، ouat’t’a",
+      "speed": "normal",
+      "file": "/audio/yasmine/a17e921167eab935.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 30573,
+      "category": "dictionary"
+    },
+    {
+      "id": "ee6a158745f4cce4",
+      "ar": "نروّح / روّحت / روّح",
+      "lat": "narouah’ ، rouah’t ، rouah’",
+      "speed": "normal",
+      "file": "/audio/yasmine/ee6a158745f4cce4.mp3",
+      "mimeType": "audio/mpeg",
+      "bytes": 12621,
+      "category": "dictionary"
+    }
+  ]
+}

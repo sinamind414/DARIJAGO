@@ -1,346 +1,581 @@
 {
- "drive_root_folder_id": "1BF81sQbz5icVl2nOFyJ2shsTo9C3J1JH",
- "drive_root_url": "https://drive.google.com/drive/folders/1BF81sQbz5icVl2nOFyJ2shsTo9C3J1JH",
- "purpose": "Source des PDFs + sauvegarde des livrables du projet Darija",
- "folders": {
-  "root": "1BF81sQbz5icVl2nOFyJ2shsTo9C3J1JH",
-  "bases": "1XP8eXkcC-zW3yF6CyUAHqO0N3RlRTNi4",
-  "livrables": "11eAEoJP3jcJ5PQLgovj9gBhkcGmXMkZC",
-  "sources_dictionnaire_1910": "1jbVL8c7QkN1JHEReICx4mL5Cu1t4CTjX",
-  "sources_manuel_tapiero": "1wds9v7GwsIpDwMFSR3-m_oXm6BJ1LHR8"
- },
- "verified_md5": true,
- "files": [
-  {
-   "size": 2907347,
-   "md5": "727bb983a773b656946876d161cb2488",
-   "sha256": "9544d084a8750f238fb1910a733af7c6517e02320a3e4d70e550eac47b32b043",
-   "path": "projet-darija/dictionnaire-livre/raw/partie-01.pdf",
-   "name": "partie-01.pdf",
-   "drive_file_id": "1Z1HHfSPFrKVaH-fclGBumldBifR2y5dt",
-   "drive_url": "https://drive.google.com/file/d/1Z1HHfSPFrKVaH-fclGBumldBifR2y5dt/view",
-   "drive_folder": "sources_dictionnaire_1910",
-   "local_copy": false
+  "drive_root_folder_id": "1BF81sQbz5icVl2nOFyJ2shsTo9C3J1JH",
+  "drive_root_url": "https://drive.google.com/drive/folders/1BF81sQbz5icVl2nOFyJ2shsTo9C3J1JH",
+  "purpose": "Source des PDFs + sauvegarde des livrables du projet Darija",
+  "folders": {
+    "root": "1BF81sQbz5icVl2nOFyJ2shsTo9C3J1JH",
+    "bases": "1XP8eXkcC-zW3yF6CyUAHqO0N3RlRTNi4",
+    "livrables": "11eAEoJP3jcJ5PQLgovj9gBhkcGmXMkZC",
+    "sources_dictionnaire_1910": "1jbVL8c7QkN1JHEReICx4mL5Cu1t4CTjX",
+    "sources_manuel_tapiero": "1wds9v7GwsIpDwMFSR3-m_oXm6BJ1LHR8",
+    "sources_sauvegarde_complete": "1ffz8fnZhXUNTqsW0oNeRq09DyNSu6pCM"
   },
-  {
-   "size": 3530389,
-   "md5": "4f969121fae52c4c72b154acb434d773",
-   "sha256": "d456f4a501622eacdf078c65a5e54971dbaca008276c08203c380cf0986aceee",
-   "path": "projet-darija/dictionnaire-livre/raw/partie-02.pdf",
-   "name": "partie-02.pdf",
-   "drive_file_id": "1qyd9bUPycn4Gi_d3isyYOeh2SmWKi3qz",
-   "drive_url": "https://drive.google.com/file/d/1qyd9bUPycn4Gi_d3isyYOeh2SmWKi3qz/view",
-   "drive_folder": "sources_dictionnaire_1910",
-   "local_copy": false
+  "verified_md5": true,
+  "files": [
+    {
+      "size": 2907347,
+      "md5": "727bb983a773b656946876d161cb2488",
+      "sha256": "9544d084a8750f238fb1910a733af7c6517e02320a3e4d70e550eac47b32b043",
+      "path": "projet-darija/dictionnaire-livre/raw/partie-01.pdf",
+      "name": "partie-01.pdf",
+      "drive_file_id": "1Z1HHfSPFrKVaH-fclGBumldBifR2y5dt",
+      "drive_url": "https://drive.google.com/file/d/1Z1HHfSPFrKVaH-fclGBumldBifR2y5dt/view",
+      "drive_folder": "sources_dictionnaire_1910",
+      "local_copy": false,
+      "drive_folder_name": "LIVRE ARABE DARIJA ALGERIEN",
+      "note": "PDF source supprimé du workspace le 2026-11-15 ; copie vérifiée sur Drive."
+    },
+    {
+      "size": 3530389,
+      "md5": "4f969121fae52c4c72b154acb434d773",
+      "sha256": "d456f4a501622eacdf078c65a5e54971dbaca008276c08203c380cf0986aceee",
+      "path": "projet-darija/dictionnaire-livre/raw/partie-02.pdf",
+      "name": "partie-02.pdf",
+      "drive_file_id": "1qyd9bUPycn4Gi_d3isyYOeh2SmWKi3qz",
+      "drive_url": "https://drive.google.com/file/d/1qyd9bUPycn4Gi_d3isyYOeh2SmWKi3qz/view",
+      "drive_folder": "sources_dictionnaire_1910",
+      "local_copy": false,
+      "drive_folder_name": "LIVRE ARABE DARIJA ALGERIEN",
+      "note": "PDF source supprimé du workspace le 2026-11-15 ; copie vérifiée sur Drive."
+    },
+    {
+      "size": 3490278,
+      "md5": "785c637d4ae65cc587d310eea0ac036b",
+      "sha256": "9d2751cdecb1689abb3557a08e257bd0dff56c45855505b5879806ef29570f02",
+      "path": "projet-darija/dictionnaire-livre/raw/partie-03.pdf",
+      "name": "partie-03.pdf",
+      "drive_file_id": "1ev27kqUmRQRYoa-yDHLvH8sw7dNEvwju",
+      "drive_url": "https://drive.google.com/file/d/1ev27kqUmRQRYoa-yDHLvH8sw7dNEvwju/view",
+      "drive_folder": "sources_dictionnaire_1910",
+      "local_copy": false,
+      "drive_folder_name": "LIVRE ARABE DARIJA ALGERIEN",
+      "note": "PDF source supprimé du workspace le 2026-11-15 ; copie vérifiée sur Drive."
+    },
+    {
+      "size": 3493792,
+      "md5": "e0912fa314219d3546d7b1d91f6b5f2a",
+      "sha256": "127874fc9633ef63c75ead00c75884daec06d57a8aa96f5f29835782203db5ce",
+      "path": "projet-darija/dictionnaire-livre/raw/partie-04.pdf",
+      "name": "partie-04.pdf",
+      "drive_file_id": "1GEKIZpS8gWqVNaAiGj-BF8J4_r6JZt-3",
+      "drive_url": "https://drive.google.com/file/d/1GEKIZpS8gWqVNaAiGj-BF8J4_r6JZt-3/view",
+      "drive_folder": "sources_dictionnaire_1910",
+      "local_copy": false,
+      "drive_folder_name": "LIVRE ARABE DARIJA ALGERIEN",
+      "note": "PDF source supprimé du workspace le 2026-11-15 ; copie vérifiée sur Drive."
+    },
+    {
+      "size": 3369118,
+      "md5": "8913cdd39293511748819ac91b49276e",
+      "sha256": "31080bace64b191eeaafc0d8e8e9e73329949273e4d59259a87af935b434d310",
+      "path": "projet-darija/dictionnaire-livre/raw/partie-05.pdf",
+      "name": "partie-05.pdf",
+      "drive_file_id": "1mmOMDA5Xv-COdzZHftHCfTNjjObp58z4",
+      "drive_url": "https://drive.google.com/file/d/1mmOMDA5Xv-COdzZHftHCfTNjjObp58z4/view",
+      "drive_folder": "sources_dictionnaire_1910",
+      "local_copy": false,
+      "drive_folder_name": "LIVRE ARABE DARIJA ALGERIEN",
+      "note": "PDF source supprimé du workspace le 2026-11-15 ; copie vérifiée sur Drive."
+    },
+    {
+      "size": 3388676,
+      "md5": "fc209301ae8181b8218ac6fba62ec2b7",
+      "sha256": "793dae6a30dcaa779fb8540cc8fa072dc6a931a4258e17c61a51657103c56938",
+      "path": "projet-darija/dictionnaire-livre/raw/partie-06.pdf",
+      "name": "partie-06.pdf",
+      "drive_file_id": "1tmkLb4qOWadS0nr_mApSg8vabk5N1r5n",
+      "drive_url": "https://drive.google.com/file/d/1tmkLb4qOWadS0nr_mApSg8vabk5N1r5n/view",
+      "drive_folder": "sources_dictionnaire_1910",
+      "local_copy": false,
+      "drive_folder_name": "LIVRE ARABE DARIJA ALGERIEN",
+      "note": "PDF source supprimé du workspace le 2026-11-15 ; copie vérifiée sur Drive."
+    },
+    {
+      "size": 3424854,
+      "md5": "0088ea6da8fafec26bcc22f74c20f6af",
+      "sha256": "bff9c7ec95fbf1bdd6aa1b0421333e584037277b1e588f45593cf73e400a43a1",
+      "path": "projet-darija/dictionnaire-livre/raw/partie-07.pdf",
+      "name": "partie-07.pdf",
+      "drive_file_id": "1anSlzL0PBFPypaVyt6ca7vzQj_zMVuif",
+      "drive_url": "https://drive.google.com/file/d/1anSlzL0PBFPypaVyt6ca7vzQj_zMVuif/view",
+      "drive_folder": "sources_dictionnaire_1910",
+      "local_copy": false,
+      "drive_folder_name": "LIVRE ARABE DARIJA ALGERIEN",
+      "note": "PDF source supprimé du workspace le 2026-11-15 ; copie vérifiée sur Drive."
+    },
+    {
+      "size": 3427178,
+      "md5": "033a594d6c5677be181b9b83df6d366c",
+      "sha256": "5a2a5f8fe6f56b89ede78206cffdcc33aa336ed38493f131c33787c01e87f524",
+      "path": "projet-darija/dictionnaire-livre/raw/partie-08.pdf",
+      "name": "partie-08.pdf",
+      "drive_file_id": "1Lx5sdeWgHSmmO4Fxlb0NV0NeMn6R2r7T",
+      "drive_url": "https://drive.google.com/file/d/1Lx5sdeWgHSmmO4Fxlb0NV0NeMn6R2r7T/view",
+      "drive_folder": "sources_dictionnaire_1910",
+      "local_copy": false,
+      "drive_folder_name": "LIVRE ARABE DARIJA ALGERIEN",
+      "note": "PDF source supprimé du workspace le 2026-11-15 ; copie vérifiée sur Drive."
+    },
+    {
+      "size": 3369726,
+      "md5": "4e88f4c10029f97a8fb94ff0bb7ba27b",
+      "sha256": "c111d8c629a6246febc4e8d49c266f9f3393969e71f6adbf59bd2f08ec2345de",
+      "path": "projet-darija/dictionnaire-livre/raw/partie-09.pdf",
+      "name": "partie-09.pdf",
+      "drive_file_id": "1bWYKTrnMea-OWX9iX-qOnYLI6igIRmnF",
+      "drive_url": "https://drive.google.com/file/d/1bWYKTrnMea-OWX9iX-qOnYLI6igIRmnF/view",
+      "drive_folder": "sources_dictionnaire_1910",
+      "local_copy": false,
+      "drive_folder_name": "LIVRE ARABE DARIJA ALGERIEN",
+      "note": "PDF source supprimé du workspace le 2026-11-15 ; copie vérifiée sur Drive."
+    },
+    {
+      "size": 1616278,
+      "md5": "c03ba584880cc75bb0ffa12ed0abc043",
+      "sha256": "eb5609bc3e0d2b4aa72a13ba95e7663789e86c0f678cc6b86f963976500efa1e",
+      "path": "projet-darija/dictionnaire-livre/raw/partie-10.pdf",
+      "name": "partie-10.pdf",
+      "drive_file_id": "1CqsLlYf91oMOtkehzck12WyCFGOo-rRi",
+      "drive_url": "https://drive.google.com/file/d/1CqsLlYf91oMOtkehzck12WyCFGOo-rRi/view",
+      "drive_folder": "sources_dictionnaire_1910",
+      "local_copy": false,
+      "drive_folder_name": "LIVRE ARABE DARIJA ALGERIEN",
+      "note": "PDF source supprimé du workspace le 2026-11-15 ; copie vérifiée sur Drive."
+    },
+    {
+      "size": 9716656,
+      "md5": "575356481c506b7561c3adfe8aa7593e",
+      "sha256": "3f69a4799f9ba5a5cd7cbdb98504384de6b5fea54364006e8dc70222e7bfb95a",
+      "path": "projet-darija/manuel-arabe-algerien/raw/partie-01.pdf",
+      "name": "partie-01.pdf",
+      "drive_file_id": "17W7t4D139ahyK8eJ35vrfGh1Osnjs083",
+      "drive_url": "https://drive.google.com/file/d/17W7t4D139ahyK8eJ35vrfGh1Osnjs083/view",
+      "drive_folder": "sources_manuel_tapiero",
+      "drive_name": "Manuel-arab-algerien-1.pdf",
+      "local_copy": false,
+      "drive_folder_name": "DEUXIEME LIVRE DARIJA",
+      "note": "PDF source supprimé du workspace le 2026-11-15 ; copie vérifiée sur Drive."
+    },
+    {
+      "size": 7856128,
+      "md5": "584973abdd3f195f007082b8b1054f40",
+      "sha256": "43b1b43aac5c0adc047ddf3fbf8eadfb236bd59f594ef82d322523b46cfac172",
+      "path": "projet-darija/dictionnaire-livre/db/dictionnaire.sqlite",
+      "name": "dictionnaire.sqlite",
+      "drive_file_id": "16I5FoOU-8452F0sTwVdBhluljZmoQykn",
+      "drive_url": "https://drive.google.com/file/d/16I5FoOU-8452F0sTwVdBhluljZmoQykn/view",
+      "drive_folder": "bases",
+      "local_copy": true
+    },
+    {
+      "size": 1597440,
+      "md5": "539144e105d250bcf0cb0874548b6abf",
+      "sha256": "3aaab974ed6a51a7f786dd5b2cd00ea4b7b7f2bfe7b4fca1511c1b18cdee26ab",
+      "path": "projet-darija/manuel-arabe-algerien/db/manuel.sqlite",
+      "name": "manuel.sqlite",
+      "drive_file_id": "1Pq_-3a5-yB4JyHn9KO-Scdj5e5HXdCzq",
+      "drive_url": "https://drive.google.com/file/d/1Pq_-3a5-yB4JyHn9KO-Scdj5e5HXdCzq/view",
+      "drive_folder": "bases",
+      "local_copy": true
+    },
+    {
+      "path": "projet-darija/_tmp_livrables_drive.zip",
+      "name": "projet-darija-livrables-sauvegarde.zip",
+      "files": 1431,
+      "size": 5100170,
+      "md5": "bf12b8469d8fdcba9e0f2811c08868c1",
+      "sha256": "82637abee92fec5d7eb0ae1bc6157dc3db6d091667c7f92cfd87284560cc068b",
+      "drive_file_id": "1-HjfD2EZoSQ8C7UfIV0CrS5LYWZZvqlm",
+      "drive_url": "https://drive.google.com/file/d/1-HjfD2EZoSQ8C7UfIV0CrS5LYWZZvqlm/view",
+      "drive_folder": "livrables",
+      "local_copy": false
+    },
+    {
+      "path": "projet-darija/DRIVE.md",
+      "name": "LISEZ-MOI.md",
+      "size": 3389,
+      "md5": "d99a1f6d3ec425578961c1b1e9a00a1c",
+      "sha256": "50e018ee24356ed2b5f78ab8947dea906ee8bab171de60862f5fec0e226e3a0b",
+      "drive_file_id": "12nMuNJYsjgceWf5w-BK3P0IRfKgHAjfI",
+      "drive_url": "https://drive.google.com/file/d/12nMuNJYsjgceWf5w-BK3P0IRfKgHAjfI/view",
+      "drive_folder": "root",
+      "local_copy": true
+    },
+    {
+      "path": "projet-darija/manuel-arabe-algerien/raw/Manuel-arab-algerien-2-1.pdf",
+      "name": "Manuel-arab-algerien-2-1.pdf",
+      "size": 5084523,
+      "md5": "570ceaac0409ea0c5bf14f55e8b41420",
+      "sha256": "74afa9cb8701a077aadd5844adbc71531ea084c9b6000013860ac7a647147a8b",
+      "drive_file_id": "1bXpSfvxhQX8-OXYslycORo8lLceTvwc_",
+      "drive_url": "https://drive.google.com/file/d/1bXpSfvxhQX8-OXYslycORo8lLceTvwc_/view",
+      "drive_folder": "sources_manuel_tapiero",
+      "local_copy": false,
+      "ingested": true
+    },
+    {
+      "path": "projet-darija/manuel-arabe-algerien/raw/Manuel-arab-algerien-2-2.pdf",
+      "name": "Manuel-arab-algerien-2-2.pdf",
+      "size": 6273197,
+      "md5": "94d718634780f8a66f6c0c70b30c60be",
+      "sha256": "448c2a1e0b8c62f1e2429587316f4d2de34e3916604b372d1bd76ed1500cb995",
+      "drive_file_id": "1GrY8TrEhk3m9V6NTvoVnDJDf--1CbUP_",
+      "drive_url": "https://drive.google.com/file/d/1GrY8TrEhk3m9V6NTvoVnDJDf--1CbUP_/view",
+      "drive_folder": "sources_manuel_tapiero",
+      "local_copy": false,
+      "ingested": true
+    },
+    {
+      "path": "projet-darija/manuel-arabe-algerien/raw/Manuel-arab-algerien-2-3.pdf",
+      "name": "Manuel-arab-algerien-2-3.pdf",
+      "size": 3134296,
+      "md5": "c4b7d0907557bf3243be2564be387aa0",
+      "sha256": "1b2a5e1c90901a95021558ff6b5cbd1892fadae4e0a1db88820ad1bf0b503cf4",
+      "drive_file_id": "15vMAIawoEdgZ9xR_ms5XZ9yLDf_OMgcb",
+      "drive_url": "https://drive.google.com/file/d/15vMAIawoEdgZ9xR_ms5XZ9yLDf_OMgcb/view",
+      "drive_folder": "sources_manuel_tapiero",
+      "local_copy": false,
+      "ingested": true
+    },
+    {
+      "path": null,
+      "name": "Manuel-arab-algerien-3.pdf",
+      "size": 12202072,
+      "md5": "1782058a1a1bcb949fb8b8023474a052",
+      "drive_file_id": "1imJWKWtplzeUmvIJeScL-D9Z2-P--NQM",
+      "drive_url": "https://drive.google.com/file/d/1imJWKWtplzeUmvIJeScL-D9Z2-P--NQM/view",
+      "drive_folder": "sources_manuel_tapiero",
+      "local_copy": false,
+      "ingested": true
+    },
+    {
+      "path": null,
+      "name": "Manuel-arab-algerien-4.pdf",
+      "size": 10900199,
+      "md5": "8fb8903dfde56ce0eeb4408417ee0a01",
+      "drive_file_id": "1GiiQyFH3GCL9k-leam8QdicbAXr_mm5O",
+      "drive_url": "https://drive.google.com/file/d/1GiiQyFH3GCL9k-leam8QdicbAXr_mm5O/view",
+      "drive_folder": "sources_manuel_tapiero",
+      "local_copy": false,
+      "ingested": true
+    },
+    {
+      "path": null,
+      "name": "Manuel-arab-algerien-5.pdf",
+      "size": 5776806,
+      "md5": "0f3f89466afca1e4330aec2426811da5",
+      "drive_file_id": "1Y2CQ0LzvmtPGxEz4U2E0l9of3rlBSucz",
+      "drive_url": "https://drive.google.com/file/d/1Y2CQ0LzvmtPGxEz4U2E0l9of3rlBSucz/view",
+      "drive_folder": "sources_manuel_tapiero",
+      "local_copy": false,
+      "ingested": true
+    },
+    {
+      "path": "projet-darija/manuel-arabe-algerien/db/manuel.sqlite",
+      "name": "manuel-tapiero-enrichi-scan-complet-2026-11-15.sqlite",
+      "drive_file_id": "1MIhg-TyhdFeMPZBfV4_TfdA1LMWVGMR9",
+      "drive_folder": "bases",
+      "note": "base enrichie du scan complet Tapiéro 1978 — 227 pages OCR + 98 candidats needs_review",
+      "size": 3149824,
+      "md5": "d23140b51496f774f15e627837baa349",
+      "sha256": "d709b23b2a22db03b0005c1c9e6ec018dc4789ae5633325bb5c795b077f4fb9a",
+      "drive_url": "https://drive.google.com/file/d/1MIhg-TyhdFeMPZBfV4_TfdA1LMWVGMR9/view",
+      "local_copy": true
+    },
+    {
+      "path": "projet-darija/manuel-arabe-algerien/scan-complet-2023/INTEGRATION.md",
+      "name": "Integration-scan-complet-Tapiero-1978-2026-11-15.md",
+      "drive_file_id": "1vKsRpzNTwJiX9yX7qwIOlXL5SMVSWDZn",
+      "drive_folder": "livrables",
+      "note": "rapport d'intégration du scan complet 1978",
+      "size": 9014,
+      "md5": "7366e339063069f71d1cf5df61d844de",
+      "sha256": "e4ca9acc4130c4a4cbd7f8f1f16238cd38c7785f33703d643e44ada2ce85aa6f",
+      "drive_url": "https://drive.google.com/file/d/1vKsRpzNTwJiX9yX7qwIOlXL5SMVSWDZn/view",
+      "local_copy": true
+    },
+    {
+      "path": "projet-darija/lexiques-tadjer/db/lexiques.sqlite",
+      "name": "lexiques-tadjer-2010-2012.sqlite",
+      "drive_file_id": "12sKkjRy513excuDfnvhk3a92iA_X8nT4",
+      "drive_folder": "bases",
+      "note": "4e base — vocabulaire moderne + translittération latine, 1707 entrées, needs_review",
+      "size": 1290240,
+      "md5": "56af53fd898548ebfeac0b03dbe95013",
+      "sha256": "f276c212e62209cf8c11f5b1d75e57f889a388ae645b2e9acdbd492ceb38d5e8",
+      "drive_url": "https://drive.google.com/file/d/12sKkjRy513excuDfnvhk3a92iA_X8nT4/view",
+      "local_copy": true
+    },
+    {
+      "path": "projet-darija/lexiques-tadjer/INTEGRATION.md",
+      "name": "Integration-lexiques-Tadjer-2010-2012-2026-11-15.md",
+      "drive_file_id": "1YmQFdIxZ-pag5DndKTmYbkgwvx4_gTMi",
+      "drive_folder": "livrables",
+      "note": "rapport d'intégration des Lexiques Tadjer",
+      "size": 9328,
+      "md5": "dc85aafd7bd7f753185ee30877958e5a",
+      "sha256": "b281f1abea06c81474d3e14d4fb665c47b382e205cdece080b8b645b64eed4cd",
+      "drive_url": "https://drive.google.com/file/d/1YmQFdIxZ-pag5DndKTmYbkgwvx4_gTMi/view",
+      "local_copy": true
+    },
+    {
+      "path": "projet-darija/lexiques-tadjer/raw/lexiques-tadjer-2010-2012.pdf",
+      "name": "lexiques-tadjer-2010-2012.pdf",
+      "size": null,
+      "sha256": null,
+      "drive_file_id": "1rg_6KfRc-EYbdJsteS5KHAXDRL47E1aP",
+      "md5": "00e125b52c6ed8adeefcffcd95f4c6e2",
+      "local_copy": false,
+      "drive_url": "https://drive.google.com/file/d/1rg_6KfRc-EYbdJsteS5KHAXDRL47E1aP/view",
+      "drive_folder_name": "03 - Sources PDF",
+      "note": "PDF source supprimé du workspace le 2026-11-15 ; copie vérifiée sur Drive."
+    },
+    {
+      "path": "projet-darija/locutions-aziri/raw/locutions-aziri-2012.pdf",
+      "name": "locutions-aziri-2012.pdf",
+      "size": null,
+      "sha256": null,
+      "drive_file_id": "1L4uIlqUai92XMMqr6RypJFGI-F1fx-00",
+      "md5": "89c1be71d2da0c9b30ab9873fa908f85",
+      "local_copy": false,
+      "drive_url": "https://drive.google.com/file/d/1L4uIlqUai92XMMqr6RypJFGI-F1fx-00/view",
+      "drive_folder_name": "03 - Sources PDF",
+      "note": "PDF source supprimé du workspace le 2026-11-15 ; copie vérifiée sur Drive."
+    },
+    {
+      "path": "projet-darija/manuel-arabe-algerien/scan-complet-2023/raw/tapiero-manuel-complet-1978.pdf",
+      "name": "tapiero-manuel-complet-1978.pdf",
+      "size": null,
+      "sha256": null,
+      "drive_file_id": "1Gqt96Vsmz69SIsR6qk-D2LWBKAlhR7cD",
+      "md5": "66e76f975e6e257d9dde7372fbd67b95",
+      "local_copy": false,
+      "drive_url": "https://drive.google.com/file/d/1Gqt96Vsmz69SIsR6qk-D2LWBKAlhR7cD/view",
+      "drive_folder_name": "03 - Sources PDF",
+      "note": "PDF source supprimé du workspace le 2026-11-15 ; copie vérifiée sur Drive."
+    }
+  ],
+  "readme_drive_file_id": "1tWrJ044Erj7dcowqtyQIJbKCIE0RX9Ap",
+  "folder_names": {
+    "bases": "01 - Bases de données",
+    "livrables": "02 - Livrables et rapports",
+    "sources_dictionnaire_1910": "LIVRE ARABE DARIJA ALGERIENNE (dossier utilisateur)",
+    "sources_manuel_tapiero": "DEUXIEME LIVRE DARIJA (dossier utilisateur)"
   },
-  {
-   "size": 3490278,
-   "md5": "785c637d4ae65cc587d310eea0ac036b",
-   "sha256": "9d2751cdecb1689abb3557a08e257bd0dff56c45855505b5879806ef29570f02",
-   "path": "projet-darija/dictionnaire-livre/raw/partie-03.pdf",
-   "name": "partie-03.pdf",
-   "drive_file_id": "1ev27kqUmRQRYoa-yDHLvH8sw7dNEvwju",
-   "drive_url": "https://drive.google.com/file/d/1ev27kqUmRQRYoa-yDHLvH8sw7dNEvwju/view",
-   "drive_folder": "sources_dictionnaire_1910",
-   "local_copy": false
-  },
-  {
-   "size": 3493792,
-   "md5": "e0912fa314219d3546d7b1d91f6b5f2a",
-   "sha256": "127874fc9633ef63c75ead00c75884daec06d57a8aa96f5f29835782203db5ce",
-   "path": "projet-darija/dictionnaire-livre/raw/partie-04.pdf",
-   "name": "partie-04.pdf",
-   "drive_file_id": "1GEKIZpS8gWqVNaAiGj-BF8J4_r6JZt-3",
-   "drive_url": "https://drive.google.com/file/d/1GEKIZpS8gWqVNaAiGj-BF8J4_r6JZt-3/view",
-   "drive_folder": "sources_dictionnaire_1910",
-   "local_copy": false
-  },
-  {
-   "size": 3369118,
-   "md5": "8913cdd39293511748819ac91b49276e",
-   "sha256": "31080bace64b191eeaafc0d8e8e9e73329949273e4d59259a87af935b434d310",
-   "path": "projet-darija/dictionnaire-livre/raw/partie-05.pdf",
-   "name": "partie-05.pdf",
-   "drive_file_id": "1mmOMDA5Xv-COdzZHftHCfTNjjObp58z4",
-   "drive_url": "https://drive.google.com/file/d/1mmOMDA5Xv-COdzZHftHCfTNjjObp58z4/view",
-   "drive_folder": "sources_dictionnaire_1910",
-   "local_copy": false
-  },
-  {
-   "size": 3388676,
-   "md5": "fc209301ae8181b8218ac6fba62ec2b7",
-   "sha256": "793dae6a30dcaa779fb8540cc8fa072dc6a931a4258e17c61a51657103c56938",
-   "path": "projet-darija/dictionnaire-livre/raw/partie-06.pdf",
-   "name": "partie-06.pdf",
-   "drive_file_id": "1tmkLb4qOWadS0nr_mApSg8vabk5N1r5n",
-   "drive_url": "https://drive.google.com/file/d/1tmkLb4qOWadS0nr_mApSg8vabk5N1r5n/view",
-   "drive_folder": "sources_dictionnaire_1910",
-   "local_copy": false
-  },
-  {
-   "size": 3424854,
-   "md5": "0088ea6da8fafec26bcc22f74c20f6af",
-   "sha256": "bff9c7ec95fbf1bdd6aa1b0421333e584037277b1e588f45593cf73e400a43a1",
-   "path": "projet-darija/dictionnaire-livre/raw/partie-07.pdf",
-   "name": "partie-07.pdf",
-   "drive_file_id": "1anSlzL0PBFPypaVyt6ca7vzQj_zMVuif",
-   "drive_url": "https://drive.google.com/file/d/1anSlzL0PBFPypaVyt6ca7vzQj_zMVuif/view",
-   "drive_folder": "sources_dictionnaire_1910",
-   "local_copy": false
-  },
-  {
-   "size": 3427178,
-   "md5": "033a594d6c5677be181b9b83df6d366c",
-   "sha256": "5a2a5f8fe6f56b89ede78206cffdcc33aa336ed38493f131c33787c01e87f524",
-   "path": "projet-darija/dictionnaire-livre/raw/partie-08.pdf",
-   "name": "partie-08.pdf",
-   "drive_file_id": "1Lx5sdeWgHSmmO4Fxlb0NV0NeMn6R2r7T",
-   "drive_url": "https://drive.google.com/file/d/1Lx5sdeWgHSmmO4Fxlb0NV0NeMn6R2r7T/view",
-   "drive_folder": "sources_dictionnaire_1910",
-   "local_copy": false
-  },
-  {
-   "size": 3369726,
-   "md5": "4e88f4c10029f97a8fb94ff0bb7ba27b",
-   "sha256": "c111d8c629a6246febc4e8d49c266f9f3393969e71f6adbf59bd2f08ec2345de",
-   "path": "projet-darija/dictionnaire-livre/raw/partie-09.pdf",
-   "name": "partie-09.pdf",
-   "drive_file_id": "1bWYKTrnMea-OWX9iX-qOnYLI6igIRmnF",
-   "drive_url": "https://drive.google.com/file/d/1bWYKTrnMea-OWX9iX-qOnYLI6igIRmnF/view",
-   "drive_folder": "sources_dictionnaire_1910",
-   "local_copy": false
-  },
-  {
-   "size": 1616278,
-   "md5": "c03ba584880cc75bb0ffa12ed0abc043",
-   "sha256": "eb5609bc3e0d2b4aa72a13ba95e7663789e86c0f678cc6b86f963976500efa1e",
-   "path": "projet-darija/dictionnaire-livre/raw/partie-10.pdf",
-   "name": "partie-10.pdf",
-   "drive_file_id": "1CqsLlYf91oMOtkehzck12WyCFGOo-rRi",
-   "drive_url": "https://drive.google.com/file/d/1CqsLlYf91oMOtkehzck12WyCFGOo-rRi/view",
-   "drive_folder": "sources_dictionnaire_1910",
-   "local_copy": false
-  },
-  {
-   "size": 9716656,
-   "md5": "575356481c506b7561c3adfe8aa7593e",
-   "sha256": "3f69a4799f9ba5a5cd7cbdb98504384de6b5fea54364006e8dc70222e7bfb95a",
-   "path": "projet-darija/manuel-arabe-algerien/raw/partie-01.pdf",
-   "name": "partie-01.pdf",
-   "drive_file_id": "17W7t4D139ahyK8eJ35vrfGh1Osnjs083",
-   "drive_url": "https://drive.google.com/file/d/17W7t4D139ahyK8eJ35vrfGh1Osnjs083/view",
-   "drive_folder": "sources_manuel_tapiero",
-   "drive_name": "Manuel-arab-algerien-1.pdf"
-  },
-  {
-   "size": 7856128,
-   "md5": "584973abdd3f195f007082b8b1054f40",
-   "sha256": "43b1b43aac5c0adc047ddf3fbf8eadfb236bd59f594ef82d322523b46cfac172",
-   "path": "projet-darija/dictionnaire-livre/db/dictionnaire.sqlite",
-   "name": "dictionnaire.sqlite",
-   "drive_file_id": "16I5FoOU-8452F0sTwVdBhluljZmoQykn",
-   "drive_url": "https://drive.google.com/file/d/16I5FoOU-8452F0sTwVdBhluljZmoQykn/view",
-   "drive_folder": "bases"
-  },
-  {
-   "size": 1597440,
-   "md5": "539144e105d250bcf0cb0874548b6abf",
-   "sha256": "3aaab974ed6a51a7f786dd5b2cd00ea4b7b7f2bfe7b4fca1511c1b18cdee26ab",
-   "path": "projet-darija/manuel-arabe-algerien/db/manuel.sqlite",
-   "name": "manuel.sqlite",
-   "drive_file_id": "1Pq_-3a5-yB4JyHn9KO-Scdj5e5HXdCzq",
-   "drive_url": "https://drive.google.com/file/d/1Pq_-3a5-yB4JyHn9KO-Scdj5e5HXdCzq/view",
-   "drive_folder": "bases",
-   "local_copy": true
-  },
-  {
-   "path": "projet-darija/_tmp_livrables_drive.zip",
-   "name": "projet-darija-livrables-sauvegarde.zip",
-   "files": 1431,
-   "size": 5100170,
-   "md5": "bf12b8469d8fdcba9e0f2811c08868c1",
-   "sha256": "82637abee92fec5d7eb0ae1bc6157dc3db6d091667c7f92cfd87284560cc068b",
-   "drive_file_id": "1-HjfD2EZoSQ8C7UfIV0CrS5LYWZZvqlm",
-   "drive_url": "https://drive.google.com/file/d/1-HjfD2EZoSQ8C7UfIV0CrS5LYWZZvqlm/view",
-   "drive_folder": "livrables",
-   "local_copy": false
-  },
-  {
-   "path": "projet-darija/DRIVE.md",
-   "name": "LISEZ-MOI.md",
-   "size": 3389,
-   "md5": "d99a1f6d3ec425578961c1b1e9a00a1c",
-   "sha256": "50e018ee24356ed2b5f78ab8947dea906ee8bab171de60862f5fec0e226e3a0b",
-   "drive_file_id": "12nMuNJYsjgceWf5w-BK3P0IRfKgHAjfI",
-   "drive_url": "https://drive.google.com/file/d/12nMuNJYsjgceWf5w-BK3P0IRfKgHAjfI/view",
-   "drive_folder": "root",
-   "local_copy": true
-  },
-  {
-   "path": "projet-darija/manuel-arabe-algerien/raw/Manuel-arab-algerien-2-1.pdf",
-   "name": "Manuel-arab-algerien-2-1.pdf",
-   "size": 5084523,
-   "md5": "570ceaac0409ea0c5bf14f55e8b41420",
-   "sha256": "74afa9cb8701a077aadd5844adbc71531ea084c9b6000013860ac7a647147a8b",
-   "drive_file_id": "1bXpSfvxhQX8-OXYslycORo8lLceTvwc_",
-   "drive_url": "https://drive.google.com/file/d/1bXpSfvxhQX8-OXYslycORo8lLceTvwc_/view",
-   "drive_folder": "sources_manuel_tapiero",
-   "local_copy": false,
-   "ingested": true
-  },
-  {
-   "path": "projet-darija/manuel-arabe-algerien/raw/Manuel-arab-algerien-2-2.pdf",
-   "name": "Manuel-arab-algerien-2-2.pdf",
-   "size": 6273197,
-   "md5": "94d718634780f8a66f6c0c70b30c60be",
-   "sha256": "448c2a1e0b8c62f1e2429587316f4d2de34e3916604b372d1bd76ed1500cb995",
-   "drive_file_id": "1GrY8TrEhk3m9V6NTvoVnDJDf--1CbUP_",
-   "drive_url": "https://drive.google.com/file/d/1GrY8TrEhk3m9V6NTvoVnDJDf--1CbUP_/view",
-   "drive_folder": "sources_manuel_tapiero",
-   "local_copy": false,
-   "ingested": true
-  },
-  {
-   "path": "projet-darija/manuel-arabe-algerien/raw/Manuel-arab-algerien-2-3.pdf",
-   "name": "Manuel-arab-algerien-2-3.pdf",
-   "size": 3134296,
-   "md5": "c4b7d0907557bf3243be2564be387aa0",
-   "sha256": "1b2a5e1c90901a95021558ff6b5cbd1892fadae4e0a1db88820ad1bf0b503cf4",
-   "drive_file_id": "15vMAIawoEdgZ9xR_ms5XZ9yLDf_OMgcb",
-   "drive_url": "https://drive.google.com/file/d/15vMAIawoEdgZ9xR_ms5XZ9yLDf_OMgcb/view",
-   "drive_folder": "sources_manuel_tapiero",
-   "local_copy": false,
-   "ingested": true
-  },
-  {
-   "path": null,
-   "name": "Manuel-arab-algerien-3.pdf",
-   "size": 12202072,
-   "md5": "1782058a1a1bcb949fb8b8023474a052",
-   "drive_file_id": "1imJWKWtplzeUmvIJeScL-D9Z2-P--NQM",
-   "drive_url": "https://drive.google.com/file/d/1imJWKWtplzeUmvIJeScL-D9Z2-P--NQM/view",
-   "drive_folder": "sources_manuel_tapiero",
-   "local_copy": false,
-   "ingested": true
-  },
-  {
-   "path": null,
-   "name": "Manuel-arab-algerien-4.pdf",
-   "size": 10900199,
-   "md5": "8fb8903dfde56ce0eeb4408417ee0a01",
-   "drive_file_id": "1GiiQyFH3GCL9k-leam8QdicbAXr_mm5O",
-   "drive_url": "https://drive.google.com/file/d/1GiiQyFH3GCL9k-leam8QdicbAXr_mm5O/view",
-   "drive_folder": "sources_manuel_tapiero",
-   "local_copy": false,
-   "ingested": true
-  },
-  {
-   "path": null,
-   "name": "Manuel-arab-algerien-5.pdf",
-   "size": 5776806,
-   "md5": "0f3f89466afca1e4330aec2426811da5",
-   "drive_file_id": "1Y2CQ0LzvmtPGxEz4U2E0l9of3rlBSucz",
-   "drive_url": "https://drive.google.com/file/d/1Y2CQ0LzvmtPGxEz4U2E0l9of3rlBSucz/view",
-   "drive_folder": "sources_manuel_tapiero",
-   "local_copy": false,
-   "ingested": true
+  "trashed_duplicates": [
+    {
+      "id": "19j9ZnHRCtqDSVL5FphW97f-hwKe1FzEM",
+      "name": "01 - Sources PDF - Dictionnaire 1910",
+      "reason": "doublon du dossier utilisateur LIVRE ARABE DARIJA ALGERIENNE"
+    },
+    {
+      "id": "1br7-Tzr_dIH2p7VsalhIXdHN7_nC-SDl",
+      "name": "02 - Sources PDF - Manuel Tapiéro",
+      "reason": "doublon du dossier utilisateur DEUXIEME LIVRE DARIJA"
+    },
+    {
+      "id": "1abZdIS_073iGb3iBN2tQkgTM5KTit9Qe",
+      "name": "manuel.sqlite (version partie 01)",
+      "reason": "remplacé par la version parties 01+02"
+    },
+    {
+      "id": "1nCoUGAG1tcezzjAMo0oRaKbpbJSP341Y",
+      "name": "projet-darija-livrables-sauvegarde.zip (v1)",
+      "reason": "remplacé par la version à jour"
+    },
+    {
+      "id": "1tWrJ044Erj7dcowqtyQIJbKCIE0RX9Ap",
+      "name": "LISEZ-MOI.md (v1)",
+      "reason": "remplacé par la version à jour"
+    },
+    {
+      "id": "1v_ZCOChedoR1B1R768V9kbf9YSYvBGWG",
+      "name": "manuel.sqlite (version parties 01+02)",
+      "reason": "remplacé par la version parties 01+02+03"
+    },
+    {
+      "id": "1T7m8iURDCPQF5QrLAqMOQiO52d_gblg7",
+      "name": "projet-darija-livrables-sauvegarde.zip (v2)",
+      "reason": "remplacé par la version à jour (partie 03)"
+    },
+    {
+      "id": "1i5KhuReHvQRbaWsBGk9o4YDFVXSuae8N",
+      "name": "LISEZ-MOI.md (v2)",
+      "reason": "remplacé par la version à jour (partie 03)"
+    },
+    {
+      "id": "1iS9JaREPe2ZDEWoJOBRlue8zoZonTEhL",
+      "name": "manuel.sqlite (parties 01-03)",
+      "reason": "remplacé par version parties 01-04"
+    },
+    {
+      "id": "1J_vWcIiulfK6g7gmI0qLW6bt2_Oq6MbR",
+      "name": "livrables zip (v3)",
+      "reason": "remplacé par version partie 04"
+    },
+    {
+      "id": "1eUNytZSlQEQ5BIwAOEmn_-5xXP_CrW9-",
+      "name": "LISEZ-MOI.md (v3)",
+      "reason": "remplacé par version partie 04"
+    },
+    {
+      "id": "1VtqBibecyLxCmgnCLBM8MG-fh608aSyO",
+      "name": "manuel.sqlite (parties 01-04)",
+      "reason": "remplacé par version livre complet"
+    },
+    {
+      "id": "1-DmCLcNrXDzN9BW9FlOAEhLvi2XIiB2Y",
+      "name": "livrables zip (v4)",
+      "reason": "remplacé par version livre complet"
+    },
+    {
+      "id": "1HSPP-t5JC2SAGFnwQ_Uqq9Hy0pg0VWTa",
+      "name": "LISEZ-MOI.md (v4)",
+      "reason": "remplacé par version livre complet"
+    },
+    {
+      "id": "1l-W4pQw1R02LIPeJ5j17Yv7kyRsNtmhl",
+      "name": "manuel.sqlite (livre complet avant fusion)",
+      "reason": "remplacé par version fusion glossaires"
+    },
+    {
+      "id": "1nmqfLLeIyR04SVEogQ3FYZqUgOgNzJaR",
+      "name": "livrables zip (v5)",
+      "reason": "remplacé par version fusion glossaires"
+    },
+    {
+      "id": "1eKZVDri_iCw02vb3u65OYMLz5OK1dvEf",
+      "name": "LISEZ-MOI.md (v5)",
+      "reason": "remplacé par version fusion glossaires"
+    }
+  ],
+  "last_sync": "fusion glossaires->vocabulaire (passe de revue) synchronisée",
+  "book_complete_tapiero": true,
+  "fusion_glossaires_synced": true,
+  "skill_version": "1.10.0",
+  "cleanups": [
+    {
+      "date": "2026-11-15T21:58:13.763600+00:00",
+      "avant_octets": 235000000,
+      "apres_octets": null,
+      "supprimes": [
+        ".cache/pip (94M, cache pip)",
+        "audit-darijago/build-test (6M, build régénérable)",
+        "audit-darijago/npm-ci*.log",
+        "dictionnaire-livre/backups (8M, backup avant-partie-10 obsolète)",
+        "manuel-arabe-algerien/backups (2,2M, backups obsolètes)",
+        "skills/darija-algerienne-skill.zip (périmé v1.7)",
+        "DARIJAGO-corrige-2026-11-14.zip (5M, sur Drive + dossier local)",
+        "locutions-aziri/text/pages (1,9M, régénérable)",
+        "dictionnaire-livre/exports/*-brut.* (9,3M, doublon SQLite)"
+      ],
+      "conserves": [
+        "11 PDF canoniques raw/ (vérifiés SHA sur Drive)",
+        "4 bases SQLite + backup récent avant-scan-complet",
+        "exports masters 'actif' CSV+JSON",
+        "25 scripts",
+        "8 rapports README/INTEGRATION",
+        "textes OCR et extractions JSONL"
+      ]
+    },
+    {
+      "date": "2026-11-15T22:01:21.305912+00:00",
+      "etape": "suppression des PDF sources après sauvegarde Drive vérifiée",
+      "pdf_supprimes": 14,
+      "octets_liberes": 53900000,
+      " verification": "MD5 comparé un par un au retour de l API Drive (14/14 identiques)",
+      "pdf_ajoutes_a_drive_avant_suppression": 3
+    }
+  ],
+  "restauration_pdf": {
+    "date": "2026-11-15",
+    "pourquoi": "Réduction du volume workspace. Les 14 PDF sources (53,9 Mo) ont été supprimés après vérification MD5 un par un contre Drive.",
+    "comment": "Google Drive → APPLICATION DARIJAGO → « 03 - Sources PDF (sauvegarde complète) » pour AZIRI/Tadjier/Tapiéro-1978 ; « LIVRE ARABE DARIJA ALGERIEN » pour le 1910 ; « DEUXIEME LIVRE DARIJA » pour Tapiéro partie 01. Télécharger puis replacer au chemin local_path, et vérifier le MD5.",
+    "fichiers": [
+      {
+        "local_path": "projet-darija/dictionnaire-livre/raw/partie-01.pdf",
+        "drive_file_id": "1Z1HHfSPFrKVaH-fclGBumldBifR2y5dt",
+        "md5": "727bb983a773b656946876d161cb2488",
+        "name": "partie-01.pdf"
+      },
+      {
+        "local_path": "projet-darija/dictionnaire-livre/raw/partie-02.pdf",
+        "drive_file_id": "1qyd9bUPycn4Gi_d3isyYOeh2SmWKi3qz",
+        "md5": "4f969121fae52c4c72b154acb434d773",
+        "name": "partie-02.pdf"
+      },
+      {
+        "local_path": "projet-darija/dictionnaire-livre/raw/partie-03.pdf",
+        "drive_file_id": "1ev27kqUmRQRYoa-yDHLvH8sw7dNEvwju",
+        "md5": "785c637d4ae65cc587d310eea0ac036b",
+        "name": "partie-03.pdf"
+      },
+      {
+        "local_path": "projet-darija/dictionnaire-livre/raw/partie-04.pdf",
+        "drive_file_id": "1GEKIZpS8gWqVNaAiGj-BF8J4_r6JZt-3",
+        "md5": "e0912fa314219d3546d7b1d91f6b5f2a",
+        "name": "partie-04.pdf"
+      },
+      {
+        "local_path": "projet-darija/dictionnaire-livre/raw/partie-05.pdf",
+        "drive_file_id": "1mmOMDA5Xv-COdzZHftHCfTNjjObp58z4",
+        "md5": "8913cdd39293511748819ac91b49276e",
+        "name": "partie-05.pdf"
+      },
+      {
+        "local_path": "projet-darija/dictionnaire-livre/raw/partie-06.pdf",
+        "drive_file_id": "1tmkLb4qOWadS0nr_mApSg8vabk5N1r5n",
+        "md5": "fc209301ae8181b8218ac6fba62ec2b7",
+        "name": "partie-06.pdf"
+      },
+      {
+        "local_path": "projet-darija/dictionnaire-livre/raw/partie-07.pdf",
+        "drive_file_id": "1anSlzL0PBFPypaVyt6ca7vzQj_zMVuif",
+        "md5": "0088ea6da8fafec26bcc22f74c20f6af",
+        "name": "partie-07.pdf"
+      },
+      {
+        "local_path": "projet-darija/dictionnaire-livre/raw/partie-08.pdf",
+        "drive_file_id": "1Lx5sdeWgHSmmO4Fxlb0NV0NeMn6R2r7T",
+        "md5": "033a594d6c5677be181b9b83df6d366c",
+        "name": "partie-08.pdf"
+      },
+      {
+        "local_path": "projet-darija/dictionnaire-livre/raw/partie-09.pdf",
+        "drive_file_id": "1bWYKTrnMea-OWX9iX-qOnYLI6igIRmnF",
+        "md5": "4e88f4c10029f97a8fb94ff0bb7ba27b",
+        "name": "partie-09.pdf"
+      },
+      {
+        "local_path": "projet-darija/dictionnaire-livre/raw/partie-10.pdf",
+        "drive_file_id": "1CqsLlYf91oMOtkehzck12WyCFGOo-rRi",
+        "md5": "c03ba584880cc75bb0ffa12ed0abc043",
+        "name": "partie-10.pdf"
+      },
+      {
+        "local_path": "projet-darija/manuel-arabe-algerien/raw/partie-01.pdf",
+        "drive_file_id": "17W7t4D139ahyK8eJ35vrfGh1Osnjs083",
+        "md5": "575356481c506b7561c3adfe8aa7593e",
+        "name": "partie-01.pdf"
+      },
+      {
+        "local_path": "projet-darija/lexiques-tadjer/raw/lexiques-tadjer-2010-2012.pdf",
+        "drive_file_id": "1rg_6KfRc-EYbdJsteS5KHAXDRL47E1aP",
+        "md5": "00e125b52c6ed8adeefcffcd95f4c6e2",
+        "name": "lexiques-tadjer-2010-2012.pdf"
+      },
+      {
+        "local_path": "projet-darija/locutions-aziri/raw/locutions-aziri-2012.pdf",
+        "drive_file_id": "1L4uIlqUai92XMMqr6RypJFGI-F1fx-00",
+        "md5": "89c1be71d2da0c9b30ab9873fa908f85",
+        "name": "locutions-aziri-2012.pdf"
+      },
+      {
+        "local_path": "projet-darija/manuel-arabe-algerien/scan-complet-2023/raw/tapiero-manuel-complet-1978.pdf",
+        "drive_file_id": "1Gqt96Vsmz69SIsR6qk-D2LWBKAlhR7cD",
+        "md5": "66e76f975e6e257d9dde7372fbd67b95",
+        "name": "tapiero-manuel-complet-1978.pdf"
+      }
+    ]
   }
- ],
- "readme_drive_file_id": "1tWrJ044Erj7dcowqtyQIJbKCIE0RX9Ap",
- "folder_names": {
-  "bases": "01 - Bases de données",
-  "livrables": "02 - Livrables et rapports",
-  "sources_dictionnaire_1910": "LIVRE ARABE DARIJA ALGERIENNE (dossier utilisateur)",
-  "sources_manuel_tapiero": "DEUXIEME LIVRE DARIJA (dossier utilisateur)"
- },
- "trashed_duplicates": [
-  {
-   "id": "19j9ZnHRCtqDSVL5FphW97f-hwKe1FzEM",
-   "name": "01 - Sources PDF - Dictionnaire 1910",
-   "reason": "doublon du dossier utilisateur LIVRE ARABE DARIJA ALGERIENNE"
-  },
-  {
-   "id": "1br7-Tzr_dIH2p7VsalhIXdHN7_nC-SDl",
-   "name": "02 - Sources PDF - Manuel Tapiéro",
-   "reason": "doublon du dossier utilisateur DEUXIEME LIVRE DARIJA"
-  },
-  {
-   "id": "1abZdIS_073iGb3iBN2tQkgTM5KTit9Qe",
-   "name": "manuel.sqlite (version partie 01)",
-   "reason": "remplacé par la version parties 01+02"
-  },
-  {
-   "id": "1nCoUGAG1tcezzjAMo0oRaKbpbJSP341Y",
-   "name": "projet-darija-livrables-sauvegarde.zip (v1)",
-   "reason": "remplacé par la version à jour"
-  },
-  {
-   "id": "1tWrJ044Erj7dcowqtyQIJbKCIE0RX9Ap",
-   "name": "LISEZ-MOI.md (v1)",
-   "reason": "remplacé par la version à jour"
-  },
-  {
-   "id": "1v_ZCOChedoR1B1R768V9kbf9YSYvBGWG",
-   "name": "manuel.sqlite (version parties 01+02)",
-   "reason": "remplacé par la version parties 01+02+03"
-  },
-  {
-   "id": "1T7m8iURDCPQF5QrLAqMOQiO52d_gblg7",
-   "name": "projet-darija-livrables-sauvegarde.zip (v2)",
-   "reason": "remplacé par la version à jour (partie 03)"
-  },
-  {
-   "id": "1i5KhuReHvQRbaWsBGk9o4YDFVXSuae8N",
-   "name": "LISEZ-MOI.md (v2)",
-   "reason": "remplacé par la version à jour (partie 03)"
-  },
-  {
-   "id": "1iS9JaREPe2ZDEWoJOBRlue8zoZonTEhL",
-   "name": "manuel.sqlite (parties 01-03)",
-   "reason": "remplacé par version parties 01-04"
-  },
-  {
-   "id": "1J_vWcIiulfK6g7gmI0qLW6bt2_Oq6MbR",
-   "name": "livrables zip (v3)",
-   "reason": "remplacé par version partie 04"
-  },
-  {
-   "id": "1eUNytZSlQEQ5BIwAOEmn_-5xXP_CrW9-",
-   "name": "LISEZ-MOI.md (v3)",
-   "reason": "remplacé par version partie 04"
-  },
-  {
-   "id": "1VtqBibecyLxCmgnCLBM8MG-fh608aSyO",
-   "name": "manuel.sqlite (parties 01-04)",
-   "reason": "remplacé par version livre complet"
-  },
-  {
-   "id": "1-DmCLcNrXDzN9BW9FlOAEhLvi2XIiB2Y",
-   "name": "livrables zip (v4)",
-   "reason": "remplacé par version livre complet"
-  },
-  {
-   "id": "1HSPP-t5JC2SAGFnwQ_Uqq9Hy0pg0VWTa",
-   "name": "LISEZ-MOI.md (v4)",
-   "reason": "remplacé par version livre complet"
-  },
-  {
-   "id": "1l-W4pQw1R02LIPeJ5j17Yv7kyRsNtmhl",
-   "name": "manuel.sqlite (livre complet avant fusion)",
-   "reason": "remplacé par version fusion glossaires"
-  },
-  {
-   "id": "1nmqfLLeIyR04SVEogQ3FYZqUgOgNzJaR",
-   "name": "livrables zip (v5)",
-   "reason": "remplacé par version fusion glossaires"
-  },
-  {
-   "id": "1eKZVDri_iCw02vb3u65OYMLz5OK1dvEf",
-   "name": "LISEZ-MOI.md (v5)",
-   "reason": "remplacé par version fusion glossaires"
-  }
- ],
- "last_sync": "fusion glossaires->vocabulaire (passe de revue) synchronisée",
- "book_complete_tapiero": true,
- "fusion_glossaires_synced": true
 }

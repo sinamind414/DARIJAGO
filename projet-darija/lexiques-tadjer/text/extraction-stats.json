@@ -1,0 +1,62 @@
+{
+  "extractor": "tadjer-lexiques-10.0.0",
+  "pdf_pages": 44,
+  "entrees_uniques": 1707,
+  "sections_couvertes": 22,
+  "par_section": {
+    "verbes-273": 229,
+    "adjectifs": 73,
+    "noms-courants": 297,
+    "possessifs": 23,
+    "medical": 266,
+    "corps-humain": 65,
+    "epices-herbes": 53,
+    "cuisine-pratique": 35,
+    "kouzina": 53,
+    "plantes": 116,
+    "hchayech": 26,
+    "terre": 37,
+    "montagne": 40,
+    "hotel-camping": 48,
+    "marine": 62,
+    "mecanique": 50,
+    "velo-electrique": 23,
+    "algamoos-haddar": 60,
+    "algerois-belda": 105,
+    "expressions": 49,
+    "lezards": 6,
+    "monnaie": 19
+  },
+  "variantes_total": 2230,
+  "avec_arabe": 1356,
+  "avec_latin": 1639,
+  "recits": {
+    "conte-serdouk": {
+      "pages": [
+        42
+      ],
+      "lignes": 29
+    },
+    "conte-sidi-bimol": {
+      "pages": [
+        43,
+        44
+      ],
+      "lignes": 102
+    }
+  },
+  "controles": {
+    "corps_rempli_apres_numero_seul": 6,
+    "doublons_uid": 28,
+    "entrees": 1735,
+    "flag_arabe_source_a_verifier": 1356,
+    "flag_aucune_variante": 38,
+    "flag_continuation_a_verifier": 300,
+    "flag_sans_arabe": 313,
+    "flag_sans_latin": 30,
+    "flag_terme_fr_manquant": 10,
+    "fr_recupere_dz_first": 31,
+    "lignes_continuation": 403,
+    "lignes_ignorees": 87
+  }
+}

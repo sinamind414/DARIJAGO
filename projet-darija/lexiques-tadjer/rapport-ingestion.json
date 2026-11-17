@@ -1,0 +1,46 @@
+{
+  "base": "/home/user/projet-darija/lexiques-tadjer/db/lexiques.sqlite",
+  "source": "tadjer-lexiques-2010-2012",
+  "sha256": "50cdfdbb79112119…",
+  "nouvelles_entrees": 0,
+  "nouvelles_variantes": 0,
+  "total_entrees": 1707,
+  "total_variantes": 2230,
+  "sections": 22,
+  "recits": 2,
+  "avec_latin": 1639,
+  "avec_arabe": 1356,
+  "statuts": {
+    "needs_review": 1707
+  },
+  "review_tasks": 1707,
+  "par_theme": {
+    "noms": 297,
+    "santé": 266,
+    "verbes": 229,
+    "nature": 185,
+    "registre_algérois": 165,
+    "cuisine": 141,
+    "voyage": 88,
+    "technique": 73,
+    "adjectifs": 73,
+    "corps": 65,
+    "conversation": 49,
+    "transport": 34,
+    "grammaire": 23,
+    "société": 19
+  },
+  "integrity_check": "ok",
+  "fts_test": [
+    [
+      "manger"
+    ],
+    [
+      "Haffagâ"
+    ],
+    [
+      "bit el ɛawla -"
+    ]
+  ],
+  "bytes": 1290240
+}
