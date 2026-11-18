@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>darijaGO — Comité de relecture native</title>
+<style>
+  :root{--f:#f7f5ef;--c:#fff;--e:#23201c;--v:#4e6231;--o:#8e5b1e;--b:#e4dfd2}
+  *{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,sans-serif;background:var(--f);color:var(--e)}
+  header{background:#23201c;color:#fff;padding:14px 22px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+  header h1{font-size:16px;margin:0}.stats{display:flex;gap:16px;font-size:13px}.stats b{font-size:16px}
+  .wrap{display:grid;grid-template-columns:240px minmax(0,1fr);gap:18px;padding:18px;max-width:1400px;margin:auto}
+  @media(max-width:850px){.wrap{grid-template-columns:1fr}}
+  .carte{background:var(--c);border:1px solid var(--b);border-radius:14px;padding:18px}
+  select,input,textarea{font:inherit;padding:7px 9px;border:1px solid var(--b);border-radius:8px;width:100%}
+  textarea{min-height:46px;resize:vertical}label{display:block;font-size:12px;font-weight:600;color:#686259;margin:9px 0 3px}
+  .liste{max-height:80vh;overflow:auto}.liste button{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid var(--b);background:none;padding:9px;font-weight:500;cursor:pointer}
+  .liste button.actif{background:#eef2e8}.badge{font-size:11px;padding:2px 7px;border-radius:99px;font-weight:700}
+  .needs_review{background:#f5f1e8;color:var(--o)}.app_ready{background:#e6f1dc;color:var(--v)}
+  .arabe{font-size:24px;background:#faf8f3;border:1px solid var(--b);border-radius:10px;padding:12px;margin:8px 0}
+  .latin{font-size:16px;color:#4e6231;font-weight:600}.actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
+  button.act{padding:9px 14px;border-radius:9px;border:1px solid var(--b);background:#fff;font-weight:700;cursor:pointer}
+  button.ok{background:var(--v);color:#fff;border-color:var(--v)}button.no{color:#a33}
+  .regles{font-size:12px;background:#fff6e6;border:1px solid #e8cf9c;border-radius:9px;padding:10px;margin-bottom:14px}
+  .votes{font-size:12px;color:#686259;margin-top:10px}.vdot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px}
+  .v-ok{background:var(--v)}.v-no{background:#a33}
+</style>
+</head>
+<body>
+<header>
+  <h1>🇩🇿 darijaGO — Comité de relecture native</h1>
+  <div class="stats" id="stats"></div>
+</header>
+<div class="wrap">
+  <div class="carte">
+    <label>Relecteur (région)</label>
+    <select id="reviewer"></select>
+    <label>Filtrer</label>
+    <select id="filtre">
+      <option value="">Tous</option><option value="phrase">Phrases (42)</option>
+      <option value="dialogue">Dialogues (16)</option><option value="grammar">Grammaire (15)</option>
+      <option value="needs_review">À valider</option><option value="app_ready">Validés</option>
+    </select>
+    <div class="liste" id="liste" style="margin-top:10px"></div>
+  </div>
+  <div class="carte">
+    <div class="regles"><b>Règle :</b> un contenu passe <code>app_ready</code> dès que <b>2 relecteurs de régions différentes</b> valident. 4 régions : Alger · Oran · Constantine · Sud.</div>
+    <div id="detail"></div>
+  </div>
+</div>
+<script>
+let items=[], reviewers=[], idx=0;
+const $=s=>document.querySelector(s);
+const ech=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+async function charger(){
+  const [r,i]=await Promise.all([fetch('/api/reviewers').then(x=>x.json()),fetch('/api/items').then(x=>x.json())]);
+  reviewers=r.reviewers; items=i.items;
+  if(!$('#reviewer').value) $('#reviewer').innerHTML=reviewers.map(x=>`<option value="${x.reviewer_id}">${ech(x.region)} — ${ech(x.nom)}</option>`).join('');
+  const ok=items.filter(x=>x.status==='app_ready').length;
+  $('#stats').innerHTML=`<span>📋 <b>${items.length}</b> contenus</span><span>🟢 <b>${ok}</b> validés</span><span>🟠 <b>${items.length-ok}</b> à revoir</span>`;
+  filtrer();
+}
+function filtrer(){
+  const f=$('#filtre').value;
+  items=items.map((x,i)=>({...x,_i:i}));
+  const vis=items.filter(x=>!f||x.type===f||x.status===f);
+  $('#liste').innerHTML=vis.map((x,j)=>`<button class="${j===idx?'actif':''}" data-i="${x._i}"><span class="ligne"><span>${ech(x.arabic||x.latin||'').slice(0,40)}</span><span class="badge ${x.status}">${x.nb_valides}/2</span></span><small>${ech(x.type)} · ${ech(x.source)}</small></button>`).join('');
+  $('#liste').querySelectorAll('button').forEach(b=>b.onclick=()=>{idx=+b.dataset.i;rendre();});
+  rendre();
+}
+function rendre(){
+  const x=items[idx]; if(!x)return;
+  const mon=x.votes.find(v=>v.reviewer_id===$('#reviewer').value);
+  const rv=reviewers.find(r=>r.reviewer_id===$('#reviewer').value);
+  $('#detail').innerHTML=`
+    <div style="display:flex;gap:10px;align-items:center"><span class="badge ${x.status}">${x.status}</span><b>${ech(x.type)}</b><small>${ech(x.source)}</small><span style="margin-left:auto;color:#686259">${x.nb_valides}/2 régions</span></div>
+    <div class="arabe" dir="auto">${ech(x.arabic)}</div>
+    <div class="latin">${ech(x.latin)}</div>
+    <p style="color:#686259">${ech(x.french)}</p>
+    ${x.note?`<p style="font-size:12px;background:#f5f1e8;padding:8px;border-radius:8px">${ech(x.note)}</p>`:''}
+    <label>Arabe corrigé (si besoin)</label><textarea id="ar_corrige" dir="auto">${ech(mon?.ar_corrige||'')}</textarea>
+    <label>Note régionale (${ech(rv?.region)})</label><input id="note_regionale" value="${ech(mon?.note_regionale||'')}">
+    <div class="actions">
+      <button class="act ok" data-v="valide">✓ Valide</button>
+      <button class="act" data-v="valide_avec_correction">✓ Corrigé</button>
+      <button class="act" data-v="a_revoir">↻ À revoir</button>
+      <button class="act no" data-v="rejete">✗ Rejette</button>
+    </div>
+    <div class="votes">Votes : ${x.votes.map(v=>{const r=reviewers.find(y=>y.reviewer_id==v.reviewer_id);return `<span><span class="vdot ${v.verdict.startsWith('valide')?'v-ok':'v-no'}"></span>${ech(r?.region)}:${ech(v.verdict)}</span>`}).join(' · ')||'aucun'}</div>`;
+  $('#detail').querySelectorAll('button[data-v]').forEach(b=>b.onclick=()=>vote(x,b.dataset.v));
+}
+async function vote(x,verdict){
+  const corps={item_id:x.item_id,reviewer_id:+$('#reviewer').value,verdict,
+    ar_corrige:$('#ar_corrige').value,note_regionale:$('#note_regionale').value};
+  const r=await fetch('/api/vote',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(corps)}).then(x=>x.json());
+  if(!r.ok){alert('Erreur: '+r.error);return;}
+  const orig=items.find(y=>y.item_id===x.item_id); orig.status=r.status; orig.nb_valides=r.nb_regions_valides;
+  await charger();
+}
+$('#reviewer').onchange=rendre;$('#filtre').onchange=()=>{idx=0;filtrer();};
+charger();
+</script>
+</body>
+</html>

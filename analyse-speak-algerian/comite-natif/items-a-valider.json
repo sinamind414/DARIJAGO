@@ -1,0 +1,663 @@
+{
+  "version": 1,
+  "total": 73,
+  "items": [
+    {
+      "id": "phrase-01-sal-1",
+      "type": "phrase",
+      "source": "Module 01",
+      "arabic": "السلام عليكم، واش راك؟",
+      "latin": "Salam alikoum, wach rak?",
+      "french": "Bonjour, comment vas-tu ?",
+      "note": ""
+    },
+    {
+      "id": "phrase-01-sal-2",
+      "type": "phrase",
+      "source": "Module 01",
+      "arabic": "لاباس، الحمد لله. و نتا؟",
+      "latin": "Labès, el hamdoullah. W nta?",
+      "french": "Ça va bien, merci Dieu. Et toi ?",
+      "note": ""
+    },
+    {
+      "id": "phrase-01-sal-3",
+      "type": "phrase",
+      "source": "Module 01",
+      "arabic": "صباح الخير، صباح النور",
+      "latin": "Sba7 el khir, sba7 el nour",
+      "french": "Bonjour (le matin) — Bonjour lumineux (réponse)",
+      "note": ""
+    },
+    {
+      "id": "phrase-01-sal-4",
+      "type": "phrase",
+      "source": "Module 01",
+      "arabic": "صحيت، يعطيك الصحة",
+      "latin": "Sahit, ya3tik essa7a",
+      "french": "Merci, bon courage / que Dieu te donne la santé",
+      "note": ""
+    },
+    {
+      "id": "phrase-01-sal-5",
+      "type": "phrase",
+      "source": "Module 01",
+      "arabic": "سماحلي خويا، معليش؟",
+      "latin": "Sma7li khouya, ma3lich?",
+      "french": "Excuse-moi mon frère, est-ce que ça va / pardon ?",
+      "note": ""
+    },
+    {
+      "id": "phrase-01-sal-6",
+      "type": "phrase",
+      "source": "Module 01",
+      "arabic": "بسلامة، في أمان الله",
+      "latin": "Beslama, fi aman Allah",
+      "french": "Au revoir, porte-toi bien",
+      "note": ""
+    },
+    {
+      "id": "phrase-02-pres-1",
+      "type": "phrase",
+      "source": "Module 02",
+      "arabic": "واش اسمك؟ أنا اسمي كريم",
+      "latin": "Wach ismek? Ana ismi Karim",
+      "french": "Comment tu t’appelles ? Je m’appelle Karim",
+      "note": ""
+    },
+    {
+      "id": "phrase-02-pres-2",
+      "type": "phrase",
+      "source": "Module 02",
+      "arabic": "منين نتا؟ أنا من دزاير",
+      "latin": "Menin nta? Ana men Dzayer",
+      "french": "D’où viens-tu ? Je viens d’Alger / d’Algérie",
+      "note": ""
+    },
+    {
+      "id": "phrase-02-pres-3",
+      "type": "phrase",
+      "source": "Module 02",
+      "arabic": "متشرفين بزاف!",
+      "latin": "Metcharfin bezzaf!",
+      "french": "Ravi(e) de faire ta connaissance !",
+      "note": ""
+    },
+    {
+      "id": "phrase-02-pres-4",
+      "type": "phrase",
+      "source": "Module 02",
+      "arabic": "هادي دارنا، مرحبا بيكم",
+      "latin": "Hadi darna, mar7ba bikoum",
+      "french": "Voici notre maison, soyez les bienvenus",
+      "note": ""
+    },
+    {
+      "id": "phrase-02-pres-5",
+      "type": "phrase",
+      "source": "Module 02",
+      "arabic": "يما و بابا راهم في الدار",
+      "latin": "Yemma w baba rahoum fi dar",
+      "french": "Maman et papa sont à la maison",
+      "note": ""
+    },
+    {
+      "id": "phrase-02-pres-6",
+      "type": "phrase",
+      "source": "Module 02",
+      "arabic": "عندي زوج خوتي و ختي صغيرة",
+      "latin": "3andi zouj khouti w khti sghira",
+      "french": "J’ai deux frères et une petite sœur",
+      "note": ""
+    },
+    {
+      "id": "phrase-03-cafe-1",
+      "type": "phrase",
+      "source": "Module 03",
+      "arabic": "اعطيني قهوة نص نص، تعيش",
+      "latin": "A3tini qahwa noss-noss, ta3ich",
+      "french": "Donne-moi un café crème (moitié café, moitié lait), s’il te plaît",
+      "note": ""
+    },
+    {
+      "id": "phrase-03-cafe-2",
+      "type": "phrase",
+      "source": "Module 03",
+      "arabic": "بغيت كاس أتاي بالنعناع",
+      "latin": "Bghit kas atay b na3na3",
+      "french": "Je voudrais un verre de thé à la menthe",
+      "note": ""
+    },
+    {
+      "id": "phrase-03-cafe-3",
+      "type": "phrase",
+      "source": "Module 03",
+      "arabic": "هاد الماكلة بنينة بزاف!",
+      "latin": "Had el makla bnina bezzaf!",
+      "french": "Ce plat est vraiment délicieux !",
+      "note": ""
+    },
+    {
+      "id": "phrase-03-cafe-4",
+      "type": "phrase",
+      "source": "Module 03",
+      "arabic": "بصحتك! — الله يسلمك",
+      "latin": "Bsa7tek! — Allah ysalmek",
+      "french": "Bon appétit / Profite bien ! — Merci (Que Dieu te préserve)",
+      "note": ""
+    },
+    {
+      "id": "phrase-03-cafe-5",
+      "type": "phrase",
+      "source": "Module 03",
+      "arabic": "جيبلي الما بارد، من فضلك",
+      "latin": "Jibli el ma bared, men fadlek",
+      "french": "Apporte-moi de l’eau fraîche, s’il te plaît",
+      "note": ""
+    },
+    {
+      "id": "phrase-03-cafe-6",
+      "type": "phrase",
+      "source": "Module 03",
+      "arabic": "شحال الحساب خويا؟",
+      "latin": "Ch7al el 7sab khouya?",
+      "french": "C’est combien l’addition, mon frère ?",
+      "note": ""
+    },
+    {
+      "id": "phrase-04-mar-1",
+      "type": "phrase",
+      "source": "Module 04",
+      "arabic": "بشحال هذا؟ — غالية شوية",
+      "latin": "Bch7al hada? — Ghalya chwiya",
+      "french": "Combien coûte ceci ? — C’est un peu cher",
+      "note": ""
+    },
+    {
+      "id": "phrase-04-mar-2",
+      "type": "phrase",
+      "source": "Module 04",
+      "arabic": "نقصلي شوية، راني زبون!",
+      "latin": "Naqasli chwiya, rani zbon!",
+      "french": "Baisse-moi un peu le prix, je suis un client fidèle !",
+      "note": ""
+    },
+    {
+      "id": "phrase-04-mar-3",
+      "type": "phrase",
+      "source": "Module 04",
+      "arabic": "وين جا السوق، تعيش؟",
+      "latin": "Win ja el souk, ta3ich?",
+      "french": "Où se trouve le marché, s’il te plaît ?",
+      "note": ""
+    },
+    {
+      "id": "phrase-04-mar-4",
+      "type": "phrase",
+      "source": "Module 04",
+      "arabic": "روح قبالة، من بعد دور على اليمين",
+      "latin": "Rou7 qbala, men ba3d dour 3la limin",
+      "french": "Va tout droit, ensuite tourne à droite",
+      "note": ""
+    },
+    {
+      "id": "phrase-04-mar-5",
+      "type": "phrase",
+      "source": "Module 04",
+      "arabic": "هنا قريب، ولا بعيد بزاف؟",
+      "latin": "Hna qrib, wella b3id bezzaf?",
+      "french": "C’est tout près d’ici, ou très loin ?",
+      "note": ""
+    },
+    {
+      "id": "phrase-04-mar-6",
+      "type": "phrase",
+      "source": "Module 04",
+      "arabic": "هبطني هنا تعيش",
+      "latin": "Habatni hna ta3ich",
+      "french": "Dépose-moi ici s’il te plaît (en taxi / bus)",
+      "note": ""
+    },
+    {
+      "id": "phrase-05-quot-1",
+      "type": "phrase",
+      "source": "Module 05",
+      "arabic": "كاين / ماكانش",
+      "latin": "Kayen / Ma kanche",
+      "french": "Il y a / Il n’y a pas",
+      "note": ""
+    },
+    {
+      "id": "phrase-05-quot-2",
+      "type": "phrase",
+      "source": "Module 05",
+      "arabic": "معليش، كلشي يجيب ربي",
+      "latin": "Ma3lich, kolchi yjib rabi",
+      "french": "Ce n’est pas grave, tout finira par s’arranger",
+      "note": ""
+    },
+    {
+      "id": "phrase-05-quot-3",
+      "type": "phrase",
+      "source": "Module 05",
+      "arabic": "واش كاين جديد اليوم؟",
+      "latin": "Wach kayen jdid el youm?",
+      "french": "Quoi de neuf aujourd’hui ?",
+      "note": ""
+    },
+    {
+      "id": "phrase-05-quot-4",
+      "type": "phrase",
+      "source": "Module 05",
+      "arabic": "دوكا راني جاي، صبر شوية",
+      "latin": "Doka rani jay, sabar chwiya",
+      "french": "J’arrive tout de suite, patiente un peu",
+      "note": ""
+    },
+    {
+      "id": "phrase-05-quot-5",
+      "type": "phrase",
+      "source": "Module 05",
+      "arabic": "والله غير صح، عندك الحق",
+      "latin": "Wallah ghir sah, 3andek el 7a9",
+      "french": "Vraiment c’est vrai, tu as tout à fait raison",
+      "note": ""
+    },
+    {
+      "id": "phrase-05-quot-6",
+      "type": "phrase",
+      "source": "Module 05",
+      "arabic": "إن شاء الله غدوة نتلاقاو",
+      "latin": "Nchallah ghodwa netlaqaw",
+      "french": "Si Dieu le veut, on se retrouve demain",
+      "note": ""
+    },
+    {
+      "id": "phrase-06-verb-1",
+      "type": "phrase",
+      "source": "Module 06",
+      "arabic": "ما فهمتش، هدر بشوية تعيش",
+      "latin": "Ma fhamtche, hder b chwiya ta3ich",
+      "french": "Je n’ai pas compris, parle lentement s’il te plaît",
+      "note": ""
+    },
+    {
+      "id": "phrase-06-verb-2",
+      "type": "phrase",
+      "source": "Module 06",
+      "arabic": "راني نتعلم نهدر الدارجة",
+      "latin": "Rani net3alem nahder el darija",
+      "french": "Je suis en train d’apprendre à parler la darija",
+      "note": ""
+    },
+    {
+      "id": "phrase-06-verb-3",
+      "type": "phrase",
+      "source": "Module 06",
+      "arabic": "شنو هذا بالدارجة؟",
+      "latin": "Chnou hada b el darija?",
+      "french": "Qu’est-ce que c’est en darija ?",
+      "note": ""
+    },
+    {
+      "id": "phrase-06-verb-4",
+      "type": "phrase",
+      "source": "Module 06",
+      "arabic": "راني رايح للخدمة",
+      "latin": "Rani raye7 l’el khadma",
+      "french": "Je vais au travail",
+      "note": ""
+    },
+    {
+      "id": "phrase-06-verb-5",
+      "type": "phrase",
+      "source": "Module 06",
+      "arabic": "نعرف شوية، بصح مازال",
+      "latin": "Na3ref chwiya, bessa7 mazal",
+      "french": "Je sais un peu, mais il me reste encore à apprendre",
+      "note": ""
+    },
+    {
+      "id": "phrase-06-verb-6",
+      "type": "phrase",
+      "source": "Module 06",
+      "arabic": "عاودلي هاد الكلمة من فضلك",
+      "latin": "3awdli had el kelma men fadlek",
+      "french": "Répète-moi ce mot s’il te plaît",
+      "note": ""
+    },
+    {
+      "id": "phrase-07-bs7-1",
+      "type": "phrase",
+      "source": "Module 07",
+      "arabic": "نشري الخبز، شريت الحليب",
+      "latin": "Nechri el-khobz, chrit el-h’alib",
+      "french": "J’achète le pain, j’ai acheté le lait",
+      "note": ""
+    },
+    {
+      "id": "phrase-07-bs7-2",
+      "type": "phrase",
+      "source": "Module 07",
+      "arabic": "عاوني في هاد الحاجة، صاحبي",
+      "latin": "Âouenni fi had’ el-h’aja, s’ah’bi",
+      "french": "Aide-moi dans cette affaire, mon ami",
+      "note": ""
+    },
+    {
+      "id": "phrase-07-bs7-3",
+      "type": "phrase",
+      "source": "Module 07",
+      "arabic": "امشي بالسلامة، ابقى على خير",
+      "latin": "Emchi besselama, abqa âla kheir",
+      "french": "Va en paix — Reste dans le bien (au revoir)",
+      "note": ""
+    },
+    {
+      "id": "phrase-07-bs7-4",
+      "type": "phrase",
+      "source": "Module 07",
+      "arabic": "علاش جيت بكري؟ باش نتعلّم",
+      "latin": "Âlach jit bekri ? Bach netâllem",
+      "french": "Pourquoi es-tu venu tôt ? Pour apprendre",
+      "note": ""
+    },
+    {
+      "id": "phrase-07-bs7-5",
+      "type": "phrase",
+      "source": "Module 07",
+      "arabic": "قدّاش في عمرك؟ عندي عشرين سنة",
+      "latin": "Qeddach fi omrek ? Ândi âchrin sna",
+      "french": "Quel âge as-tu ? J’ai vingt ans",
+      "note": ""
+    },
+    {
+      "id": "phrase-07-bs7-6",
+      "type": "phrase",
+      "source": "Module 07",
+      "arabic": "من ينّار للربيع، الحال مليح",
+      "latin": "Men iennar l’er-rbiâ, el-h’al mlih’",
+      "french": "De janvier au printemps, le temps est agréable",
+      "note": ""
+    },
+    {
+      "id": "dialogue-cafe-alger-0",
+      "type": "dialogue",
+      "source": "Au café à Alger",
+      "arabic": "السلام خويا، مرحبا بيك! واش تشرب اليوم؟",
+      "latin": "Salam khouya, mar7ba bik! Wach tcharab el youm?",
+      "french": "Bonjour mon frère, bienvenue ! Qu’est-ce que tu bois aujourd’hui ?",
+      "note": "Réponds en saluant Amine ou en commandant avec « Bghit... » ou « A3tini... »."
+    },
+    {
+      "id": "dialogue-cafe-alger-1",
+      "type": "dialogue",
+      "source": "Au café à Alger",
+      "arabic": "لاباس صحيت! اعطيني قهوة نص نص، تعيش.",
+      "latin": "Labès sahit! A3tini qahwa noss-noss, ta3ich.",
+      "french": "Ça va merci ! Donne-moi un café crème s’il te plaît.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-cafe-alger-2",
+      "type": "dialogue",
+      "source": "Au café à Alger",
+      "arabic": "صباح الخير! بغيت كاس أتاي بالنعناع.",
+      "latin": "Sba7 el khir! Bghit kas atay b na3na3.",
+      "french": "Bonjour ! Je voudrais un verre de thé à la menthe.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-cafe-alger-3",
+      "type": "dialogue",
+      "source": "Au café à Alger",
+      "arabic": "شحال الحساب خويا؟ يعطيك الصحة.",
+      "latin": "Ch7al el 7sab khouya? Ya3tik essa7a.",
+      "french": "C’est combien l’addition mon frère ? Merci bien.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-marche-bab-0",
+      "type": "dialogue",
+      "source": "Au marché de quartier",
+      "arabic": "مرحبا بولدي! شوف هاد التمر، جديد و بنين بزاف!",
+      "latin": "Mar7ba b’weldi! Chouf had el tamr, jdid w bnin bezzaf!",
+      "french": "Bienvenue mon fils ! Regarde ces dattes, fraîches et délicieuses !",
+      "note": "Demande le prix avec « Bch7al hada? » puis essaie « Naqasli chwiya »."
+    },
+    {
+      "id": "dialogue-marche-bab-1",
+      "type": "dialogue",
+      "source": "Au marché de quartier",
+      "arabic": "صباح الخير خالتي! بشحال الكيلو تاع هاد التمر؟",
+      "latin": "Sba7 el khir khalti! Bch7al el kilo ta3 had el tamr?",
+      "french": "Bonjour tante ! Combien le kilo de ces dattes ?",
+      "note": ""
+    },
+    {
+      "id": "dialogue-marche-bab-2",
+      "type": "dialogue",
+      "source": "Au marché de quartier",
+      "arabic": "غالية شوية خالتي، نقصلي شوية تعيش!",
+      "latin": "Ghalya chwiya khalti, naqasli chwiya ta3ich!",
+      "french": "C’est un peu cher, baisse-moi un peu le prix s’il te plaît !",
+      "note": ""
+    },
+    {
+      "id": "dialogue-marche-bab-3",
+      "type": "dialogue",
+      "source": "Au marché de quartier",
+      "arabic": "صحيتي خالتي، يعطيك الصحة! بسلامة.",
+      "latin": "Sahiti khalti, ya3tik essa7a! Beslama.",
+      "french": "Merci beaucoup ! Au revoir.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-rencontre-famille-0",
+      "type": "dialogue",
+      "source": "Rencontre & Présentations",
+      "arabic": "سلام! كي راك؟ مرحبا بيك في دارنا، متشرفين!",
+      "latin": "Salam! Ki rak? Mar7ba bik fi darna, metcharfin!",
+      "french": "Salut ! Comment vas-tu ? Bienvenue chez nous, enchantée !",
+      "note": "À Oran, on dit « Ki rak? » au lieu de « Wach rak? ». Réponds avec « Labès, metcharfin bezzaf! »."
+    },
+    {
+      "id": "dialogue-rencontre-famille-1",
+      "type": "dialogue",
+      "source": "Rencontre & Présentations",
+      "arabic": "لاباس الحمد لله! متشرفين بزاف، أنا اسمي سامي.",
+      "latin": "Labès el hamdoullah! Metcharfin bezzaf, ana ismi Samy.",
+      "french": "Ça va Dieu merci ! Ravi, je m’appelle Samy.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-rencontre-famille-2",
+      "type": "dialogue",
+      "source": "Rencontre & Présentations",
+      "arabic": "راني نتعلم نهدر الدارجة، بصح مازال شوية!",
+      "latin": "Rani net3alem nahder el darija, bessa7 mazal chwiya!",
+      "french": "J’apprends à parler la darija, mais il m’en reste encore un peu !",
+      "note": ""
+    },
+    {
+      "id": "dialogue-rencontre-famille-3",
+      "type": "dialogue",
+      "source": "Rencontre & Présentations",
+      "arabic": "ما فهمتش مليح، هدر بشوية تعيش.",
+      "latin": "Ma fhamtche mli7, hder b chwiya ta3ich.",
+      "french": "Je n’ai pas bien compris, parle lentement s’il te plaît.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-taxi-orientation-0",
+      "type": "dialogue",
+      "source": "En taxi & Orientation",
+      "arabic": "سلام خويا! وين راك رايح اليوم؟",
+      "latin": "Salam khouya! Win rak raye7 el youm?",
+      "french": "Bonjour mon frère ! Où vas-tu aujourd’hui ?",
+      "note": "Demande si un lieu est proche (« Hna qrib wella b3id? ») ou indique où descendre (« Habatni hna »)."
+    },
+    {
+      "id": "dialogue-taxi-orientation-1",
+      "type": "dialogue",
+      "source": "En taxi & Orientation",
+      "arabic": "سلام! وين جا السوق؟ هنا قريب ولا بعيد؟",
+      "latin": "Salam! Win ja el souk? Hna qrib wella b3id?",
+      "french": "Bonjour ! Où se trouve le marché ? C’est proche ou loin ?",
+      "note": ""
+    },
+    {
+      "id": "dialogue-taxi-orientation-2",
+      "type": "dialogue",
+      "source": "En taxi & Orientation",
+      "arabic": "روح قبالة، من بعد دور على اليمين.",
+      "latin": "Rou7 qbala, men ba3d dour 3la limin.",
+      "french": "Va tout droit, ensuite tourne à droite.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-taxi-orientation-3",
+      "type": "dialogue",
+      "source": "En taxi & Orientation",
+      "arabic": "هبطني هنا تعيش، صحيت خويا!",
+      "latin": "Habatni hna ta3ich, sahit khouya!",
+      "french": "Dépose-moi ici s’il te plaît, merci mon frère !",
+      "note": ""
+    },
+    {
+      "id": "grammar-pronunciation-article-0",
+      "type": "grammar",
+      "source": "Prononciation, Article « el- » & Pluriels",
+      "arabic": "الراجل / الدار / الناس",
+      "latin": "er-rajel / ed-dar / en-nas",
+      "french": "l’homme / la maison / les gens (lettres solaires)",
+      "note": "el + rajel devient er-rajel ; el + dar devient ed-dar."
+    },
+    {
+      "id": "grammar-pronunciation-article-1",
+      "type": "grammar",
+      "source": "Prononciation, Article « el- » & Pluriels",
+      "arabic": "الكلب / القمر / الباب",
+      "latin": "el-kelb / el-qamar / el-bab",
+      "french": "le chien / la lune / la porte (lettres lunaires)",
+      "note": "Devant les 14 lettres lunaires, « el- » reste intact."
+    },
+    {
+      "id": "grammar-pronunciation-article-2",
+      "type": "grammar",
+      "source": "Prononciation, Article « el- » & Pluriels",
+      "arabic": "كلبة ← كلبة الدار",
+      "latin": "kelba → kelbet ed-dar",
+      "french": "chienne → la chienne de la maison (état construit)",
+      "note": "Le -a féminin (ta marbouta) devient -et devant un complément ou un affixe (kelbeti = ma chienne)."
+    },
+    {
+      "id": "grammar-pronouns-auxiliaries-0",
+      "type": "grammar",
+      "source": "Pronoms, Affixes & Auxiliaires (ând-i, ra-ni)",
+      "arabic": "عندي كتاب / كان عندي / يكون عندي",
+      "latin": "Ând-i ktab / Kan ând-i / Ikoun ând-i",
+      "french": "J’ai un livre / J’avais / J’aurai",
+      "note": "On conjugue l’auxiliaire kan / ikoun devant « ând- » pour le passé et le futur."
+    },
+    {
+      "id": "grammar-pronouns-auxiliaries-1",
+      "type": "grammar",
+      "source": "Pronoms, Affixes & Auxiliaires (ând-i, ra-ni)",
+      "arabic": "راني فرحان / كنت في الدار",
+      "latin": "Ra-ni ferh’an / Kount fi ed-dar",
+      "french": "Je suis content / J’étais à la maison",
+      "note": "« Kaïn / kaïna / kaïnin » exprime l’existence : il y a / il existe."
+    },
+    {
+      "id": "grammar-pronouns-auxiliaries-2",
+      "type": "grammar",
+      "source": "Pronoms, Affixes & Auxiliaires (ând-i, ra-ni)",
+      "arabic": "داري / شافني / كيفك",
+      "latin": "Dar-i / Chaf-ni / Kif-ek",
+      "french": "Ma maison / Il m’a vu / Comme toi",
+      "note": "L’affixe 1re pers. est -i après un nom et -ni après un verbe."
+    },
+    {
+      "id": "grammar-verbs-conjugation-0",
+      "type": "grammar",
+      "source": "Conjugaison algérienne (Aoriste, Prétérit & Irréguliers)",
+      "arabic": "نشري / شريت / شرى",
+      "latin": "Nechri / Chrit / Chra",
+      "french": "J’achète / J’ai acheté / Il a acheté",
+      "note": "Verbe défectueux : à la 1re/2e pers. du passé, le -a final devient -i- (chrit, chriti)."
+    },
+    {
+      "id": "grammar-verbs-conjugation-1",
+      "type": "grammar",
+      "source": "Conjugaison algérienne (Aoriste, Prétérit & Irréguliers)",
+      "arabic": "نجيب / جبت / جاب · نزور / زرت / زار",
+      "latin": "Njib / Jebt / Jab · Nzour / Zourt / Zar",
+      "french": "Apporter · Visiter (verbes concaves)",
+      "note": "Au passé 1re/2e pers., le « a » central disparaît en « e » ou « ou » : jebt, zourt, chouft."
+    },
+    {
+      "id": "grammar-verbs-conjugation-2",
+      "type": "grammar",
+      "source": "Conjugaison algérienne (Aoriste, Prétérit & Irréguliers)",
+      "arabic": "ما نكتبش / ما كتبتش / لازم نخدم",
+      "latin": "Ma nektebch / Ma ktebtch / Lazem nekhedem",
+      "french": "Je n’écris pas / Je n’ai pas écrit / Il faut que je travaille",
+      "note": "La négation encadre le verbe avec ma … -ch. « Lazem », « bach », « h’atta » commandent l’aoriste."
+    },
+    {
+      "id": "grammar-numbers-calendar-0",
+      "type": "grammar",
+      "source": "Nombres, Heures, Jours & Mois algériens",
+      "arabic": "واحد، زوج، ثلاثة، أربعة، خمسة",
+      "latin": "Ouah’ad, zouj, thlatha, arbâ, khamsa",
+      "french": "1, 2, 3, 4, 5",
+      "note": "Zouj (paire) est presque toujours préféré à thnin pour « deux »."
+    },
+    {
+      "id": "grammar-numbers-calendar-1",
+      "type": "grammar",
+      "source": "Nombres, Heures, Jours & Mois algériens",
+      "arabic": "احداعشن راجل · واحد وعشرين سنة",
+      "latin": "H’adachen rajel · Ouah’ad ou âchrin sna",
+      "french": "11 hommes · 21 ans",
+      "note": "Ben Sedira note également les formes parlées sebâïn (70), thmanin (80), tsâïn (90)."
+    },
+    {
+      "id": "grammar-numbers-calendar-2",
+      "type": "grammar",
+      "source": "Nombres, Heures, Jours & Mois algériens",
+      "arabic": "الربيع، الصيف، الخريف، الشتا",
+      "latin": "Er-rbiâ, es-seyf, el-kherif, ech-cheta",
+      "french": "Printemps, été, automne, hiver",
+      "note": "Les 4 saisons d’Algérie."
+    },
+    {
+      "id": "grammar-contractions-negation-0",
+      "type": "grammar",
+      "source": "Contractions parlées & Interrogation",
+      "arabic": "وين راك؟ / من شافني؟",
+      "latin": "Ouain rak ? / Men chaf-ni ?",
+      "french": "Où es-tu ? / Qui m’a vu ?",
+      "note": "Interrogatifs directs sans inversion du sujet."
+    },
+    {
+      "id": "grammar-contractions-negation-1",
+      "type": "grammar",
+      "source": "Contractions parlées & Interrogation",
+      "arabic": "كيفاش يقولو هاد الكلمة؟",
+      "latin": "Kifach igoulou had’ el-kelma ?",
+      "french": "Comment dit-on ce mot ?",
+      "note": "Formule réflexe indispensable pour apprendre de nouveaux mots à l’oral."
+    },
+    {
+      "id": "grammar-contractions-negation-2",
+      "type": "grammar",
+      "source": "Contractions parlées & Interrogation",
+      "arabic": "ماشي هكذا · اللي جا بكري",
+      "latin": "Ma chi hakda · Elli ja bekri",
+      "french": "Pas comme ça · Celui qui est venu tôt",
+      "note": "« Ma chi » nie un nom ou adjectif ; « elli » remplace qui/que/lequel."
+    }
+  ]
+}
