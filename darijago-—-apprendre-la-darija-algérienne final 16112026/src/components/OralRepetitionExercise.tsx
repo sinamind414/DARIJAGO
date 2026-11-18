@@ -673,9 +673,14 @@ export function OralRepetitionExercise({
                   )}
                 </div>
 
-                <span className="font-display text-lg font-extrabold tabular-nums">
-                  {oT.scoreLabel(comparison.score)}
-                </span>
+                <div className="text-right">
+                  <span className="font-display text-lg font-extrabold tabular-nums">
+                    {oT.scoreLabel(comparison.score)}
+                  </span>
+                  <p className="text-[10px] text-[#8E867B] dark:text-slate-500 max-w-[220px] ml-auto">
+                    {oT.scoreCaveat}
+                  </p>
+                </div>
               </div>
 
               <div className="space-y-1.5">
