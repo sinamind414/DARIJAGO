@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "total": 73,
+  "total": 97,
   "items": [
     {
       "id": "phrase-01-sal-1",
@@ -522,6 +522,222 @@
       "arabic": "هبطني هنا تعيش، صحيت خويا!",
       "latin": "Habatni hna ta3ich, sahit khouya!",
       "french": "Dépose-moi ici s’il te plaît, merci mon frère !",
+      "note": ""
+    },
+    {
+      "id": "dialogue-medecin-urgence-0",
+      "type": "dialogue",
+      "source": "Chez le médecin",
+      "arabic": "السلام! واش راك؟ وين راك تجمعك؟",
+      "latin": "Salam! Wach rak? Win rak tjem3ek?",
+      "french": "Bonjour ! Comment vas-tu ? Où as-tu mal ?",
+      "note": "Montre la zone et dis « hna tjem3ni » (j’ai mal ici), puis précise depuis quand."
+    },
+    {
+      "id": "dialogue-medecin-urgence-1",
+      "type": "dialogue",
+      "source": "Chez le médecin",
+      "arabic": "السلام دكتور، هنا تجمعني في البطن من البارح.",
+      "latin": "Salam doktour, hna tjem3ni f el-batn men l-bare7.",
+      "french": "Bonjour docteur, j’ai mal au ventre depuis hier.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-medecin-urgence-2",
+      "type": "dialogue",
+      "source": "Chez le médecin",
+      "arabic": "ما فهمتش مليح، عاود هدر بشوية تعيش.",
+      "latin": "Ma fhemtch mli7, 3awed hder b chwiya ta3ich.",
+      "french": "Je n’ai pas bien compris, répétez lentement s’il vous plaît.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-medecin-urgence-3",
+      "type": "dialogue",
+      "source": "Chez le médecin",
+      "arabic": "واش خصني نشري الدواء؟ شحال العقار؟",
+      "latin": "Wach khassni nechri el-dwa? Ch7al l’29er?",
+      "french": "Dois-je acheter le médicament ? C’est combien ?",
+      "note": ""
+    },
+    {
+      "id": "dialogue-police-admin-0",
+      "type": "dialogue",
+      "source": "Contrôle & Administration",
+      "arabic": "السلام! اعطيني الكارط تاعك، عفاك.",
+      "latin": "Salam! A3tini el-kart ta3ek, 3afak.",
+      "french": "Bonjour ! Donnez-moi votre carte, s’il vous plaît.",
+      "note": "Reste calme et poli : « Tfaddal » (voici), puis demande « Wach khassni ndir? »."
+    },
+    {
+      "id": "dialogue-police-admin-1",
+      "type": "dialogue",
+      "source": "Contrôle & Administration",
+      "arabic": "تفضل، هادي الكارط تاعي.",
+      "latin": "Tfaddal, hadi el-kart ta3i.",
+      "french": "Voici, c’est ma carte.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-police-admin-2",
+      "type": "dialogue",
+      "source": "Contrôle & Administration",
+      "arabic": "السلام عليكم، عفاك قول لي واش خصني نDIR.",
+      "latin": "Salam 3alaykoum, 3afak goul liyach khassni ndir.",
+      "french": "Bonjour, dites-moi s’il vous plaît ce que je dois faire.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-police-admin-3",
+      "type": "dialogue",
+      "source": "Contrôle & Administration",
+      "arabic": "مرسي بزاف، صحيتي!",
+      "latin": "Merci bezzaf, sahit!",
+      "french": "Merci beaucoup !",
+      "note": ""
+    },
+    {
+      "id": "dialogue-panne-route-0",
+      "type": "dialogue",
+      "source": "Panne sur la route",
+      "arabic": "السلام خويا! واش راك؟ الكاروسة وقفات؟",
+      "latin": "Salam khouya! Wach rak? El-karrossa wa9fat?",
+      "french": "Bonjour mon frère ! Ça va ? Ta voiture est tombée en panne ?",
+      "note": "Explique simplement : « El-motor ma khdemch » (le moteur ne tourne plus)."
+    },
+    {
+      "id": "dialogue-panne-route-1",
+      "type": "dialogue",
+      "source": "Panne sur la route",
+      "arabic": "السلام! الموتور ما خدمش، ما عرفتش شمن شحال.",
+      "latin": "Salam! El-motor ma khdemch, ma 3reftch chmen che7a.",
+      "french": "Bonjour ! Le moteur ne démarre plus, je ne sais pas pourquoi.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-panne-route-2",
+      "type": "dialogue",
+      "source": "Panne sur la route",
+      "arabic": "عفاك، عندي التليفون معاك، تجي تعاوني؟",
+      "latin": "3afak, 3endi l’telephone m3a7, tji t3awni?",
+      "french": "S’il te plaît, j’ai mon téléphone sur moi, peux-tu m’aider ?",
+      "note": ""
+    },
+    {
+      "id": "dialogue-panne-route-3",
+      "type": "dialogue",
+      "source": "Panne sur la route",
+      "arabic": "صحيتي بزاف خويا، يعطيك الصحة!",
+      "latin": "Sahit bezzaf khouya, ya3tik essa7a!",
+      "french": "Merci beaucoup mon frère !",
+      "note": ""
+    },
+    {
+      "id": "dialogue-belle-famille-repas-0",
+      "type": "dialogue",
+      "source": "Repas chez la belle-famille",
+      "arabic": "مرحبا بيك ولدي! تفضل، كول واشرب بشهية!",
+      "latin": "Mar7ba bik weldii! Tfaddal, koul w chreb b chahiyya!",
+      "french": "Bienvenue mon enfant ! Sers-toi, mange et bois avec appétit !",
+      "note": "Complimente : « El-mekla bnina bezzaf! » puis « chokran khalti »."
+    },
+    {
+      "id": "dialogue-belle-famille-repas-1",
+      "type": "dialogue",
+      "source": "Repas chez la belle-famille",
+      "arabic": "الماكلة بنينة بزاف خالتي، يعطيك الصحة!",
+      "latin": "El-mekla bnina bezzaf khalti, ya3tik essa7a!",
+      "french": "Le repas est délicieux tante, bravo !",
+      "note": ""
+    },
+    {
+      "id": "dialogue-belle-famille-repas-2",
+      "type": "dialogue",
+      "source": "Repas chez la belle-famille",
+      "arabic": "شكران خالتي، أنا شبعت ما شاء الله، تفضلي.",
+      "latin": "Chokran khalti, ana chba3t ma chaa llah, tfaddli.",
+      "french": "Merci tante, je suis rassasié, merci à toi.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-belle-famille-repas-3",
+      "type": "dialogue",
+      "source": "Repas chez la belle-famille",
+      "arabic": "ما بغيتش زوز شوية، صحيتي بزاف.",
+      "latin": "Ma bghitech zouz chwiya, sahit bezzaf.",
+      "french": "Je ne veux pas en reprendre, merci beaucoup.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-telephone-0",
+      "type": "dialogue",
+      "source": "Appel téléphonique",
+      "arabic": "الو! السلام! من هيّا؟",
+      "latin": "Allo? Salam! Min hiya?",
+      "french": "Allô ? Bonjour ! Qui est là ?",
+      "note": "Réponds « Ana Samy, salam 3lik! » puis demande « Wach 3endi wa9t? »."
+    },
+    {
+      "id": "dialogue-telephone-1",
+      "type": "dialogue",
+      "source": "Appel téléphonique",
+      "arabic": "الو! أنا سامي، السلام عليك! واش راك؟",
+      "latin": "Allo! Ana Samy, salam 3lik! Wach rak?",
+      "french": "Allô ! C’est Samy, bonjour ! Comment vas-tu ?",
+      "note": ""
+    },
+    {
+      "id": "dialogue-telephone-2",
+      "type": "dialogue",
+      "source": "Appel téléphonique",
+      "arabic": "واش عندك وقت دابا؟ بغيت نشوفك.",
+      "latin": "Wach 3endek wa9t daba? Bghit nchoufek.",
+      "french": "Tu as du temps maintenant ? J’aimerais te voir.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-telephone-3",
+      "type": "dialogue",
+      "source": "Appel téléphonique",
+      "arabic": "مزيان، نتلاقاو في الحرّة. بسلامة!",
+      "latin": "Mzyan, ntele9aw f l’7orra. Beslama!",
+      "french": "D’accord, on se retrouve au quartier. À bientôt !",
+      "note": ""
+    },
+    {
+      "id": "dialogue-condoleances-0",
+      "type": "dialogue",
+      "source": "Condoléances & Soutien",
+      "arabic": "السلام... مرحبا بيك، راه وقت عزيز علينا.",
+      "latin": "Salam... mar7ba bik, rah wa9t 3ziz 3lina.",
+      "french": "Bonjour... bienvenue, c’est un moment difficile pour nous.",
+      "note": "Formule courte et respectueuse : « Allah y’r7mo, Allah y’sbrkom. »"
+    },
+    {
+      "id": "dialogue-condoleances-1",
+      "type": "dialogue",
+      "source": "Condoléances & Soutien",
+      "arabic": "الله يرحمو، الله يصبركم ويغفر لنا وليهم.",
+      "latin": "Allah y’r7mo, Allah y’sbrkom w y’gfar lina w lihoum.",
+      "french": "Que Dieu lui fasse miséricorde et vous donne patience.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-condoleances-2",
+      "type": "dialogue",
+      "source": "Condoléances & Soutien",
+      "arabic": "أنا معاكم في هاد الوقت، الله يكون معانا.",
+      "latin": "Ana m3akom f had l’wa9t, Allah y’koun m3ana.",
+      "french": "Je suis avec vous en ce moment, que Dieu soit avec nous.",
+      "note": ""
+    },
+    {
+      "id": "dialogue-condoleances-3",
+      "type": "dialogue",
+      "source": "Condoléances & Soutien",
+      "arabic": "رحمة الله عليكم، ما تنساوني.",
+      "latin": "R7mo llah 3likoum, ma tnsawch ni.",
+      "french": "Que Dieu vous protège, ne m’oubliez pas.",
       "note": ""
     },
     {

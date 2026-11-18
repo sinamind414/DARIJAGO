@@ -48,8 +48,19 @@ CREATE TABLE IF NOT EXISTS items (
 """)
 
 # Relecteurs (a renseigner avec de vrais noms plus tard)
+# Un seul relecteur par region, stable d'une execution a l'autre.
+cx.execute("DELETE FROM votes WHERE reviewer_id NOT IN (SELECT reviewer_id FROM reviewers WHERE nom LIKE 'Relecteur %')")
 for r in REGIONS:
-    cx.execute("INSERT OR IGNORE INTO reviewers(nom, region) VALUES (?, ?)", (f"Relecteur {r}", r))
+    nom = f"Relecteur {r}"
+    existe = cx.execute("SELECT 1 FROM reviewers WHERE nom=? AND region=?", (nom, r)).fetchone()
+    if existe:
+        cx.execute("UPDATE reviewers SET region=? WHERE nom=? AND region=?", (r, nom, r))
+    else:
+        cx.execute("INSERT INTO reviewers(nom, region) VALUES (?, ?)", (nom, r))
+# Eliminer les doublons de relecteurs crees par les executions precedentes
+cx.execute("""DELETE FROM reviewers WHERE reviewer_id NOT IN (
+    SELECT MIN(reviewer_id) FROM reviewers GROUP BY nom, region
+)""")
 
 # Items
 donnees = json.loads(ITEMS.read_text(encoding="utf-8"))
