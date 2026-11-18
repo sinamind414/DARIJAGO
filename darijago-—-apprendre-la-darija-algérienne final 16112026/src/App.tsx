@@ -53,6 +53,12 @@ import {
   type DesktopNotificationPermission,
 } from './utils/notifications';
 import { StartupLanguageScreen } from './components/StartupLanguageScreen';
+import { PositioningScreen } from './components/PositioningScreen';
+import {
+  getStoredProfile,
+  storeProfile,
+  type LearnerProfile,
+} from './utils/positioningLogic';
 import { TopBar } from './components/TopBar';
 import { BottomNav } from './components/BottomNav';
 import { LessonWorkspace } from './components/LessonWorkspace';
@@ -95,6 +101,9 @@ export default function App() {
   );
   const [hasConfirmedLanguage, setHasConfirmedLanguage] = useState<boolean>(
     () => Boolean(getStoredLanguage()) || isAutostartEnabled()
+  );
+  const [learnerProfile, setLearnerProfile] = useState<LearnerProfile | null>(
+    getStoredProfile
   );
   const [activeTab, setActiveTab] = useState<WorkspaceTab>('apprendre');
   const [activeModuleId, setActiveModuleId] = useState<string>(
@@ -430,6 +439,20 @@ export default function App() {
         onSelectLanguage={setLanguage}
         onConfirmStart={handleConfirmStartupLanguage}
         onToggleTheme={() => setIsDark((prev) => !prev)}
+      />
+    );
+  }
+
+  if (!learnerProfile) {
+    return (
+      <PositioningScreen
+        language={language}
+        dark={isDark}
+        onToggleTheme={() => setIsDark((prev) => !prev)}
+        onComplete={(profil) => {
+          storeProfile(profil);
+          setLearnerProfile(profil);
+        }}
       />
     );
   }
