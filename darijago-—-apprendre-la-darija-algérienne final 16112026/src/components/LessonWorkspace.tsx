@@ -29,6 +29,7 @@ import type {
 } from '../types/darija';
 import { UI_TRANSLATIONS } from '../i18n/translations';
 import { pickScript, type ScriptMode } from '../utils/scriptMode';
+import { PROFILE_HINT, PROFILE_MODULE_ORDER, type LearnerProfile } from '../utils/positioningLogic';
 import { EXPERIENCE_TRANSLATIONS } from '../i18n/experienceTranslations';
 import { PHONETIC_MODAL_TRANSLATIONS } from '../i18n/phoneticModalTranslations';
 import { getLocalizedModule, getLocalizedSound } from '../i18n/curriculumTranslations';
@@ -58,6 +59,7 @@ import { QuickReviewPanel } from './QuickReviewPanel';
 interface LessonWorkspaceProps {
   language: AppLanguage;
   scriptMode?: ScriptMode;
+  learnerProfile?: LearnerProfile | null;
   progress: UserProgressState;
   activeModuleId: string;
   activePhraseId: string;
@@ -74,6 +76,7 @@ interface LessonWorkspaceProps {
 export function LessonWorkspace({
   language,
   scriptMode = 'arabizi',
+  learnerProfile = null,
   progress,
   activeModuleId,
   activePhraseId,
@@ -110,10 +113,19 @@ export function LessonWorkspace({
   }, [language]);
 
   const baseModules = offlineModules ?? CURRICULUM_MODULES.map((m) => getLocalizedModule(m, language));
-  const localizedModules = baseModules.map((localized) => ({
+  const modulesWithDates = baseModules.map((localized) => ({
     ...localized,
     phrases: attachPhraseReviewDates(localized.phrases, progress),
   }));
+  // Ordre recommande selon le profil de positionnement (R5).
+  const preferredOrder = learnerProfile ? PROFILE_MODULE_ORDER[learnerProfile] : null;
+  const localizedModules = preferredOrder
+    ? [...modulesWithDates].sort((a, b) => {
+        const ia = preferredOrder.indexOf(a.id);
+        const ib = preferredOrder.indexOf(b.id);
+        return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib);
+      })
+    : modulesWithDates;
   const localizedSounds = ARABIZI_SOUNDS.map((s) =>
     getLocalizedSound(s, language)
   );
@@ -251,6 +263,16 @@ export function LessonWorkspace({
       aria-label={t.sectionAria}
       className="max-w-7xl mx-auto px-4 sm:px-6 py-5 sm:py-7 space-y-6"
     >
+      {/* Accroche de profil (positionnement R5) */}
+      {learnerProfile && (
+        <div
+          data-testid="profile-hint"
+          className="rounded-xl border border-[#D7E0C8] dark:border-[#2A352F] bg-[#F0F5E9] dark:bg-[#1D2622] px-4 py-2.5 text-sm text-[#4E6231] dark:text-[#A5C178]"
+        >
+          {PROFILE_HINT[learnerProfile]}
+        </div>
+      )}
+
       {/* Greeting Header Strip (MyDialect style) */}
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>

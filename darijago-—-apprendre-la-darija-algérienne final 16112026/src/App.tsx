@@ -57,6 +57,7 @@ import { PositioningScreen } from './components/PositioningScreen';
 import {
   getStoredProfile,
   storeProfile,
+  PROFILE_MODULE_ORDER,
   type LearnerProfile,
 } from './utils/positioningLogic';
 import { TopBar } from './components/TopBar';
@@ -106,12 +107,15 @@ export default function App() {
     getStoredProfile
   );
   const [activeTab, setActiveTab] = useState<WorkspaceTab>('apprendre');
-  const [activeModuleId, setActiveModuleId] = useState<string>(
-    CURRICULUM_MODULES[0].id
-  );
-  const [activePhraseId, setActivePhraseId] = useState<string>(
-    CURRICULUM_MODULES[0].phrases[0].id
-  );
+  const [activeModuleId, setActiveModuleId] = useState<string>(() => {
+    const p = getStoredProfile();
+    const firstId = p ? PROFILE_MODULE_ORDER[p][0] : CURRICULUM_MODULES[0].id;
+    return CURRICULUM_MODULES.find((m) => m.id === firstId)?.id ?? CURRICULUM_MODULES[0].id;
+  });
+  const [activePhraseId, setActivePhraseId] = useState<string>(() => {
+    const module = CURRICULUM_MODULES.find((m) => m.id === activeModuleId) ?? CURRICULUM_MODULES[0];
+    return module.phrases[0].id;
+  });
   const [progress, setProgress] = useState<UserProgressState>(() => {
     if (typeof window === 'undefined') return parseProgressState(null);
     return parseProgressState(window.localStorage.getItem(PROGRESS_STORAGE_KEY));
@@ -452,6 +456,10 @@ export default function App() {
         onComplete={(profil) => {
           storeProfile(profil);
           setLearnerProfile(profil);
+          const firstId = PROFILE_MODULE_ORDER[profil][0];
+          const module = CURRICULUM_MODULES.find((m) => m.id === firstId) ?? CURRICULUM_MODULES[0];
+          setActiveModuleId(module.id);
+          setActivePhraseId(module.phrases[0].id);
         }}
       />
     );
@@ -479,6 +487,7 @@ export default function App() {
           <LessonWorkspace
             language={language}
             scriptMode={scriptMode}
+            learnerProfile={learnerProfile}
             progress={progress}
             activeModuleId={activeModuleId}
             activePhraseId={activePhraseId}

@@ -110,6 +110,20 @@ export function getStoredProfile(): LearnerProfile | null {
   }
 }
 
+/** Ordre des modules recommande selon le profil (IDs des 7 modules du curriculum). */
+export const PROFILE_MODULE_ORDER: Record<LearnerProfile, string[]> = {
+  debutant: ['salutations', 'presentation', 'cafe', 'quotidien'],
+  heritage: ['salutations', 'presentation', 'marche', 'quotidien', 'cafe'],
+  intermediaire: ['marche', 'quotidien', 'verbes', 'bensedira-base', 'cafe'],
+};
+
+/** Message d'accroche affiche en haut de lecon selon le profil. */
+export const PROFILE_HINT: Record<LearnerProfile, string> = {
+  debutant: '🌱 Parcours débutant : on commence par les salutations, sans alphabet imposé.',
+  heritage: '🏠 Parcours héritage : on valorise ce que vous comprenez déjà et on débloque la parole.',
+  intermediaire: '🧭 Parcours intermédiaire : objectif terrain — marchés, orientation et conversation.',
+};
+
 export function storeProfile(profile: LearnerProfile): void {
   if (typeof window === 'undefined') return;
   try {
