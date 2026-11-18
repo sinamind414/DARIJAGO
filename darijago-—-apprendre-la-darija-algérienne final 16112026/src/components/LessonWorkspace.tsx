@@ -30,6 +30,7 @@ import type {
 import { UI_TRANSLATIONS } from '../i18n/translations';
 import { pickScript, type ScriptMode } from '../utils/scriptMode';
 import { PROFILE_HINT, PROFILE_MODULE_ORDER, type LearnerProfile } from '../utils/positioningLogic';
+import { classifyPhrasePriority, PRIORITY_LABEL } from '../utils/phrasePriority';
 import { EXPERIENCE_TRANSLATIONS } from '../i18n/experienceTranslations';
 import { PHONETIC_MODAL_TRANSLATIONS } from '../i18n/phoneticModalTranslations';
 import { getLocalizedModule, getLocalizedSound } from '../i18n/curriculumTranslations';
@@ -523,6 +524,12 @@ export function LessonWorkspace({
                 </button>
               </div>
 
+              <div className="flex justify-center" data-testid="phrase-priority-badge">
+                <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#1D2622] text-[#686259] dark:text-slate-400">
+                  {PRIORITY_LABEL[classifyPhrasePriority(currentPhrase, activeModule.id)]}
+                </span>
+              </div>
+
               {/* Ecriture principale (reglage global R1) + autres au toucher */}
               <div className="space-y-2 max-w-xl" data-testid="lesson-script-display">
                 <h2
@@ -825,6 +832,11 @@ export function LessonWorkspace({
                       {practiceFeedback.type === 'success' ? t.validPrefix : t.errorPrefix}
                     </span>
                     <span>{practiceFeedback.message}</span>
+                    {practiceFeedback.type === 'error' && (
+                      <span className="block mt-2 text-xs font-normal opacity-80">
+                        🔁 Réécoutez la phrase (▶ ou 0,75×), comparez avec votre saisie, puis réessayez. Une variante de votre région peut être valide : signalez-la en relecture native.
+                      </span>
+                    )}
                   </div>
                 )}
               </div>
