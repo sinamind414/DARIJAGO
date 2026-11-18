@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>darijaGO — Studio voix native</title>
+<style>
+  :root{--f:#f7f5ef;--c:#fff;--e:#23201c;--v:#4e6231;--b:#e4dfd2;--r:#a33}
+  *{box-sizing:border-box}body{margin:0;font:15px/1.55 system-ui,sans-serif;background:var(--f);color:var(--e)}
+  header{background:#23201c;color:#fff;padding:14px 22px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  header h1{font-size:16px;margin:0}.badge{font-size:12px;padding:3px 9px;border-radius:99px;background:#3a4a2a;color:#dff}
+  .wrap{max-width:1200px;margin:auto;padding:18px;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:18px}
+  @media(max-width:850px){.wrap{grid-template-columns:1fr}}
+  .carte{background:var(--c);border:1px solid var(--b);border-radius:14px;padding:18px}
+  select,input{font:inherit;padding:8px;border:1px solid var(--b);border-radius:8px;width:100%;margin:4px 0}
+  label{display:block;font-size:12px;font-weight:700;color:#686259;margin:10px 0 2px}
+  .phrase{font-size:28px;font-weight:800;margin:14px 0;line-height:1.4}
+  .arabe{font-size:22px;direction:auto;color:#4E6231}
+  .btn{padding:11px 18px;border-radius:9px;border:1px solid var(--b);background:#fff;font-weight:700;cursor:pointer;margin:4px 6px 4px 0}
+  .rec{background:var(--r);color:#fff;border-color:var(--r)}
+  .ok{background:var(--v);color:#fff;border-color:var(--v)}
+  .etat{padding:10px;border-radius:8px;background:#fff6e6;font-size:13px;margin:10px 0}
+  .liste{max-height:70vh;overflow:auto}.liste button{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid var(--b);background:none;padding:8px;cursor:pointer;font-size:13px}
+  .liste button.actif{background:#eef2e8}.liste button.prêt{color:var(--v);font-weight:700}
+  audio{width:100%;margin:8px 0}.petit{font-size:12px;color:#8E867B}
+  .consigne{background:#eef2e8;border:1px solid #cdd9bd;border-radius:9px;padding:12px;font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <h1>🎙️ darijaGO — Studio voix native</h1>
+  <span class="badge">R4 · 42 phrases</span>
+  <span id="progression" style="font-size:13px"></span>
+</header>
+<div class="wrap">
+  <div class="carte">
+    <div class="consigne"><b>Consignes :</b> cadence calme, 20–30 cm du micro, pièce silencieuse. Lire les 42 phrases une par une. Le texte arabe est affiché pour guider la prononciation ; enregistrer <b>au moins 10 secondes</b> de voix propre pour la référence.</div>
+
+    <label>Identité du locuteur</label>
+    <input id="locuteur" value="Locuteur natif" placeholder="Nom du locuteur">
+    <label>Région</label>
+    <select id="region"><option>Alger</option><option>Oran</option><option>Constantine</option><option>Sud</option></select>
+    <label>Sexe (pour le profil)</label>
+    <select id="sexe"><option value="femme">Femme</option><option value="homme">Homme</option></select>
+
+    <div class="phrase" id="phraseLatin" dir="auto"></div>
+    <div class="arabe" id="phraseArabe" dir="rtl"></div>
+    <div class="petit" id="phraseModalite"></div>
+
+    <div style="margin-top:14px">
+      <button class="btn rec" id="record">● Enregistrer</button>
+      <button class="btn" id="stop" disabled>■ Arrêter</button>
+      <button class="btn ok" id="suivant">Suivant →</button>
+    </div>
+    <div class="etat" id="etat">Prêt à enregistrer.</div>
+    <audio id="lecture" controls></audio>
+    <div class="petit" id="compte"></div>
+
+    <div style="margin-top:16px">
+      <button class="btn ok" id="creerProfil">Créer le profil vocal (référence)</button>
+      <button class="btn" id="genererTout">Générer les 42 clips avec ce profil</button>
+    </div>
+    <div class="etat" id="resultat"></div>
+  </div>
+
+  <div class="carte">
+    <label>Feuille de route — 42 phrases</label>
+    <div class="liste" id="liste"></div>
+  </div>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const ech=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let phrases=[], idx=0, mediaRecorder=null, chunks=[], stream=null;
+const enregistrements={};  // id -> Blob
+
+async function charger(){
+  const r=await fetch('/api/phrases').then(x=>x.json());
+  phrases=r.phrases; rendre();
+  $('#progression').textContent=`0 / ${phrases.length} enregistrées`;
+}
+function rendre(){
+  const p=phrases[idx]; if(!p)return;
+  $('#phraseLatin').textContent=p.latin;
+  $('#phraseArabe').textContent=p.arabic;
+  $('#phraseModalite').textContent=`${p.source} · ${p.french??''}`;
+  $('#liste').innerHTML=phrases.map((x,i)=>`<button class="${i===idx?'actif':''} ${enregistrements[x.id]?'prêt':''}" data-i="${i}">${i+1}. ${ech(x.latin.slice(0,32))} ${enregistrements[x.id]?'✓':''}</button>`).join('');
+  $('#liste').querySelectorAll('button').forEach(b=>b.onclick=()=>{idx=+b.dataset.i;rendre();});
+  if(enregistrements[p.id]) $('#lecture').src=URL.createObjectURL(enregistrements[p.id]);
+}
+$('#record').onclick=async()=>{
+  try{
+    stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true}});
+    chunks=[]; mediaRecorder=new MediaRecorder(stream);
+    mediaRecorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);};
+    mediaRecorder.onstop=()=>{
+      const blob=new Blob(chunks,{type:'audio/wav'});
+      enregistrements[phrases[idx].id]=blob;
+      $('#lecture').src=URL.createObjectURL(blob);
+      $('#etat').textContent=`Enregistré : ${phrases[idx].latin.slice(0,40)} (${(blob.size/1024).toFixed(0)} Ko)`;
+      stream.getTracks().forEach(t=>t.stop());
+      $('#progression').textContent=`${Object.keys(enregistrements).length} / ${phrases.length} enregistrées`;
+      rendre();
+    };
+    mediaRecorder.start();
+    $('#record').disabled=true; $('#stop').disabled=false;
+    $('#etat').textContent='● Enregistrement en cours… lisez la phrase à voix haute.';
+  }catch(e){$('#etat').textContent='Erreur micro : '+e.message;}
+};
+$('#stop').onclick=()=>{if(mediaRecorder&&mediaRecorder.state!=='inactive')mediaRecorder.stop();$('#record').disabled=false;$('#stop').disabled=true;};
+$('#suivant').onclick=()=>{if(idx<phrases.length-1){idx++;rendre();}};
+
+async function envoyerReference(){
+  // concatenate tous les enregistrements cote a cote cote via WebAudio (decodage + concatenation)
+  const blobs=Object.values(enregistrements);
+  if(!blobs.length){$('#resultat').textContent='Enregistrez au moins une phrase.';return null;}
+  const ctx=new (window.AudioContext||window.webkitAudioContext)();
+  const buffers=[];
+  for(const b of blobs) buffers.push(await ctx.decodeAudioData(await b.arrayBuffer()));
+  const len=buffers.reduce((s,b)=>s+b.length,0);
+  const out=ctx.createBuffer(1,len,buffers[0].sampleRate);
+  let off=0; for(const b of buffers){out.copyToChannel(b.getChannelData(0),0,off);off+=b.length;}
+  // encoder WAV
+  const wav=encoderWav(out.getChannelData(0),out.sampleRate);
+  return new Blob([wav],{type:'audio/wav'});
+}
+function encoderWav(samples,sr){
+  const buf=new ArrayBuffer(44+samples.length*2),v=new DataView(buf);
+  const w=(o,s)=>{for(let i=0;i<s.length;i++)v.setUint8(o+i,s.charCodeAt(i));};
+  w(0,'RIFF');v.setUint32(4,36+samples.length*2,true);w(8,'WAVE');w(12,'fmt ');
+  v.setUint32(16,16,true);v.setUint16(20,1,true);v.setUint16(22,1,true);v.setUint32(24,sr,true);
+  v.setUint32(28,sr*2,true);v.setUint16(32,2,true);v.setUint16(34,16,true);w(36,'data');
+  v.setUint32(40,samples.length*2,true);
+  for(let i=0;i<samples.length;i++){const s=Math.max(-1,Math.min(1,samples[i]));v.setInt16(44+i*2,s<0?s*0x8000:s*0x7FFF,true);}
+  return buf;
+}
+$('#creerProfil').onclick=async()=>{
+  $('#resultat').textContent='Préparation de la référence…';
+  const blob=await envoyerReference(); if(!blob)return;
+  const fd=new FormData();
+  fd.append('name', $('#locuteur').value+' — '+$('#region').value);
+  fd.append('kind','clone');
+  fd.append('language','Arabic');
+  fd.append('ref_text','');
+  fd.append('ref_audio',blob,'reference.wav');
+  try{
+    const r=await fetch('/api/creer-profil',{method:'POST',body:fd}).then(x=>x.json());
+    $('#resultat').textContent=r.ok?`Profil créé : ${r.id} — ${r.name}`:`Erreur : ${r.error}`;
+    if(r.ok) window._profil=r.id;
+  }catch(e){$('#resultat').textContent='Erreur : '+e.message;}
+};
+$('#genererTout').onclick=async()=>{
+  if(!window._profil){$('#resultat').textContent='Créez d’abord le profil vocal.';return;}
+  $('#resultat').textContent='Génération en cours…';
+  try{
+    const r=await fetch('/api/generer',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({voice:window._profil})}).then(x=>x.json());
+    $('#resultat').textContent=r.ok?`${r.generes} clips générés dans public/audio/natif/`:`Erreur : ${r.error}`;
+  }catch(e){$('#resultat').textContent='Erreur : '+e.message;}
+};
+charger();
+</script>
+</body>
+</html>
