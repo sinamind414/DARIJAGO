@@ -1,7 +1,7 @@
 import type { AppLanguage } from '../types/darija';
 import {
   fetchNativeAudioSourceUrlWithMeta,
-  NATIVE_AUDIO_RATE_FACTOR,
+  getNativeAudioRateFactor,
   stopAllAudio,
 } from './audioPlayer';
 
@@ -537,7 +537,7 @@ export function startPhraseWebSpeechPlayback(
     try {
       clearNativeAudio();
       const audio = new Audio(resolved.url);
-      audio.playbackRate = resolved.playbackRate * NATIVE_AUDIO_RATE_FACTOR;
+      audio.playbackRate = resolved.playbackRate * getNativeAudioRateFactor();
       if ('preservesPitch' in audio) {
         audio.preservesPitch = true;
       }

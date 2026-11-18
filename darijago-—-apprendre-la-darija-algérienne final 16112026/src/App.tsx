@@ -60,6 +60,12 @@ import {
   PROFILE_MODULE_ORDER,
   type LearnerProfile,
 } from './utils/positioningLogic';
+import {
+  getStoredSpeed,
+  storeSpeed,
+  type PlaybackSpeed,
+} from './utils/playbackSpeed';
+import { setNativeAudioRateFactor } from './utils/audioPlayer';
 import { TopBar } from './components/TopBar';
 import { BottomNav } from './components/BottomNav';
 import { LessonWorkspace } from './components/LessonWorkspace';
@@ -97,6 +103,7 @@ function getStoredLanguage(): AppLanguage | null {
 export default function App() {
   const [isDark, setIsDark] = useState<boolean>(getInitialTheme);
   const [scriptMode, setScriptMode] = useState<ScriptMode>(getStoredScriptMode);
+  const [playbackSpeed, setPlaybackSpeed] = useState<PlaybackSpeed>(getStoredSpeed);
   const [language, setLanguage] = useState<AppLanguage>(
     () => getStoredLanguage() ?? 'fr'
   );
@@ -142,6 +149,11 @@ export default function App() {
   useEffect(() => {
     storeScriptMode(scriptMode);
   }, [scriptMode]);
+
+  useEffect(() => {
+    storeSpeed(playbackSpeed);
+    setNativeAudioRateFactor(playbackSpeed);
+  }, [playbackSpeed]);
 
   useEffect(() => {
     document.documentElement.lang = language === 'zh' ? 'zh-Hans' : language;
@@ -480,6 +492,8 @@ export default function App() {
         xp={progress.xp}
         scriptMode={scriptMode}
         onScriptModeChange={setScriptMode}
+        playbackSpeed={playbackSpeed}
+        onPlaybackSpeedChange={setPlaybackSpeed}
       />
 
       <main className="flex-1 pb-20 md:pb-8">

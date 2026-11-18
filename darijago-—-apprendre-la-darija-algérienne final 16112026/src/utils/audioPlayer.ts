@@ -27,12 +27,21 @@ export const AUDIO_CACHE_UPDATED_EVENT = 'darijago:audio-cache-updated';
 // Les clips OmniVoice sont graves a un debit trop rapide pour l'apprentissage.
 // Facteur applique a TOUTES les sources natives (manifest, cache, serveur) au moment
 // de la lecture, avec preservesPitch = true : la voix reste la meme, plus lente.
-// 1 = vitesse d'origine, 0.7 = 30 % plus lent (applique a toute l'application).
+// Valeur par defaut ; l'apprenant peut la regler via setNativeAudioRateFactor().
 export const NATIVE_AUDIO_RATE_FACTOR = 0.7;
 
 // Les verbes suivent le meme ralentissement que le reste de l'application.
-// Conserve comme constante explicite pour un reglage futur eventuel.
 export const VERB_AUDIO_RATE_FACTOR = NATIVE_AUDIO_RATE_FACTOR;
+
+// Vitesse courante, initialisee depuis le stockage et modifiable a chaud.
+let currentRateFactor: number = NATIVE_AUDIO_RATE_FACTOR;
+
+export function setNativeAudioRateFactor(factor: number): void {
+  if (factor > 0 && factor <= 4) currentRateFactor = factor;
+}
+export function getNativeAudioRateFactor(): number {
+  return currentRateFactor;
+}
 
 export interface ResolvedNativeAudioSource {
   url: string;
@@ -529,7 +538,7 @@ export async function playDarijaPronunciation(
 
   try {
     const audio = new Audio(resolved.url);
-    audio.playbackRate = resolved.playbackRate * (opts.rateFactor ?? NATIVE_AUDIO_RATE_FACTOR);
+    audio.playbackRate = resolved.playbackRate * (opts.rateFactor ?? currentRateFactor);
     if ('preservesPitch' in audio) {
       audio.preservesPitch = true;
     }
@@ -579,7 +588,7 @@ export async function playDarijaSequence(
     if (resolved) {
       await new Promise<void>((resolve) => {
         const audio = new Audio(resolved.url);
-        audio.playbackRate = resolved.playbackRate * (item.rateFactor ?? NATIVE_AUDIO_RATE_FACTOR);
+        audio.playbackRate = resolved.playbackRate * (item.rateFactor ?? currentRateFactor);
         if ('preservesPitch' in audio) {
           audio.preservesPitch = true;
         }

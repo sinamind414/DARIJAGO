@@ -3,7 +3,9 @@ import type { AppLanguage, WorkspaceTab } from '../types/darija';
 import { UI_TRANSLATIONS } from '../i18n/translations';
 import { EXPERIENCE_TRANSLATIONS } from '../i18n/experienceTranslations';
 import { ScriptModeSelector } from './ScriptModeSelector';
+import { SpeedSelector } from './SpeedSelector';
 import type { ScriptMode } from '../utils/scriptMode';
+import type { PlaybackSpeed } from '../utils/playbackSpeed';
 
 interface TopBarProps {
   language: AppLanguage;
@@ -16,6 +18,8 @@ interface TopBarProps {
   xp: number;
   scriptMode: ScriptMode;
   onScriptModeChange: (mode: ScriptMode) => void;
+  playbackSpeed: PlaybackSpeed;
+  onPlaybackSpeedChange: (speed: PlaybackSpeed) => void;
 }
 
 export function TopBar({
@@ -29,6 +33,8 @@ export function TopBar({
   xp,
   scriptMode,
   onScriptModeChange,
+  playbackSpeed,
+  onPlaybackSpeedChange,
 }: TopBarProps) {
   const navT = UI_TRANSLATIONS[language].nav;
   const expT = EXPERIENCE_TRANSLATIONS[language];
@@ -105,6 +111,8 @@ export function TopBar({
             onChange={onScriptModeChange}
             label="Ecriture darija"
           />
+
+          <SpeedSelector speed={playbackSpeed} onChange={onPlaybackSpeedChange} />
 
           <span
             data-testid="topbar-xp-pill"
