@@ -133,17 +133,17 @@ export const CURRICULUM_MODULES: LearningModule[] = [
       {
         id: 'sal-4',
         moduleId: 'salutations',
-        darijaLatin: 'Sahit, ya3tik essa7a',
+        darijaLatin: 'Sa7it, ya3tik essa7a',
         darijaArabic: 'صحيت، يعطيك الصحة',
         phoneticFrench: 'Sa-hit, ya-tik es-sa-ha',
         frenchMeaning: 'Merci, bon courage / que Dieu te donne la santé',
         literalMeaning: 'Tu as été juste, qu’Il te donne la santé',
         regionalNote:
-          '« Sahit » (masc.) / « Sahiti » (fém.) est la façon la plus chaleureuse et authentique de dire merci en Algérie.',
+          '« Sa7it » (masc.) / « Sahiti » (fém.) est la façon la plus chaleureuse et authentique de dire merci en Algérie.',
         difficulty: 'Débutant',
-        acceptedAnswers: ['sahit ya3tik essa7a', 'sahit yatik saha', 'sahit', 'ya3tik essa7a'],
+        acceptedAnswers: ['sa7it ya3tik essa7a', 'sa7it ya3tik essa7a', 'sa7it', 'ya3tik essa7a'],
         breakdown: [
-          { darija: 'Sahit', arabic: 'صحيت', french: 'Merci / bravo' },
+          { darija: 'Sa7it', arabic: 'صحيت', french: 'Merci / bravo' },
           { darija: 'ya3tik', arabic: 'يعطيك', french: 'qu’Il te donne' },
           { darija: 'essa7a', arabic: 'الصحة', french: 'la santé' },
         ],
@@ -151,7 +151,7 @@ export const CURRICULUM_MODULES: LearningModule[] = [
       {
         id: 'sal-5',
         moduleId: 'salutations',
-        darijaLatin: 'Sma7li khouya, ma3lich?',
+        darijaLatin: 'Sma7li khouya, ta3mel liya ma3rouf?',
         darijaArabic: 'سماحلي خويا، معليش؟',
         phoneticFrench: 'Sma-hli khou-ya, ma-lich ?',
         frenchMeaning: 'Excuse-moi mon frère, est-ce que ça va / pardon ?',
@@ -161,7 +161,7 @@ export const CURRICULUM_MODULES: LearningModule[] = [
         difficulty: 'Débutant',
         acceptedAnswers: ['sma7li khouya ma3lich', 'smahli khouya', 'smahli', 'sma7li'],
         breakdown: [
-          { darija: 'Sma7li', arabic: 'سماحلي', french: 'Excuse-moi / pardon' },
+          { darija: 'Sma7li', arabic: 'سماحلي', french: 'Excuse-moi / tu permets ?' },
           { darija: 'khouya', arabic: 'خويا', french: 'mon frère' },
           { darija: 'ma3lich', arabic: 'معليش', french: 'ce n’est pas grave / est-ce possible' },
         ],
@@ -306,7 +306,7 @@ export const CURRICULUM_MODULES: LearningModule[] = [
       {
         id: 'cafe-1',
         moduleId: 'cafe',
-        darijaLatin: 'A3tini qahwa noss-noss, ta3ich',
+        darijaLatin: 'A3tini 9ahwa noss-noss, ta3ich',
         darijaArabic: 'اعطيني قهوة نص نص، تعيش',
         phoneticFrench: 'A-ti-ni qah-oua noss-noss, ta-ich',
         frenchMeaning: 'Donne-moi un café crème (moitié café, moitié lait), s’il te plaît',
@@ -433,7 +433,7 @@ export const CURRICULUM_MODULES: LearningModule[] = [
       {
         id: 'mar-2',
         moduleId: 'marche',
-        darijaLatin: 'Naqasli chwiya, rani zbon!',
+        darijaLatin: 'Na9asli chwiya, rani zbon!',
         darijaArabic: 'نقصلي شوية، راني زبون!',
         phoneticFrench: 'Na-qas-li chou-ya, ra-ni zboun !',
         frenchMeaning: 'Baisse-moi un peu le prix, je suis un client fidèle !',
@@ -467,7 +467,7 @@ export const CURRICULUM_MODULES: LearningModule[] = [
       {
         id: 'mar-4',
         moduleId: 'marche',
-        darijaLatin: 'Rou7 qbala, men ba3d dour 3la limin',
+        darijaLatin: 'Rou7 9bala, men ba3d dour 3la limin',
         darijaArabic: 'روح قبالة، من بعد دور على اليمين',
         phoneticFrench: 'Rouh qba-la, men ba-ad dour a-la li-min',
         frenchMeaning: 'Va tout droit, ensuite tourne à droite',
@@ -484,7 +484,7 @@ export const CURRICULUM_MODULES: LearningModule[] = [
       {
         id: 'mar-5',
         moduleId: 'marche',
-        darijaLatin: 'Hna qrib, wella b3id bezzaf?',
+        darijaLatin: 'Hna 9rib, wella b3id bezzaf?',
         darijaArabic: 'هنا قريب، ولا بعيد بزاف؟',
         phoneticFrench: 'Hna qrib, ouel-la b-id bez-zaf ?',
         frenchMeaning: 'C’est tout près d’ici, ou très loin ?',
@@ -611,7 +611,7 @@ export const CURRICULUM_MODULES: LearningModule[] = [
       {
         id: 'quot-6',
         moduleId: 'quotidien',
-        darijaLatin: 'Nchallah ghodwa netlaqaw',
+        darijaLatin: 'Nchallah ghodwa netla9aw',
         darijaArabic: 'إن شاء الله غدوة نتلاقاو',
         phoneticFrench: 'Nchal-lah ghod-oua net-la-qaou',
         frenchMeaning: 'Si Dieu le veut, on se retrouve demain',
@@ -671,16 +671,16 @@ export const CURRICULUM_MODULES: LearningModule[] = [
       {
         id: 'verb-3',
         moduleId: 'verbes',
-        darijaLatin: 'Chnou hada b el darija?',
+        darijaLatin: 'Wachnou hada b eddarija?',
         darijaArabic: 'شنو هذا بالدارجة؟',
-        phoneticFrench: 'Chnou ha-da bel da-ri-ja ?',
+        phoneticFrench: 'Wach-nou ha-da b ed-da-ri-ja ?',
         frenchMeaning: 'Qu’est-ce que c’est en darija ?',
         regionalNote:
           'On peut aussi dire « Kifech tgoulou l’hada? » (Comment vous appelez ça ?).',
         difficulty: 'Débutant',
-        acceptedAnswers: ['chnou hada b el darija', 'chnou hada', 'wach hada'],
+        acceptedAnswers: ['wachnou hada b eddarija', 'wachnou hada', 'wach hada'],
         breakdown: [
-          { darija: 'Chnou', arabic: 'شنو', french: 'Qu’est-ce que' },
+          { darija: 'Wachnou', arabic: 'وشنو', french: 'Qu’est-ce que' },
           { darija: 'hada', arabic: 'هذا', french: 'ceci' },
           { darija: 'b el darija', arabic: 'بالدارجة', french: 'en darija' },
         ],
@@ -782,7 +782,7 @@ export const CURRICULUM_MODULES: LearningModule[] = [
       {
         id: 'bs7-3',
         moduleId: 'bensedira-base',
-        darijaLatin: 'Emchi besselama, abqa âla kheir',
+        darijaLatin: 'Emchi besselama, ab9a âla kheir',
         darijaArabic: 'امشي بالسلامة، ابقى على خير',
         phoneticFrench: 'Em-chi bes-se-la-ma, ab-qa a-la kheir',
         frenchMeaning: 'Va en paix — Reste dans le bien (au revoir)',
@@ -872,7 +872,7 @@ export const DIALOGUE_SCENARIOS: DialogueScenario[] = [
     },
     starterSuggestions: [
       {
-        darijaLatin: 'Labès sahit! A3tini qahwa noss-noss, ta3ich.',
+        darijaLatin: 'Labès sa7it! A3tini 9ahwa noss-noss, ta3ich.',
         darijaArabic: 'لاباس صحيت! اعطيني قهوة نص نص، تعيش.',
         frenchMeaning: 'Ça va merci ! Donne-moi un café crème s’il te plaît.',
       },
@@ -910,7 +910,7 @@ export const DIALOGUE_SCENARIOS: DialogueScenario[] = [
         frenchMeaning: 'Bonjour tante ! Combien le kilo de ces dattes ?',
       },
       {
-        darijaLatin: 'Ghalya chwiya khalti, naqasli chwiya ta3ich!',
+        darijaLatin: 'Ghalya chwiya khalti, na9asli chwiya ta3ich!',
         darijaArabic: 'غالية شوية خالتي، نقصلي شوية تعيش!',
         frenchMeaning: 'C’est un peu cher, baisse-moi un peu le prix s’il te plaît !',
       },
@@ -971,17 +971,17 @@ export const DIALOGUE_SCENARIOS: DialogueScenario[] = [
     },
     starterSuggestions: [
       {
-        darijaLatin: 'Salam! Win ja el souk? Hna qrib wella b3id?',
+        darijaLatin: 'Salam! Win ja el souk? Hna 9rib wella b3id?',
         darijaArabic: 'سلام! وين جا السوق؟ هنا قريب ولا بعيد؟',
         frenchMeaning: 'Bonjour ! Où se trouve le marché ? C’est proche ou loin ?',
       },
       {
-        darijaLatin: 'Rou7 qbala, men ba3d dour 3la limin.',
+        darijaLatin: 'Rou7 9bala, men ba3d dour 3la limin.',
         darijaArabic: 'روح قبالة، من بعد دور على اليمين.',
         frenchMeaning: 'Va tout droit, ensuite tourne à droite.',
       },
       {
-        darijaLatin: 'Habatni hna ta3ich, sahit khouya!',
+        darijaLatin: 'Habatni hna ta3ich, sa7it khouya!',
         darijaArabic: 'هبطني هنا تعيش، صحيت خويا!',
         frenchMeaning: 'Dépose-moi ici s’il te plaît, merci mon frère !',
       },
@@ -999,15 +999,15 @@ export const DIALOGUE_SCENARIOS: DialogueScenario[] = [
     openingTurn: {
       id: 'open-medecin',
       speaker: 'interlocutor',
-      darijaLatin: 'Salam! Wach rak? Win rak tjem3ek?',
-      darijaArabic: 'السلام! واش راك؟ وين راك تجمعك؟',
+      darijaLatin: 'Salam! Wach rak? Wach rah yewj3ek?',
+      darijaArabic: 'السلام! واش راك؟ واش راه يوجعك؟',
       frenchTranslation: 'Bonjour ! Comment vas-tu ? Où as-tu mal ?',
-      coachingTip: 'Montre la zone et dis « hna tjem3ni » (j’ai mal ici), puis précise depuis quand.',
+      coachingTip: 'Montre la zone et dis « kerchi rahi tewj3ni » (j’ai mal au ventre), puis précise depuis quand.',
     },
     starterSuggestions: [
       {
-        darijaLatin: 'Salam doktour, hna tjem3ni f el-batn men l-bare7.',
-        darijaArabic: 'السلام دكتور، هنا تجمعني في البطن من البارح.',
+        darijaLatin: 'Salam doktour, kerchi rahi tewj3ni men el bare7.',
+        darijaArabic: 'السلام دكتور، كرشي راهي توجعني من البارح.',
         frenchMeaning: 'Bonjour docteur, j’ai mal au ventre depuis hier.',
       },
       {
@@ -1016,8 +1016,8 @@ export const DIALOGUE_SCENARIOS: DialogueScenario[] = [
         frenchMeaning: 'Je n’ai pas bien compris, répétez lentement s’il vous plaît.',
       },
       {
-        darijaLatin: 'Wach khassni nechri el-dwa? Ch7al l’29er?',
-        darijaArabic: 'واش خصني نشري الدواء؟ شحال العقار؟',
+        darijaLatin: 'Lazem nechri eddwa? Ch7al ydir?',
+        darijaArabic: 'لازم نشري الدواء؟ شحال يدير؟',
         frenchMeaning: 'Dois-je acheter le médicament ? C’est combien ?',
       },
     ],
@@ -1032,10 +1032,10 @@ export const DIALOGUE_SCENARIOS: DialogueScenario[] = [
     openingTurn: {
       id: 'open-police',
       speaker: 'interlocutor',
-      darijaLatin: 'Salam! A3tini el-kart ta3ek, 3afak.',
-      darijaArabic: 'السلام! اعطيني الكارط تاعك، عفاك.',
+      darijaLatin: 'Salam! A3tini el-kart ta3ek, men fadlek.',
+      darijaArabic: 'السلام! اعطيني الكارط تاعك، من فضلك.',
       frenchTranslation: 'Bonjour ! Donnez-moi votre carte, s’il vous plaît.',
-      coachingTip: 'Reste calme et poli : « Tfaddal » (voici), puis demande « Wach khassni ndir? ».',
+      coachingTip: 'Reste calme et poli : « Tfaddal » (voici), puis demande « Wach lazem ndir? ».',
     },
     starterSuggestions: [
       {
@@ -1044,13 +1044,13 @@ export const DIALOGUE_SCENARIOS: DialogueScenario[] = [
         frenchMeaning: 'Voici, c’est ma carte.',
       },
       {
-        darijaLatin: 'Salam 3alaykoum, 3afak goul liyach khassni ndir.',
-        darijaArabic: 'السلام عليكم، عفاك قول لي واش خصني نDIR.',
+        darijaLatin: 'Men fadlek, goulli wach lazem ndir.',
+        darijaArabic: 'من فضلك، قولّي واش لازم ندير.',
         frenchMeaning: 'Bonjour, dites-moi s’il vous plaît ce que je dois faire.',
       },
       {
-        darijaLatin: 'Merci bezzaf, sahit!',
-        darijaArabic: 'مرسي بزاف، صحيتي!',
+        darijaLatin: 'Merci bezzaf, sa7it!',
+        darijaArabic: 'مرسي بزاف، صحيت!',
         frenchMeaning: 'Merci beaucoup !',
       },
     ],
@@ -1065,25 +1065,25 @@ export const DIALOGUE_SCENARIOS: DialogueScenario[] = [
     openingTurn: {
       id: 'open-panne',
       speaker: 'interlocutor',
-      darijaLatin: 'Salam khouya! Wach rak? El-karrossa wa9fat?',
-      darijaArabic: 'السلام خويا! واش راك؟ الكاروسة وقفات؟',
+      darijaLatin: 'Salam khouya! Wach rak? Ettomobil 7absset?',
+      darijaArabic: 'السلام خويا! واش راك؟ التوموبيل حبّست؟',
       frenchTranslation: 'Bonjour mon frère ! Ça va ? Ta voiture est tombée en panne ?',
-      coachingTip: 'Explique simplement : « El-motor ma khdemch » (le moteur ne tourne plus).',
+      coachingTip: 'Explique simplement : « El moteur ma yekhdemch » (le moteur ne tourne plus).',
     },
     starterSuggestions: [
       {
-        darijaLatin: 'Salam! El-motor ma khdemch, ma 3reftch chmen che7a.',
-        darijaArabic: 'السلام! الموتور ما خدمش، ما عرفتش شمن شحال.',
+        darijaLatin: 'Salam! El moteur ma yekhdemch, ma 3labalich 3lach.',
+        darijaArabic: 'السلام! الموتور ما يخدمش، ما علباليش علاش.',
         frenchMeaning: 'Bonjour ! Le moteur ne démarre plus, je ne sais pas pourquoi.',
       },
       {
-        darijaLatin: '3afak, 3endi l’telephone m3a7, tji t3awni?',
-        darijaArabic: 'عفاك، عندي التليفون معاك، تجي تعاوني؟',
-        frenchMeaning: 'S’il te plaît, j’ai mon téléphone sur moi, peux-tu m’aider ?',
+        darijaLatin: 'Men fadlek, t9der t3awenni?',
+        darijaArabic: 'من فضلك، تقدر تعاونّي؟',
+        frenchMeaning: 'S’il te plaît, peux-tu m’aider ?',
       },
       {
-        darijaLatin: 'Sahit bezzaf khouya, ya3tik essa7a!',
-        darijaArabic: 'صحيتي بزاف خويا، يعطيك الصحة!',
+        darijaLatin: 'Sa7it bezzaf khouya, ya3tik essa7a!',
+        darijaArabic: 'صحيت بزاف خويا، يعطيك الصحة!',
         frenchMeaning: 'Merci beaucoup mon frère !',
       },
     ],
@@ -1110,13 +1110,13 @@ export const DIALOGUE_SCENARIOS: DialogueScenario[] = [
         frenchMeaning: 'Le repas est délicieux tante, bravo !',
       },
       {
-        darijaLatin: 'Chokran khalti, ana chba3t ma chaa llah, tfaddli.',
-        darijaArabic: 'شكران خالتي، أنا شبعت ما شاء الله، تفضلي.',
-        frenchMeaning: 'Merci tante, je suis rassasié, merci à toi.',
+        darijaLatin: 'Sa7iti khalti, chba3t el 7amdoullah. Ya3tik essa7a.',
+        darijaArabic: 'صحيتي خالتي، شبعت الحمد لله. يعطيك الصحة.',
+        frenchMeaning: 'Merci tante, je suis rassasié, bravo à toi.',
       },
       {
-        darijaLatin: 'Ma bghitech zouz chwiya, sahit bezzaf.',
-        darijaArabic: 'ما بغيتش زوز شوية، صحيتي بزاف.',
+        darijaLatin: 'Baraka, sa7a! Chba3t, el 7amdoullah.',
+        darijaArabic: 'بركات، صحة! شبعت، الحمد لله.',
         frenchMeaning: 'Je ne veux pas en reprendre, merci beaucoup.',
       },
     ],
@@ -1131,10 +1131,10 @@ export const DIALOGUE_SCENARIOS: DialogueScenario[] = [
     openingTurn: {
       id: 'open-tel',
       speaker: 'interlocutor',
-      darijaLatin: 'Allo? Salam! Min hiya?',
-      darijaArabic: 'الو! السلام! من هيّا؟',
-      frenchTranslation: 'Allô ? Bonjour ! Qui est là ?',
-      coachingTip: 'Réponds « Ana Samy, salam 3lik! » puis demande « Wach 3endi wa9t? ».',
+      darijaLatin: 'Allo? Chkoun m3aya?',
+      darijaArabic: 'الو! شكون معايا؟',
+      frenchTranslation: 'Allô ? Qui est là ?',
+      coachingTip: 'Réponds « Ana Samy, salam 3lik! » puis demande « Wach 3andek el wa9t? ».',
     },
     starterSuggestions: [
       {
@@ -1143,13 +1143,13 @@ export const DIALOGUE_SCENARIOS: DialogueScenario[] = [
         frenchMeaning: 'Allô ! C’est Samy, bonjour ! Comment vas-tu ?',
       },
       {
-        darijaLatin: 'Wach 3endek wa9t daba? Bghit nchoufek.',
-        darijaArabic: 'واش عندك وقت دابا؟ بغيت نشوفك.',
+        darijaLatin: 'Wach 3andek el wa9t dorka? 7abit nchoufek.',
+        darijaArabic: 'واش عندك الوقت دركا؟ حابيت نشوفك.',
         frenchMeaning: 'Tu as du temps maintenant ? J’aimerais te voir.',
       },
       {
-        darijaLatin: 'Mzyan, ntele9aw f l’7orra. Beslama!',
-        darijaArabic: 'مزيان، نتلاقاو في الحرّة. بسلامة!',
+        darijaLatin: 'Saha, netla9aw f el 7ouma. Beslama!',
+        darijaArabic: 'صحة، نتلاقاو في الحومة. بسلامة!',
         frenchMeaning: 'D’accord, on se retrouve au quartier. À bientôt !',
       },
     ],
@@ -1164,26 +1164,26 @@ export const DIALOGUE_SCENARIOS: DialogueScenario[] = [
     openingTurn: {
       id: 'open-condol',
       speaker: 'interlocutor',
-      darijaLatin: 'Salam... mar7ba bik, rah wa9t 3ziz 3lina.',
-      darijaArabic: 'السلام... مرحبا بيك، راه وقت عزيز علينا.',
-      frenchTranslation: 'Bonjour... bienvenue, c’est un moment difficile pour nous.',
-      coachingTip: 'Formule courte et respectueuse : « Allah y’r7mo, Allah y’sbrkom. »',
+      darijaLatin: 'Salam... rana f wa9t s3ib 3lina.',
+      darijaArabic: 'السلام... رانا في وقت صعيب علينا.',
+      frenchTranslation: 'Bonjour... c’est un moment difficile pour nous.',
+      coachingTip: 'Formule courte et respectueuse : « Allah yer7mou, Allah ysabbarkoum. »',
     },
     starterSuggestions: [
       {
-        darijaLatin: 'Allah y’r7mo, Allah y’sbrkom w y’gfar lina w lihoum.',
-        darijaArabic: 'الله يرحمو، الله يصبركم ويغفر لنا وليهم.',
+        darijaLatin: 'Allah yer7mou, Allah ysabbarkoum w yeghfer lina w lihoum.',
+        darijaArabic: 'الله يرحمه، الله يصبركم ويغفر لنا وليهم.',
         frenchMeaning: 'Que Dieu lui fasse miséricorde et vous donne patience.',
       },
       {
-        darijaLatin: 'Ana m3akom f had l’wa9t, Allah y’koun m3ana.',
+        darijaLatin: 'Ana m3akom f had l’wa9t, Allah ykoun m3ana.',
         darijaArabic: 'أنا معاكم في هاد الوقت، الله يكون معانا.',
         frenchMeaning: 'Je suis avec vous en ce moment, que Dieu soit avec nous.',
       },
       {
-        darijaLatin: 'R7mo llah 3likoum, ma tnsawch ni.',
-        darijaArabic: 'رحمة الله عليكم، ما تنساوني.',
-        frenchMeaning: 'Que Dieu vous protège, ne m’oubliez pas.',
+        darijaLatin: '3addama Allah ajrkoum. Rabi yer7mou w ysabbarkoum.',
+        darijaArabic: 'عظّم الله أجركم. ربي يرحمه ويصبركم.',
+        frenchMeaning: 'Que Dieu vous récompense. Qu’Il lui fasse miséricorde et vous donne patience.',
       },
     ],
   },

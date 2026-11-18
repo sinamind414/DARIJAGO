@@ -30,7 +30,7 @@ Caractères **interdits** à l'affichage : `ɛ æ ǽ ḥ ṣ ḍ ṭ ẓ ḫ ġ 
 
 | Chiffre | Lettre arabe | Son | Équivalent français | Exemple darijaGO |
 |:---:|---|---|---|---|
-| **3** | ع | ʕ (pharyngale) | gorge serrée, « a » avalé | `3afak` = s'il te plaît |
+| **3** | ع | ʕ (pharyngale) | gorge serrée, « a » avalé | `3andi` = j'ai |
 | **7** | ح | ħ (pharyngale sourde) | « h » soufflé, tendu | `7lib` = lait |
 | **9** | ق | q/q' (uvulaire) | « k » du fond de gorge | `9hwa` = café |
 | **kh** | خ | x (velaire sourde) | « ch » de *Bach* / *jota* | `khobz` = pain |
@@ -46,7 +46,7 @@ Lettres arabizi complémentaires :
 | `s` | س | toujours « s » (jamais « z ») |
 | `z` | ز | « z » |
 | `t` / `d` | ت / د | — |
-| `q` | ق | **réservé** aux cas où `9` n'est pas voulu (rare) |
+| `9` | ق | **obligatoire** dans toute l'app (pas de `q`, sauf noms propres) |
 
 ---
 
@@ -55,9 +55,9 @@ Lettres arabizi complémentaires :
 | Convention | Usage | Exemple |
 |---|---|---|
 | `a` | voyelle « a » | `ktab` = livre |
-| `i` | voyelle « i » | `fhemt` = j'ai compris |
+| `i` | voyelle « i » | `kif` = comment |
 | `u` | voyelle « u » | `koul` = mange |
-| `e` | « e » bref (schwa) | `bshhal` = combien |
+| `e` | « e » bref (schwa) | `fhemt` = j'ai compris |
 | **Pas de voyelle longue marquée** | `ā ē ī ū` interdits → écrire la voyelle simple | `mûḥal` → `mohal`, `mrîḍ` → `mrid` |
 
 Les voyelles longues de l'arabe standard (ā, ī, ū) **ne sont pas notées** : la darija ne les

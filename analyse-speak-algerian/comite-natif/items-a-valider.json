@@ -34,7 +34,7 @@
       "type": "phrase",
       "source": "Module 01",
       "arabic": "صحيت، يعطيك الصحة",
-      "latin": "Sahit, ya3tik essa7a",
+      "latin": "Sa7it, ya3tik essa7a",
       "french": "Merci, bon courage / que Dieu te donne la santé",
       "note": ""
     },
@@ -43,7 +43,7 @@
       "type": "phrase",
       "source": "Module 01",
       "arabic": "سماحلي خويا، معليش؟",
-      "latin": "Sma7li khouya, ma3lich?",
+      "latin": "Sma7li khouya, ta3mel liya ma3rouf?",
       "french": "Excuse-moi mon frère, est-ce que ça va / pardon ?",
       "note": ""
     },
@@ -115,7 +115,7 @@
       "type": "phrase",
       "source": "Module 03",
       "arabic": "اعطيني قهوة نص نص، تعيش",
-      "latin": "A3tini qahwa noss-noss, ta3ich",
+      "latin": "A3tini 9ahwa noss-noss, ta3ich",
       "french": "Donne-moi un café crème (moitié café, moitié lait), s’il te plaît",
       "note": ""
     },
@@ -178,7 +178,7 @@
       "type": "phrase",
       "source": "Module 04",
       "arabic": "نقصلي شوية، راني زبون!",
-      "latin": "Naqasli chwiya, rani zbon!",
+      "latin": "Na9asli chwiya, rani zbon!",
       "french": "Baisse-moi un peu le prix, je suis un client fidèle !",
       "note": ""
     },
@@ -196,7 +196,7 @@
       "type": "phrase",
       "source": "Module 04",
       "arabic": "روح قبالة، من بعد دور على اليمين",
-      "latin": "Rou7 qbala, men ba3d dour 3la limin",
+      "latin": "Rou7 9bala, men ba3d dour 3la limin",
       "french": "Va tout droit, ensuite tourne à droite",
       "note": ""
     },
@@ -205,7 +205,7 @@
       "type": "phrase",
       "source": "Module 04",
       "arabic": "هنا قريب، ولا بعيد بزاف؟",
-      "latin": "Hna qrib, wella b3id bezzaf?",
+      "latin": "Hna 9rib, wella b3id bezzaf?",
       "french": "C’est tout près d’ici, ou très loin ?",
       "note": ""
     },
@@ -268,7 +268,7 @@
       "type": "phrase",
       "source": "Module 05",
       "arabic": "إن شاء الله غدوة نتلاقاو",
-      "latin": "Nchallah ghodwa netlaqaw",
+      "latin": "Nchallah ghodwa netla9aw",
       "french": "Si Dieu le veut, on se retrouve demain",
       "note": ""
     },
@@ -295,7 +295,7 @@
       "type": "phrase",
       "source": "Module 06",
       "arabic": "شنو هذا بالدارجة؟",
-      "latin": "Chnou hada b el darija?",
+      "latin": "Wachnou hada b eddarija?",
       "french": "Qu’est-ce que c’est en darija ?",
       "note": ""
     },
@@ -349,7 +349,7 @@
       "type": "phrase",
       "source": "Module 07",
       "arabic": "امشي بالسلامة، ابقى على خير",
-      "latin": "Emchi besselama, abqa âla kheir",
+      "latin": "Emchi besselama, ab9a âla kheir",
       "french": "Va en paix — Reste dans le bien (au revoir)",
       "note": ""
     },
@@ -394,7 +394,7 @@
       "type": "dialogue",
       "source": "Au café à Alger",
       "arabic": "لاباس صحيت! اعطيني قهوة نص نص، تعيش.",
-      "latin": "Labès sahit! A3tini qahwa noss-noss, ta3ich.",
+      "latin": "Labès sa7it! A3tini 9ahwa noss-noss, ta3ich.",
       "french": "Ça va merci ! Donne-moi un café crème s’il te plaît.",
       "note": ""
     },
@@ -439,7 +439,7 @@
       "type": "dialogue",
       "source": "Au marché de quartier",
       "arabic": "غالية شوية خالتي، نقصلي شوية تعيش!",
-      "latin": "Ghalya chwiya khalti, naqasli chwiya ta3ich!",
+      "latin": "Ghalya chwiya khalti, na9asli chwiya ta3ich!",
       "french": "C’est un peu cher, baisse-moi un peu le prix s’il te plaît !",
       "note": ""
     },
@@ -502,7 +502,7 @@
       "type": "dialogue",
       "source": "En taxi & Orientation",
       "arabic": "سلام! وين جا السوق؟ هنا قريب ولا بعيد؟",
-      "latin": "Salam! Win ja el souk? Hna qrib wella b3id?",
+      "latin": "Salam! Win ja el souk? Hna 9rib wella b3id?",
       "french": "Bonjour ! Où se trouve le marché ? C’est proche ou loin ?",
       "note": ""
     },
@@ -511,7 +511,7 @@
       "type": "dialogue",
       "source": "En taxi & Orientation",
       "arabic": "روح قبالة، من بعد دور على اليمين.",
-      "latin": "Rou7 qbala, men ba3d dour 3la limin.",
+      "latin": "Rou7 9bala, men ba3d dour 3la limin.",
       "french": "Va tout droit, ensuite tourne à droite.",
       "note": ""
     },
@@ -520,7 +520,7 @@
       "type": "dialogue",
       "source": "En taxi & Orientation",
       "arabic": "هبطني هنا تعيش، صحيت خويا!",
-      "latin": "Habatni hna ta3ich, sahit khouya!",
+      "latin": "Habatni hna ta3ich, sa7it khouya!",
       "french": "Dépose-moi ici s’il te plaît, merci mon frère !",
       "note": ""
     },
@@ -528,17 +528,17 @@
       "id": "dialogue-medecin-urgence-0",
       "type": "dialogue",
       "source": "Chez le médecin",
-      "arabic": "السلام! واش راك؟ وين راك تجمعك؟",
-      "latin": "Salam! Wach rak? Win rak tjem3ek?",
+      "arabic": "السلام! واش راك؟ واش راه يوجعك؟",
+      "latin": "Salam! Wach rak? Wach rah yewj3ek?",
       "french": "Bonjour ! Comment vas-tu ? Où as-tu mal ?",
-      "note": "Montre la zone et dis « hna tjem3ni » (j’ai mal ici), puis précise depuis quand."
+      "note": "Montre la zone et dis « kerchi rahi tewj3ni » (j’ai mal au ventre), puis précise depuis quand."
     },
     {
       "id": "dialogue-medecin-urgence-1",
       "type": "dialogue",
       "source": "Chez le médecin",
-      "arabic": "السلام دكتور، هنا تجمعني في البطن من البارح.",
-      "latin": "Salam doktour, hna tjem3ni f el-batn men l-bare7.",
+      "arabic": "السلام دكتور، كرشي راهي توجعني من البارح.",
+      "latin": "Salam doktour, kerchi rahi tewj3ni men el bare7.",
       "french": "Bonjour docteur, j’ai mal au ventre depuis hier.",
       "note": ""
     },
@@ -555,8 +555,8 @@
       "id": "dialogue-medecin-urgence-3",
       "type": "dialogue",
       "source": "Chez le médecin",
-      "arabic": "واش خصني نشري الدواء؟ شحال العقار؟",
-      "latin": "Wach khassni nechri el-dwa? Ch7al l’29er?",
+      "arabic": "لازم نشري الدواء؟ شحال يدير؟",
+      "latin": "Lazem nechri eddwa? Ch7al ydir?",
       "french": "Dois-je acheter le médicament ? C’est combien ?",
       "note": ""
     },
@@ -564,10 +564,10 @@
       "id": "dialogue-police-admin-0",
       "type": "dialogue",
       "source": "Contrôle & Administration",
-      "arabic": "السلام! اعطيني الكارط تاعك، عفاك.",
-      "latin": "Salam! A3tini el-kart ta3ek, 3afak.",
+      "arabic": "السلام! اعطيني الكارط تاعك، من فضلك.",
+      "latin": "Salam! A3tini el-kart ta3ek, men fadlek.",
       "french": "Bonjour ! Donnez-moi votre carte, s’il vous plaît.",
-      "note": "Reste calme et poli : « Tfaddal » (voici), puis demande « Wach khassni ndir? »."
+      "note": "Reste calme et poli : « Tfaddal » (voici), puis demande « Wach lazem ndir? »."
     },
     {
       "id": "dialogue-police-admin-1",
@@ -582,8 +582,8 @@
       "id": "dialogue-police-admin-2",
       "type": "dialogue",
       "source": "Contrôle & Administration",
-      "arabic": "السلام عليكم، عفاك قول لي واش خصني نDIR.",
-      "latin": "Salam 3alaykoum, 3afak goul liyach khassni ndir.",
+      "arabic": "من فضلك، قولّي واش لازم ندير.",
+      "latin": "Men fadlek, goulli wach lazem ndir.",
       "french": "Bonjour, dites-moi s’il vous plaît ce que je dois faire.",
       "note": ""
     },
@@ -591,8 +591,8 @@
       "id": "dialogue-police-admin-3",
       "type": "dialogue",
       "source": "Contrôle & Administration",
-      "arabic": "مرسي بزاف، صحيتي!",
-      "latin": "Merci bezzaf, sahit!",
+      "arabic": "مرسي بزاف، صحيت!",
+      "latin": "Merci bezzaf, sa7it!",
       "french": "Merci beaucoup !",
       "note": ""
     },
@@ -600,17 +600,17 @@
       "id": "dialogue-panne-route-0",
       "type": "dialogue",
       "source": "Panne sur la route",
-      "arabic": "السلام خويا! واش راك؟ الكاروسة وقفات؟",
-      "latin": "Salam khouya! Wach rak? El-karrossa wa9fat?",
+      "arabic": "السلام خويا! واش راك؟ التوموبيل حبّست؟",
+      "latin": "Salam khouya! Wach rak? Ettomobil 7absset?",
       "french": "Bonjour mon frère ! Ça va ? Ta voiture est tombée en panne ?",
-      "note": "Explique simplement : « El-motor ma khdemch » (le moteur ne tourne plus)."
+      "note": "Explique simplement : « El moteur ma yekhdemch » (le moteur ne tourne plus)."
     },
     {
       "id": "dialogue-panne-route-1",
       "type": "dialogue",
       "source": "Panne sur la route",
-      "arabic": "السلام! الموتور ما خدمش، ما عرفتش شمن شحال.",
-      "latin": "Salam! El-motor ma khdemch, ma 3reftch chmen che7a.",
+      "arabic": "السلام! الموتور ما يخدمش، ما علباليش علاش.",
+      "latin": "Salam! El moteur ma yekhdemch, ma 3labalich 3lach.",
       "french": "Bonjour ! Le moteur ne démarre plus, je ne sais pas pourquoi.",
       "note": ""
     },
@@ -618,17 +618,17 @@
       "id": "dialogue-panne-route-2",
       "type": "dialogue",
       "source": "Panne sur la route",
-      "arabic": "عفاك، عندي التليفون معاك، تجي تعاوني؟",
-      "latin": "3afak, 3endi l’telephone m3a7, tji t3awni?",
-      "french": "S’il te plaît, j’ai mon téléphone sur moi, peux-tu m’aider ?",
+      "arabic": "من فضلك، تقدر تعاونّي؟",
+      "latin": "Men fadlek, t9der t3awenni?",
+      "french": "S’il te plaît, peux-tu m’aider ?",
       "note": ""
     },
     {
       "id": "dialogue-panne-route-3",
       "type": "dialogue",
       "source": "Panne sur la route",
-      "arabic": "صحيتي بزاف خويا، يعطيك الصحة!",
-      "latin": "Sahit bezzaf khouya, ya3tik essa7a!",
+      "arabic": "صحيت بزاف خويا، يعطيك الصحة!",
+      "latin": "Sa7it bezzaf khouya, ya3tik essa7a!",
       "french": "Merci beaucoup mon frère !",
       "note": ""
     },
@@ -654,17 +654,17 @@
       "id": "dialogue-belle-famille-repas-2",
       "type": "dialogue",
       "source": "Repas chez la belle-famille",
-      "arabic": "شكران خالتي، أنا شبعت ما شاء الله، تفضلي.",
-      "latin": "Chokran khalti, ana chba3t ma chaa llah, tfaddli.",
-      "french": "Merci tante, je suis rassasié, merci à toi.",
+      "arabic": "صحيتي خالتي، شبعت الحمد لله. يعطيك الصحة.",
+      "latin": "Sa7iti khalti, chba3t el 7amdoullah. Ya3tik essa7a.",
+      "french": "Merci tante, je suis rassasié, bravo à toi.",
       "note": ""
     },
     {
       "id": "dialogue-belle-famille-repas-3",
       "type": "dialogue",
       "source": "Repas chez la belle-famille",
-      "arabic": "ما بغيتش زوز شوية، صحيتي بزاف.",
-      "latin": "Ma bghitech zouz chwiya, sahit bezzaf.",
+      "arabic": "بركات، صحة! شبعت، الحمد لله.",
+      "latin": "Baraka, sa7a! Chba3t, el 7amdoullah.",
       "french": "Je ne veux pas en reprendre, merci beaucoup.",
       "note": ""
     },
@@ -672,10 +672,10 @@
       "id": "dialogue-telephone-0",
       "type": "dialogue",
       "source": "Appel téléphonique",
-      "arabic": "الو! السلام! من هيّا؟",
-      "latin": "Allo? Salam! Min hiya?",
-      "french": "Allô ? Bonjour ! Qui est là ?",
-      "note": "Réponds « Ana Samy, salam 3lik! » puis demande « Wach 3endi wa9t? »."
+      "arabic": "الو! شكون معايا؟",
+      "latin": "Allo? Chkoun m3aya?",
+      "french": "Allô ? Qui est là ?",
+      "note": "Réponds « Ana Samy, salam 3lik! » puis demande « Wach 3andek el wa9t? »."
     },
     {
       "id": "dialogue-telephone-1",
@@ -690,8 +690,8 @@
       "id": "dialogue-telephone-2",
       "type": "dialogue",
       "source": "Appel téléphonique",
-      "arabic": "واش عندك وقت دابا؟ بغيت نشوفك.",
-      "latin": "Wach 3endek wa9t daba? Bghit nchoufek.",
+      "arabic": "واش عندك الوقت دركا؟ حابيت نشوفك.",
+      "latin": "Wach 3andek el wa9t dorka? 7abit nchoufek.",
       "french": "Tu as du temps maintenant ? J’aimerais te voir.",
       "note": ""
     },
@@ -699,8 +699,8 @@
       "id": "dialogue-telephone-3",
       "type": "dialogue",
       "source": "Appel téléphonique",
-      "arabic": "مزيان، نتلاقاو في الحرّة. بسلامة!",
-      "latin": "Mzyan, ntele9aw f l’7orra. Beslama!",
+      "arabic": "صحة، نتلاقاو في الحومة. بسلامة!",
+      "latin": "Saha, netla9aw f el 7ouma. Beslama!",
       "french": "D’accord, on se retrouve au quartier. À bientôt !",
       "note": ""
     },
@@ -708,17 +708,17 @@
       "id": "dialogue-condoleances-0",
       "type": "dialogue",
       "source": "Condoléances & Soutien",
-      "arabic": "السلام... مرحبا بيك، راه وقت عزيز علينا.",
-      "latin": "Salam... mar7ba bik, rah wa9t 3ziz 3lina.",
-      "french": "Bonjour... bienvenue, c’est un moment difficile pour nous.",
-      "note": "Formule courte et respectueuse : « Allah y’r7mo, Allah y’sbrkom. »"
+      "arabic": "السلام... رانا في وقت صعيب علينا.",
+      "latin": "Salam... rana f wa9t s3ib 3lina.",
+      "french": "Bonjour... c’est un moment difficile pour nous.",
+      "note": "Formule courte et respectueuse : « Allah yer7mou, Allah ysabbarkoum. »"
     },
     {
       "id": "dialogue-condoleances-1",
       "type": "dialogue",
       "source": "Condoléances & Soutien",
-      "arabic": "الله يرحمو، الله يصبركم ويغفر لنا وليهم.",
-      "latin": "Allah y’r7mo, Allah y’sbrkom w y’gfar lina w lihoum.",
+      "arabic": "الله يرحمه، الله يصبركم ويغفر لنا وليهم.",
+      "latin": "Allah yer7mou, Allah ysabbarkoum w yeghfer lina w lihoum.",
       "french": "Que Dieu lui fasse miséricorde et vous donne patience.",
       "note": ""
     },
@@ -727,7 +727,7 @@
       "type": "dialogue",
       "source": "Condoléances & Soutien",
       "arabic": "أنا معاكم في هاد الوقت، الله يكون معانا.",
-      "latin": "Ana m3akom f had l’wa9t, Allah y’koun m3ana.",
+      "latin": "Ana m3akom f had l’wa9t, Allah ykoun m3ana.",
       "french": "Je suis avec vous en ce moment, que Dieu soit avec nous.",
       "note": ""
     },
@@ -735,9 +735,9 @@
       "id": "dialogue-condoleances-3",
       "type": "dialogue",
       "source": "Condoléances & Soutien",
-      "arabic": "رحمة الله عليكم، ما تنساوني.",
-      "latin": "R7mo llah 3likoum, ma tnsawch ni.",
-      "french": "Que Dieu vous protège, ne m’oubliez pas.",
+      "arabic": "عظّم الله أجركم. ربي يرحمه ويصبركم.",
+      "latin": "3addama Allah ajrkoum. Rabi yer7mou w ysabbarkoum.",
+      "french": "Que Dieu vous récompense. Qu’Il lui fasse miséricorde et vous donne patience.",
       "note": ""
     },
     {
