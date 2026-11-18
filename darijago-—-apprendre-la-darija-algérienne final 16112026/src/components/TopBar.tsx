@@ -2,6 +2,8 @@ import { Moon, Sun } from 'lucide-react';
 import type { AppLanguage, WorkspaceTab } from '../types/darija';
 import { UI_TRANSLATIONS } from '../i18n/translations';
 import { EXPERIENCE_TRANSLATIONS } from '../i18n/experienceTranslations';
+import { ScriptModeSelector } from './ScriptModeSelector';
+import type { ScriptMode } from '../utils/scriptMode';
 
 interface TopBarProps {
   language: AppLanguage;
@@ -12,6 +14,8 @@ interface TopBarProps {
   isDark: boolean;
   onToggleTheme: () => void;
   xp: number;
+  scriptMode: ScriptMode;
+  onScriptModeChange: (mode: ScriptMode) => void;
 }
 
 export function TopBar({
@@ -23,6 +27,8 @@ export function TopBar({
   isDark,
   onToggleTheme,
   xp,
+  scriptMode,
+  onScriptModeChange,
 }: TopBarProps) {
   const navT = UI_TRANSLATIONS[language].nav;
   const expT = EXPERIENCE_TRANSLATIONS[language];
@@ -94,6 +100,12 @@ export function TopBar({
 
         {/* Zone 3: Theme toggle + XP/CTA */}
         <div className="flex items-center gap-2.5 shrink-0">
+          <ScriptModeSelector
+            mode={scriptMode}
+            onChange={onScriptModeChange}
+            label="Ecriture darija"
+          />
+
           <span
             data-testid="topbar-xp-pill"
             className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tabular-nums bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] text-[#4E6231] dark:text-[#A5C178]"

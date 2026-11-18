@@ -28,6 +28,7 @@ import type {
   UserProgressState,
 } from '../types/darija';
 import { UI_TRANSLATIONS } from '../i18n/translations';
+import { pickScript, type ScriptMode } from '../utils/scriptMode';
 import { EXPERIENCE_TRANSLATIONS } from '../i18n/experienceTranslations';
 import { PHONETIC_MODAL_TRANSLATIONS } from '../i18n/phoneticModalTranslations';
 import { getLocalizedModule, getLocalizedSound } from '../i18n/curriculumTranslations';
@@ -56,6 +57,7 @@ import { QuickReviewPanel } from './QuickReviewPanel';
 
 interface LessonWorkspaceProps {
   language: AppLanguage;
+  scriptMode?: ScriptMode;
   progress: UserProgressState;
   activeModuleId: string;
   activePhraseId: string;
@@ -71,6 +73,7 @@ interface LessonWorkspaceProps {
 
 export function LessonWorkspace({
   language,
+  scriptMode = 'arabizi',
   progress,
   activeModuleId,
   activePhraseId,
@@ -130,6 +133,7 @@ export function LessonWorkspace({
   const [learnMode, setLearnMode] = useState<'guided' | 'quick-review'>('guided');
   const [playingMode, setPlayingMode] = useState<'normal' | 'slow' | null>(null);
   const [showDetails, setShowDetails] = useState(true);
+  const [showPhonetic, setShowPhonetic] = useState(false);
   const [showPractice, setShowPractice] = useState(false);
   const [showUnitPicker, setShowUnitPicker] = useState(false);
   const [practiceInput, setPracticeInput] = useState('');
@@ -497,17 +501,22 @@ export function LessonWorkspace({
                 </button>
               </div>
 
-              {/* Bold Darija Phrase */}
-              <div className="space-y-2 max-w-xl">
-                <h2 className="font-display text-3xl sm:text-5xl font-extrabold text-[#23201C] dark:text-slate-50 tracking-tight leading-tight [text-wrap:balance]">
-                  {currentPhrase.darijaLatin}
-                </h2>
-                <p
-                  className="font-arabic text-xl sm:text-2xl font-semibold text-[#686259] dark:text-slate-300"
-                  lang="ar"
-                  dir="rtl"
+              {/* Ecriture principale (reglage global R1) + autres au toucher */}
+              <div className="space-y-2 max-w-xl" data-testid="lesson-script-display">
+                <h2
+                  className={`font-display text-3xl sm:text-5xl font-extrabold text-[#23201C] dark:text-slate-50 tracking-tight leading-tight [text-wrap:balance] ${
+                    scriptMode === 'arabic' ? 'font-arabic' : ''
+                  }`}
+                  lang={scriptMode === 'arabic' ? 'ar' : undefined}
+                  dir={scriptMode === 'arabic' ? 'rtl' : undefined}
+                  data-testid="lesson-primary-script"
                 >
-                  {currentPhrase.darijaArabic}
+                  {pickScript(scriptMode, currentPhrase.darijaArabic, currentPhrase.darijaLatin, currentPhrase.phoneticFrench)}
+                </h2>
+                <p className="text-sm text-[#8E867B] dark:text-slate-400" dir="auto" data-testid="lesson-secondary-script">
+                  {scriptMode === 'arabic'
+                    ? currentPhrase.darijaLatin
+                    : currentPhrase.darijaArabic}
                 </p>
               </div>
 
@@ -536,9 +545,20 @@ export function LessonWorkspace({
                 </div>
 
                 <div className="flex items-center justify-center gap-2 flex-wrap">
-                  <p className="font-mono text-xs sm:text-sm text-[#4E6231] dark:text-[#A5C178]">
-                    [{currentPhrase.phoneticFrench}]
-                  </p>
+                  {showPhonetic && (
+                    <p className="font-mono text-xs sm:text-sm text-[#4E6231] dark:text-[#A5C178]">
+                      [{currentPhrase.phoneticFrench}]
+                    </p>
+                  )}
+                  <button
+                    type="button"
+                    data-testid="lesson-toggle-phonetic"
+                    onClick={() => setShowPhonetic((v) => !v)}
+                    aria-pressed={showPhonetic}
+                    className="px-2 py-1 rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#1D2622] text-[11px] font-semibold text-[#686259] dark:text-slate-400 cursor-pointer"
+                  >
+                    {showPhonetic ? 'Masquer phonétique' : 'Phonétique FR'}
+                  </button>
                   <button
                     type="button"
                     data-testid="lesson-phonetic-modal-btn"

@@ -11,6 +11,11 @@ import {
   UI_TRANSLATIONS,
   parseAppLanguage,
 } from './i18n/translations';
+import {
+  getStoredScriptMode,
+  storeScriptMode,
+  type ScriptMode,
+} from './utils/scriptMode';
 import { EXPERIENCE_TRANSLATIONS } from './i18n/experienceTranslations';
 import {
   PROGRESS_STORAGE_KEY,
@@ -84,6 +89,7 @@ function getStoredLanguage(): AppLanguage | null {
 
 export default function App() {
   const [isDark, setIsDark] = useState<boolean>(getInitialTheme);
+  const [scriptMode, setScriptMode] = useState<ScriptMode>(getStoredScriptMode);
   const [language, setLanguage] = useState<AppLanguage>(
     () => getStoredLanguage() ?? 'fr'
   );
@@ -119,6 +125,10 @@ export default function App() {
       // ignore storage quota errors
     }
   }, [isDark]);
+
+  useEffect(() => {
+    storeScriptMode(scriptMode);
+  }, [scriptMode]);
 
   useEffect(() => {
     document.documentElement.lang = language === 'zh' ? 'zh-Hans' : language;
@@ -437,12 +447,15 @@ export default function App() {
         isDark={isDark}
         onToggleTheme={() => setIsDark((prev) => !prev)}
         xp={progress.xp}
+        scriptMode={scriptMode}
+        onScriptModeChange={setScriptMode}
       />
 
       <main className="flex-1 pb-20 md:pb-8">
         {activeTab === 'apprendre' && (
           <LessonWorkspace
             language={language}
+            scriptMode={scriptMode}
             progress={progress}
             activeModuleId={activeModuleId}
             activePhraseId={activePhraseId}
