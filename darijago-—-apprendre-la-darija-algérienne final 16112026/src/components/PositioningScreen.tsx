@@ -43,7 +43,7 @@ export function PositioningScreen({ onComplete }: PositioningScreenProps) {
         <div className="w-full max-w-lg bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] rounded-3xl p-8 sm:p-10 text-center space-y-6 shadow-sm">
           <div className="text-5xl" aria-hidden="true">{p.icon}</div>
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#5C723C] dark:text-[#A5C178]">
+            <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#B7410E] dark:text-[#E8A184]">
               Votre profil
             </p>
             <h1 className="font-display text-3xl sm:text-4xl font-extrabold text-[#23201C] dark:text-slate-50 mt-2">
@@ -58,7 +58,7 @@ export function PositioningScreen({ onComplete }: PositioningScreenProps) {
             type="button"
             data-testid="positioning-finish"
             onClick={() => onComplete(profil)}
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-white bg-[#5C723C] hover:bg-[#4E6231] cursor-pointer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-white bg-[#B7410E] hover:bg-[#8C2F18] cursor-pointer"
           >
             Commencer mon parcours <ArrowRight className="w-4 h-4" aria-hidden="true" />
           </button>
@@ -74,14 +74,14 @@ export function PositioningScreen({ onComplete }: PositioningScreenProps) {
       className="min-h-screen flex items-center justify-center bg-[#F5F1E8] dark:bg-[#0E1311] px-4"
     >
       <div className="w-full max-w-xl bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] rounded-3xl p-6 sm:p-10 space-y-6 shadow-sm">
-        <div className="flex items-center gap-2 text-[#5C723C] dark:text-[#A5C178]">
+        <div className="flex items-center gap-2 text-[#B7410E] dark:text-[#E8A184]">
           <Sparkles className="w-4 h-4" aria-hidden="true" />
           <span className="text-xs font-bold uppercase tracking-wider">Positionnement · {step + 1}/{total}</span>
         </div>
 
         <div className="h-1.5 rounded-full bg-[#EFECE4] dark:bg-[#2A352F] overflow-hidden">
           <div
-            className="h-full bg-[#5C723C] transition-all"
+            className="h-full bg-[#B7410E] transition-all"
             style={{ width: `${((step + 1) / total) * 100}%` }}
           />
         </div>
@@ -97,7 +97,7 @@ export function PositioningScreen({ onComplete }: PositioningScreenProps) {
               type="button"
               data-testid={`positioning-option-${step}-${i}`}
               onClick={() => choose(opt.profil)}
-              className="w-full text-left px-4 py-3.5 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#1D2622] hover:border-[#5C723C] dark:hover:border-[#A5C178] text-[#23201C] dark:text-slate-100 font-medium cursor-pointer transition-colors"
+              className="w-full text-left px-4 py-3.5 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#1D2622] hover:border-[#B7410E] dark:hover:border-[#E8A184] text-[#23201C] dark:text-slate-100 font-medium cursor-pointer transition-colors"
             >
               {opt.label}
             </button>

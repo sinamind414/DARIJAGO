@@ -189,8 +189,8 @@ export function DialogueSimulator({
                   aria-current={active ? 'true' : undefined}
                   className={`w-full text-left p-3.5 rounded-xl border cursor-pointer ${
                     active
-                      ? 'bg-[#5C723C] dark:bg-[#4E6231] text-white border-[#5C723C]'
-                      : 'bg-[#F5F1E8]/50 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                      ? 'bg-[#B7410E] dark:bg-[#8C2F18] text-white border-[#B7410E]'
+                      : 'bg-[#F5F1E8]/50 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                   }`}
                 >
                   <p className="text-sm font-semibold">{sc.title}</p>
@@ -207,7 +207,7 @@ export function DialogueSimulator({
           </div>
 
           <div className="pt-3 border-t border-[#EFECE4] dark:border-[#2A352F]">
-            <p className="text-xs font-semibold text-[#4E6231] dark:text-[#A5C178]">
+            <p className="text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184]">
               {t.objectiveLabel}
             </p>
             <p className="text-sm text-[#23201C] dark:text-slate-300 mt-1 leading-relaxed">
@@ -275,13 +275,13 @@ export function DialogueSimulator({
                     className={`max-w-[85%] rounded-2xl p-4 border ${
                       isPartner
                         ? 'bg-white dark:bg-[#171E1B] border-[#E4DFD2] dark:border-[#2A352F] text-[#23201C] dark:text-slate-100'
-                        : 'bg-[#5C723C] dark:bg-[#4E6231] border-[#5C723C] text-white'
+                        : 'bg-[#B7410E] dark:bg-[#8C2F18] border-[#B7410E] text-white'
                     }`}
                   >
                     <div className="flex items-center justify-between gap-4 mb-1">
                       <span
                         className={`text-xs font-semibold ${
-                          isPartner ? 'text-[#4E6231] dark:text-[#A5C178]' : 'text-[#E5EBD6]'
+                          isPartner ? 'text-[#8C2F18] dark:text-[#E8A184]' : 'text-[#E5EBD6]'
                         }`}
                       >
                         {isPartner ? scenario.partnerName : t.you}
@@ -332,7 +332,7 @@ export function DialogueSimulator({
                     )}
 
                     {turn.coachingTip && (
-                      <p className="text-xs mt-2 text-[#4E6231] dark:text-[#A5C178] font-medium">
+                      <p className="text-xs mt-2 text-[#8C2F18] dark:text-[#E8A184] font-medium">
                         {t.advicePrefix} {turn.coachingTip}
                       </p>
                     )}
@@ -363,7 +363,7 @@ export function DialogueSimulator({
                     onClick={() =>
                       void sendMessage(sug.darijaLatin, sug.frenchMeaning)
                     }
-                    className="text-left px-3.5 py-2 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F7F9F2] dark:bg-[#1D2622] hover:border-[#5C723C] cursor-pointer disabled:opacity-50"
+                    className="text-left px-3.5 py-2 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F7F9F2] dark:bg-[#1D2622] hover:border-[#B7410E] cursor-pointer disabled:opacity-50"
                   >
                     <p className="text-xs font-semibold text-[#23201C] dark:text-slate-100">
                       {sug.darijaLatin}
@@ -392,7 +392,7 @@ export function DialogueSimulator({
                 value={inputText}
                 onChange={(e) => setInputText(e.target.value)}
                 placeholder={t.inputPlaceholder}
-                className="flex-1 px-4 py-2.5 text-sm rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/40 dark:bg-[#0E1311] text-[#23201C] dark:text-slate-100 placeholder:text-[#8E867B] focus:outline-none focus:ring-2 focus:ring-[#5C723C]"
+                className="flex-1 px-4 py-2.5 text-sm rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/40 dark:bg-[#0E1311] text-[#23201C] dark:text-slate-100 placeholder:text-[#8E867B] focus:outline-none focus:ring-2 focus:ring-[#B7410E]"
               />
               <button
                 type="submit"

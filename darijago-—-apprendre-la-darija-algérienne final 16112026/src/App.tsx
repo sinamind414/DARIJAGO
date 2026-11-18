@@ -596,8 +596,8 @@ export default function App() {
                 className="h-7 w-13 rounded-md object-contain border border-[#E4DFD2] dark:border-[#2A352F] bg-white p-0.5 shrink-0"
               />
               <span>
-                <span className="text-[#008643] dark:text-[#6EE7B7]">darija</span>
-                <span className="text-[#DC291E] dark:text-[#FCA5A5] italic">GO</span>
+                <span className="text-[#B7410E] dark:text-[#6EE7B7]">darija</span>
+                <span className="text-[#B7410E] dark:text-[#FCA5A5] italic">GO</span>
               </span>
             </span>
             <span aria-hidden="true">·</span>

@@ -37,7 +37,7 @@ export function LanguageSelector({
             title={option.nativeName}
             data-lang-code={option.code}
             onClick={() => onChange(option.code)}
-            className={`${paddingClass} rounded-full font-semibold tracking-tight whitespace-nowrap shrink-0 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5C723C] ${
+            className={`${paddingClass} rounded-full font-semibold tracking-tight whitespace-nowrap shrink-0 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B7410E] ${
               isSelected
                 ? 'bg-white dark:bg-[#26322B] text-[#23201C] dark:text-white shadow-xs'
                 : 'text-[#686259] dark:text-slate-400 hover:text-[#23201C] dark:hover:text-slate-100'

@@ -120,8 +120,8 @@ export function LexiconGuide({ language }: LexiconGuideProps) {
                     aria-label={`${t.listen}: ${sound.exampleDarija}`}
                     className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-xl border whitespace-nowrap shrink-0 cursor-pointer ${
                       isPlaying
-                        ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                        : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                        ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                        : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                     }`}
                   >
                     <Volume2 className="w-3.5 h-3.5" aria-hidden="true" />
@@ -160,7 +160,7 @@ export function LexiconGuide({ language }: LexiconGuideProps) {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder={t.searchPlaceholder}
-              className="w-full pl-10 pr-9 py-2 text-sm rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/50 dark:bg-[#0E1311] text-[#23201C] dark:text-slate-100 placeholder:text-[#8E867B] focus:outline-none focus:ring-2 focus:ring-[#5C723C]"
+              className="w-full pl-10 pr-9 py-2 text-sm rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/50 dark:bg-[#0E1311] text-[#23201C] dark:text-slate-100 placeholder:text-[#8E867B] focus:outline-none focus:ring-2 focus:ring-[#B7410E]"
             />
             {query && (
               <button
@@ -227,7 +227,7 @@ export function LexiconGuide({ language }: LexiconGuideProps) {
                 setQuery('');
                 setModuleFilter('all');
               }}
-              className="px-4 py-2 text-xs font-semibold text-white bg-[#5C723C] rounded-xl hover:bg-[#4E6231] cursor-pointer"
+              className="px-4 py-2 text-xs font-semibold text-white bg-[#B7410E] rounded-xl hover:bg-[#8C2F18] cursor-pointer"
             >
               {t.showAll}
             </button>
@@ -257,7 +257,7 @@ export function LexiconGuide({ language }: LexiconGuideProps) {
                     <p className="text-sm text-[#686259] dark:text-slate-300">
                       {phrase.frenchMeaning}
                     </p>
-                    <p className="font-mono text-xs text-[#4E6231] dark:text-[#A5C178]">
+                    <p className="font-mono text-xs text-[#8C2F18] dark:text-[#E8A184]">
                       [{phrase.phoneticFrench}]
                     </p>
                   </div>
@@ -275,8 +275,8 @@ export function LexiconGuide({ language }: LexiconGuideProps) {
                     aria-label={`${t.listen}: ${phrase.darijaLatin}`}
                     className={`inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold rounded-xl border whitespace-nowrap shrink-0 self-start sm:self-center cursor-pointer ${
                       isPlaying
-                        ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                        : 'bg-white dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                        ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                        : 'bg-white dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                     }`}
                   >
                     <Volume2 className="w-4 h-4" aria-hidden="true" />

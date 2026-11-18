@@ -94,8 +94,8 @@ export function PhrasePlayButton({
         onClick={handleTogglePlay}
         className={`relative overflow-hidden inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-semibold whitespace-nowrap shrink-0 cursor-pointer transition-colors ${
           isPlaying
-            ? 'bg-[#5C723C] text-white border-[#5C723C]'
-            : 'bg-white dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#4E6231] dark:text-[#A5C178] hover:border-[#5C723C]'
+            ? 'bg-[#B7410E] text-white border-[#B7410E]'
+            : 'bg-white dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#8C2F18] dark:text-[#E8A184] hover:border-[#B7410E]'
         }`}
       >
         {isPlaying ? (
@@ -130,10 +130,10 @@ export function PhrasePlayButton({
       aria-label={ariaLabel}
       title={ariaLabel}
       onClick={handleTogglePlay}
-      className={`relative overflow-hidden ${iconBoxSize} rounded-lg border inline-flex items-center justify-center shrink-0 cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#5C723C] ${
+      className={`relative overflow-hidden ${iconBoxSize} rounded-lg border inline-flex items-center justify-center shrink-0 cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#B7410E] ${
         isPlaying
-          ? 'bg-[#5C723C] text-white border-[#5C723C]'
-          : 'border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#171E1B] text-[#4E6231] dark:text-[#A5C178] hover:border-[#5C723C]'
+          ? 'bg-[#B7410E] text-white border-[#B7410E]'
+          : 'border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#171E1B] text-[#8C2F18] dark:text-[#E8A184] hover:border-[#B7410E]'
       }`}
     >
       {isPlaying ? (

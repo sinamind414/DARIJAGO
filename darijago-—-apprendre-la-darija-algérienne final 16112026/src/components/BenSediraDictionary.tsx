@@ -265,7 +265,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
               className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold whitespace-nowrap shrink-0 cursor-pointer ${
                 drillMode === 'verbs'
                   ? 'bg-[#E9E4D8] dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 border border-[#DFD9CA] dark:border-[#2A352F]'
-                  : 'bg-[#5C723C] hover:bg-[#4E6231] text-white'
+                  : 'bg-[#B7410E] hover:bg-[#8C2F18] text-white'
               }`}
             >
               {drillMode === 'verbs' ? (
@@ -288,7 +288,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
               className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold whitespace-nowrap shrink-0 border cursor-pointer ${
                 drillMode === 'mixed'
                   ? 'bg-[#E9E4D8] dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 border-[#DFD9CA] dark:border-[#2A352F]'
-                  : 'bg-white dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                  : 'bg-white dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
               }`}
             >
               {drillMode === 'mixed' ? (
@@ -331,7 +331,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                   className={`px-3 py-1.5 rounded-lg text-xs font-semibold border whitespace-nowrap shrink-0 tabular-nums transition-colors cursor-pointer ${
                     active
                       ? 'bg-[#23201C] dark:bg-slate-100 text-white dark:text-[#171E1B] border-transparent'
-                      : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                      : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                   }`}
                 >
                   {t.sources[srcKey]} ({sourceCounts[srcKey]})
@@ -362,7 +362,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
               onClick={() => handleLetterChange('all')}
               className={`px-3 h-8 rounded-lg text-xs font-bold tabular-nums whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
                 letter === 'all'
-                  ? 'bg-[#5C723C] text-white'
+                  ? 'bg-[#B7410E] text-white'
                   : 'bg-[#F5F1E8] dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 hover:bg-[#E5EBD6]'
               }`}
             >
@@ -386,7 +386,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                   }}
                   className={`px-2.5 h-8 rounded-lg text-xs font-bold tabular-nums whitespace-nowrap shrink-0 transition-colors ${
                     isSelected
-                      ? 'bg-[#5C723C] text-white cursor-pointer'
+                      ? 'bg-[#B7410E] text-white cursor-pointer'
                       : isLoaded
                         ? 'bg-[#F5F1E8] dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 hover:bg-[#E5EBD6] cursor-pointer'
                         : 'text-[#B5AEA2] dark:text-slate-600 cursor-not-allowed'
@@ -410,7 +410,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
             <span className="text-xs font-semibold text-[#C68335] tabular-nums">
               {drillIndex + 1} / {drillItems.length}
             </span>
-            <span className="text-xs font-semibold text-[#4E6231] dark:text-[#A5C178] tabular-nums">
+            <span className="text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184] tabular-nums">
               {t.drillScore(drillScore, drillItems.length)}
             </span>
           </div>
@@ -432,11 +432,11 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
               const isChosen = selectedOption === opt;
               const isCorrect = opt === currentDrill.correctAnswer;
               let cardClass =
-                'bg-[#F5F1E8]/60 dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#23201C] dark:text-slate-100 hover:border-[#5C723C]';
+                'bg-[#F5F1E8]/60 dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#23201C] dark:text-slate-100 hover:border-[#B7410E]';
               if (selectedOption) {
                 if (isCorrect) {
                   cardClass =
-                    'bg-[#E5EBD6] dark:bg-[#243422] border-[#5C723C] text-[#2B3D1A] dark:text-[#CBE39E]';
+                    'bg-[#E5EBD6] dark:bg-[#243422] border-[#B7410E] text-[#2B3D1A] dark:text-[#CBE39E]';
                 } else if (isChosen) {
                   cardClass =
                     'bg-[#FCECE9] dark:bg-[#341E1C] border-[#D9534F] text-[#8E2A26] dark:text-[#F5ACA9]';
@@ -463,7 +463,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                 <p className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#23201C] dark:text-slate-100">
                   {selectedOption === currentDrill.correctAnswer ? (
                     <>
-                      <CheckCircle2 className="w-4 h-4 text-[#5C723C]" aria-hidden="true" />
+                      <CheckCircle2 className="w-4 h-4 text-[#B7410E]" aria-hidden="true" />
                       <span>{t.drillCorrect}</span>
                     </>
                   ) : (
@@ -490,7 +490,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                       currentDrill.correctAnswer
                     )
                   }
-                  className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] text-xs font-semibold text-[#4E6231] dark:text-[#A5C178] cursor-pointer"
+                  className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184] cursor-pointer"
                 >
                   <Volume2 className="w-3.5 h-3.5" aria-hidden="true" />
                   <span>{playingId === currentDrill.id ? t.playing : t.listen}</span>
@@ -499,7 +499,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                 <button
                   type="button"
                   onClick={handleNextDrill}
-                  className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#5C723C] hover:bg-[#4E6231] text-white text-xs font-semibold cursor-pointer"
+                  className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#B7410E] hover:bg-[#8C2F18] text-white text-xs font-semibold cursor-pointer"
                 >
                   {drillIndex + 1 >= drillItems.length ? (
                     <>
@@ -540,7 +540,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                   setVisibleLimit(PAGE_BATCH_SIZE);
                 }}
                 placeholder={t.searchPlaceholder}
-                className="w-full pl-10 pr-9 py-2 text-sm rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/50 dark:bg-[#0E1311] text-[#23201C] dark:text-slate-100 placeholder:text-[#8E867B] focus:outline-none focus:ring-2 focus:ring-[#5C723C]"
+                className="w-full pl-10 pr-9 py-2 text-sm rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/50 dark:bg-[#0E1311] text-[#23201C] dark:text-slate-100 placeholder:text-[#8E867B] focus:outline-none focus:ring-2 focus:ring-[#B7410E]"
               />
               {query && (
                 <button
@@ -607,8 +607,8 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                     }}
                     className={`px-3 py-1 text-xs font-medium rounded-lg border whitespace-nowrap shrink-0 cursor-pointer tabular-nums ${
                       verbPattern === pat
-                        ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                        : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#686259] dark:text-slate-300 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                        ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                        : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#686259] dark:text-slate-300 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                     }`}
                   >
                     {t.verbPatterns[pat]} ({verbPatternCounts[pat]})
@@ -637,7 +637,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                   setVerbPattern('all');
                   setVisibleLimit(PAGE_BATCH_SIZE);
                 }}
-                className="px-4 py-2 text-xs font-semibold text-white bg-[#5C723C] rounded-xl hover:bg-[#4E6231] cursor-pointer"
+                className="px-4 py-2 text-xs font-semibold text-white bg-[#B7410E] rounded-xl hover:bg-[#8C2F18] cursor-pointer"
               >
                 {t.resetFilters}
               </button>
@@ -674,7 +674,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                             {entry.verbPattern && (
                               <>
                                 <span aria-hidden="true">·</span>
-                                <span className="font-medium text-[#4E6231] dark:text-[#A5C178]">
+                                <span className="font-medium text-[#8C2F18] dark:text-[#E8A184]">
                                   {t.verbPatterns[entry.verbPattern]}
                                 </span>
                               </>
@@ -682,7 +682,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                             {entry.arabicRoot && (
                               <>
                                 <span aria-hidden="true">·</span>
-                                <span className="font-arabic text-sm text-[#4E6231] dark:text-[#A5C178]" lang="ar">
+                                <span className="font-arabic text-sm text-[#8C2F18] dark:text-[#E8A184]" lang="ar">
                                   <bdi>{entry.arabicRoot}</bdi>
                                 </span>
                               </>
@@ -721,7 +721,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                                 setPlayingId(null);
                               }}
                             />
-                            <span className="text-base font-bold text-[#4E6231] dark:text-[#A5C178]">
+                            <span className="text-base font-bold text-[#8C2F18] dark:text-[#E8A184]">
                               {entry.darijaLatin}
                             </span>
                             <span
@@ -768,8 +768,8 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                             aria-label={`${t.listen}: ${entry.frenchHeadword}`}
                             className={`inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold rounded-xl border whitespace-nowrap shrink-0 cursor-pointer ${
                               isPlaying
-                                ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                                : 'bg-white dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                                ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                                : 'bg-white dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                             }`}
                           >
                             <Volume2 className="w-4 h-4" aria-hidden="true" />
@@ -815,7 +815,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                             data-testid={`bensedira-conjugate-${entry.id}`}
                             aria-expanded={isExpanded}
                             onClick={() => toggleVerbConjugation(entry.id)}
-                            className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#4E6231] dark:text-[#A5C178] hover:underline cursor-pointer"
+                            className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184] hover:underline cursor-pointer"
                           >
                             {isExpanded ? (
                               <>
@@ -841,7 +841,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                                     <th className="py-2 px-2 sm:px-3 font-semibold text-[#23201C] dark:text-slate-100">
                                       {t.personHeader}
                                     </th>
-                                    <th className="py-2 px-2 sm:px-3 font-semibold text-[#4E6231] dark:text-[#A5C178]">
+                                    <th className="py-2 px-2 sm:px-3 font-semibold text-[#8C2F18] dark:text-[#E8A184]">
                                       <span className="sm:hidden">{t.presentHeader.split(' ')[0]}</span>
                                       <span className="hidden sm:inline">{t.presentHeader}</span>
                                     </th>
@@ -926,7 +926,7 @@ export function BenSediraDictionary({ language }: BenSediraDictionaryProps) {
                     type="button"
                     data-testid="bensedira-show-more"
                     onClick={() => setVisibleLimit((prev) => prev + PAGE_BATCH_SIZE)}
-                    className="px-5 py-2.5 text-xs font-semibold rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 hover:border-[#5C723C] cursor-pointer tabular-nums"
+                    className="px-5 py-2.5 text-xs font-semibold rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 hover:border-[#B7410E] cursor-pointer tabular-nums"
                   >
                     {t.showMore(remainingCount)}
                   </button>

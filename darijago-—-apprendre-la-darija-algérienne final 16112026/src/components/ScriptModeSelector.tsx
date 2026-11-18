@@ -26,9 +26,9 @@ export function ScriptModeSelector({ mode, onChange, label }: ScriptModeSelector
             onClick={() => onChange(m.id)}
             aria-pressed={actif}
             title={`${m.label} — ${m.sample}`}
-            className={`px-2 py-1 rounded-md text-xs font-bold cursor-pointer transition-colors focus-visible:outline-2 focus-visible:outline-[#5C723C] ${
+            className={`px-2 py-1 rounded-md text-xs font-bold cursor-pointer transition-colors focus-visible:outline-2 focus-visible:outline-[#B7410E] ${
               actif
-                ? 'bg-[#5C723C] text-white dark:bg-[#4E6231]'
+                ? 'bg-[#B7410E] text-white dark:bg-[#8C2F18]'
                 : 'text-[#686259] dark:text-slate-400 hover:text-[#23201C] dark:hover:text-slate-100'
             }`}
           >

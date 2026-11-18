@@ -182,14 +182,14 @@ export function DailyXpGoalRing({
                   strokeDasharray={circumference}
                   strokeDashoffset={strokeDashoffset}
                   transform="rotate(-90 50 50)"
-                  className="transition-[stroke-dashoffset,stroke] duration-500 ease-out stroke-[#5C723C] dark:stroke-[#A5C178]"
+                  className="transition-[stroke-dashoffset,stroke] duration-500 ease-out stroke-[#B7410E] dark:stroke-[#E8A184]"
                 />
               </svg>
 
               <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
                 {reached ? (
                   <CheckCircle2
-                    className="w-5 h-5 text-[#5C723C] dark:text-[#A5C178] mb-0.5"
+                    className="w-5 h-5 text-[#B7410E] dark:text-[#E8A184] mb-0.5"
                     aria-hidden="true"
                   />
                 ) : (
@@ -212,7 +212,7 @@ export function DailyXpGoalRing({
               </h2>
               <span
                 data-testid="daily-goal-counter"
-                className="text-sm font-bold text-[#4E6231] dark:text-[#A5C178] tabular-nums"
+                className="text-sm font-bold text-[#8C2F18] dark:text-[#E8A184] tabular-nums"
               >
                 {todayXp} / {goal} XP
               </span>
@@ -224,7 +224,7 @@ export function DailyXpGoalRing({
                 role="status"
                 className="space-y-1"
               >
-                <p className="text-sm font-semibold text-[#4E6231] dark:text-[#A5C178] flex items-center gap-1.5">
+                <p className="text-sm font-semibold text-[#8C2F18] dark:text-[#E8A184] flex items-center gap-1.5">
                   <Sparkles className="w-4 h-4 shrink-0" aria-hidden="true" />
                   <span>{heroT.dailyGoalReachedTitle}</span>
                 </p>
@@ -255,7 +255,7 @@ export function DailyXpGoalRing({
                   type="button"
                   aria-pressed={active}
                   onClick={() => onChangeDailyGoal(preset)}
-                  className={`px-3 py-1.5 text-xs font-semibold rounded-lg whitespace-nowrap shrink-0 tabular-nums cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5C723C] ${
+                  className={`px-3 py-1.5 text-xs font-semibold rounded-lg whitespace-nowrap shrink-0 tabular-nums cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B7410E] ${
                     active
                       ? 'bg-white dark:bg-[#26322B] text-[#23201C] dark:text-slate-100 shadow-xs'
                       : 'text-[#686259] dark:text-slate-400 hover:text-[#23201C] dark:hover:text-slate-100'
@@ -286,11 +286,11 @@ export function DailyXpGoalRing({
               value={customValue}
               onChange={(e) => setCustomValue(e.target.value)}
               aria-label={heroT.dailyGoalSelectAria}
-              className="w-20 px-2.5 py-1.5 text-xs font-semibold tabular-nums rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#171E1B] text-[#23201C] dark:text-slate-100 focus:outline-none focus:border-[#5C723C]"
+              className="w-20 px-2.5 py-1.5 text-xs font-semibold tabular-nums rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#171E1B] text-[#23201C] dark:text-slate-100 focus:outline-none focus:border-[#B7410E]"
             />
             <button
               type="submit"
-              className="px-3 py-1.5 text-xs font-semibold rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#171E1B] text-[#23201C] dark:text-slate-100 hover:border-[#5C723C] hover:text-[#4E6231] dark:hover:text-[#A5C178] whitespace-nowrap shrink-0 cursor-pointer"
+              className="px-3 py-1.5 text-xs font-semibold rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#171E1B] text-[#23201C] dark:text-slate-100 hover:border-[#B7410E] hover:text-[#8C2F18] dark:hover:text-[#E8A184] whitespace-nowrap shrink-0 cursor-pointer"
             >
               {heroT.dailyGoalApply}
             </button>

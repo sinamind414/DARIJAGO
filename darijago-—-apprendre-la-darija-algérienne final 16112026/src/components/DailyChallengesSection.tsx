@@ -46,7 +46,7 @@ export function DailyChallengesSection({
         <div className="flex flex-wrap items-center gap-x-2.5 gap-y-1 text-xs font-semibold tabular-nums text-[#686259] dark:text-slate-300 shrink-0">
           <span
             data-testid="daily-challenges-completed-summary"
-            className="text-[#4E6231] dark:text-[#A5C178]"
+            className="text-[#8C2F18] dark:text-[#E8A184]"
           >
             {dcT.completedSummary(summary.completedCount, summary.total)}
           </span>
@@ -67,7 +67,7 @@ export function DailyChallengesSection({
           className="p-3.5 rounded-xl bg-[#F7F9F2] dark:bg-[#1E2B20] border border-[#D8E2C8] dark:border-[#2E3C31] flex items-center gap-3"
         >
           <CheckCircle2
-            className="w-5 h-5 text-[#4E6231] dark:text-[#A5C178] shrink-0"
+            className="w-5 h-5 text-[#8C2F18] dark:text-[#E8A184] shrink-0"
             aria-hidden="true"
           />
           <div className="min-w-0">
@@ -105,7 +105,7 @@ export function DailyChallengesSection({
                   <span
                     className={`inline-flex items-center gap-1.5 font-semibold ${
                       isClaimed
-                        ? 'text-[#4E6231] dark:text-[#A5C178]'
+                        ? 'text-[#8C2F18] dark:text-[#E8A184]'
                         : isReadyToClaim
                           ? 'text-[#B2732B] dark:text-[#E5A95E]'
                           : 'text-[#686259] dark:text-slate-400'
@@ -160,7 +160,7 @@ export function DailyChallengesSection({
                       className={`h-full transition-all duration-300 ${
                         isReadyToClaim
                           ? 'bg-[#C68335]'
-                          : 'bg-[#5C723C] dark:bg-[#A5C178]'
+                          : 'bg-[#B7410E] dark:bg-[#E8A184]'
                       }`}
                       style={{ width: `${challenge.percent}%` }}
                     />
@@ -182,7 +182,7 @@ export function DailyChallengesSection({
               ) : isClaimed ? (
                 <div
                   data-testid={`daily-challenge-claimed-${challenge.kind}`}
-                  className="w-full min-h-[40px] inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl bg-[#E5EBD6] dark:bg-[#273322] text-[#4E6231] dark:text-[#A5C178] text-xs sm:text-sm font-bold"
+                  className="w-full min-h-[40px] inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl bg-[#E5EBD6] dark:bg-[#273322] text-[#8C2F18] dark:text-[#E8A184] text-xs sm:text-sm font-bold"
                 >
                   <CheckCircle2 className="w-4 h-4 shrink-0" aria-hidden="true" />
                   <span>{dcT.claimedBtn(challenge.bonusXp)}</span>
@@ -192,10 +192,10 @@ export function DailyChallengesSection({
                   type="button"
                   data-testid={`daily-challenge-go-${challenge.kind}`}
                   onClick={() => onActionNavigate(challenge.actionTarget)}
-                  className="w-full min-h-[40px] inline-flex items-center justify-between px-4 py-2 rounded-xl bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C] text-[#23201C] dark:text-slate-100 text-xs sm:text-sm font-semibold cursor-pointer"
+                  className="w-full min-h-[40px] inline-flex items-center justify-between px-4 py-2 rounded-xl bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E] text-[#23201C] dark:text-slate-100 text-xs sm:text-sm font-semibold cursor-pointer"
                 >
                   <span>{challenge.actionLabel}</span>
-                  <ArrowRight className="w-4 h-4 text-[#5C723C] dark:text-[#A5C178] shrink-0" aria-hidden="true" />
+                  <ArrowRight className="w-4 h-4 text-[#B7410E] dark:text-[#E8A184] shrink-0" aria-hidden="true" />
                 </button>
               )}
             </article>

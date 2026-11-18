@@ -273,9 +273,9 @@ export interface UiTranslations {
 
 export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
   fr: {
-    pageTitle: 'darijaGO — Apprendre la darija algérienne',
+    pageTitle: 'Drijago — Apprendre la darija algérienne',
     startup: {
-      eyebrow: 'darijaGO · Méthode orale d’algérien',
+      eyebrow: 'Drijago · Méthode orale d’algérien',
       title: 'Choisissez votre langue pour apprendre la darija algérienne',
       subtitle: 'Toutes les explications, traductions et mises en situation s’adaptent immédiatement à votre langue.',
       selectLabel: 'Langue d’apprentissage',
@@ -470,7 +470,7 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
     achievements: {
       sectionAria: 'Succès et objectifs d’apprentissage',
       kicker: 'Progression & Jalons',
-      title: 'Succès et objectifs darijaGO',
+      title: 'Succès et objectifs Drijago',
       subtitle: 'Chaque phrase maîtrisée, série de quiz réussie et dialogue complété débloque un nouveau palier dans votre parcours.',
       unlockedStat: 'Succès débloqués',
       bestStreakStat: 'Meilleure série quiz',
@@ -505,7 +505,7 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
       desktopEnable: 'Activer les alertes bureau',
       desktopEnabled: 'Alertes bureau activées',
       desktopBlocked: 'Alertes bureau bloquées',
-      desktopTestTitle: 'darijaGO · Alertes activées',
+      desktopTestTitle: 'Drijago · Alertes activées',
       desktopTestBody: 'Tu recevras une notification dès qu’un succès ou objectif XP sera atteint.',
     },
     footer: {
@@ -514,9 +514,9 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
     },
   },
   en: {
-    pageTitle: 'darijaGO — Learn Algerian Darija',
+    pageTitle: 'Drijago — Learn Algerian Darija',
     startup: {
-      eyebrow: 'darijaGO · Spoken Algerian Arabic method',
+      eyebrow: 'Drijago · Spoken Algerian Arabic method',
       title: 'Choose your language to learn Algerian Darija',
       subtitle: 'All explanations, translations, and real-life dialogues adapt instantly to your chosen language.',
       selectLabel: 'Learning language',
@@ -711,7 +711,7 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
     achievements: {
       sectionAria: 'Learning achievements and milestones',
       kicker: 'Progress & Milestones',
-      title: 'darijaGO Achievements',
+      title: 'Drijago Achievements',
       subtitle: 'Every mastered phrase, quiz streak, and completed dialogue unlocks a new milestone on your journey.',
       unlockedStat: 'Unlocked',
       bestStreakStat: 'Best quiz streak',
@@ -746,7 +746,7 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
       desktopEnable: 'Enable desktop alerts',
       desktopEnabled: 'Desktop alerts on',
       desktopBlocked: 'Desktop alerts blocked',
-      desktopTestTitle: 'darijaGO · Alerts enabled',
+      desktopTestTitle: 'Drijago · Alerts enabled',
       desktopTestBody: 'You will be notified when you unlock an achievement or hit your daily XP goal.',
     },
     footer: {
@@ -755,9 +755,9 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
     },
   },
   es: {
-    pageTitle: 'darijaGO — Aprende dariya argelina',
+    pageTitle: 'Drijago — Aprende dariya argelina',
     startup: {
-      eyebrow: 'darijaGO · Método oral de árabe argelino',
+      eyebrow: 'Drijago · Método oral de árabe argelino',
       title: 'Elige tu idioma para aprender dariya argelina',
       subtitle: 'Todas las explicaciones, traducciones y diálogos se adaptan al instante a tu idioma.',
       selectLabel: 'Idioma de aprendizaje',
@@ -952,7 +952,7 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
     achievements: {
       sectionAria: 'Logros y objetivos de aprendizaje',
       kicker: 'Progreso y Metas',
-      title: 'Logros de darijaGO',
+      title: 'Logros de Drijago',
       subtitle: 'Cada frase dominada, racha de quiz y diálogo completado desbloquea un nuevo hito.',
       unlockedStat: 'Desbloqueados',
       bestStreakStat: 'Mejor racha quiz',
@@ -987,7 +987,7 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
       desktopEnable: 'Activar alertas de escritorio',
       desktopEnabled: 'Alertas activadas',
       desktopBlocked: 'Alertas bloqueadas',
-      desktopTestTitle: 'darijaGO · Alertas activadas',
+      desktopTestTitle: 'Drijago · Alertas activadas',
       desktopTestBody: 'Recibirás un aviso al desbloquear un logro o alcanzar tu meta diaria.',
     },
     footer: {
@@ -996,9 +996,9 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
     },
   },
   de: {
-    pageTitle: 'darijaGO — Algerisches Darija lernen',
+    pageTitle: 'Drijago — Algerisches Darija lernen',
     startup: {
-      eyebrow: 'darijaGO · Interaktive Sprechmethode',
+      eyebrow: 'Drijago · Interaktive Sprechmethode',
       title: 'Wähle deine Sprache, um algerisches Darija zu lernen',
       subtitle: 'Alle Erklärungen, Übersetzungen und Dialoge passen sich sofort deiner Sprache an.',
       selectLabel: 'Lernsprache',
@@ -1193,7 +1193,7 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
     achievements: {
       sectionAria: 'Lernerfolge und Meilensteine',
       kicker: 'Fortschritt & Meilensteine',
-      title: 'darijaGO-Erfolge',
+      title: 'Drijago-Erfolge',
       subtitle: 'Jeder gemeisterte Satz, jede Quiz-Serie und jeder Dialog schaltet einen neuen Meilenstein frei.',
       unlockedStat: 'Freigeschaltet',
       bestStreakStat: 'Beste Quiz-Serie',
@@ -1228,7 +1228,7 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
       desktopEnable: 'Desktop-Hinweise aktivieren',
       desktopEnabled: 'Desktop-Hinweise aktiv',
       desktopBlocked: 'Hinweise blockiert',
-      desktopTestTitle: 'darijaGO · Hinweise aktiv',
+      desktopTestTitle: 'Drijago · Hinweise aktiv',
       desktopTestBody: 'Du wirst benachrichtigt, sobald du einen Erfolg oder dein Tagesziel erreichst.',
     },
     footer: {
@@ -1237,9 +1237,9 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
     },
   },
   it: {
-    pageTitle: 'darijaGO — Impara la darija algerina',
+    pageTitle: 'Drijago — Impara la darija algerina',
     startup: {
-      eyebrow: 'darijaGO · Metodo orale di arabo algerino',
+      eyebrow: 'Drijago · Metodo orale di arabo algerino',
       title: 'Scegli la tua lingua per imparare la darija algerina',
       subtitle: 'Tutte le spiegazioni, traduzioni e conversazioni si adattano subito alla tua lingua.',
       selectLabel: 'Lingua di apprendimento',
@@ -1434,7 +1434,7 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
     achievements: {
       sectionAria: 'Traguardi e obiettivi di apprendimento',
       kicker: 'Progressi & Traguardi',
-      title: 'Traguardi darijaGO',
+      title: 'Traguardi Drijago',
       subtitle: 'Ogni frase acquisita, serie di quiz riuscita e dialogo completato sblocca un nuovo livello.',
       unlockedStat: 'Sbloccati',
       bestStreakStat: 'Miglior serie quiz',
@@ -1469,7 +1469,7 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
       desktopEnable: 'Attiva avvisi desktop',
       desktopEnabled: 'Avvisi desktop attivi',
       desktopBlocked: 'Avvisi bloccati',
-      desktopTestTitle: 'darijaGO · Avvisi attivi',
+      desktopTestTitle: 'Drijago · Avvisi attivi',
       desktopTestBody: 'Riceverai un avviso quando sblocchi un traguardo o raggiungi il tuo obiettivo XP.',
     },
     footer: {
@@ -1478,9 +1478,9 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
     },
   },
   nl: {
-    pageTitle: 'darijaGO — Leer Algerijns Darija',
+    pageTitle: 'Drijago — Leer Algerijns Darija',
     startup: {
-      eyebrow: 'darijaGO · Gesproken Algerijns-Arabisch',
+      eyebrow: 'Drijago · Gesproken Algerijns-Arabisch',
       title: 'Kies je taal om Algerijns Darija te leren',
       subtitle: 'Alle uitleg, vertalingen en dialogen passen zich direct aan jouw taal aan.',
       selectLabel: 'Leertaal',
@@ -1675,7 +1675,7 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
     achievements: {
       sectionAria: 'Leerprestaties en mijlpalen',
       kicker: 'Voortgang & Mijlpalen',
-      title: 'darijaGO Prestaties',
+      title: 'Drijago Prestaties',
       subtitle: 'Elke beheerste zin, quizreeks en voltooide dialoog ontgrendelt een nieuwe mijlpaal.',
       unlockedStat: 'Behaald',
       bestStreakStat: 'Beste quizreeks',
@@ -1710,7 +1710,7 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
       desktopEnable: 'Bureaubladmeldingen aan',
       desktopEnabled: 'Meldingen geactiveerd',
       desktopBlocked: 'Meldingen geblokkeerd',
-      desktopTestTitle: 'darijaGO · Meldingen actief',
+      desktopTestTitle: 'Drijago · Meldingen actief',
       desktopTestBody: 'Je krijgt een melding bij nieuwe prestaties of het behalen van je dagdoel.',
     },
     footer: {
@@ -1719,9 +1719,9 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
     },
   },
   zh: {
-    pageTitle: 'darijaGO — 学习阿尔及利亚达里贾语',
+    pageTitle: 'Drijago — 学习阿尔及利亚达里贾语',
     startup: {
-      eyebrow: 'darijaGO · 阿尔及利亚口语互动学习',
+      eyebrow: 'Drijago · 阿尔及利亚口语互动学习',
       title: '选择您的学习语言，开始学习阿尔及利亚达里贾语',
       subtitle: '所有课程讲解、释义与情景对话将立即切换为您选择的语言。',
       selectLabel: '学习语言',
@@ -1916,7 +1916,7 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
     achievements: {
       sectionAria: '学习成就与里程碑',
       kicker: '进度与里程碑',
-      title: 'darijaGO 成就系统',
+      title: 'Drijago 成就系统',
       subtitle: '每掌握一句表达、完成一次测验连胜或情景对话，都会解锁新的学习里程碑。',
       unlockedStat: '已解锁',
       bestStreakStat: '最佳测验连胜',
@@ -1951,7 +1951,7 @@ export const UI_TRANSLATIONS: Record<AppLanguage, UiTranslations> = {
       desktopEnable: '开启桌面通知',
       desktopEnabled: '桌面通知已开启',
       desktopBlocked: '浏览器已拦截通知',
-      desktopTestTitle: 'darijaGO · 通知已开启',
+      desktopTestTitle: 'Drijago · 通知已开启',
       desktopTestBody: '当您解锁新成就或完成每日 XP 目标时，将会收到桌面提醒。',
     },
     footer: {

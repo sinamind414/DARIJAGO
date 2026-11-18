@@ -144,7 +144,7 @@ export function QuickReviewPanel({
         return {
           label: qrT.reasonRecent,
           className:
-            'bg-[#E5EBD6]/70 dark:bg-[#223020] text-[#4E6231] dark:text-[#A5C178] border-[#C7D2B0] dark:border-[#3D4F30]',
+            'bg-[#E5EBD6]/70 dark:bg-[#223020] text-[#8C2F18] dark:text-[#E8A184] border-[#C7D2B0] dark:border-[#3D4F30]',
         };
       default:
         return {
@@ -188,10 +188,10 @@ export function QuickReviewPanel({
               data-testid="quick-review-toggle-meanings"
               onClick={() => setHideMeanings((v) => !v)}
               aria-pressed={hideMeanings}
-              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#FAF8F3] dark:bg-[#121815] text-xs font-semibold text-[#23201C] dark:text-slate-200 hover:border-[#5C723C] cursor-pointer"
+              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#FAF8F3] dark:bg-[#121815] text-xs font-semibold text-[#23201C] dark:text-slate-200 hover:border-[#B7410E] cursor-pointer"
             >
               {hideMeanings ? (
-                <Eye className="w-3.5 h-3.5 text-[#5C723C] dark:text-[#A5C178]" aria-hidden="true" />
+                <Eye className="w-3.5 h-3.5 text-[#B7410E] dark:text-[#E8A184]" aria-hidden="true" />
               ) : (
                 <EyeOff className="w-3.5 h-3.5 text-[#686259] dark:text-slate-400" aria-hidden="true" />
               )}
@@ -204,7 +204,7 @@ export function QuickReviewPanel({
               type="button"
               data-testid="quick-review-regenerate"
               onClick={() => handleRegenerate(filter)}
-              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#5C723C] hover:bg-[#4E6231] text-white text-xs font-semibold shadow-xs cursor-pointer"
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#B7410E] hover:bg-[#8C2F18] text-white text-xs font-semibold shadow-xs cursor-pointer"
             >
               <Shuffle className="w-3.5 h-3.5" aria-hidden="true" />
               <span>{qrT.regenerateBtn}</span>
@@ -236,7 +236,7 @@ export function QuickReviewPanel({
                   onClick={() => handleRegenerate(id)}
                   className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors cursor-pointer ${
                     active
-                      ? 'bg-white dark:bg-[#1E2723] text-[#4E6231] dark:text-[#A5C178] shadow-xs border border-[#E4DFD2]/80 dark:border-[#2A352F]'
+                      ? 'bg-white dark:bg-[#1E2723] text-[#8C2F18] dark:text-[#E8A184] shadow-xs border border-[#E4DFD2]/80 dark:border-[#2A352F]'
                       : 'text-[#686259] dark:text-slate-400 hover:text-[#23201C] dark:hover:text-slate-200'
                   }`}
                 >
@@ -249,13 +249,13 @@ export function QuickReviewPanel({
           <div className="flex items-center gap-3 min-w-[200px]">
             <div className="flex-1 h-2 bg-[#EFECE4] dark:bg-[#2A352F] rounded-full overflow-hidden">
               <div
-                className="h-full bg-[#5C723C] dark:bg-[#A5C178] transition-all duration-200"
+                className="h-full bg-[#B7410E] dark:bg-[#E8A184] transition-all duration-200"
                 style={{ width: `${sessionStats.percent}%` }}
               />
             </div>
             <span
               data-testid="quick-review-session-progress"
-              className="text-xs font-bold text-[#4E6231] dark:text-[#A5C178] tabular-nums shrink-0"
+              className="text-xs font-bold text-[#8C2F18] dark:text-[#E8A184] tabular-nums shrink-0"
             >
               {qrT.sessionProgress(sessionStats.decidedCount, sessionStats.total)}
             </span>
@@ -274,7 +274,7 @@ export function QuickReviewPanel({
             <p className="font-display text-base font-bold text-[#23201C] dark:text-slate-100">
               {qrT.completedTitle}
             </p>
-            <p className="text-xs sm:text-sm text-[#4E6231] dark:text-[#A5C178] font-medium">
+            <p className="text-xs sm:text-sm text-[#8C2F18] dark:text-[#E8A184] font-medium">
               {qrT.completedSummary(
                 sessionStats.masteredCount,
                 sessionStats.toReviewCount
@@ -284,7 +284,7 @@ export function QuickReviewPanel({
           <button
             type="button"
             onClick={() => handleRegenerate(filter)}
-            className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl bg-[#5C723C] hover:bg-[#4E6231] text-white text-xs font-semibold shrink-0 cursor-pointer"
+            className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl bg-[#B7410E] hover:bg-[#8C2F18] text-white text-xs font-semibold shrink-0 cursor-pointer"
           >
             <Shuffle className="w-3.5 h-3.5" aria-hidden="true" />
             <span>{qrT.newSessionBtn}</span>
@@ -344,7 +344,7 @@ export function QuickReviewPanel({
                       onClick={() => onOpenPhonetic(phrase)}
                       aria-label={pt.openItemAria(phrase.darijaLatin)}
                       title={pt.openButtonShort}
-                      className="w-7 h-7 rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] hover:border-[#5C723C] inline-flex items-center justify-center shrink-0 cursor-pointer"
+                      className="w-7 h-7 rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] hover:border-[#B7410E] inline-flex items-center justify-center shrink-0 cursor-pointer"
                     >
                       <AudioLines className="w-3.5 h-3.5" aria-hidden="true" />
                     </button>
@@ -354,7 +354,7 @@ export function QuickReviewPanel({
                       onClick={() => onOpenInLesson(item.moduleId, phrase.id)}
                       aria-label={`${qrT.openInLessonBtn} : ${phrase.darijaLatin}`}
                       title={qrT.openInLessonBtn}
-                      className="w-7 h-7 rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#686259] dark:text-slate-300 hover:border-[#5C723C] hover:text-[#4E6231] inline-flex items-center justify-center shrink-0 cursor-pointer"
+                      className="w-7 h-7 rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#686259] dark:text-slate-300 hover:border-[#B7410E] hover:text-[#8C2F18] inline-flex items-center justify-center shrink-0 cursor-pointer"
                     >
                       <ArrowUpRight className="w-3.5 h-3.5" aria-hidden="true" />
                     </button>
@@ -374,7 +374,7 @@ export function QuickReviewPanel({
                     >
                       {phrase.darijaArabic}
                     </p>
-                    <p className="font-mono text-xs text-[#4E6231] dark:text-[#A5C178]">
+                    <p className="font-mono text-xs text-[#8C2F18] dark:text-[#E8A184]">
                       [{phrase.phoneticFrench}]
                     </p>
                   </div>
@@ -402,7 +402,7 @@ export function QuickReviewPanel({
                           [phrase.id]: true,
                         }))
                       }
-                      className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#5C723C] dark:text-[#A5C178] hover:underline cursor-pointer"
+                      className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#B7410E] dark:text-[#E8A184] hover:underline cursor-pointer"
                     >
                       <Eye className="w-3.5 h-3.5" aria-hidden="true" />
                       <span>{qrT.revealOneBtn}</span>
@@ -421,8 +421,8 @@ export function QuickReviewPanel({
                     onClick={() => handleMarkMastered(phrase.id)}
                     className={`inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl border text-xs font-semibold transition-colors cursor-pointer ${
                       decision === 'mastered' || currentlyMastered
-                        ? 'bg-[#5C723C] dark:bg-[#4E6231] border-[#5C723C] text-white'
-                        : 'bg-[#FAF8F3] dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#4E6231] dark:text-[#A5C178] hover:border-[#5C723C]'
+                        ? 'bg-[#B7410E] dark:bg-[#8C2F18] border-[#B7410E] text-white'
+                        : 'bg-[#FAF8F3] dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#8C2F18] dark:text-[#E8A184] hover:border-[#B7410E]'
                     }`}
                   >
                     <CheckCircle2 className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
@@ -450,7 +450,7 @@ export function QuickReviewPanel({
                     role="status"
                     className={`text-[11px] font-semibold ${
                       decision === 'mastered'
-                        ? 'text-[#4E6231] dark:text-[#A5C178]'
+                        ? 'text-[#8C2F18] dark:text-[#E8A184]'
                         : 'text-[#A86B22] dark:text-amber-300'
                     }`}
                   >

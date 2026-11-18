@@ -53,7 +53,7 @@ function WeeklyXpTooltip({ active, payload, heroT, prT }: CustomTooltipProps) {
       <p className="font-semibold text-[#23201C] dark:text-slate-100">
         {point.isToday ? heroT.tooltipToday(point.fullDate) : point.fullDate}
       </p>
-      <p className="text-[#4E6231] dark:text-[#A5C178] font-bold tabular-nums">
+      <p className="text-[#8C2F18] dark:text-[#E8A184] font-bold tabular-nums">
         {heroT.tooltipDaily(point.xpEarned)}
       </p>
       <p className="text-[#686259] dark:text-slate-300 tabular-nums">
@@ -94,7 +94,7 @@ export function WeeklyXpChart({
 
   const gridColor = isDark ? '#2A352F' : '#E4DFD2';
   const axisTextColor = isDark ? '#94A3B8' : '#686259';
-  const lineColor = isDark ? '#A5C178' : '#4E6231';
+  const lineColor = isDark ? '#E8A184' : '#8C2F18';
   const dotFillColor = isDark ? '#171E1B' : '#FFFFFF';
   const goalLineColor = isDark ? '#E5A95C' : '#C68335';
   const cursorFill = isDark ? 'rgba(165, 193, 120, 0.08)' : 'rgba(92, 114, 60, 0.08)';
@@ -104,7 +104,7 @@ export function WeeklyXpChart({
       return isDark ? '#26312B' : '#EAE5D9';
     }
     if (pt.metGoal) {
-      return isDark ? '#A5C178' : '#4E6231';
+      return isDark ? '#E8A184' : '#8C2F18';
     }
     if (pt.isToday) {
       return isDark ? '#E5A95C' : '#C68335';
@@ -148,7 +148,7 @@ export function WeeklyXpChart({
             onClick={() => setViewMode('daily')}
             className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors cursor-pointer ${
               viewMode === 'daily'
-                ? 'bg-white dark:bg-[#1E2723] text-[#4E6231] dark:text-[#A5C178] shadow-xs border border-[#E4DFD2]/80 dark:border-[#2A352F]'
+                ? 'bg-white dark:bg-[#1E2723] text-[#8C2F18] dark:text-[#E8A184] shadow-xs border border-[#E4DFD2]/80 dark:border-[#2A352F]'
                 : 'text-[#686259] dark:text-slate-400 hover:text-[#23201C] dark:hover:text-slate-200'
             }`}
           >
@@ -162,7 +162,7 @@ export function WeeklyXpChart({
             onClick={() => setViewMode('cumulative')}
             className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors cursor-pointer ${
               viewMode === 'cumulative'
-                ? 'bg-white dark:bg-[#1E2723] text-[#4E6231] dark:text-[#A5C178] shadow-xs border border-[#E4DFD2]/80 dark:border-[#2A352F]'
+                ? 'bg-white dark:bg-[#1E2723] text-[#8C2F18] dark:text-[#E8A184] shadow-xs border border-[#E4DFD2]/80 dark:border-[#2A352F]'
                 : 'text-[#686259] dark:text-slate-400 hover:text-[#23201C] dark:hover:text-slate-200'
             }`}
           >
@@ -180,7 +180,7 @@ export function WeeklyXpChart({
           </p>
           <p
             data-testid="weekly-total-xp"
-            className="font-display text-base sm:text-lg font-extrabold text-[#4E6231] dark:text-[#A5C178] tabular-nums mt-0.5"
+            className="font-display text-base sm:text-lg font-extrabold text-[#8C2F18] dark:text-[#E8A184] tabular-nums mt-0.5"
           >
             +{summary.weeklyTotalXp} XP
           </p>
@@ -341,7 +341,7 @@ export function WeeklyXpChart({
         {viewMode === 'daily' ? (
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5">
             <span className="inline-flex items-center gap-1.5">
-              <span className="w-2.5 h-2.5 rounded-xs bg-[#4E6231] dark:bg-[#A5C178]" aria-hidden="true" />
+              <span className="w-2.5 h-2.5 rounded-xs bg-[#8C2F18] dark:bg-[#E8A184]" aria-hidden="true" />
               <span>{prT.weeklyLegendGoalMet}</span>
             </span>
             <span className="inline-flex items-center gap-1.5">
@@ -358,7 +358,7 @@ export function WeeklyXpChart({
             </span>
           </div>
         ) : (
-          <span className="font-medium text-[#4E6231] dark:text-[#A5C178]">
+          <span className="font-medium text-[#8C2F18] dark:text-[#E8A184]">
             {heroT.chartWeeklyGain(summary.weeklyTotalXp)}
           </span>
         )}

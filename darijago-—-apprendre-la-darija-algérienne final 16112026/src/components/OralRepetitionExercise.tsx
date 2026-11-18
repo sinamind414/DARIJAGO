@@ -397,7 +397,7 @@ export function OralRepetitionExercise({
 
   const tierTone =
     comparison?.tier === 'excellent'
-      ? 'bg-[#F7F9F2] dark:bg-[#202B1E] border-[#C7D2B0] dark:border-[#3D4F30] text-[#4E6231] dark:text-[#A5C178]'
+      ? 'bg-[#F7F9F2] dark:bg-[#202B1E] border-[#C7D2B0] dark:border-[#3D4F30] text-[#8C2F18] dark:text-[#E8A184]'
       : comparison?.tier === 'good'
         ? 'bg-amber-50/70 dark:bg-amber-950/30 border-amber-200 dark:border-amber-800 text-[#A86B22] dark:text-amber-300'
         : 'bg-red-50/70 dark:bg-red-950/30 border-red-200 dark:border-red-800 text-[#B9382C] dark:text-red-300';
@@ -422,7 +422,7 @@ export function OralRepetitionExercise({
             <h3 className="font-display text-base sm:text-lg font-extrabold text-[#23201C] dark:text-slate-100">
               {oT.cardTitle}
             </h3>
-            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#F5F1E8] dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F] text-[#4E6231] dark:text-[#A5C178]">
+            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-[#F5F1E8] dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F] text-[#8C2F18] dark:text-[#E8A184]">
               {oT.badgeLabel}
             </span>
           </div>
@@ -470,7 +470,7 @@ export function OralRepetitionExercise({
         {/* Step 1: Native Model */}
         <div className="p-4 rounded-2xl bg-[#F7F9F2] dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F] space-y-3 flex flex-col justify-between">
           <div className="space-y-2">
-            <span className="block text-xs font-bold uppercase tracking-wider text-[#4E6231] dark:text-[#A5C178]">
+            <span className="block text-xs font-bold uppercase tracking-wider text-[#8C2F18] dark:text-[#E8A184]">
               {oT.nativeStepLabel}
             </span>
 
@@ -485,7 +485,7 @@ export function OralRepetitionExercise({
               >
                 {phrase.darijaArabic}
               </p>
-              <p className="text-xs font-mono text-[#4E6231] dark:text-[#A5C178]">
+              <p className="text-xs font-mono text-[#8C2F18] dark:text-[#E8A184]">
                 [{phrase.phoneticFrench}]
               </p>
             </div>
@@ -498,8 +498,8 @@ export function OralRepetitionExercise({
               onClick={() => handlePlayNative(false)}
               className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold whitespace-nowrap shrink-0 cursor-pointer ${
                 playbackMode === 'native' || playbackMode === 'compare-native'
-                  ? 'bg-[#4E6231] text-white'
-                  : 'bg-[#5C723C] hover:bg-[#4E6231] text-white'
+                  ? 'bg-[#8C2F18] text-white'
+                  : 'bg-[#B7410E] hover:bg-[#8C2F18] text-white'
               }`}
             >
               <Volume2 className="w-3.5 h-3.5" aria-hidden="true" />
@@ -516,8 +516,8 @@ export function OralRepetitionExercise({
               onClick={() => handlePlayNative(true)}
               className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold border whitespace-nowrap shrink-0 cursor-pointer ${
                 playbackMode === 'native-slow'
-                  ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                  : 'bg-white dark:bg-[#171E1B] border-[#E4DFD2] dark:border-[#2A352F] text-[#23201C] dark:text-slate-200 hover:border-[#5C723C]'
+                  ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                  : 'bg-white dark:bg-[#171E1B] border-[#E4DFD2] dark:border-[#2A352F] text-[#23201C] dark:text-slate-200 hover:border-[#B7410E]'
               }`}
             >
               <Turtle className="w-3.5 h-3.5" aria-hidden="true" />
@@ -635,7 +635,7 @@ export function OralRepetitionExercise({
                   type="button"
                   data-testid="oral-compare-btn"
                   onClick={handleCompareSideBySide}
-                  className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-[#5C723C] hover:bg-[#4E6231] text-white whitespace-nowrap shrink-0 cursor-pointer"
+                  className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-[#B7410E] hover:bg-[#8C2F18] text-white whitespace-nowrap shrink-0 cursor-pointer"
                 >
                   <ArrowLeftRight className="w-3.5 h-3.5" aria-hidden="true" />
                   <span>
@@ -692,7 +692,7 @@ export function OralRepetitionExercise({
                       lang={comparison.scriptMode === 'arabic' ? 'ar' : undefined}
                       className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-semibold border ${
                         item.matched
-                          ? 'bg-[#E5EBD6]/80 dark:bg-[#243220] border-[#C7D2B0] dark:border-[#3D4F30] text-[#4E6231] dark:text-[#A5C178]'
+                          ? 'bg-[#E5EBD6]/80 dark:bg-[#243220] border-[#C7D2B0] dark:border-[#3D4F30] text-[#8C2F18] dark:text-[#E8A184]'
                           : 'bg-amber-50 dark:bg-amber-950/30 border-amber-200 dark:border-amber-800 text-[#A86B22] dark:text-amber-300'
                       }`}
                     >
@@ -740,12 +740,12 @@ export function OralRepetitionExercise({
               value={manualText}
               onChange={(e) => setManualText(e.target.value)}
               placeholder={oT.manualFallbackPlaceholder}
-              className="flex-1 px-3 py-2 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#171E1B] text-[#23201C] dark:text-slate-100 placeholder:text-[#8E867B] focus:outline-none focus:ring-2 focus:ring-[#5C723C]"
+              className="flex-1 px-3 py-2 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#171E1B] text-[#23201C] dark:text-slate-100 placeholder:text-[#8E867B] focus:outline-none focus:ring-2 focus:ring-[#B7410E]"
             />
             <button
               type="submit"
               data-testid="oral-fallback-submit"
-              className="px-4 py-2 rounded-xl bg-[#5C723C] hover:bg-[#4E6231] text-white font-semibold whitespace-nowrap shrink-0 cursor-pointer"
+              className="px-4 py-2 rounded-xl bg-[#B7410E] hover:bg-[#8C2F18] text-white font-semibold whitespace-nowrap shrink-0 cursor-pointer"
             >
               {oT.manualFallbackButton}
             </button>

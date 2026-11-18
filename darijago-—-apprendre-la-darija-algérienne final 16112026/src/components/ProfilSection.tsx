@@ -162,7 +162,7 @@ export function ProfilSection({
       {/* Language Switcher Card */}
       <div className="bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] rounded-2xl p-5 sm:p-6 space-y-4">
         <div className="flex items-start gap-3">
-          <div className="w-9 h-9 rounded-xl bg-[#F5F1E8] dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] flex items-center justify-center shrink-0">
+          <div className="w-9 h-9 rounded-xl bg-[#F5F1E8] dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] flex items-center justify-center shrink-0">
             <Globe className="w-4 h-4" aria-hidden="true" />
           </div>
           <div className="space-y-0.5">
@@ -200,17 +200,17 @@ export function ProfilSection({
             type="button"
             onClick={onToggleTheme}
             aria-pressed={isDark}
-            className="inline-flex items-center justify-between px-4 py-2.5 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/60 dark:bg-[#1D2622] text-xs font-semibold text-[#23201C] dark:text-slate-100 hover:border-[#5C723C] cursor-pointer"
+            className="inline-flex items-center justify-between px-4 py-2.5 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/60 dark:bg-[#1D2622] text-xs font-semibold text-[#23201C] dark:text-slate-100 hover:border-[#B7410E] cursor-pointer"
           >
             <span className="inline-flex items-center gap-2">
               {isDark ? (
-                <Moon className="w-4 h-4 text-[#A5C178]" aria-hidden="true" />
+                <Moon className="w-4 h-4 text-[#E8A184]" aria-hidden="true" />
               ) : (
                 <Sun className="w-4 h-4 text-[#C68335]" aria-hidden="true" />
               )}
               <span>{isDark ? profT.darkLabel : profT.lightLabel}</span>
             </span>
-            <span className="text-[#4E6231] dark:text-[#A5C178]">⇄</span>
+            <span className="text-[#8C2F18] dark:text-[#E8A184]">⇄</span>
           </button>
         </div>
 
@@ -218,7 +218,7 @@ export function ProfilSection({
         <div className="bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] rounded-2xl p-5 flex flex-col justify-between gap-4">
           <div className="space-y-1">
             <div className="flex items-center gap-2">
-              <Target className="w-4 h-4 text-[#5C723C] dark:text-[#A5C178]" aria-hidden="true" />
+              <Target className="w-4 h-4 text-[#B7410E] dark:text-[#E8A184]" aria-hidden="true" />
               <h2 className="font-display text-base font-bold text-[#23201C] dark:text-slate-100">
                 {profT.goalTitle}
               </h2>
@@ -231,7 +231,7 @@ export function ProfilSection({
           <button
             type="button"
             onClick={onOpenProgress}
-            className="inline-flex items-center justify-between px-4 py-2.5 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/60 dark:bg-[#1D2622] text-xs font-semibold text-[#4E6231] dark:text-[#A5C178] hover:border-[#5C723C] cursor-pointer"
+            className="inline-flex items-center justify-between px-4 py-2.5 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/60 dark:bg-[#1D2622] text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184] hover:border-[#B7410E] cursor-pointer"
           >
             <span>{profT.goalManageLink}</span>
             <ArrowRight className="w-4 h-4" aria-hidden="true" />
@@ -246,7 +246,7 @@ export function ProfilSection({
       >
         <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
           <div className="flex items-start gap-3">
-            <div className="w-9 h-9 rounded-xl bg-[#F5F1E8] dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] flex items-center justify-center shrink-0">
+            <div className="w-9 h-9 rounded-xl bg-[#F5F1E8] dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] flex items-center justify-center shrink-0">
               <HardDrive className="w-4 h-4" aria-hidden="true" />
             </div>
             <div className="space-y-1">
@@ -270,8 +270,8 @@ export function ProfilSection({
                 offlineDownloading
                   ? 'bg-[#EFECE4] dark:bg-[#1D2622] text-[#686259] dark:text-slate-300 border-[#E4DFD2] dark:border-[#2A352F] cursor-wait'
                   : packReady
-                    ? 'bg-[#F5F1E8] hover:bg-[#EAE4D4] dark:bg-[#1D2622] dark:hover:bg-[#24302A] text-[#4E6231] dark:text-[#A5C178] border-[#C7D2B0] dark:border-[#3D4F30]'
-                    : 'bg-[#4E6231] hover:bg-[#3F5127] dark:bg-[#5C723C] dark:hover:bg-[#4E6231] text-white border-[#4E6231] dark:border-[#5C723C]'
+                    ? 'bg-[#F5F1E8] hover:bg-[#EAE4D4] dark:bg-[#1D2622] dark:hover:bg-[#24302A] text-[#8C2F18] dark:text-[#E8A184] border-[#C7D2B0] dark:border-[#3D4F30]'
+                    : 'bg-[#8C2F18] hover:bg-[#3F5127] dark:bg-[#B7410E] dark:hover:bg-[#8C2F18] text-white border-[#8C2F18] dark:border-[#B7410E]'
               }`}
             >
               {offlineDownloading ? (
@@ -309,13 +309,13 @@ export function ProfilSection({
             data-testid="profil-offline-progress"
             className="space-y-2 pt-1 border-t border-[#E4DFD2]/70 dark:border-[#2A352F]"
           >
-            <div className="flex items-center justify-between text-xs text-[#4E6231] dark:text-[#A5C178] font-medium">
+            <div className="flex items-center justify-between text-xs text-[#8C2F18] dark:text-[#E8A184] font-medium">
               <span>{stageLabel}</span>
               <span className="tabular-nums">{offlineProgress.percent}%</span>
             </div>
             <div className="w-full h-2 rounded-full bg-[#EFECE4] dark:bg-[#1D2622] overflow-hidden">
               <div
-                className="h-full bg-[#5C723C] dark:bg-[#A5C178] transition-all duration-200"
+                className="h-full bg-[#B7410E] dark:bg-[#E8A184] transition-all duration-200"
                 style={{ width: `${offlineProgress.percent}%` }}
               />
             </div>
@@ -330,7 +330,7 @@ export function ProfilSection({
               className="inline-flex items-center gap-1.5 text-xs font-medium text-[#23201C] dark:text-slate-200"
             >
               {packReady ? (
-                <CheckCircle2 className="w-4 h-4 text-[#4E6231] dark:text-[#A5C178] shrink-0" aria-hidden="true" />
+                <CheckCircle2 className="w-4 h-4 text-[#8C2F18] dark:text-[#E8A184] shrink-0" aria-hidden="true" />
               ) : (
                 <WifiOff className="w-4 h-4 text-[#8E867B] shrink-0" aria-hidden="true" />
               )}
@@ -359,8 +359,8 @@ export function ProfilSection({
               onClick={handleToggleOfflineMode}
               className={`inline-flex items-center gap-2 px-3.5 py-2 text-xs font-semibold rounded-xl border whitespace-nowrap shrink-0 cursor-pointer transition-colors ${
                 offlineStatus.offlineModeEnabled
-                  ? 'bg-[#E5EBD6] dark:bg-[#273322] text-[#4E6231] dark:text-[#A5C178] border-[#C7D2B0] dark:border-[#3D4F30]'
-                  : 'bg-[#F5F1E8]/60 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                  ? 'bg-[#E5EBD6] dark:bg-[#273322] text-[#8C2F18] dark:text-[#E8A184] border-[#C7D2B0] dark:border-[#3D4F30]'
+                  : 'bg-[#F5F1E8]/60 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
               }`}
             >
               <WifiOff className="w-3.5 h-3.5" aria-hidden="true" />
@@ -393,10 +393,10 @@ export function ProfilSection({
             disabled={desktopPermission === 'granted' || desktopPermission === 'denied'}
             className={`inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-xl border whitespace-nowrap shrink-0 ${
               desktopPermission === 'granted'
-                ? 'bg-[#E5EBD6] dark:bg-[#273322] text-[#4E6231] dark:text-[#A5C178] border-[#C7D2B0] dark:border-[#3D4F30] cursor-default'
+                ? 'bg-[#E5EBD6] dark:bg-[#273322] text-[#8C2F18] dark:text-[#E8A184] border-[#C7D2B0] dark:border-[#3D4F30] cursor-default'
                 : desktopPermission === 'denied'
                   ? 'bg-[#EFECE4] dark:bg-[#1D2622] text-[#8E867B] border-[#E4DFD2] dark:border-[#2A352F] cursor-not-allowed'
-                  : 'bg-white dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C] cursor-pointer'
+                  : 'bg-white dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E] cursor-pointer'
             }`}
           >
             {desktopPermission === 'denied' ? (
@@ -471,7 +471,7 @@ export function ProfilSection({
         {resetDone && (
           <p
             role="status"
-            className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#4E6231] dark:text-[#A5C178]"
+            className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184]"
           >
             <CheckCircle2 className="w-4 h-4" aria-hidden="true" />
             <span>{profT.resetDoneMessage}</span>

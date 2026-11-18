@@ -227,7 +227,7 @@ export function ListenGuessArena({
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div className="space-y-1">
             <h2 className="font-display text-xl font-bold text-[#23201C] dark:text-slate-100 flex items-center gap-2">
-              <Ear className="w-5 h-5 text-[#5C723C] dark:text-[#A5C178]" aria-hidden="true" />
+              <Ear className="w-5 h-5 text-[#B7410E] dark:text-[#E8A184]" aria-hidden="true" />
               <span>{t.title}</span>
             </h2>
             <p className="text-sm text-[#686259] dark:text-slate-400">
@@ -247,7 +247,7 @@ export function ListenGuessArena({
               data-testid="listen-guess-unit-select"
               value={moduleFilter}
               onChange={(e) => resetSession(mode, e.target.value, seed + 1)}
-              className="flex-1 md:flex-initial min-w-0 max-w-full px-3 py-2 text-sm rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/60 dark:bg-[#0E1311] text-[#23201C] dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-[#5C723C]"
+              className="flex-1 md:flex-initial min-w-0 max-w-full px-3 py-2 text-sm rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/60 dark:bg-[#0E1311] text-[#23201C] dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-[#B7410E]"
             >
               <option value="all">{t.allUnits}</option>
               {localizedModules.map((m) => (
@@ -334,7 +334,7 @@ export function ListenGuessArena({
           className="bg-[#F7F9F2] dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] rounded-3xl p-8 text-center space-y-6"
         >
           <div className="space-y-2">
-            <p className="text-xs font-semibold text-[#4E6231] dark:text-[#A5C178]">
+            <p className="text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184]">
               {t.sessionDone}
             </p>
             <h3 className="font-display text-3xl font-extrabold text-[#23201C] dark:text-slate-100 tabular-nums">
@@ -363,7 +363,7 @@ export function ListenGuessArena({
             <button
               type="button"
               onClick={onGoToLessons}
-              className="px-5 py-2.5 text-sm font-semibold text-[#23201C] dark:text-slate-100 bg-white dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C] rounded-xl whitespace-nowrap shrink-0 cursor-pointer"
+              className="px-5 py-2.5 text-sm font-semibold text-[#23201C] dark:text-slate-100 bg-white dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E] rounded-xl whitespace-nowrap shrink-0 cursor-pointer"
             >
               {t.reviewLessons}
             </button>
@@ -397,7 +397,7 @@ export function ListenGuessArena({
               )}
               <span
                 data-testid="listen-guess-score"
-                className="text-[#4E6231] dark:text-[#A5C178]"
+                className="text-[#8C2F18] dark:text-[#E8A184]"
               >
                 {t.scoreLabel(score)}
               </span>
@@ -419,8 +419,8 @@ export function ListenGuessArena({
                 onClick={() => handleTogglePlay(false)}
                 className={`relative overflow-hidden inline-flex items-center gap-2 px-5 py-3 text-sm font-semibold rounded-xl border whitespace-nowrap shrink-0 cursor-pointer transition-colors ${
                   isPlayingNormal
-                    ? 'bg-[#4E6231] text-white border-[#4E6231]'
-                    : 'bg-[#5C723C] hover:bg-[#4E6231] text-white border-[#5C723C]'
+                    ? 'bg-[#8C2F18] text-white border-[#8C2F18]'
+                    : 'bg-[#B7410E] hover:bg-[#8C2F18] text-white border-[#B7410E]'
                 }`}
               >
                 {isPlayingNormal ? (
@@ -485,11 +485,11 @@ export function ListenGuessArena({
               const letter = OPTION_LETTERS[idx] ?? String(idx + 1);
 
               let cardClasses =
-                'bg-white dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#23201C] dark:text-slate-100 hover:border-[#5C723C]';
+                'bg-white dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#23201C] dark:text-slate-100 hover:border-[#B7410E]';
               if (isAnswered) {
                 if (isRight) {
                   cardClasses =
-                    'bg-[#E5EBD6] dark:bg-[#233020] border-[#5C723C] text-[#23201C] dark:text-emerald-100';
+                    'bg-[#E5EBD6] dark:bg-[#233020] border-[#B7410E] text-[#23201C] dark:text-emerald-100';
                 } else if (isSelected) {
                   cardClasses =
                     'bg-red-50 dark:bg-red-950/60 border-[#B9382C] dark:border-red-500 text-red-950 dark:text-red-100';
@@ -512,13 +512,13 @@ export function ListenGuessArena({
                   data-correct={option.isCorrect ? 'true' : 'false'}
                   disabled={isAnswered}
                   onClick={() => handleSelectOption(option.id)}
-                  className={`text-left p-4 min-h-[72px] rounded-2xl border flex items-start gap-3 transition-colors cursor-pointer disabled:cursor-default focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5C723C] ${cardClasses}`}
+                  className={`text-left p-4 min-h-[72px] rounded-2xl border flex items-start gap-3 transition-colors cursor-pointer disabled:cursor-default focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B7410E] ${cardClasses}`}
                 >
                   <span
                     aria-hidden="true"
                     className={`w-7 h-7 rounded-lg text-xs font-bold inline-flex items-center justify-center shrink-0 mt-0.5 ${
                       isAnswered && isRight
-                        ? 'bg-[#5C723C] text-white'
+                        ? 'bg-[#B7410E] text-white'
                         : isAnswered && isSelected
                           ? 'bg-[#B9382C] text-white'
                           : 'bg-[#F5F1E8] dark:bg-[#141A17] text-[#686259] dark:text-slate-300'
@@ -566,14 +566,14 @@ export function ListenGuessArena({
               data-testid="listen-guess-feedback"
               className={`p-5 rounded-2xl border flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
                 evaluation.isCorrect
-                  ? 'bg-[#E5EBD6]/75 dark:bg-[#202B1E] border-[#5C723C] text-[#23201C] dark:text-emerald-100'
+                  ? 'bg-[#E5EBD6]/75 dark:bg-[#202B1E] border-[#B7410E] text-[#23201C] dark:text-emerald-100'
                   : 'bg-red-50 dark:bg-red-950/55 border-red-300 dark:border-red-800 text-red-950 dark:text-red-100'
               }`}
             >
               <div className="flex items-start gap-3">
                 {evaluation.isCorrect ? (
                   <CheckCircle2
-                    className="w-5 h-5 text-[#4E6231] dark:text-[#A5C178] shrink-0 mt-0.5"
+                    className="w-5 h-5 text-[#8C2F18] dark:text-[#E8A184] shrink-0 mt-0.5"
                     aria-hidden="true"
                   />
                 ) : (

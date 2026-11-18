@@ -242,7 +242,7 @@ export function DictionnaireSection({
           </p>
         </div>
 
-        <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] text-xs font-semibold text-[#4E6231] dark:text-[#A5C178] shrink-0">
+        <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184] shrink-0">
           <BookOpen className="w-3.5 h-3.5" aria-hidden="true" />
           <span className="tabular-nums">
             {allEntries.length.toLocaleString(language === 'fr' ? 'fr-FR' : 'en-US')} ·{' '}
@@ -273,7 +273,7 @@ export function DictionnaireSection({
                 setVisibleLimit(PAGE_BATCH_SIZE);
               }}
               placeholder={dictT.searchPlaceholder}
-              className="w-full pl-10 pr-10 py-3 text-sm rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/60 dark:bg-[#0E1311] text-[#23201C] dark:text-slate-100 placeholder:text-[#8E867B] focus:outline-none focus:ring-2 focus:ring-[#5C723C]"
+              className="w-full pl-10 pr-10 py-3 text-sm rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/60 dark:bg-[#0E1311] text-[#23201C] dark:text-slate-100 placeholder:text-[#8E867B] focus:outline-none focus:ring-2 focus:ring-[#B7410E]"
             />
             {query && (
               <button
@@ -303,7 +303,7 @@ export function DictionnaireSection({
                   setQuery(term);
                   setVisibleLimit(PAGE_BATCH_SIZE);
                 }}
-                className="px-2.5 py-1 rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 hover:border-[#5C723C] text-xs font-medium cursor-pointer"
+                className="px-2.5 py-1 rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 hover:border-[#B7410E] text-xs font-medium cursor-pointer"
               >
                 {term}
               </button>
@@ -316,7 +316,7 @@ export function DictionnaireSection({
           <button
             type="button"
             onClick={() => setCorpusOpen((v) => !v)}
-            className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#4E6231] dark:text-[#A5C178] hover:underline cursor-pointer"
+            className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184] hover:underline cursor-pointer"
             aria-expanded={corpusOpen}
           >
             <BookOpen className="w-3.5 h-3.5" aria-hidden="true" />
@@ -436,8 +436,8 @@ export function DictionnaireSection({
                     }}
                     className={`px-3 py-1 text-xs font-medium rounded-lg border whitespace-nowrap shrink-0 cursor-pointer tabular-nums ${
                       verbPattern === pat
-                        ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                        : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#686259] dark:text-slate-300 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                        ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                        : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#686259] dark:text-slate-300 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                     }`}
                   >
                     {bsT.verbPatterns[pat]} ({verbPatternCounts[pat]})
@@ -475,7 +475,7 @@ export function DictionnaireSection({
                     className={`px-3 py-1 rounded-lg text-xs font-semibold border whitespace-nowrap shrink-0 tabular-nums cursor-pointer ${
                       active
                         ? 'bg-[#23201C] dark:bg-slate-100 text-white dark:text-[#171E1B] border-transparent'
-                        : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                        : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                     }`}
                   >
                     {getSourceLabel(srcKey)} ({sourceCounts[srcKey]})
@@ -505,7 +505,7 @@ export function DictionnaireSection({
                 }}
                 className={`px-2.5 h-7 rounded-lg text-xs font-bold tabular-nums whitespace-nowrap shrink-0 cursor-pointer ${
                   letter === 'all'
-                    ? 'bg-[#5C723C] text-white'
+                    ? 'bg-[#B7410E] text-white'
                     : 'bg-[#F5F1E8] dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 hover:bg-[#E5EBD6]'
                 }`}
               >
@@ -530,7 +530,7 @@ export function DictionnaireSection({
                     }}
                     className={`px-2 h-7 rounded-lg text-xs font-bold tabular-nums whitespace-nowrap shrink-0 ${
                       isSelected
-                        ? 'bg-[#5C723C] text-white cursor-pointer'
+                        ? 'bg-[#B7410E] text-white cursor-pointer'
                         : isLoaded
                           ? 'bg-[#F5F1E8] dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 hover:bg-[#E5EBD6] cursor-pointer'
                           : 'text-[#B5AEA2] dark:text-slate-600 cursor-not-allowed'
@@ -567,7 +567,7 @@ export function DictionnaireSection({
             <button
               type="button"
               onClick={resetAllFilters}
-              className="px-4 py-2 text-xs font-semibold text-white bg-[#5C723C] rounded-xl hover:bg-[#4E6231] cursor-pointer"
+              className="px-4 py-2 text-xs font-semibold text-white bg-[#B7410E] rounded-xl hover:bg-[#8C2F18] cursor-pointer"
             >
               {dictT.resetFilters}
             </button>
@@ -604,7 +604,7 @@ export function DictionnaireSection({
                           {entry.verbPattern && (
                             <>
                               <span aria-hidden="true">·</span>
-                              <span className="font-medium text-[#4E6231] dark:text-[#A5C178]">
+                              <span className="font-medium text-[#8C2F18] dark:text-[#E8A184]">
                                 {bsT.verbPatterns[entry.verbPattern]}
                               </span>
                             </>
@@ -613,7 +613,7 @@ export function DictionnaireSection({
                             <>
                               <span aria-hidden="true">·</span>
                               <span
-                                className="font-arabic text-sm text-[#4E6231] dark:text-[#A5C178]"
+                                className="font-arabic text-sm text-[#8C2F18] dark:text-[#E8A184]"
                                 lang="ar"
                               >
                                 <bdi>{entry.arabicRoot}</bdi>
@@ -659,7 +659,7 @@ export function DictionnaireSection({
                               }
                             }}
                           />
-                          <span className="text-base font-bold text-[#4E6231] dark:text-[#A5C178]">
+                          <span className="text-base font-bold text-[#8C2F18] dark:text-[#E8A184]">
                             {entry.darijaLatin}
                           </span>
                           <span
@@ -709,8 +709,8 @@ export function DictionnaireSection({
                           aria-label={`${bsT.listen}: ${entry.headword}`}
                           className={`inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold rounded-xl border whitespace-nowrap shrink-0 cursor-pointer ${
                             isPlaying
-                              ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                              : 'bg-white dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                              ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                              : 'bg-white dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                           }`}
                         >
                           <Volume2 className="w-4 h-4" aria-hidden="true" />
@@ -766,7 +766,7 @@ export function DictionnaireSection({
                                 [entry.id]: nextExpanded,
                               }));
                             }}
-                            className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#4E6231] dark:text-[#A5C178] hover:underline cursor-pointer"
+                            className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184] hover:underline cursor-pointer"
                           >
                             {isExpanded ? (
                               <>
@@ -793,7 +793,7 @@ export function DictionnaireSection({
                                   <th className="py-2 px-2 sm:px-3 font-semibold text-[#23201C] dark:text-slate-100">
                                     {bsT.personHeader}
                                   </th>
-                                  <th className="py-2 px-2 sm:px-3 font-semibold text-[#4E6231] dark:text-[#A5C178]">
+                                  <th className="py-2 px-2 sm:px-3 font-semibold text-[#8C2F18] dark:text-[#E8A184]">
                                     <span className="sm:hidden">{bsT.presentHeader.split(' ')[0]}</span>
                                     <span className="hidden sm:inline">{bsT.presentHeader}</span>
                                   </th>
@@ -881,7 +881,7 @@ export function DictionnaireSection({
                   type="button"
                   data-testid="dict-show-more"
                   onClick={() => setVisibleLimit((prev) => prev + PAGE_BATCH_SIZE)}
-                  className="px-5 py-2.5 text-xs font-semibold rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 hover:border-[#5C723C] cursor-pointer tabular-nums"
+                  className="px-5 py-2.5 text-xs font-semibold rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 hover:border-[#B7410E] cursor-pointer tabular-nums"
                 >
                   {dictT.showMore(remainingCount)}
                 </button>

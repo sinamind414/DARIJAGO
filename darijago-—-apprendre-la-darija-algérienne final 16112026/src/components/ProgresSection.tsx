@@ -83,7 +83,7 @@ export function ProgresSection({
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         <div className="bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] rounded-2xl p-4 space-y-1">
           <div className="flex items-center gap-1.5 text-xs text-[#686259] dark:text-slate-400">
-            <CheckCircle2 className="w-3.5 h-3.5 text-[#5C723C] dark:text-[#A5C178]" aria-hidden="true" />
+            <CheckCircle2 className="w-3.5 h-3.5 text-[#B7410E] dark:text-[#E8A184]" aria-hidden="true" />
             <span>{prT.statMastered}</span>
           </div>
           <p className="font-display text-2xl font-extrabold text-[#23201C] dark:text-slate-100 tabular-nums">
@@ -103,7 +103,7 @@ export function ProgresSection({
 
         <div className="bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] rounded-2xl p-4 space-y-1">
           <div className="flex items-center gap-1.5 text-xs text-[#686259] dark:text-slate-400">
-            <Sparkles className="w-3.5 h-3.5 text-[#5C723C] dark:text-[#A5C178]" aria-hidden="true" />
+            <Sparkles className="w-3.5 h-3.5 text-[#B7410E] dark:text-[#E8A184]" aria-hidden="true" />
             <span>{prT.statScheduled}</span>
           </div>
           <p className="font-display text-2xl font-extrabold text-[#23201C] dark:text-slate-100 tabular-nums">
@@ -154,7 +154,7 @@ export function ProgresSection({
 
         <div className="lg:col-span-4 bg-[#F7F9F2] dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] rounded-2xl p-5 sm:p-6 flex flex-col justify-between gap-4">
           <div className="space-y-2">
-            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-[#4E6231] dark:text-[#A5C178]">
+            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-[#8C2F18] dark:text-[#E8A184]">
               <Clock className="w-4 h-4" aria-hidden="true" />
               <span>{prT.srsCardTitle}</span>
             </div>
@@ -169,7 +169,7 @@ export function ProgresSection({
           <button
             type="button"
             onClick={onGoToLearn}
-            className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#5C723C] hover:bg-[#4E6231] text-white text-xs sm:text-sm font-semibold cursor-pointer"
+            className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#B7410E] hover:bg-[#8C2F18] text-white text-xs sm:text-sm font-semibold cursor-pointer"
           >
             <span>{prT.srsReviewNow}</span>
             <ArrowRight className="w-4 h-4" aria-hidden="true" />

@@ -268,7 +268,7 @@ export function LessonWorkspace({
       {learnerProfile && (
         <div
           data-testid="profile-hint"
-          className="rounded-xl border border-[#D7E0C8] dark:border-[#2A352F] bg-[#F0F5E9] dark:bg-[#1D2622] px-4 py-2.5 text-sm text-[#4E6231] dark:text-[#A5C178]"
+          className="rounded-xl border border-[#D7E0C8] dark:border-[#2A352F] bg-[#F0F5E9] dark:bg-[#1D2622] px-4 py-2.5 text-sm text-[#8C2F18] dark:text-[#E8A184]"
         >
           {PROFILE_HINT[learnerProfile]}
         </div>
@@ -295,7 +295,7 @@ export function LessonWorkspace({
             type="button"
             onClick={() => setShowUnitPicker((v) => !v)}
             aria-expanded={showUnitPicker}
-            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] text-xs font-semibold text-[#4E6231] dark:text-[#A5C178] hover:border-[#5C723C] shadow-xs cursor-pointer"
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184] hover:border-[#B7410E] shadow-xs cursor-pointer"
           >
             <span
               aria-hidden="true"
@@ -326,7 +326,7 @@ export function LessonWorkspace({
           onClick={() => setLearnMode('guided')}
           className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-colors cursor-pointer ${
             learnMode === 'guided'
-              ? 'bg-[#5C723C] dark:bg-[#4E6231] text-white'
+              ? 'bg-[#B7410E] dark:bg-[#8C2F18] text-white'
               : 'text-[#686259] dark:text-slate-300 hover:text-[#23201C] dark:hover:text-white'
           }`}
         >
@@ -364,7 +364,7 @@ export function LessonWorkspace({
             <button
               type="button"
               onClick={() => setShowUnitPicker(false)}
-              className="text-xs font-semibold text-[#5C723C] dark:text-[#A5C178] cursor-pointer"
+              className="text-xs font-semibold text-[#B7410E] dark:text-[#E8A184] cursor-pointer"
             >
               {expT.learn.hideDetails}
             </button>
@@ -384,8 +384,8 @@ export function LessonWorkspace({
                   }}
                   className={`text-left px-3 py-2.5 rounded-xl border flex items-center justify-between gap-2 cursor-pointer ${
                     isSelected
-                      ? 'bg-[#5C723C] dark:bg-[#4E6231] text-white border-[#5C723C]'
-                      : 'bg-[#F5F1E8]/60 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                      ? 'bg-[#B7410E] dark:bg-[#8C2F18] text-white border-[#B7410E]'
+                      : 'bg-[#F5F1E8]/60 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-100 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                   }`}
                 >
                   <span className="text-xs font-semibold truncate">
@@ -441,7 +441,7 @@ export function LessonWorkspace({
           {/* Session Counter + Prev/Next */}
           <div className="flex flex-wrap items-center justify-between gap-2 px-1">
             <div className="flex flex-wrap items-center gap-x-2 gap-y-1 min-w-0 flex-1 text-xs text-[#686259] dark:text-slate-400">
-              <span className="font-semibold text-[#4E6231] dark:text-[#A5C178] whitespace-nowrap">
+              <span className="font-semibold text-[#8C2F18] dark:text-[#E8A184] whitespace-nowrap">
                 {t.unitPrefix} {activeModule.number}
               </span>
               <span aria-hidden="true">·</span>
@@ -456,7 +456,7 @@ export function LessonWorkspace({
                     className={
                       currentIsDue
                         ? 'text-[#C68335] dark:text-amber-400 font-semibold whitespace-nowrap'
-                        : 'text-[#4E6231] dark:text-[#A5C178] font-medium whitespace-nowrap'
+                        : 'text-[#8C2F18] dark:text-[#E8A184] font-medium whitespace-nowrap'
                     }
                   >
                     {formatReviewSchedule(currentPhrase.nextReviewDate)}
@@ -471,7 +471,7 @@ export function LessonWorkspace({
                 onClick={() => handleNavigatePhrase(-1)}
                 disabled={phraseIndex === 0}
                 aria-label={t.prev}
-                className="inline-flex items-center justify-center w-8 h-8 rounded-full border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#171E1B] text-[#23201C] dark:text-slate-200 hover:border-[#5C723C] disabled:opacity-35 disabled:cursor-not-allowed cursor-pointer"
+                className="inline-flex items-center justify-center w-8 h-8 rounded-full border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#171E1B] text-[#23201C] dark:text-slate-200 hover:border-[#B7410E] disabled:opacity-35 disabled:cursor-not-allowed cursor-pointer"
               >
                 <ChevronLeft className="w-4 h-4" aria-hidden="true" />
               </button>
@@ -483,7 +483,7 @@ export function LessonWorkspace({
                 onClick={() => handleNavigatePhrase(1)}
                 disabled={phraseIndex === activeModule.phrases.length - 1}
                 aria-label={t.next}
-                className="inline-flex items-center justify-center w-8 h-8 rounded-full border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#171E1B] text-[#23201C] dark:text-slate-200 hover:border-[#5C723C] disabled:opacity-35 disabled:cursor-not-allowed cursor-pointer"
+                className="inline-flex items-center justify-center w-8 h-8 rounded-full border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#171E1B] text-[#23201C] dark:text-slate-200 hover:border-[#B7410E] disabled:opacity-35 disabled:cursor-not-allowed cursor-pointer"
               >
                 <ChevronRight className="w-4 h-4" aria-hidden="true" />
               </button>
@@ -499,10 +499,10 @@ export function LessonWorkspace({
                   type="button"
                   onClick={() => handlePlay(false)}
                   aria-label={expT.learn.playCardAria(currentPhrase.darijaLatin)}
-                  className={`w-12 h-12 rounded-full inline-flex items-center justify-center cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5C723C] ${
+                  className={`w-12 h-12 rounded-full inline-flex items-center justify-center cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B7410E] ${
                     playingMode === 'normal'
-                      ? 'bg-[#5C723C] text-white'
-                      : 'bg-[#E5EBD6] dark:bg-[#273322] text-[#4E6231] dark:text-[#A5C178] hover:bg-[#DAE3C6] dark:hover:bg-[#31412A]'
+                      ? 'bg-[#B7410E] text-white'
+                      : 'bg-[#E5EBD6] dark:bg-[#273322] text-[#8C2F18] dark:text-[#E8A184] hover:bg-[#DAE3C6] dark:hover:bg-[#31412A]'
                   }`}
                 >
                   <Play className="w-5 h-5 fill-current ml-0.5" aria-hidden="true" />
@@ -515,8 +515,8 @@ export function LessonWorkspace({
                   title={t.slow}
                   className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border cursor-pointer ${
                     playingMode === 'slow'
-                      ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                      : 'bg-white/80 dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#686259] dark:text-slate-300 hover:border-[#5C723C]'
+                      ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                      : 'bg-white/80 dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#686259] dark:text-slate-300 hover:border-[#B7410E]'
                   }`}
                 >
                   <Turtle className="w-3.5 h-3.5" aria-hidden="true" />
@@ -550,7 +550,7 @@ export function LessonWorkspace({
               </div>
 
               {/* Dialect Subtitle */}
-              <p className="text-xs font-bold tracking-[0.14em] uppercase text-[#5C723C] dark:text-[#A5C178]">
+              <p className="text-xs font-bold tracking-[0.14em] uppercase text-[#B7410E] dark:text-[#E8A184]">
                 {expT.dialectBadge}
               </p>
 
@@ -575,7 +575,7 @@ export function LessonWorkspace({
 
                 <div className="flex items-center justify-center gap-2 flex-wrap">
                   {showPhonetic && (
-                    <p className="font-mono text-xs sm:text-sm text-[#4E6231] dark:text-[#A5C178]">
+                    <p className="font-mono text-xs sm:text-sm text-[#8C2F18] dark:text-[#E8A184]">
                       [{currentPhrase.phoneticFrench}]
                     </p>
                   )}
@@ -592,7 +592,7 @@ export function LessonWorkspace({
                     type="button"
                     data-testid="lesson-phonetic-modal-btn"
                     onClick={() => setPhoneticModalPhrase(currentPhrase)}
-                    className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#1D2622] hover:border-[#5C723C] text-xs font-semibold text-[#4E6231] dark:text-[#A5C178] cursor-pointer"
+                    className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#1D2622] hover:border-[#B7410E] text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184] cursor-pointer"
                   >
                     <AudioLines className="w-3.5 h-3.5" aria-hidden="true" />
                     <span>{pt.openButtonLabel}</span>
@@ -614,7 +614,7 @@ export function LessonWorkspace({
             >
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <div className="flex items-center gap-2 text-xs font-semibold text-[#23201C] dark:text-slate-200">
-                  <Clock className="w-3.5 h-3.5 text-[#5C723C] dark:text-[#A5C178]" aria-hidden="true" />
+                  <Clock className="w-3.5 h-3.5 text-[#B7410E] dark:text-[#E8A184]" aria-hidden="true" />
                   <span>{t.srsTitle}</span>
                   {currentPhrase.nextReviewDate && (
                     <span className="font-mono text-[#686259] dark:text-slate-400 font-normal tabular-nums">
@@ -629,8 +629,8 @@ export function LessonWorkspace({
                   aria-pressed={isMastered}
                   className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-semibold rounded-full border whitespace-nowrap shrink-0 cursor-pointer ${
                     isMastered
-                      ? 'bg-[#5C723C] dark:bg-[#4E6231] border-[#5C723C] text-white'
-                      : 'bg-white dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#23201C] dark:text-slate-200 hover:border-[#5C723C]'
+                      ? 'bg-[#B7410E] dark:bg-[#8C2F18] border-[#B7410E] text-white'
+                      : 'bg-white dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#23201C] dark:text-slate-200 hover:border-[#B7410E]'
                   }`}
                 >
                   {isMastered ? (
@@ -660,7 +660,7 @@ export function LessonWorkspace({
                     {
                       rating: 'good' as const,
                       label: t.srsRateGood,
-                      tone: 'border-[#C7D2B0] dark:border-[#3D4F30] text-[#4E6231] dark:text-[#A5C178] hover:bg-[#E5EBD6]/50 dark:hover:bg-[#273322]',
+                      tone: 'border-[#C7D2B0] dark:border-[#3D4F30] text-[#8C2F18] dark:text-[#E8A184] hover:bg-[#E5EBD6]/50 dark:hover:bg-[#273322]',
                     },
                     {
                       rating: 'easy' as const,
@@ -687,7 +687,7 @@ export function LessonWorkspace({
               {reviewFeedback && (
                 <p
                   role="status"
-                  className="text-xs font-medium text-[#4E6231] dark:text-[#A5C178]"
+                  className="text-xs font-medium text-[#8C2F18] dark:text-[#E8A184]"
                 >
                   {reviewFeedback}
                 </p>
@@ -712,7 +712,7 @@ export function LessonWorkspace({
               className="w-full px-5 py-4 flex items-center justify-between gap-3 text-left cursor-pointer hover:bg-[#F5F1E8]/50 dark:hover:bg-[#1D2622]"
             >
               <span className="inline-flex items-center gap-2 text-sm font-bold text-[#23201C] dark:text-slate-100">
-                <BookOpen className="w-4 h-4 text-[#5C723C] dark:text-[#A5C178]" aria-hidden="true" />
+                <BookOpen className="w-4 h-4 text-[#B7410E] dark:text-[#E8A184]" aria-hidden="true" />
                 <span>{showDetails ? expT.learn.hideDetails : expT.learn.showDetails}</span>
               </span>
               {showDetails ? (
@@ -731,10 +731,10 @@ export function LessonWorkspace({
                       type="button"
                       onClick={() => handlePlayWord(token.arabic, token.darija)}
                       aria-label={`${token.darija} — ${token.french}`}
-                      className="text-left p-3.5 rounded-xl bg-[#F5F1E8]/70 dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C] cursor-pointer group"
+                      className="text-left p-3.5 rounded-xl bg-[#F5F1E8]/70 dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E] cursor-pointer group"
                     >
                       <div className="flex items-center justify-between gap-2">
-                        <span className="font-semibold text-sm text-[#23201C] dark:text-slate-100 group-hover:text-[#4E6231] dark:group-hover:text-[#A5C178]">
+                        <span className="font-semibold text-sm text-[#23201C] dark:text-slate-100 group-hover:text-[#8C2F18] dark:group-hover:text-[#E8A184]">
                           {token.darija}
                         </span>
                         <Volume2
@@ -757,7 +757,7 @@ export function LessonWorkspace({
                 </div>
 
                 <div className="p-4 rounded-xl bg-[#F7F9F2] dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F]">
-                  <p className="text-xs font-bold text-[#4E6231] dark:text-[#A5C178]">
+                  <p className="text-xs font-bold text-[#8C2F18] dark:text-[#E8A184]">
                     {t.culturalTitle}
                   </p>
                   <p className="text-sm text-[#23201C] dark:text-slate-300 mt-1 leading-relaxed">
@@ -807,12 +807,12 @@ export function LessonWorkspace({
                       value={practiceInput}
                       onChange={(e) => setPracticeInput(e.target.value)}
                       placeholder={t.inputPlaceholder(currentPhrase.acceptedAnswers[0])}
-                      className="w-full px-4 py-2.5 text-sm rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/40 dark:bg-[#0E1311] text-[#23201C] dark:text-slate-100 placeholder:text-[#8E867B] focus:outline-none focus:ring-2 focus:ring-[#5C723C]"
+                      className="w-full px-4 py-2.5 text-sm rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/40 dark:bg-[#0E1311] text-[#23201C] dark:text-slate-100 placeholder:text-[#8E867B] focus:outline-none focus:ring-2 focus:ring-[#B7410E]"
                     />
                   </div>
                   <button
                     type="submit"
-                    className="inline-flex items-center justify-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-[#5C723C] hover:bg-[#4E6231] rounded-xl whitespace-nowrap shrink-0 cursor-pointer"
+                    className="inline-flex items-center justify-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-[#B7410E] hover:bg-[#8C2F18] rounded-xl whitespace-nowrap shrink-0 cursor-pointer"
                   >
                     <Send className="w-4 h-4" aria-hidden="true" />
                     <span>{t.verify}</span>
@@ -859,7 +859,7 @@ export function LessonWorkspace({
                 className={`inline-flex items-center gap-1 text-xs font-semibold tabular-nums shrink-0 ${
                   dueItems.length > 0
                     ? 'text-[#C68335] dark:text-amber-400'
-                    : 'text-[#4E6231] dark:text-[#A5C178]'
+                    : 'text-[#8C2F18] dark:text-[#E8A184]'
                 }`}
               >
                 {dueItems.length > 0 ? (
@@ -954,7 +954,7 @@ export function LessonWorkspace({
                           onJumpToPhrase(item.moduleId, item.phrase.id);
                           resetPracticeState();
                         }}
-                        className="flex-1 min-w-0 text-left px-3 py-2 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/60 dark:bg-[#1D2622] hover:border-[#5C723C] cursor-pointer flex items-center justify-between gap-2.5"
+                        className="flex-1 min-w-0 text-left px-3 py-2 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/60 dark:bg-[#1D2622] hover:border-[#B7410E] cursor-pointer flex items-center justify-between gap-2.5"
                       >
                         <div className="min-w-0">
                           <p className="text-xs font-semibold text-[#23201C] dark:text-slate-100 truncate">
@@ -964,7 +964,7 @@ export function LessonWorkspace({
                             {item.moduleNumber} · {item.phrase.frenchMeaning}
                           </p>
                         </div>
-                        <span className="text-xs font-medium text-[#4E6231] dark:text-[#A5C178] whitespace-nowrap shrink-0 tabular-nums">
+                        <span className="text-xs font-medium text-[#8C2F18] dark:text-[#E8A184] whitespace-nowrap shrink-0 tabular-nums">
                           {item.phrase.nextReviewDate
                             ? formatReviewSchedule(item.phrase.nextReviewDate)
                             : ''}
@@ -1001,13 +1001,13 @@ export function LessonWorkspace({
                 <h3 className="font-display font-bold text-[#23201C] dark:text-slate-100">
                   {t.unitPhrasesTitle(activeModule.number)}
                 </h3>
-                <span className="text-xs font-semibold text-[#4E6231] dark:text-[#A5C178] tabular-nums">
+                <span className="text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184] tabular-nums">
                   {moduleStats.percent}%
                 </span>
               </div>
               <div className="w-full h-1.5 bg-[#EFECE4] dark:bg-[#2A352F] rounded-full overflow-hidden">
                 <div
-                  className="h-full bg-[#5C723C] dark:bg-[#A5C178] transition-transform duration-200 origin-left"
+                  className="h-full bg-[#B7410E] dark:bg-[#E8A184] transition-transform duration-200 origin-left"
                   style={{ width: `${moduleStats.percent}%` }}
                 />
               </div>
@@ -1023,7 +1023,7 @@ export function LessonWorkspace({
                     <div
                       className={`w-full px-3 py-2.5 rounded-xl border flex items-center justify-between gap-2 ${
                         active
-                          ? 'bg-[#F7F9F2] dark:bg-[#1D2622] border-[#5C723C]'
+                          ? 'bg-[#F7F9F2] dark:bg-[#1D2622] border-[#B7410E]'
                           : 'bg-white dark:bg-[#171E1B] border-transparent hover:bg-[#F5F1E8]/60 dark:hover:bg-[#1D2622] hover:border-[#E4DFD2] dark:hover:border-[#2A352F]'
                       }`}
                     >
@@ -1057,7 +1057,7 @@ export function LessonWorkspace({
                         <span
                           className={`text-xs font-medium shrink-0 mt-0.5 ${
                             status === 'mastered'
-                              ? 'text-[#4E6231] dark:text-[#A5C178]'
+                              ? 'text-[#8C2F18] dark:text-[#E8A184]'
                               : status === 'learning'
                                 ? 'text-[#C68335] dark:text-amber-400'
                                 : 'text-[#8E867B] dark:text-slate-500'
@@ -1089,7 +1089,7 @@ export function LessonWorkspace({
                           onClick={() => setPhoneticModalPhrase(phrase)}
                           aria-label={pt.openItemAria(phrase.darijaLatin)}
                           title={pt.openButtonShort}
-                          className="w-7 h-7 rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#171E1B] text-[#4E6231] dark:text-[#A5C178] hover:border-[#5C723C] inline-flex items-center justify-center shrink-0 cursor-pointer"
+                          className="w-7 h-7 rounded-lg border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#171E1B] text-[#8C2F18] dark:text-[#E8A184] hover:border-[#B7410E] inline-flex items-center justify-center shrink-0 cursor-pointer"
                         >
                           <AudioLines className="w-3.5 h-3.5" aria-hidden="true" />
                         </button>

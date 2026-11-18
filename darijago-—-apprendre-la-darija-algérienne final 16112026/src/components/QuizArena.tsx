@@ -138,7 +138,7 @@ export function QuizArena({
             id="quiz-module-select"
             value={moduleFilter}
             onChange={(e) => startNewQuiz(e.target.value, seed + 1)}
-            className="px-3 py-2 text-sm rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/60 dark:bg-[#0E1311] text-[#23201C] dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-[#5C723C]"
+            className="px-3 py-2 text-sm rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/60 dark:bg-[#0E1311] text-[#23201C] dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-[#B7410E]"
           >
             <option value="all">{t.allUnits}</option>
             {localizedModules.map((m) => (
@@ -154,7 +154,7 @@ export function QuizArena({
       {finished ? (
         <div className="bg-[#F7F9F2] dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] rounded-3xl p-8 text-center space-y-6">
           <div className="space-y-2">
-            <p className="text-xs font-semibold text-[#4E6231] dark:text-[#A5C178]">
+            <p className="text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184]">
               {t.sessionDone}
             </p>
             <h3 className="font-display text-3xl font-extrabold text-[#23201C] dark:text-slate-100 tabular-nums">
@@ -181,7 +181,7 @@ export function QuizArena({
             <button
               type="button"
               onClick={onGoToLessons}
-              className="px-5 py-2.5 text-sm font-semibold text-[#23201C] dark:text-slate-100 bg-white dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C] rounded-xl whitespace-nowrap shrink-0 cursor-pointer"
+              className="px-5 py-2.5 text-sm font-semibold text-[#23201C] dark:text-slate-100 bg-white dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E] rounded-xl whitespace-nowrap shrink-0 cursor-pointer"
             >
               {t.reviewLessons}
             </button>
@@ -197,7 +197,7 @@ export function QuizArena({
                 ? t.typeBuilder
                 : t.typeMcq}
             </span>
-            <span className="text-sm font-bold text-[#4E6231] dark:text-[#A5C178] tabular-nums">
+            <span className="text-sm font-bold text-[#8C2F18] dark:text-[#E8A184] tabular-nums">
               {t.scoreLabel(score)}
             </span>
           </div>
@@ -211,7 +211,7 @@ export function QuizArena({
                 type="button"
                 onClick={handleListenPhrase}
                 aria-label={t.listenAria}
-                className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] hover:border-[#5C723C] whitespace-nowrap shrink-0 cursor-pointer"
+                className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-white dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] hover:border-[#B7410E] whitespace-nowrap shrink-0 cursor-pointer"
               >
                 <Volume2 className="w-4 h-4" aria-hidden="true" />
                 <span>{t.listen}</span>
@@ -233,11 +233,11 @@ export function QuizArena({
                 const isRightOption = option === currentQuestion.correctAnswer;
 
                 let stateClasses =
-                  'bg-white dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#23201C] dark:text-slate-100 hover:border-[#5C723C]';
+                  'bg-white dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#23201C] dark:text-slate-100 hover:border-[#B7410E]';
                 if (submitted) {
                   if (isRightOption) {
                     stateClasses =
-                      'bg-[#E5EBD6] dark:bg-[#273322] border-[#5C723C] text-[#23201C] dark:text-emerald-100 font-semibold';
+                      'bg-[#E5EBD6] dark:bg-[#273322] border-[#B7410E] text-[#23201C] dark:text-emerald-100 font-semibold';
                   } else if (isSelected) {
                     stateClasses =
                       'bg-red-50 dark:bg-red-950/60 border-[#B9382C] dark:border-red-500 text-red-950 dark:text-red-100';
@@ -276,7 +276,7 @@ export function QuizArena({
                       type="button"
                       disabled={submitted}
                       onClick={() => handleToggleTile(tileIdx)}
-                      className="px-3.5 py-2 text-sm font-semibold rounded-xl bg-[#5C723C] text-white cursor-pointer"
+                      className="px-3.5 py-2 text-sm font-semibold rounded-xl bg-[#B7410E] text-white cursor-pointer"
                     >
                       {currentQuestion.tiles![tileIdx]}
                     </button>
@@ -296,7 +296,7 @@ export function QuizArena({
                       className={`px-3.5 py-2 text-sm font-medium rounded-xl border cursor-pointer ${
                         used
                           ? 'bg-[#EFECE4] dark:bg-[#141A17] border-[#E4DFD2] dark:border-[#2A352F] text-[#B5ADA0] dark:text-slate-600 cursor-default'
-                          : 'bg-white dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#23201C] dark:text-slate-100 hover:border-[#5C723C]'
+                          : 'bg-white dark:bg-[#1D2622] border-[#E4DFD2] dark:border-[#2A352F] text-[#23201C] dark:text-slate-100 hover:border-[#B7410E]'
                       }`}
                     >
                       {tile}
@@ -310,7 +310,7 @@ export function QuizArena({
                   type="button"
                   disabled={selectedTileIndices.length === 0}
                   onClick={handleSubmitBuilder}
-                  className="px-5 py-2.5 text-sm font-semibold text-white bg-[#5C723C] hover:bg-[#4E6231] disabled:opacity-40 rounded-xl cursor-pointer"
+                  className="px-5 py-2.5 text-sm font-semibold text-white bg-[#B7410E] hover:bg-[#8C2F18] disabled:opacity-40 rounded-xl cursor-pointer"
                 >
                   {t.validateSentence}
                 </button>
@@ -324,14 +324,14 @@ export function QuizArena({
               role="status"
               className={`p-4 rounded-2xl border flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
                 isCorrect
-                  ? 'bg-[#E5EBD6]/70 dark:bg-[#202B1E] border-[#5C723C] text-[#23201C] dark:text-emerald-100'
+                  ? 'bg-[#E5EBD6]/70 dark:bg-[#202B1E] border-[#B7410E] text-[#23201C] dark:text-emerald-100'
                   : 'bg-red-50 dark:bg-red-950/60 border-red-200 dark:border-red-800 text-red-950 dark:text-red-100'
               }`}
             >
               <div className="flex items-start gap-3">
                 {isCorrect ? (
                   <CheckCircle2
-                    className="w-5 h-5 text-[#4E6231] dark:text-[#A5C178] shrink-0 mt-0.5"
+                    className="w-5 h-5 text-[#8C2F18] dark:text-[#E8A184] shrink-0 mt-0.5"
                     aria-hidden="true"
                   />
                 ) : (

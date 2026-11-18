@@ -43,12 +43,12 @@ export function BottomNav({ language, activeTab, onSelectTab }: BottomNavProps) 
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               aria-current={isActive ? 'page' : undefined}
-              className="flex flex-col items-center justify-center gap-0.5 py-1 px-0.5 min-w-0 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5C723C]"
+              className="flex flex-col items-center justify-center gap-0.5 py-1 px-0.5 min-w-0 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B7410E]"
             >
               <span
                 className={`inline-flex items-center justify-center w-10 h-7 rounded-full ${
                   isActive
-                    ? 'bg-[#DDE3CE] dark:bg-[#2B3824] text-[#4E6231] dark:text-[#A5C178]'
+                    ? 'bg-[#DDE3CE] dark:bg-[#2B3824] text-[#8C2F18] dark:text-[#E8A184]'
                     : 'text-[#686259] dark:text-slate-400'
                 }`}
               >

@@ -57,7 +57,7 @@ export function AchievementsSection({
       <div className="bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] rounded-2xl p-5 sm:p-7 space-y-6">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           <div className="space-y-1.5">
-            <div className="flex items-center gap-2 text-xs font-semibold text-[#5C723C] dark:text-[#A5C178]">
+            <div className="flex items-center gap-2 text-xs font-semibold text-[#B7410E] dark:text-[#E8A184]">
               <Award className="w-4 h-4" aria-hidden="true" />
               <span>{t.kicker}</span>
             </div>
@@ -78,7 +78,7 @@ export function AchievementsSection({
             </div>
             <div>
               <p className="text-xs text-[#686259] dark:text-slate-400">{t.bestStreakStat}</p>
-              <p className="text-2xl font-extrabold text-[#5C723C] dark:text-[#A5C178] tabular-nums">
+              <p className="text-2xl font-extrabold text-[#B7410E] dark:text-[#E8A184] tabular-nums">
                 {progress.bestQuizStreak}
               </p>
             </div>
@@ -94,13 +94,13 @@ export function AchievementsSection({
         <div className="space-y-2">
           <div className="flex items-center justify-between text-xs font-medium text-[#686259] dark:text-slate-400">
             <span>{t.globalProgress}</span>
-            <span className="tabular-nums font-semibold text-[#4E6231] dark:text-[#A5C178]">
+            <span className="tabular-nums font-semibold text-[#8C2F18] dark:text-[#E8A184]">
               {overallPercent}%
             </span>
           </div>
           <div className="w-full h-2 bg-[#EFECE4] dark:bg-[#2A352F] rounded-full overflow-hidden">
             <div
-              className="h-full bg-[#5C723C] dark:bg-[#A5C178] transition-all duration-200"
+              className="h-full bg-[#B7410E] dark:bg-[#E8A184] transition-all duration-200"
               style={{ width: `${overallPercent}%` }}
             />
           </div>
@@ -164,10 +164,10 @@ export function AchievementsSection({
               disabled={desktopPermission === 'granted' || desktopPermission === 'denied'}
               className={`inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold rounded-xl border whitespace-nowrap shrink-0 ${
                 desktopPermission === 'granted'
-                  ? 'bg-[#E5EBD6] dark:bg-[#273322] text-[#4E6231] dark:text-[#A5C178] border-[#C7D2B0] dark:border-[#3D4F30] cursor-default'
+                  ? 'bg-[#E5EBD6] dark:bg-[#273322] text-[#8C2F18] dark:text-[#E8A184] border-[#C7D2B0] dark:border-[#3D4F30] cursor-default'
                   : desktopPermission === 'denied'
                     ? 'bg-[#EFECE4] dark:bg-[#1D2622] text-[#8E867B] border-[#E4DFD2] dark:border-[#2A352F] cursor-not-allowed'
-                    : 'bg-white dark:bg-[#171E1B] text-[#23201C] dark:text-slate-100 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C] cursor-pointer'
+                    : 'bg-white dark:bg-[#171E1B] text-[#23201C] dark:text-slate-100 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E] cursor-pointer'
               }`}
             >
               {desktopPermission === 'denied' ? (
@@ -187,7 +187,7 @@ export function AchievementsSection({
           <button
             type="button"
             onClick={onGoToLessons}
-            className="inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold text-[#23201C] dark:text-slate-100 bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C] rounded-xl whitespace-nowrap shrink-0 cursor-pointer"
+            className="inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold text-[#23201C] dark:text-slate-100 bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E] rounded-xl whitespace-nowrap shrink-0 cursor-pointer"
           >
             <span>{t.continueLessons}</span>
             <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
@@ -218,7 +218,7 @@ export function AchievementsSection({
           <button
             type="button"
             onClick={() => setFilter('all')}
-            className="px-4 py-2 text-xs font-semibold text-white bg-[#5C723C] rounded-xl hover:bg-[#4E6231] cursor-pointer"
+            className="px-4 py-2 text-xs font-semibold text-white bg-[#B7410E] rounded-xl hover:bg-[#8C2F18] cursor-pointer"
           >
             {t.showAll}
           </button>
@@ -232,7 +232,7 @@ export function AchievementsSection({
               data-unlocked={item.unlocked ? 'true' : 'false'}
               className={`rounded-2xl border p-5 flex flex-col justify-between gap-4 ${
                 item.unlocked
-                  ? 'bg-[#F7F9F2] dark:bg-[#171E1B] border-[#5C723C] dark:border-[#A5C178]'
+                  ? 'bg-[#F7F9F2] dark:bg-[#171E1B] border-[#B7410E] dark:border-[#E8A184]'
                   : 'bg-white dark:bg-[#171E1B] border-[#E4DFD2] dark:border-[#2A352F]'
               }`}
             >
@@ -243,7 +243,7 @@ export function AchievementsSection({
                   </span>
                   <span
                     className={`inline-flex items-center gap-1 font-semibold ${
-                      item.unlocked ? 'text-[#4E6231] dark:text-[#A5C178]' : 'text-[#686259] dark:text-slate-400'
+                      item.unlocked ? 'text-[#8C2F18] dark:text-[#E8A184]' : 'text-[#686259] dark:text-slate-400'
                     }`}
                   >
                     {item.unlocked ? (
@@ -280,7 +280,7 @@ export function AchievementsSection({
                 <div className="w-full h-1.5 bg-[#EFECE4] dark:bg-[#2A352F] rounded-full overflow-hidden">
                   <div
                     className={`h-full transition-all duration-200 ${
-                      item.unlocked ? 'bg-[#5C723C] dark:bg-[#A5C178]' : 'bg-[#B5ADA0] dark:bg-slate-600'
+                      item.unlocked ? 'bg-[#B7410E] dark:bg-[#E8A184]' : 'bg-[#B5ADA0] dark:bg-slate-600'
                     }`}
                     style={{ width: `${item.percent}%` }}
                   />

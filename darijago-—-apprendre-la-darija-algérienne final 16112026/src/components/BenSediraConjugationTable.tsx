@@ -89,7 +89,7 @@ const DIFFICULTY_ORDER: Array<ConjugationDifficulty | 'all'> = [
 ];
 
 const DIFFICULTY_TEXT_CLASSES: Record<ConjugationDifficulty, string> = {
-  beginner: 'font-semibold text-[#4E6231] dark:text-[#A5C178]',
+  beginner: 'font-semibold text-[#8C2F18] dark:text-[#E8A184]',
   intermediate: 'font-semibold text-[#8E5B1E] dark:text-[#E5A95E]',
   advanced: 'font-semibold text-[#5E574E] dark:text-slate-300',
 };
@@ -475,7 +475,7 @@ export function BenSediraConjugationTable({
                 <span
                   key={voice.id}
                   data-testid={`conjugation-voice-${voice.id}`}
-                  className="px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-[#4E6231] text-white whitespace-nowrap shrink-0"
+                  className="px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-[#8C2F18] text-white whitespace-nowrap shrink-0"
                 >
                   {voice.speakerName} · {voice.cityHint}
                 </span>
@@ -516,7 +516,7 @@ export function BenSediraConjugationTable({
               data-testid="flashcard-toggle-filters"
               aria-expanded={showFiltersInFlashcards}
               onClick={() => setShowFiltersInFlashcards((prev) => !prev)}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#1D2622] hover:border-[#5C723C] text-xs font-semibold text-[#4E6231] dark:text-[#A5C178] cursor-pointer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#1D2622] hover:border-[#B7410E] text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184] cursor-pointer"
             >
               <SlidersHorizontal className="w-3.5 h-3.5" aria-hidden="true" />
               <span>
@@ -550,7 +550,7 @@ export function BenSediraConjugationTable({
               }}
               placeholder={ct.searchPlaceholder}
               aria-label={ct.searchLabel}
-              className="w-full pl-10 pr-10 py-2.5 rounded-xl bg-[#F5F1E8]/70 dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F] text-sm text-[#23201C] dark:text-slate-100 placeholder:text-[#8E867B] focus:outline-none focus:border-[#5C723C]"
+              className="w-full pl-10 pr-10 py-2.5 rounded-xl bg-[#F5F1E8]/70 dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F] text-sm text-[#23201C] dark:text-slate-100 placeholder:text-[#8E867B] focus:outline-none focus:border-[#B7410E]"
             />
             {query && (
               <button
@@ -595,8 +595,8 @@ export function BenSediraConjugationTable({
                   }}
                   className={`px-3 py-1.5 rounded-xl text-xs font-semibold border whitespace-nowrap shrink-0 cursor-pointer ${
                     active
-                      ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                      : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                      ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                      : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                   }`}
                 >
                   {scope.label}
@@ -676,7 +676,7 @@ export function BenSediraConjugationTable({
                 className={`px-2.5 py-1 rounded-lg text-xs font-semibold border whitespace-nowrap shrink-0 tabular-nums cursor-pointer ${
                   active
                     ? 'bg-[#23201C] dark:bg-slate-100 text-white dark:text-[#171E1B] border-transparent'
-                    : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                    : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                 }`}
               >
                 {t.sources[srcKey]} ({sourceCounts[srcKey]})
@@ -710,7 +710,7 @@ export function BenSediraConjugationTable({
                   className={`px-2.5 py-1 rounded-lg text-xs font-semibold border whitespace-nowrap shrink-0 tabular-nums cursor-pointer ${
                     active
                       ? 'bg-[#23201C] dark:bg-slate-100 text-white dark:text-[#171E1B] border-transparent'
-                      : 'bg-[#F5F1E8]/60 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                      : 'bg-[#F5F1E8]/60 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                   }`}
                 >
                   {ct.difficultyLevels[lvl]} ({difficultyCounts[lvl]})
@@ -737,8 +737,8 @@ export function BenSediraConjugationTable({
                   }}
                   className={`px-2.5 py-1 rounded-lg text-xs font-semibold border whitespace-nowrap shrink-0 tabular-nums cursor-pointer ${
                     active
-                      ? 'bg-[#4E6231] text-white border-[#4E6231]'
-                      : 'bg-[#F5F1E8]/60 dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                      ? 'bg-[#8C2F18] text-white border-[#8C2F18]'
+                      : 'bg-[#F5F1E8]/60 dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                   }`}
                 >
                   {t.verbPatterns[patternKey]} ({patternCounts[patternKey]})
@@ -770,8 +770,8 @@ export function BenSediraConjugationTable({
                   }}
                   className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold border whitespace-nowrap shrink-0 cursor-pointer ${
                     active
-                      ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                      : 'bg-white dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                      ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                      : 'bg-white dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                   }`}
                 >
                   <span className="font-arabic" lang="ar">
@@ -817,8 +817,8 @@ export function BenSediraConjugationTable({
                   }}
                   className={`w-7 h-7 rounded-lg text-xs font-mono font-bold border inline-flex items-center justify-center shrink-0 cursor-pointer ${
                     active
-                      ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                      : 'bg-white dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                      ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                      : 'bg-white dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                   }`}
                 >
                   {ltr}
@@ -850,7 +850,7 @@ export function BenSediraConjugationTable({
           <button
             type="button"
             onClick={handleResetFilters}
-            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#5C723C] hover:bg-[#4E6231] text-white text-xs font-semibold cursor-pointer"
+            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#B7410E] hover:bg-[#8C2F18] text-white text-xs font-semibold cursor-pointer"
           >
             <RotateCcw className="w-3.5 h-3.5" aria-hidden="true" />
             <span>{t.resetFilters}</span>
@@ -877,8 +877,8 @@ export function BenSediraConjugationTable({
                     key={item.entry.id}
                     className={`w-full p-4 rounded-2xl border flex items-start justify-between gap-2.5 ${
                       isSelected
-                        ? 'bg-[#F7F9F2] dark:bg-[#1D2622] border-[#5C723C]'
-                        : 'bg-white dark:bg-[#171E1B] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                        ? 'bg-[#F7F9F2] dark:bg-[#1D2622] border-[#B7410E]'
+                        : 'bg-white dark:bg-[#171E1B] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                     }`}
                   >
                     <button
@@ -902,7 +902,7 @@ export function BenSediraConjugationTable({
                       </div>
 
                       <p className="text-xs text-[#686259] dark:text-slate-400 flex flex-wrap items-center gap-x-1.5">
-                        <span className="font-arabic text-sm text-[#4E6231] dark:text-[#A5C178]" lang="ar">
+                        <span className="font-arabic text-sm text-[#8C2F18] dark:text-[#E8A184]" lang="ar">
                           <bdi>{item.arabicRoot}</bdi>
                         </span>
                         <span>·</span>
@@ -936,8 +936,8 @@ export function BenSediraConjugationTable({
                       aria-label={`${t.listen}: ${item.entry.frenchHeadword}`}
                       className={`w-8 h-8 rounded-xl inline-flex items-center justify-center border shrink-0 cursor-pointer ${
                         isListPlaying
-                          ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                          : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                          ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                          : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                       }`}
                     >
                       <Volume2 className="w-4 h-4" aria-hidden="true" />
@@ -952,7 +952,7 @@ export function BenSediraConjugationTable({
                 type="button"
                 data-testid="conjugation-show-more"
                 onClick={() => setVisibleLimit((prev) => prev + PAGE_BATCH_SIZE)}
-                className="w-full py-2.5 px-4 rounded-xl bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C] text-xs font-semibold text-[#4E6231] dark:text-[#A5C178] cursor-pointer"
+                className="w-full py-2.5 px-4 rounded-xl bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E] text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184] cursor-pointer"
               >
                 {ct.showMoreVerbs(remainingCount)}
               </button>
@@ -991,7 +991,7 @@ export function BenSediraConjugationTable({
                   {activeItem.entry.frenchHeadword}
                 </h3>
                 <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                  <span className="text-sm font-bold text-[#4E6231] dark:text-[#A5C178]">
+                  <span className="text-sm font-bold text-[#8C2F18] dark:text-[#E8A184]">
                     {activeItem.entry.darijaLatin}
                   </span>
                   <span
@@ -1018,8 +1018,8 @@ export function BenSediraConjugationTable({
                   }
                   className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold border whitespace-nowrap shrink-0 cursor-pointer ${
                     playingKey === `stage-${activeItem.entry.id}`
-                      ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                      : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                      ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                      : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                   }`}
                 >
                   <Volume2 className="w-4 h-4" aria-hidden="true" />
@@ -1059,7 +1059,7 @@ export function BenSediraConjugationTable({
                   className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold border whitespace-nowrap shrink-0 cursor-pointer ${
                     isSequencePlaying
                       ? 'bg-[#23201C] dark:bg-slate-100 text-white dark:text-[#171E1B] border-transparent'
-                      : 'bg-white dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                      : 'bg-white dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                   }`}
                 >
                   {isSequencePlaying ? (
@@ -1083,8 +1083,8 @@ export function BenSediraConjugationTable({
                   className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold border whitespace-nowrap shrink-0 tabular-nums cursor-pointer disabled:opacity-70 ${
                     verbCacheProgress.total > 0 &&
                     verbCacheProgress.cached >= verbCacheProgress.total
-                      ? 'bg-[#E5EBD6]/80 dark:bg-[#1E2B20] text-[#4E6231] dark:text-[#A5C178] border-[#5C723C]/50'
-                      : 'bg-white dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                      ? 'bg-[#E5EBD6]/80 dark:bg-[#1E2B20] text-[#8C2F18] dark:text-[#E8A184] border-[#B7410E]/50'
+                      : 'bg-white dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                   }`}
                 >
                   {verbCacheProgress.total > 0 &&
@@ -1119,7 +1119,7 @@ export function BenSediraConjugationTable({
                 <p className="text-[11px] font-semibold text-[#686259] dark:text-slate-400">
                   {ct.arabicRootLabel}
                 </p>
-                <p className="font-arabic text-lg font-bold text-[#4E6231] dark:text-[#A5C178] mt-0.5" lang="ar">
+                <p className="font-arabic text-lg font-bold text-[#8C2F18] dark:text-[#E8A184] mt-0.5" lang="ar">
                   <bdi>{activeItem.arabicRoot}</bdi>
                 </p>
               </div>
@@ -1226,7 +1226,7 @@ export function BenSediraConjugationTable({
                             {part.latin}
                           </p>
                           {part.arabic && (
-                            <p className="font-arabic text-xs text-[#4E6231] dark:text-[#A5C178]" lang="ar">
+                            <p className="font-arabic text-xs text-[#8C2F18] dark:text-[#E8A184]" lang="ar">
                               <bdi>{part.arabic}</bdi>
                             </p>
                           )}
@@ -1240,8 +1240,8 @@ export function BenSediraConjugationTable({
                           aria-label={ct.listenFormAria(part.label, part.latin)}
                           className={`w-7 h-7 rounded-lg inline-flex items-center justify-center border shrink-0 cursor-pointer ${
                             isPartPlaying
-                              ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                              : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                              ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                              : 'bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                           }`}
                         >
                           <Volume2 className="w-3.5 h-3.5" aria-hidden="true" />
@@ -1265,7 +1265,7 @@ export function BenSediraConjugationTable({
                     <th
                       className={`py-2.5 px-3 font-bold ${
                         tenseFilter === 'present'
-                          ? 'text-[#4E6231] dark:text-[#A5C178] bg-[#E5EBD6]/60 dark:bg-[#26322B]'
+                          ? 'text-[#8C2F18] dark:text-[#E8A184] bg-[#E5EBD6]/60 dark:bg-[#26322B]'
                           : ''
                       }`}
                     >
@@ -1274,7 +1274,7 @@ export function BenSediraConjugationTable({
                     <th
                       className={`py-2.5 px-3 font-bold ${
                         tenseFilter === 'past'
-                          ? 'text-[#4E6231] dark:text-[#A5C178] bg-[#E5EBD6]/60 dark:bg-[#26322B]'
+                          ? 'text-[#8C2F18] dark:text-[#E8A184] bg-[#E5EBD6]/60 dark:bg-[#26322B]'
                           : ''
                       }`}
                     >
@@ -1283,7 +1283,7 @@ export function BenSediraConjugationTable({
                     <th
                       className={`py-2.5 px-3 font-bold ${
                         tenseFilter === 'negation'
-                          ? 'text-[#4E6231] dark:text-[#A5C178] bg-[#E5EBD6]/60 dark:bg-[#26322B]'
+                          ? 'text-[#8C2F18] dark:text-[#E8A184] bg-[#E5EBD6]/60 dark:bg-[#26322B]'
                           : ''
                       }`}
                     >
@@ -1328,7 +1328,7 @@ export function BenSediraConjugationTable({
                         <td
                           className={`py-2 px-3 font-medium text-[#23201C] dark:text-slate-200 ${
                             tenseFilter === 'present'
-                              ? 'bg-[#F7F9F2] dark:bg-[#1D2622] font-bold text-[#4E6231] dark:text-[#A5C178]'
+                              ? 'bg-[#F7F9F2] dark:bg-[#1D2622] font-bold text-[#8C2F18] dark:text-[#E8A184]'
                               : ''
                           }`}
                         >
@@ -1344,7 +1344,7 @@ export function BenSediraConjugationTable({
                             aria-label={ct.listenRowAria(row.pronoun, row.present)}
                             className={`text-left group inline-flex flex-col cursor-pointer rounded-lg px-1.5 py-0.5 -mx-1.5 transition-colors ${
                               playingKey === presKey
-                                ? 'bg-[#5C723C] text-white'
+                                ? 'bg-[#B7410E] text-white'
                                 : 'hover:bg-[#EFECE4]/70 dark:hover:bg-[#26322B]'
                             }`}
                           >
@@ -1376,7 +1376,7 @@ export function BenSediraConjugationTable({
                         <td
                           className={`py-2 px-3 font-medium text-[#23201C] dark:text-slate-200 ${
                             tenseFilter === 'past'
-                              ? 'bg-[#F7F9F2] dark:bg-[#1D2622] font-bold text-[#4E6231] dark:text-[#A5C178]'
+                              ? 'bg-[#F7F9F2] dark:bg-[#1D2622] font-bold text-[#8C2F18] dark:text-[#E8A184]'
                               : ''
                           }`}
                         >
@@ -1392,7 +1392,7 @@ export function BenSediraConjugationTable({
                             aria-label={ct.listenRowAria(row.pronoun, row.past)}
                             className={`text-left group inline-flex flex-col cursor-pointer rounded-lg px-1.5 py-0.5 -mx-1.5 transition-colors ${
                               playingKey === pastKey
-                                ? 'bg-[#5C723C] text-white'
+                                ? 'bg-[#B7410E] text-white'
                                 : 'hover:bg-[#EFECE4]/70 dark:hover:bg-[#26322B]'
                             }`}
                           >
@@ -1481,8 +1481,8 @@ export function BenSediraConjugationTable({
                             aria-label={ct.listenRowAria(row.pronoun, spokenForm)}
                             className={`w-7 h-7 rounded-lg inline-flex items-center justify-center border cursor-pointer ${
                               isRowPlaying
-                                ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                                : 'bg-white dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                                ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                                : 'bg-white dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                             }`}
                           >
                             <Volume2 className="w-3.5 h-3.5" aria-hidden="true" />
@@ -1508,7 +1508,7 @@ export function BenSediraConjugationTable({
                         {activeItem.entry.exampleDarija}
                         {activeItem.entry.exampleArabic && (
                           <span
-                            className="font-arabic text-sm text-[#4E6231] dark:text-[#A5C178] ml-2"
+                            className="font-arabic text-sm text-[#8C2F18] dark:text-[#E8A184] ml-2"
                             lang="ar"
                           >
                             <bdi>{activeItem.entry.exampleArabic}</bdi>
@@ -1535,8 +1535,8 @@ export function BenSediraConjugationTable({
                         }
                         className={`inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-[11px] font-semibold border whitespace-nowrap cursor-pointer ${
                           playingKey === `ex-${activeItem.entry.id}`
-                            ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                            : 'bg-white dark:bg-[#171E1B] text-[#4E6231] dark:text-[#A5C178] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                            ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                            : 'bg-white dark:bg-[#171E1B] text-[#8C2F18] dark:text-[#E8A184] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                         }`}
                       >
                         <Volume2 className="w-3.5 h-3.5" aria-hidden="true" />
@@ -1652,7 +1652,7 @@ export function BenSediraConjugationTable({
                               setSelectedVerbId(item.entry.id);
                               setViewMode('detail');
                             }}
-                            className="text-left font-bold text-[#4E6231] dark:text-[#A5C178] hover:underline cursor-pointer"
+                            className="text-left font-bold text-[#8C2F18] dark:text-[#E8A184] hover:underline cursor-pointer"
                           >
                             {item.entry.frenchHeadword}
                           </button>
@@ -1702,8 +1702,8 @@ export function BenSediraConjugationTable({
                             aria-label={`${t.listen}: ${item.entry.frenchHeadword}`}
                             className={`w-7 h-7 rounded-lg inline-flex items-center justify-center border cursor-pointer ${
                               isPlaying
-                                ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                                : 'bg-white dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                                ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                                : 'bg-white dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                             }`}
                           >
                             <Volume2 className="w-3.5 h-3.5" aria-hidden="true" />
@@ -1722,7 +1722,7 @@ export function BenSediraConjugationTable({
               type="button"
               data-testid="conjugation-matrix-show-more"
               onClick={() => setVisibleLimit((prev) => prev + PAGE_BATCH_SIZE)}
-              className="w-full py-2.5 px-4 rounded-xl bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C] text-xs font-semibold text-[#4E6231] dark:text-[#A5C178] cursor-pointer"
+              className="w-full py-2.5 px-4 rounded-xl bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E] text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184] cursor-pointer"
             >
               {ct.showMoreVerbs(remainingCount)}
             </button>

@@ -87,7 +87,7 @@ export function PhrasePhoneticModal({
               className="font-display text-lg sm:text-xl font-extrabold text-[#23201C] dark:text-slate-50 flex items-center gap-2"
             >
               <AudioLines
-                className="w-5 h-5 text-[#5C723C] dark:text-[#A5C178] shrink-0"
+                className="w-5 h-5 text-[#B7410E] dark:text-[#E8A184] shrink-0"
                 aria-hidden="true"
               />
               <span>{t.modalTitle}</span>
@@ -102,7 +102,7 @@ export function PhrasePhoneticModal({
             data-testid="phonetic-modal-close"
             onClick={onClose}
             aria-label={t.closeLabel}
-            className="w-9 h-9 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 hover:border-[#5C723C] inline-flex items-center justify-center shrink-0 cursor-pointer"
+            className="w-9 h-9 rounded-xl border border-[#E4DFD2] dark:border-[#2A352F] bg-[#F5F1E8]/70 dark:bg-[#1D2622] text-[#23201C] dark:text-slate-200 hover:border-[#B7410E] inline-flex items-center justify-center shrink-0 cursor-pointer"
           >
             <X className="w-4 h-4" aria-hidden="true" />
           </button>
@@ -135,8 +135,8 @@ export function PhrasePhoneticModal({
                   onClick={() => handlePlayPhrase(false)}
                   className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold border whitespace-nowrap cursor-pointer ${
                     playingMode === 'normal'
-                      ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                      : 'bg-white dark:bg-[#171E1B] text-[#4E6231] dark:text-[#A5C178] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                      ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                      : 'bg-white dark:bg-[#171E1B] text-[#8C2F18] dark:text-[#E8A184] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                   }`}
                 >
                   <Volume2 className="w-3.5 h-3.5" aria-hidden="true" />
@@ -165,7 +165,7 @@ export function PhrasePhoneticModal({
               </p>
               <p
                 data-testid="phonetic-modal-sentence"
-                className="font-mono text-base sm:text-lg font-bold text-[#4E6231] dark:text-[#A5C178]"
+                className="font-mono text-base sm:text-lg font-bold text-[#8C2F18] dark:text-[#E8A184]"
               >
                 [{analysis.simplifiedSentence}]
               </p>
@@ -183,14 +183,14 @@ export function PhrasePhoneticModal({
                   key={`${word.darija}-${idx}`}
                   type="button"
                   onClick={() => handlePlayWord(word.arabic, word.darija)}
-                  className="text-left p-3.5 rounded-xl bg-[#F5F1E8]/70 dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C] cursor-pointer space-y-1.5"
+                  className="text-left p-3.5 rounded-xl bg-[#F5F1E8]/70 dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E] cursor-pointer space-y-1.5"
                 >
                   <div className="flex items-center justify-between gap-2">
                     <span className="font-display text-sm font-bold text-[#23201C] dark:text-slate-100">
                       {word.darija}
                     </span>
                     <Volume2
-                      className="w-3.5 h-3.5 text-[#5C723C] dark:text-[#A5C178] shrink-0"
+                      className="w-3.5 h-3.5 text-[#B7410E] dark:text-[#E8A184] shrink-0"
                       aria-hidden="true"
                     />
                   </div>
@@ -198,7 +198,7 @@ export function PhrasePhoneticModal({
                     {word.syllables.map((syl, sIdx) => (
                       <span
                         key={`${syl}-${sIdx}`}
-                        className="px-2 py-0.5 rounded-md bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] font-mono text-xs font-semibold text-[#4E6231] dark:text-[#A5C178]"
+                        className="px-2 py-0.5 rounded-md bg-white dark:bg-[#171E1B] border border-[#E4DFD2] dark:border-[#2A352F] font-mono text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184]"
                       >
                         {syl}
                       </span>
@@ -232,7 +232,7 @@ export function PhrasePhoneticModal({
                   >
                     <div className="flex flex-wrap items-center justify-between gap-2">
                       <div className="flex items-center gap-2">
-                        <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-[#E5EBD6] dark:bg-[#273322] text-xs font-mono font-bold text-[#4E6231] dark:text-[#A5C178]">
+                        <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-[#E5EBD6] dark:bg-[#273322] text-xs font-mono font-bold text-[#8C2F18] dark:text-[#E8A184]">
                           <span>{sound.marker}</span>
                           <span aria-hidden="true">·</span>
                           <span className="font-arabic">{sound.arabicLetter}</span>
@@ -251,7 +251,7 @@ export function PhrasePhoneticModal({
                     </p>
 
                     {sound.exampleInPhrase && (
-                      <p className="text-xs text-[#4E6231] dark:text-[#A5C178] font-medium">
+                      <p className="text-xs text-[#8C2F18] dark:text-[#E8A184] font-medium">
                         <span className="opacity-80 mr-1">
                           {t.inThisPhraseLabel}
                         </span>

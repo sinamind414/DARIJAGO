@@ -52,7 +52,7 @@ function ToastCard({
         className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 ${
           isGoal
             ? 'bg-amber-50 dark:bg-amber-950/60 text-[#C68335] dark:text-amber-400'
-            : 'bg-[#E5EBD6] dark:bg-[#273322] text-[#4E6231] dark:text-[#A5C178]'
+            : 'bg-[#E5EBD6] dark:bg-[#273322] text-[#8C2F18] dark:text-[#E8A184]'
         }`}
         aria-hidden="true"
       >
@@ -75,7 +75,7 @@ function ToastCard({
             <button
               type="button"
               onClick={() => onAction(toast)}
-              className="text-xs font-semibold text-[#4E6231] dark:text-[#A5C178] hover:underline underline-offset-4 cursor-pointer"
+              className="text-xs font-semibold text-[#8C2F18] dark:text-[#E8A184] hover:underline underline-offset-4 cursor-pointer"
             >
               {toast.actionLabel}
             </button>

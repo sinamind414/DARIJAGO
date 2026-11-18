@@ -101,7 +101,7 @@ export function BenSediraGrammarGuide({ language }: BenSediraGrammarGuideProps) 
 
         {/* Key Rule Box (clean hairline border, no border-l-4) */}
         <div className="p-4 rounded-xl bg-[#F5F1E8]/80 dark:bg-[#1D2622] border border-[#E4DFD2] dark:border-[#2A352F] space-y-1">
-          <p className="text-xs font-bold text-[#4E6231] dark:text-[#A5C178]">
+          <p className="text-xs font-bold text-[#8C2F18] dark:text-[#E8A184]">
             {t.grammarRuleLabel}
           </p>
           <p className="text-sm text-[#23201C] dark:text-slate-200 leading-relaxed">
@@ -129,7 +129,7 @@ export function BenSediraGrammarGuide({ language }: BenSediraGrammarGuideProps) 
                         {ex.darijaLatin}
                       </span>
                       <span
-                        className="font-arabic text-base text-[#4E6231] dark:text-[#A5C178]"
+                        className="font-arabic text-base text-[#8C2F18] dark:text-[#E8A184]"
                         lang="ar"
                         dir="rtl"
                       >
@@ -154,8 +154,8 @@ export function BenSediraGrammarGuide({ language }: BenSediraGrammarGuideProps) 
                     aria-label={`${t.listen}: ${ex.darijaLatin}`}
                     className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-xl border whitespace-nowrap shrink-0 self-start sm:self-center cursor-pointer ${
                       isPlaying
-                        ? 'bg-[#5C723C] text-white border-[#5C723C]'
-                        : 'bg-white dark:bg-[#1D2622] text-[#4E6231] dark:text-[#A5C178] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#5C723C]'
+                        ? 'bg-[#B7410E] text-white border-[#B7410E]'
+                        : 'bg-white dark:bg-[#1D2622] text-[#8C2F18] dark:text-[#E8A184] border-[#E4DFD2] dark:border-[#2A352F] hover:border-[#B7410E]'
                     }`}
                   >
                     <Volume2 className="w-3.5 h-3.5" aria-hidden="true" />
