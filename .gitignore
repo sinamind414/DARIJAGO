@@ -50,3 +50,6 @@ analyse-speak-algerian/whisper-cache/
 *.log
 Thumbs.db
 Desktop.ini
+
+# Clones d'outils audio externes (evaluation, non integres)
+analyse-audio-ia/
