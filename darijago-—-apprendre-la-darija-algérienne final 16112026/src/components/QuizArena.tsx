@@ -6,6 +6,7 @@ import { UI_TRANSLATIONS } from '../i18n/translations';
 import { getLocalizedModule } from '../i18n/curriculumTranslations';
 import { generateQuizDeck, normalizeDarijaInput } from '../utils/darijaLogic';
 import { playDarijaPronunciation } from '../utils/audioPlayer';
+import { sfx } from '../utils/sfxPlayer';
 
 interface QuizArenaProps {
   language: AppLanguage;
@@ -63,7 +64,10 @@ export function QuizArena({
     setSubmitted(true);
     onAnswerEvaluated?.(ok, currentQuestion.phrase.id);
     if (ok) {
+      sfx.correct();
       setScore((s) => s + 1);
+    } else {
+      sfx.wrong();
     }
   };
 
@@ -88,13 +92,17 @@ export function QuizArena({
     setSubmitted(true);
     onAnswerEvaluated?.(ok, currentQuestion.phrase.id);
     if (ok) {
+      sfx.correct();
       setScore((s) => s + 1);
+    } else {
+      sfx.wrong();
     }
   };
 
   const handleNext = () => {
     if (currentIdx + 1 >= deck.length) {
       setFinished(true);
+      sfx.success();
       onQuizComplete(score, deck.length);
       return;
     }

@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "source": "Openverse API",
+  "license": "CC0 1.0",
+  "sounds": [
+    {
+      "id": "ui_click",
+      "title": "Soft UI Button Click",
+      "creator": "Jummit",
+      "openverseId": "aa763a9d-65bd-4f53-b1ad-a38a4dc1e475",
+      "file": "/assets/sfx/ui_click.mp3",
+      "bytes": 7513,
+      "license": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Soft UI Button Click\" by Jummit is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "provider": "freesound"
+    },
+    {
+      "id": "ui_success",
+      "title": "Chime Notification",
+      "creator": "Jofae",
+      "openverseId": "adb6e260-e493-43fd-a56e-8ceb4f477fe2",
+      "file": "/assets/sfx/ui_success.mp3",
+      "bytes": 8453,
+      "license": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Chime Notification\" by Jofae is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "provider": "freesound"
+    },
+    {
+      "id": "ui_correct",
+      "title": "Correct Answer / That's Right!",
+      "creator": "Beetlemuse",
+      "openverseId": "59594111-13c9-44c0-b440-622f0a64300e",
+      "file": "/assets/sfx/ui_correct.mp3",
+      "bytes": 17767,
+      "license": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Correct Answer / That's Right!\" by Beetlemuse is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "provider": "freesound"
+    },
+    {
+      "id": "ui_wrong",
+      "title": "Wrong Answer Buzzer",
+      "creator": "-Andreas",
+      "openverseId": "51d8f7dd-ffee-4c00-917f-33d8a3b6b860",
+      "file": "/assets/sfx/ui_wrong.mp3",
+      "bytes": 8874,
+      "license": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Wrong Answer Buzzer\" by -Andreas is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "provider": "freesound"
+    },
+    {
+      "id": "ui_notification",
+      "title": "Soft-Notification Bell LowDing",
+      "creator": "unknown",
+      "openverseId": "",
+      "file": "/assets/sfx/ui_notification.mp3",
+      "bytes": 11880,
+      "license": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Soft-Notification Bell LowDing\" via Openverse (CC0 1.0)",
+      "provider": "freesound"
+    },
+    {
+      "id": "amb_souk",
+      "title": "Market environment",
+      "creator": "unknown",
+      "openverseId": "",
+      "file": "/assets/sfx/amb_souk.mp3",
+      "bytes": 533520,
+      "license": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Market environment\" via Openverse (CC0 1.0)",
+      "provider": "freesound"
+    },
+    {
+      "id": "amb_cafe",
+      "title": "Bustling Cafe Ambience",
+      "creator": "Talitha5",
+      "openverseId": "57ae06e1-57a6-4f1f-b5da-c60d2efef8f4",
+      "file": "/assets/sfx/amb_cafe.mp3",
+      "bytes": 586080,
+      "license": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Bustling Cafe Ambience\" by Talitha5 is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "provider": "freesound"
+    },
+    {
+      "id": "amb_tea",
+      "title": "Tea Pouring",
+      "creator": "mdayalan",
+      "openverseId": "9d101746-3a20-47e4-8f54-4b0949d7f816",
+      "file": "/assets/sfx/amb_tea.mp3",
+      "bytes": 236256,
+      "license": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Tea Pouring\" by mdayalan is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "provider": "freesound"
+    }
+  ]
+}
